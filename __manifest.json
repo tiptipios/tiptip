@@ -1,0 +1,42 @@
+{
+    "name": "LK Team",
+    "short_name": "LK Team",
+    "start_url": "index.html",
+    "display": "standalone",
+    "scope" : "/",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "assets/img/icon/16x16.png",
+            "type": "image/png",
+            "sizes": "16x16",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/img/icon/32x32.png",
+            "type": "image/png",
+            "sizes": "32x32",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/img/icon/180x180.png",
+            "type": "image/png",
+            "sizes": "180x180",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/img/icon/192x192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/img/icon/512x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}
