@@ -1,290 +1,687 @@
 <!DOCTYPE html>
-<head><style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
+
+<head>
+	<style data-styles="">
+		ion-icon {
+			visibility: hidden
+		}
+
+		.hydrated {
+			visibility: inherit
+		}
+	</style>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<meta name="theme-color" content="#000000">
 	<title> Tip Tip Mod </title>
-	<link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/0c8d4dc5-307d-4922-a504-b8a3855fe963/d7bf426c-945b-48d0-9e38-460fd85395c4.image.png?v=1692380855691" />
+	<link rel="icon" type="image/x-icon"
+		href="https://cdn.glitch.global/0c8d4dc5-307d-4922-a504-b8a3855fe963/d7bf426c-945b-48d0-9e38-460fd85395c4.image.png?v=1692380855691" />
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="manifest" href="__manifest.json">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" type="text/javascript"></script>
-	<link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.69JJaQ5G5xA.L.W.O/d=0/rs=AN8SPfpC36MIoWPngdVwZ4RUzeJYZaC7rg/m=el_main_css"><style>.--savior-overlay-transform-reset {
-	  transform: none !important;
-	}
-	.--savior-overlay-z-index-top {
-	  z-index: 2147483643 !important;
-	}
-	.--savior-overlay-position-relative {
-	  position: relative;
-	}
-	.--savior-overlay-overflow-hidden {
-	  overflow: hidden !important;
-	}
-	.--savior-overlay-overflow-x-visible {
-	  overflow-x: visible !important;
-	}
-	.--savior-overlay-overflow-y-visible {
-	  overflow-y: visible !important;
-	}
-	.--savior-overlay-z-index-reset {
-	  z-index: auto !important;
-	}
-	.--savior-overlay-display-none {
-	  display: none !important;
-	}
-	.--savior-overlay-clearfix {
-	  clear: both;
-	}
-	.--savior-overlay-reset-filter {
-	  filter: none !important;
-	  backdrop-filter: none !important;
-	}
-	.--savior-tooltip-host {
-	  z-index: 9999;
-	  position: absolute;
-	  top: 0;
-	}
-	main.--savior-overlay-z-index-reset {
-	  z-index: auto !important;
-	}
-	main.--savior-overlay-z-index-top {
-	  z-index: auto !important;
-	}
-	main.--savior-overlay-z-index-top .channel-root__player-container + div,
-	main.--savior-overlay-z-index-top .video-player-hosting-ui__container + div {
-	  opacity: 0.1;
-	}
-	.--savior-backdrop {
-	  position: fixed !important;
-	  z-index: 2147483642 !important;
-	  top: 0;
-	  left: 0;
-	  height: 100vh;
-	  width: 100vw !important;
-	  background-color: rgba(0,0,0,0.9);
-	}
-	.--savior-overlay-twitter-video-player {
-	  position: fixed;
-	  width: 80%;
-	  height: 80%;
-	  top: 10%;
-	  left: 10%;
-	}
-	.zm-video-modal.--savior-overlay-z-index-reset {
-	  position: absolute;
-	}
-	#page #main.--savior-overlay-z-index-reset {
-	  z-index: auto !important;
-	}
-	#vp_w.--savior-overlay-z-index-reset.media-layer.media-layer__video {
-	  position: absolute;
-	  overflow-y: hidden;
-	}
-	.--savior-overlay-z-index-top.rmc_controller,
-	.--savior-overlay-z-index-top.rmc_setting_intro,
-	.--savior-overlay-z-index-top.rmc_highlight,
-	.--savior-overlay-z-index-top.rmc_control_settings {
-	  z-index: 2147483644 !important;
-	}
-	.swiper-wrapper.--savior-overlay-z-index-reset .swiper-slide:not(.swiper-slide-active),
-	.swiper-wrapper.--savior-overlay-transform-reset .swiper-slide:not(.swiper-slide-active) {
-	  display: none;
-	}
-	.videoWrap + div > div {
-	  pointer-events: unset;
-	}
-	.mfp-wrap.--savior-overlay-z-index-top {
-	  position: relative;
-	}
-	.mfp-wrap.--savior-overlay-z-index-top .mfp-close {
-	  display: none;
-	}
-	.mfp-wrap.--savior-overlay-z-index-top .mfp-content {
-	  position: fixed;
-	  top: 50%;
-	  left: 50%;
-	  transform: translate(-50%, -50%);
-	}
-	section.--savior-overlay-z-index-reset>main[role="main"].--savior-overlay-z-index-reset + nav {
-	  z-index: -1 !important;
-	}
-	section.--savior-overlay-z-index-reset>main[role="main"].--savior-overlay-z-index-reset section.--savior-overlay-z-index-reset div.--savior-overlay-z-index-reset ~ div {
-	  position: relative;
-	}
-	div[class^="tiktok"].--savior-overlay-z-index-reset {
-	  z-index: 2147483644 !important;
-	}
-	@-moz-keyframes fadeIn {
-	  from {
-		opacity: 0;
-	  }
-	  to {
-		opacity: 1;
-	  }
-	}
-	@-webkit-keyframes fadeIn {
-	  from {
-		opacity: 0;
-	  }
-	  to {
-		opacity: 1;
-	  }
-	}
-	@-o-keyframes fadeIn {
-	  from {
-		opacity: 0;
-	  }
-	  to {
-		opacity: 1;
-	  }
-	}
-	@keyframes fadeIn {
-	  from {
-		opacity: 0;
-	  }
-	  to {
-		opacity: 1;
-	  }
-	}
-	</style></head>
-	<body class="">
-		<div class="right">
-		</div>
-		</div>
-		<h3> 👑  Tip 🌟 Tip  👑  </h3>
-		<h3> ✅  Site Tải game, app hack cho ios ✅ </h3>
-		<h3> copy 👉 bit.ly/tiptipmod    </h3>
-		<h3> Mở Link ở safari để ko gặp lỗi khi tải  </h3>
-	
-		 
-		<h3>+ Cảm ơn tất cả MN</h3>
-		<h3> ======================</h3>
-			<h3>==================</h3>
-			<div id="search" class="appHeader bg-primary text-light">
-				<form class="search-form">
-				<div class="form-group searchbox">
+	<link type="text/css" rel="stylesheet" charset="UTF-8"
+		href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.69JJaQ5G5xA.L.W.O/d=0/rs=AN8SPfpC36MIoWPngdVwZ4RUzeJYZaC7rg/m=el_main_css">
+	<style>
+		.--savior-overlay-transform-reset {
+			transform: none !important;
+		}
+
+		.--savior-overlay-z-index-top {
+			z-index: 2147483643 !important;
+		}
+
+		.--savior-overlay-position-relative {
+			position: relative;
+		}
+
+		.--savior-overlay-overflow-hidden {
+			overflow: hidden !important;
+		}
+
+		.--savior-overlay-overflow-x-visible {
+			overflow-x: visible !important;
+		}
+
+		.--savior-overlay-overflow-y-visible {
+			overflow-y: visible !important;
+		}
+
+		.--savior-overlay-z-index-reset {
+			z-index: auto !important;
+		}
+
+		.--savior-overlay-display-none {
+			display: none !important;
+		}
+
+		.--savior-overlay-clearfix {
+			clear: both;
+		}
+
+		.--savior-overlay-reset-filter {
+			filter: none !important;
+			backdrop-filter: none !important;
+		}
+
+		.--savior-tooltip-host {
+			z-index: 9999;
+			position: absolute;
+			top: 0;
+		}
+
+		main.--savior-overlay-z-index-reset {
+			z-index: auto !important;
+		}
+
+		main.--savior-overlay-z-index-top {
+			z-index: auto !important;
+		}
+
+		main.--savior-overlay-z-index-top .channel-root__player-container+div,
+		main.--savior-overlay-z-index-top .video-player-hosting-ui__container+div {
+			opacity: 0.1;
+		}
+
+		.--savior-backdrop {
+			position: fixed !important;
+			z-index: 2147483642 !important;
+			top: 0;
+			left: 0;
+			height: 100vh;
+			width: 100vw !important;
+			background-color: rgba(0, 0, 0, 0.9);
+		}
+
+		.--savior-overlay-twitter-video-player {
+			position: fixed;
+			width: 80%;
+			height: 80%;
+			top: 10%;
+			left: 10%;
+		}
+
+		.zm-video-modal.--savior-overlay-z-index-reset {
+			position: absolute;
+		}
+
+		#page #main.--savior-overlay-z-index-reset {
+			z-index: auto !important;
+		}
+
+		#vp_w.--savior-overlay-z-index-reset.media-layer.media-layer__video {
+			position: absolute;
+			overflow-y: hidden;
+		}
+
+		.--savior-overlay-z-index-top.rmc_controller,
+		.--savior-overlay-z-index-top.rmc_setting_intro,
+		.--savior-overlay-z-index-top.rmc_highlight,
+		.--savior-overlay-z-index-top.rmc_control_settings {
+			z-index: 2147483644 !important;
+		}
+
+		.swiper-wrapper.--savior-overlay-z-index-reset .swiper-slide:not(.swiper-slide-active),
+		.swiper-wrapper.--savior-overlay-transform-reset .swiper-slide:not(.swiper-slide-active) {
+			display: none;
+		}
+
+		.videoWrap+div>div {
+			pointer-events: unset;
+		}
+
+		.mfp-wrap.--savior-overlay-z-index-top {
+			position: relative;
+		}
+
+		.mfp-wrap.--savior-overlay-z-index-top .mfp-close {
+			display: none;
+		}
+
+		.mfp-wrap.--savior-overlay-z-index-top .mfp-content {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		section.--savior-overlay-z-index-reset>main[role="main"].--savior-overlay-z-index-reset+nav {
+			z-index: -1 !important;
+		}
+
+		section.--savior-overlay-z-index-reset>main[role="main"].--savior-overlay-z-index-reset section.--savior-overlay-z-index-reset div.--savior-overlay-z-index-reset~div {
+			position: relative;
+		}
+
+		div[class^="tiktok"].--savior-overlay-z-index-reset {
+			z-index: 2147483644 !important;
+		}
+
+		@-moz-keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
+
+			to {
+				opacity: 1;
+			}
+		}
+
+		@-webkit-keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
+
+			to {
+				opacity: 1;
+			}
+		}
+
+		@-o-keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
+
+			to {
+				opacity: 1;
+			}
+		}
+
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
+
+			to {
+				opacity: 1;
+			}
+		}
+	</style>
+</head>
+
+<body class="">
+	<div class="right">
+	</div>
+	</div>
+	<h3> 👑 Tip 🌟 Tip 👑 </h3>
+	<h3> ✅ Site Tải game, app hack cho ios ✅ </h3>
+	<h3> copy 👉 bit.ly/tiptipmod </h3>
+	<h3> Mở Link ở safari để ko gặp lỗi khi tải </h3>
+
+
+	<h3>
+		nhiều link tải đang trong quá trình xử xý lỗi , sory mn
+		+ Cảm ơn tất cả MN</h3>
+	<h3> ======================</h3>
+	<h3>==================</h3>
+	<div id="search" class="appHeader bg-primary text-light">
+		<form class="search-form">
+			<div class="form-group searchbox">
 				<input type="text" class="form-control" placeholder="Search...">
 				<i class="input-icon icon ion-ios-search"></i>
 				<a href="#" class="ms-1 close toggle-searchbox"><i class="icon ion-ios-close-circle"></i></a>
-				</div>
-				</form>
-				</div>
-				<div id="appCapsule">
-				<div class="section mt-2">
-				<div class="form-group boxed">
-				<a href="#" class="headerButton toggle-searchbox">
-				<ion-icon name="search-outline"></ion-icon> <u> Tìm kiếm </u>
-				</a>
-				</div>
-		<div class="transactions">
-			<a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/4f755fb6-97e6-436a-9ae9-abac3097bb2d/a4198f2e-31ce-44dc-b6bb-ae6c2b8172b7.image.png?v=1682171153708 '" alt="" alt="Noto - Ghi chú thanh lịch"><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> TikTok  TipTip Kênh mới  </font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">    </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='http://www.tiktok.com/@tip.tip.gta.san'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div> </a>
-
-			<a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/3b5072ce-1875-4fcf-ab00-4c0c85bb093d.image.png?v=1681971710893'" alt="" alt="Noto - Ghi chú thanh lịch"><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Page Telegram   </font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">    </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='http://t.me/gamemodios'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div> </a>
-            <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/4f755fb6-97e6-436a-9ae9-abac3097bb2d/249e5a05-dfe6-4372-812f-972c8dedc887.image.png?v=1682171143231 '" alt="" alt="Noto - Ghi chú thanh lịch"><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">  Youtube   </font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">    </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://youtube.com/@xuansonnguyen4115'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div> </a>
-              <h3> App cài đặt game hack cho ios </h3>
-			  <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/63eba87b-18fd-461a-aff7-d416559e087b.image.png?v=1681996754158" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web ký,cài ipa, scarlet,esign,gbox trực tiếp </font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> file deb tiêm vô file ipa </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.net/wLQ0B2'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div></a>
-
-			  <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/584a12d2-e805-440c-a266-749f7fabb701.image.png?v=1681972843760" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Scarlet </font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> dưới chứ install có chữ Sign là cài đc nhé  </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.com/YqQT'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div> </a>
-						  <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/584a12d2-e805-440c-a266-749f7fabb701.image.png?v=1681972843760" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Scarlet 11/2 </font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> tự ép file chứng chỉ p12   </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.net/K5u9FUx'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div> </a>
-
-              <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/1675885d-9733-45dd-aa27-8ce443c078f4.image.png?v=1681972907415" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ếch xanh ( bullfrog Assistant )</font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> sign qua máy tính </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.com/p3oyn'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div> </a>
-              <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/1675885d-9733-45dd-aa27-8ce443c078f4.image.png?v=1681972907415" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">App fix cài 3 game (ếch xanh)</font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> cài app ấn GO là ok </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.com/3Qc9c'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div> </a>
-              <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/7d4fd9ed-fe20-4f6f-bf35-6f31dfb9bb83.image.png?v=1681971175550" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TrollStore</font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.com/XHJ6'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div></a>
-              <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/e77350c0-9b26-48c7-bd6b-780185f20bb5.image.png?v=1681973050780" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Esign</font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">File IPA </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://web1s.co/YspsexyN0q'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div></a>
-              <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/e77350c0-9b26-48c7-bd6b-780185f20bb5.image.png?v=1681973050780" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Esign 11/2</font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Link cài trực tiếp </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.net/z4oi'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div></a>
-              <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/5424cd0d-538d-4ace-b841-bc9f49700238.image.png?v=1681973107563" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gbox vip </font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">File IPA</font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.com/DpUxOW'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div></a>
-			  <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/7c360560-3375-42d1-b31b-5b26baaec756.image.png?v=1681980803701" alt=" "><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DNS chặn, sử dụng chứng chỉ bị thu hồi </font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> New  </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.com/MkSkQP'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div> </a>
-              <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/bf7cfd0f-8ab9-43b9-adf4-cfcf9c0db469.image.png?v=1681995738640" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SideLoady</font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cài ipa bằng máy tính </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.com/jX4vq'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div></a>
-              <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/31b7d458-5f8c-4134-a9ae-340dde11d85a.image.png?v=1681995864549" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AltStore</font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.com/sLQeJxzv'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div></a>
-              <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/1e190292-223f-4156-a4f4-60da059ea2ce.image.png?v=1681996052559" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SideStore</font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.com/dO1i0uI'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div></a>
-              <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/30a2e2a2-eaa7-47bf-be77-27f6ba069a4d.image.png?v=1681995344561" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blacklist</font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">file IPA </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.com/n3Jcy3I0'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div></a>
-              <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/30a2e2a2-eaa7-47bf-be77-27f6ba069a4d.image.png?v=1681995344561" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Blacklist 11/2 </font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> link cài trực tiếp </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.net/9aDMu'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div></a>
-              <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/7c360560-3375-42d1-b31b-5b26baaec756.image.png?v=1681980803701" alt=" "><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DNS chặn thu hồi chứng chỉ </font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cài khi game,app đang còn chứng chỉ </font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.com/8gfMr'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div>  </a>
-           
-              <h3> Chứng chỉ P12 </h3>
-
-
-
-			  <a class="item"><div class="detail"><img class="image-block imaged w48" src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/7c360560-3375-42d1-b31b-5b26baaec756.image.png?v=1681980803701" alt=""><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chứng chỉ p12 11/2 </font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> chứng chỉ ép vô Esign,Gbox,Scarlet , pass: 1</font></font></p></div></div><div class="right"><button class="btn btn-icon btn-primary me-1" type="button" onclick="location.href='https://laymangay.net/F3g3'"><ion-icon name="download-outline" role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div> </a>
-               
-		
-        
-                   <h3> made by Tip Tip </h3>
-                   <p>                  </p>
-        
-            </div>
+			</div>
+		</form>
 	</div>
-    <div class="appBottomMenu">
-        <a href="index" class="item">
-        <div class="col">
-        <ion-icon name="settings-outline" role="img" class="md hydrated" aria-label="logo cửa hàng ứng dụng apple"></ion-icon>
-        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">App sign IPA,...</font></font></strong>
-        </div>
-        </a>
-        <a href="gamehack" class="item">
-        <div class="col">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="16" viewBox="0 0 25 16">
-            <path fill="#41879F" fill-rule="nonzero" d="M10.893 0h2.317c6.016 0 10.893 4.877 10.893 10.893 0 .068 0 .135-.002.202l-.021 1.16a3.5 3.5 0 0 1-5.988 2.396c-1.878-1.9-3.891-2.85-6.04-2.85-2.15 0-4.163.95-6.04 2.85a3.5 3.5 0 0 1-5.989-2.396l-.021-1.16C-.11 5.08 4.677.113 10.692.002L10.893 0zm4.79 9.532a1.362 1.362 0 1 0 0-2.724 1.362 1.362 0 0 0 0 2.724zm3.63-1.816a1.362 1.362 0 1 0 0-2.723 1.362 1.362 0 0 0 0 2.723zm-11.8-1.362V4.54a.454.454 0 0 0-.454-.454H6.15a.454.454 0 0 0-.454.454v1.815H3.881a.454.454 0 0 0-.453.454v.908c0 .25.203.454.453.454h1.816v1.816c0 .25.203.453.454.453h.908c.25 0 .454-.203.454-.453V8.17h1.815c.25 0 .454-.203.454-.454v-.908a.454.454 0 0 0-.454-.454H7.513z" />
-            </svg>        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Game Hack </font></font></strong>
-        </div>
-        </a>
-        <a href="appcrack" class="item">
-        <div class="col">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-            <path fill="#41879F" fill-rule="nonzero" d="M15.802 7.143a.82.82 0 0 0-.656-.01l-.701.294C11.875 8.498 10.501 9.002 9 9.002c-1.502 0-2.877-.504-5.446-1.575l-.701-.294a.82.82 0 0 0-.656.01C.697 7.82 0 8.3 0 9.003c0 .924 1.186 1.458 3.87 2.578C6.336 12.61 7.646 13.093 9 13.093c1.353 0 2.663-.483 5.13-1.512C16.813 10.461 18 9.927 18 9.002c0-.7-.697-1.182-2.198-1.86M9 8.185c1.353 0 2.663-.483 5.13-1.512C16.813 5.552 18 5.018 18 4.093c0-.925-1.187-1.458-3.87-2.579-4.843-2.019-5.418-2.019-10.26 0C1.186 2.634 0 3.168 0 4.094c0 .924 1.186 1.458 3.87 2.578C6.336 7.701 7.646 8.184 9 8.184zm9 5.728c0 .924-1.187 1.458-3.87 2.578-2.467 1.029-3.777 1.512-5.13 1.512-1.354 0-2.664-.483-5.13-1.512C1.186 15.37 0 14.836 0 13.912c0-.702.696-1.183 2.197-1.86a.821.821 0 0 1 .656-.01l.701.295c2.57 1.07 3.944 1.575 5.446 1.575 1.501 0 2.876-.504 5.445-1.575l.701-.295a.821.821 0 0 1 .656.01c1.5.677 2.198 1.158 2.198 1.86" />
-            </svg>
-        <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">App crack,nhân bản </font></font></strong>
-        </div>
-        </a>
-        </div>
-        <div class="modal fade panelbox panelbox-left" id="sidebarPanel" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-        <div class="modal-content">
-        <div class="modal-body p-0">
-        <div class="profileBox pt-2 pb-2">
-        <div class="image-wrapper">
-        <img src="assets/img/avatar/avatar.png" alt="hình ảnh" class="imaged  w36">
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        <script src="assets/js/lib/bootstrap.bundle.min.js" type="text/javascript"></script>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <script src="assets/js/plugins/splide/splide.min.js" type="text/javascript"></script>
-        <script src="assets/js/base.js" type="text/javascript"></script>
-        <script src="assets/js/unlock.js" type="text/javascript"></script>
-        <script type="text/javascript">
-            
-                AddtoHome("2000", "once");
-                
-                caches.keys().then(keys => {
-                  keys.forEach(key => {
-                    caches.delete(key).then(() => {
-                      console.log(`Cache ${key} deleted`);
-                    });
-                  });
-                });
-                
-                document.getElementById("scrollBtn").style.visibility = "hidden";
-                
-                function scrollToTop() {
-                    document.body.scrollTop = 0;
-                    document.documentElement.scrollTop = 0;
-                }
-        
-                window.onscroll = function() {
-                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                        document.getElementById("scrollBtn").style.visibility  = "visible";
-                    } else {
-                        document.getElementById("scrollBtn").style.visibility  = "hidden";
-                    }
-                };
-            </script>
-        </body>
-        <div style="position: absolute; top: 0px; display: block !important;"></div>
-		</html>
+	<div id="appCapsule">
+		<div class="section mt-2">
+			<div class="form-group boxed">
+				<a href="#" class="headerButton toggle-searchbox">
+					<ion-icon name="search-outline"></ion-icon> <u> Tìm kiếm </u>
+				</a>
+			</div>
+			<div class="transactions">
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/4f755fb6-97e6-436a-9ae9-abac3097bb2d/a4198f2e-31ce-44dc-b6bb-ae6c2b8172b7.image.png?v=1682171153708 '"
+							alt="" alt="Noto - Ghi chú thanh lịch">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> TikTok TipTip Kênh mới </font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> </font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='http://www.tiktok.com/@tip.tip.gta.san'"><ion-icon
+								name="download-outline" role="img" class="md hydrated"
+								aria-label="tải "></ion-icon></button></div>
+				</a>
+
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/3b5072ce-1875-4fcf-ab00-4c0c85bb093d.image.png?v=1681971710893'"
+							alt="" alt="Noto - Ghi chú thanh lịch">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> Page Telegram </font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> </font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='http://t.me/gamemodios'"><ion-icon name="download-outline"
+								role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/4f755fb6-97e6-436a-9ae9-abac3097bb2d/249e5a05-dfe6-4372-812f-972c8dedc887.image.png?v=1682171143231 '"
+							alt="" alt="Noto - Ghi chú thanh lịch">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> Youtube </font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> </font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://youtube.com/@xuansonnguyen4115'"><ion-icon
+								name="download-outline" role="img" class="md hydrated"
+								aria-label="tải "></ion-icon></button></div>
+				</a>
+				<h3> App cài đặt game hack cho ios </h3>
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/63eba87b-18fd-461a-aff7-d416559e087b.image.png?v=1681996754158"
+							alt="">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">Web ký,cài ipa, scarlet,esign,gbox trực tiếp
+									</font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> file deb tiêm vô file ipa </font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/5jC2f8FlSL'"><ion-icon name="download-outline"
+								role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/584a12d2-e805-440c-a266-749f7fabb701.image.png?v=1681972843760"
+							alt="">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">Scarlet </font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> dưới chứ install có chữ Sign là cài đc nhé
+									</font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/uJtWRRlm7Q'"><ion-icon name="download-outline" role="img" class="md hydrated"
+								aria-label="tải "></ion-icon></button></div>
+				</a>
+		
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/1675885d-9733-45dd-aa27-8ce443c078f4.image.png?v=1681972907415"
+							alt="">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">Ếch xanh ( bullfrog Assistant )</font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> sign qua máy tính </font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/evT2WdChHn'"><ion-icon name="download-outline" role="img"
+								class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/1675885d-9733-45dd-aa27-8ce443c078f4.image.png?v=1681972907415"
+							alt="">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">App fix cài 3 game (ếch xanh)</font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> cài app ấn GO là ok </font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/wzuGp8GQFK'"><ion-icon name="download-outline" role="img"
+								class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/7d4fd9ed-fe20-4f6f-bf35-6f31dfb9bb83.image.png?v=1681971175550"
+							alt="">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">TrollStore</font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> hỗ trợ hầu hết từ ios 14.0 beta2 đến ios 17.0</font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/mL2ufUjHyU'"><ion-icon name="download-outline" role="img"
+								class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/e77350c0-9b26-48c7-bd6b-780185f20bb5.image.png?v=1681973050780"
+							alt="">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">Esign</font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">File IPA </font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.co/YspsexyN0q'"><ion-icon name="download-outline"
+								role="img" class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+				
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/5424cd0d-538d-4ace-b841-bc9f49700238.image.png?v=1681973107563"
+							alt="">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">Gbox  </font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">File IPA</font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/PIMMdjfTTK'"><ion-icon name="download-outline" role="img"
+								class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/7c360560-3375-42d1-b31b-5b26baaec756.image.png?v=1681980803701"
+							alt=" ">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">DNS chặn, sử dụng chứng chỉ bị thu hồi
+									</font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> New </font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/7haiuxNPw8'"><ion-icon name="download-outline" role="img"
+								class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/bf7cfd0f-8ab9-43b9-adf4-cfcf9c0db469.image.png?v=1681995738640"
+							alt="">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">SideLoady</font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">cài ipa bằng máy tính </font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/dy8wsA4Dnj'"><ion-icon name="download-outline" role="img"
+								class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/31b7d458-5f8c-4134-a9ae-340dde11d85a.image.png?v=1681995864549"
+							alt="">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">AltStore</font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"></font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/V1cEXhND4b'"><ion-icon name="download-outline" role="img"
+								class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/1e190292-223f-4156-a4f4-60da059ea2ce.image.png?v=1681996052559"
+							alt="">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">SideStore</font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"></font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/qv4I1qZIt3'"><ion-icon name="download-outline" role="img"
+								class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/30a2e2a2-eaa7-47bf-be77-27f6ba069a4d.image.png?v=1681995344561"
+							alt="">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">Blacklist</font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">file IPA </font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/XbFSh1eT5b'"><ion-icon name="download-outline" role="img"
+								class="md hydrated" aria-label="tải "></ion-icon></button></div>
+			
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/7c360560-3375-42d1-b31b-5b26baaec756.image.png?v=1681980803701"
+							alt=" ">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">DNS chặn thu hồi chứng chỉ </font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">cài khi game,app đang còn chứng chỉ </font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/3rz5liyign'"><ion-icon name="download-outline" role="img"
+								class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+
+				<h3> Chứng chỉ P12 </h3>
+
+
+
+				<a class="item">
+					<div class="detail"><img class="image-block imaged w48"
+							src="https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/7c360560-3375-42d1-b31b-5b26baaec756.image.png?v=1681980803701"
+							alt="">
+						<div><strong>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;">Chứng chỉ p12 11/2 </font>
+								</font>
+							</strong>
+							<p>
+								<font style="vertical-align: inherit;">
+									<font style="vertical-align: inherit;"> chứng chỉ ép vô Esign,Gbox,Scarlet , pass: 1
+									</font>
+								</font>
+							</p>
+						</div>
+					</div>
+					<div class="right"><button class="btn btn-icon btn-primary me-1" type="button"
+							onclick="location.href='https://web1s.org/6S01IHlgul'"><ion-icon name="download-outline" role="img"
+								class="md hydrated" aria-label="tải "></ion-icon></button></div>
+				</a>
+
+
+
+				<h3> made by Tip Tip </h3>
+				<p> </p>
+
+			</div>
+		</div>
+		<div class="appBottomMenu">
+			<a href="index" class="item">
+				<div class="col">
+					<ion-icon name="settings-outline" role="img" class="md hydrated"
+						aria-label="logo cửa hàng ứng dụng apple"></ion-icon>
+					<strong>
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">App sign IPA,...</font>
+						</font>
+					</strong>
+				</div>
+			</a>
+			<a href="gamehack" class="item">
+				<div class="col">
+					<svg xmlns="http://www.w3.org/2000/svg" width="25" height="16" viewBox="0 0 25 16">
+						<path fill="#41879F" fill-rule="nonzero"
+							d="M10.893 0h2.317c6.016 0 10.893 4.877 10.893 10.893 0 .068 0 .135-.002.202l-.021 1.16a3.5 3.5 0 0 1-5.988 2.396c-1.878-1.9-3.891-2.85-6.04-2.85-2.15 0-4.163.95-6.04 2.85a3.5 3.5 0 0 1-5.989-2.396l-.021-1.16C-.11 5.08 4.677.113 10.692.002L10.893 0zm4.79 9.532a1.362 1.362 0 1 0 0-2.724 1.362 1.362 0 0 0 0 2.724zm3.63-1.816a1.362 1.362 0 1 0 0-2.723 1.362 1.362 0 0 0 0 2.723zm-11.8-1.362V4.54a.454.454 0 0 0-.454-.454H6.15a.454.454 0 0 0-.454.454v1.815H3.881a.454.454 0 0 0-.453.454v.908c0 .25.203.454.453.454h1.816v1.816c0 .25.203.453.454.453h.908c.25 0 .454-.203.454-.453V8.17h1.815c.25 0 .454-.203.454-.454v-.908a.454.454 0 0 0-.454-.454H7.513z" />
+					</svg> <strong>
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;"> Game Hack </font>
+						</font>
+					</strong>
+				</div>
+			</a>
+			<a href="appcrack" class="item">
+				<div class="col">
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+						<path fill="#41879F" fill-rule="nonzero"
+							d="M15.802 7.143a.82.82 0 0 0-.656-.01l-.701.294C11.875 8.498 10.501 9.002 9 9.002c-1.502 0-2.877-.504-5.446-1.575l-.701-.294a.82.82 0 0 0-.656.01C.697 7.82 0 8.3 0 9.003c0 .924 1.186 1.458 3.87 2.578C6.336 12.61 7.646 13.093 9 13.093c1.353 0 2.663-.483 5.13-1.512C16.813 10.461 18 9.927 18 9.002c0-.7-.697-1.182-2.198-1.86M9 8.185c1.353 0 2.663-.483 5.13-1.512C16.813 5.552 18 5.018 18 4.093c0-.925-1.187-1.458-3.87-2.579-4.843-2.019-5.418-2.019-10.26 0C1.186 2.634 0 3.168 0 4.094c0 .924 1.186 1.458 3.87 2.578C6.336 7.701 7.646 8.184 9 8.184zm9 5.728c0 .924-1.187 1.458-3.87 2.578-2.467 1.029-3.777 1.512-5.13 1.512-1.354 0-2.664-.483-5.13-1.512C1.186 15.37 0 14.836 0 13.912c0-.702.696-1.183 2.197-1.86a.821.821 0 0 1 .656-.01l.701.295c2.57 1.07 3.944 1.575 5.446 1.575 1.501 0 2.876-.504 5.445-1.575l.701-.295a.821.821 0 0 1 .656.01c1.5.677 2.198 1.158 2.198 1.86" />
+					</svg>
+					<strong>
+						<font style="vertical-align: inherit;">
+							<font style="vertical-align: inherit;">App crack,nhân bản </font>
+						</font>
+					</strong>
+				</div>
+			</a>
+		</div>
+		<div class="modal fade panelbox panelbox-left" id="sidebarPanel" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-body p-0">
+						<div class="profileBox pt-2 pb-2">
+							<div class="image-wrapper">
+								<img src="assets/img/avatar/avatar.png" alt="hình ảnh" class="imaged  w36">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="assets/js/lib/bootstrap.bundle.min.js" type="text/javascript"></script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<script src="assets/js/plugins/splide/splide.min.js" type="text/javascript"></script>
+		<script src="assets/js/base.js" type="text/javascript"></script>
+		<script src="assets/js/unlock.js" type="text/javascript"></script>
+		<script type="text/javascript">
+
+			AddtoHome("2000", "once");
+
+			caches.keys().then(keys => {
+				keys.forEach(key => {
+					caches.delete(key).then(() => {
+						console.log(`Cache ${key} deleted`);
+					});
+				});
+			});
+
+			document.getElementById("scrollBtn").style.visibility = "hidden";
+
+			function scrollToTop() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+
+			window.onscroll = function () {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("scrollBtn").style.visibility = "visible";
+				} else {
+					document.getElementById("scrollBtn").style.visibility = "hidden";
+				}
+			};
+		</script>
+</body>
+<div style="position: absolute; top: 0px; display: block !important;"></div>
+
+</html>
