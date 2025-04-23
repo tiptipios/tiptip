@@ -249,29 +249,17 @@
 		  #download-form button {
 			margin-top: 10px;
 		  }
-		  #form-scroll-content::-webkit-scrollbar {
-			width: 6px;
-		  }
 		  
-		  #form-scroll-content::-webkit-scrollbar-thumb {
-			background-color: #000000;
-			border-radius: 3px;
+		  #form-content::-webkit-scrollbar {
+			width: 8px;
 		  }
-		  
-		  #form-scroll-content::-webkit-scrollbar-track {
-			background-color: #f1f1f1;
+		  #form-content::-webkit-scrollbar-thumb {
+			background-color: #555;
+			border-radius: 4px;
 		  }
-		#form-content::-webkit-scrollbar {
-  width: 8px;
-}
-#form-content::-webkit-scrollbar-thumb {
-  background-color: #555;
-  border-radius: 4px;
-}
-#form-content::-webkit-scrollbar-track {
-  background-color: #2c2c2c;
-}
-
+		  #form-content::-webkit-scrollbar-track {
+			background-color: #2c2c2c;
+		  }
 		  
 	</style>
     <script>
@@ -345,17 +333,7 @@
 		  
 			  <div style="margin-top: 10px;">
 				<p><strong>Chức năng hack:</strong></p>
-				<div id="form-scroll-content" style="
-				  overflow-y: auto;
-				  max-height: 100px; /* thêm giới hạn chiều cao để cuộn dọc */
-				  flex-grow: 1;
-				  padding-right: 10px;
-				  margin-top: 5px;
-  				  border: 1px solid #ddd;
-   				 border-radius: 8px;			
-		">
 				  <p id="form-description"></p>
-				</div>			  
 				<center>
 	
 				  <h3><span id="form-developer">Tip Tip</span></h3>
