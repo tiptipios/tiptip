@@ -212,11 +212,15 @@
 			box-shadow: 0 8px 30px rgba(0,0,0,0.2);
 			z-index: 9999;
 			width: 70%;
+			height: 65%;
 			max-width: 70%;
+			max-height: 65%;
 			display: none; /* Ẩn ban đầu */
 		  }
 		  #form-content {
 			max-width: 100%;
+			max-height: 100%;
+
 			border-radius: 22px;
 		  }
 		  #form-download-btn {
@@ -245,6 +249,19 @@
 		  #download-form button {
 			margin-top: 10px;
 		  }
+		  #form-scroll-content::-webkit-scrollbar {
+			width: 6px;
+		  }
+		  
+		  #form-scroll-content::-webkit-scrollbar-thumb {
+			background-color: #000000;
+			border-radius: 3px;
+		  }
+		  
+		  #form-scroll-content::-webkit-scrollbar-track {
+			background-color: #f1f1f1;
+		  }
+		  
 	</style>
     <script>
         function toggleNote(button) {
@@ -318,17 +335,19 @@
 			  <div style="margin-top: 10px;">
 				<p><strong>Chức năng hack:</strong></p>
 				<div id="form-scroll-content" style="
-				overflow-y: auto;
-				flex-grow: 1;
-				padding-right: 10px;
-				margin-top: 5px;
-				border-top: 1px solid #ddd;
-			  ">
-				<p id="form-description"></p>
-				</div>
+				  overflow-y: auto;
+				  max-height: 100px; /* thêm giới hạn chiều cao để cuộn dọc */
+				  flex-grow: 1;
+				  padding-right: 10px;
+				  margin-top: 5px;
+  				  border: 1px solid #ddd;
+   				 border-radius: 8px;			
+		">
+				  <p id="form-description"></p>
+				</div>			  
 				<center>
 	
-				  <p><strong>cre:</strong> <span id="form-developer">Tip Tip</span></p>
+				  <h3><span id="form-developer">Tip Tip</span></h3>
 				  <a href="https://t.me/gamemodios"><strong>Page Telegram</strong></a>
 				  <br>
 				  <a href="https://tiptipios.github.io/tiptip/index"><strong>Hướng dẫn cài game,app hack cho iphone,ipad</strong></a>
