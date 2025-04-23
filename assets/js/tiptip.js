@@ -1,4 +1,4 @@
-const data = [
+const gamedata = [
     {
         "title": "Monster Dash ",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/de/2c/6cde2c30-3494-57a5-47af-db77ebf7192f/AppIcon-0-0-1x_U007epad-0-85-220.png/100x100bb.jpg",
