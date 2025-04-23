@@ -30,12 +30,6 @@ const data = [
         "download_url": "https://3link.co/2ZMv"
     },
     {
-        "title": "Skullgirls",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/ba/74/3dba746a-8314-b5c9-ae4c-b18abb36c6e1/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
-        "description": "✅One Hit Kill  ✅ Never Die  ✅ Enemy Donot Attack",
-        "download_url": "https://3link.co/G6wc2DfaSm"
-    },
-    {
         "title": "Minion Rush",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/d4/95/21d495c2-01a9-9fad-9805-7abf0239b78d/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
         "description": "✅Free shop  ✅ Infinite Cards",
@@ -126,22 +120,10 @@ const data = [
         "download_url": "https://3link.co/yMkx"
     },
     {
-        "title": "Zombie Streets",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/4d/38/d54d382d-09f7-7399-1645-289eb2cc4c7f/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅Unlimited Currencies ✅ God Mode ✅ One-Hit Kill",
-        "download_url": "https://3link.co/9l4V9I"
-    },
-    {
         "title": "Stay Room",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/d5/42/f8d54294-c51f-ced7-2082-35bb19b59ddd/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/100x100bb.jpg",
         "description": "✅Inf Gold",
         "download_url": "https://3link.co/kReEzj"
-    },
-    {
-        "title": "Lamar",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/99/4b/df994bcd-abaf-a037-54c3-df3bbddc6a12/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅Unlimited Cash -> Will increase instead of decrease. ✅ Unlimited Gold -> Spend some.",
-        "download_url": "https://3link.co/vAcX0W"
     },
     {
         "title": "Coin Master\t",
@@ -858,12 +840,6 @@ const data = [
         "download_url": "https://drive.google.com/file/d/1_-PHh4okpnbvU0-vXFOsEQ-kuzedLZuQ/view?usp=drive_link"
     },
     {
-        "title": "Soul Knight",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/6c/54/b86c5496-4dba-f117-8bb8-a8943cb7ddd5/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "- Unlimited Gems - God Mode - One-Hit Kill - Unlimited Energy - No Skill Cooldown - Increased Bullet Speed",
-        "download_url": "https://drive.google.com/file/d/1_JEgNJ1xWw0KvmuOSiHr4op5-SDOhZoX/view?usp=drive_link"
-    },
-    {
         "title": "Air Life",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/e7/29/20e72973-3dc1-63a9-e334-baffe0d70df8/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
         "description": "- Unlimited Currencies -> Will increase instead of decrease. - Free In-App Purchases ",
@@ -1554,12 +1530,6 @@ const data = [
         "download_url": "https://drive.google.com/file/d/1RACgYluXa4Fg7Ch9hOf6C77v5aLn4NdJ/view?usp=drive_link"
     },
     {
-        "title": "Mob Control",
-        "image": "https://play-lh.googleusercontent.com/fYW81WEQjExj4VrCNcoWLJpn_YDRCTi_vdgwF7O61Th5715qbzopngJd7Ae2-ec-r24=w480-h960-rw",
-        "description": "✅ Free shop ( Tắt mạng khi mua ) ✅ Vô hạn coin ✅ Vô hạn Skip  ✅ Nhận Brick vô hạn ( tắt khi hết trận )  ✅ Nâng cấp không cần card  ",
-        "download_url": "https://drive.google.com/file/d/1AZfE88W0_q-B6kWUZDJGJ70NKgMkXOI3/view?usp=drive_link"
-    },
-    {
         "title": "Raptor Evolution",
         "image": "https://play-lh.googleusercontent.com/hLUngmE1GBEZwM4zqNlW5lQo86kX_m3cU2DZTmIq2b34_G4Bk9KyzuaPGBeiyKlQaC8=w480-h960-rw",
         "description": "✅ Vô hạn tài nguyên  ✅ Chi phí năng lượng ✅ Nâng cấp dễ dàng  ✅ Free shop",
@@ -1618,18 +1588,6 @@ const data = [
         "image": "https://play-lh.googleusercontent.com/EFJrzh8wi4W0GLlfBL_MCz9ErPamKyeDTvAmdbmct2iuF2jdBC-vOQxWfvCMcUkdBBjG=w480-h960-rw",
         "description": "✅  Tiền tệ vô hạn ",
         "download_url": "https://drive.google.com/file/d/1dG8JWcgep5J2Qn1fgnleerQke-kbqJK3/view?usp=drive_link"
-    },
-    {
-        "title": "Good Coffee",
-        "image": "https://play-lh.googleusercontent.com/x1idEcdmK8freWt2CfTe_BN5al9GmsDBKZBwC8JtO31ag2z8s82EPmcoAIGHZ19vzA=w480-h960-rw",
-        "description": "✅ Vô Hạn Tiên Tệ ✅ Vô Hạn Kim Cương ✅ Vô Hạn Năng Lượng ✅ All Shop Đc Mở Khoá Và Nâng Cấp ✅ Vô Hạn Điểm Bia ✅ Mở Khoá Trang Trí ✅ Mở Mô Hình ✅ Mở Nâng Cấp Máy ✅ Nhận Phần Thưởng Hằng Ngày ✅ Uống Hoàn Hảo",
-        "download_url": "https://drive.google.com/file/d/1MxdTby365C9p_FCp1txiTXmmtx0y1c-F/view?usp=drive_link"
-    },
-    {
-        "title": "Earth Inc",
-        "image": "https://play-lh.googleusercontent.com/Hd3FVg7w214wNa_42EyWFD-u2cjjyfyRXIVsUE6nT_-otayp1RqovJ3k3wLNwjFz9w2T=w480-h960-rw",
-        "description": "✅  Vô hạn Vàng ✅  Vô hạn kim cương",
-        "download_url": "https://drive.google.com/file/d/1Op0bzUQOr88hYFx9O6n95a5wOdQPPEYX/view?usp=drive_link"
     },
     {
         "title": "LEGO Hill Climb Adventures",
@@ -2044,5 +2002,143 @@ const data = [
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/46/92/98469264-32f1-ce97-8c26-0963c092db4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
         "description": "👉 Ae sài trollstore thì có thể tải ipa rồi cài đè lên game gốc là chơi được. còn lại khi vào game chọn file data ( có video hướng dẫn trong telegram )",
         "download_url": "https://oklink.cfd/APWU"
+    },
+    {
+        "title": "Township",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/db/2a/87db2a7f-76ef-ed49-7163-09efdfab9da7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+        "description": "👉 Tính năng hack:\n✅  Đóng băng tài nguyên",
+        "download_url": "https://oklink.cfd/KvOl"
+    },
+    {
+        "title": "Gossip Street_ Merge  Story",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/2e/58/412e58c9-811a-6bec-1987-17779544599e/AppIcon_Alter-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "📝 Chức năng hack:\n✅ Đá quý\n✅ Tiền xu\n✅ Năng lượng\n✅ Tăng cường\n✅ Đóng băng đá quý\n✅ Đóng băng Tiền xu\n✅ Đóng băng Năng lượng\n✅ Mở khóa Gold Pass LvL\n✅ Nhận Gold Pass LvL Không Giới Hạn\n✅ LvL Free Pass Claim Unlimited",
+        "download_url": "https://oklink.cfd/XEpw"
+    },
+    {
+        "title": "Survivor Kingdoms",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/08/15/1808152a-1bd4-a439-1f91-f4c2bcb26070/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ HP\n✅ Damage\n✅ Tự động hồi sinh\n✅ Tốc độ di chuyển\n✅ Skill CD chậm\n✅ Skill CD nhanh\n✅ Tốc độ chụp nhanh\n✅ Kích thước kỹ năng lớn\n✅ Ultimate Power\n✅ Khung & Avatar",
+        "download_url": "https://oklink.cfd/Gj6"
+    },
+    {
+        "title": "Alien Survivor: Survival",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/a5/b0/21a5b0b3-79a6-7c03-9bc4-0ed36bbfb123/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "👉 Tính năng hack:\n✅  No Ads [ Nhận phần thưởng ko cần xem video ]\n✅  Đá quý [ Thành tích chỉ nhận được một phần thưởng ]\n✅  Năng lượng [ Nhận phần xem video ]\n✅ HP [ Chỉ cần trang bị ]\n✅ ATK [ Chỉ cần Trang Bị ]\n✅ DEF [ Chỉ cần trang bị]\n✅ Không hồi chiêu",
+        "download_url": "https://oklink.cfd/Svq4"
+    },
+    {
+        "title": "9Cat Saga",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/f2/dc/b3f2dcd4-3272-c28a-3944-3636ce0152f6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "👉 Tính năng hack:\n✅Bất tử",
+        "download_url": "https://oklink.cfd/gMoR"
+    },
+    {
+        "title": "Good Coffee",
+        "image": "https://play-lh.googleusercontent.com/x1idEcdmK8freWt2CfTe_BN5al9GmsDBKZBwC8JtO31ag2z8s82EPmcoAIGHZ19vzA=w480-h960-rw",
+        "description": "👉 Tính năng hack:\n✅ Vô Hạn Tiên Tệ\n✅ Vô Hạn Kim Cương\n✅ Vô Hạn Năng Lượng\n✅ All Shop Đc Mở Khoá Và Nâng Cấp\n✅ Vô Hạn Điểm Bia\n✅ Mở Khoá Trang Trí\n✅ Mở Mô Hình\n✅ Mở Nâng Cấp Máy\n✅ Nhận Phần Thưởng Hằng Ngày\n✅ Uống Hoàn Hảo",
+        "download_url": "https://oklink.cfd/ejZg"
+    },
+    {
+        "title": "Prison Empire",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/d6/e3/43d6e389-510a-045b-d3ab-35767dc13d5b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ No ads\n✅ Đóng băng tiền tệ",
+        "download_url": "https://oklink.cfd/5et8"
+    },
+    {
+        "title": "Skullgirls_ Fighting RPG",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/89/ad/c389adaf-5743-43c7-3c7e-ca0e360db827/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "📝 Chức năng hack:\n✅ One hit\n✅ Kẻ thù vô hiệu hóa\n✅ Năng lượng tối đa\n✅ Tự động giành chiến thắng\n✅ Không thời gian hồi Kỹ năng\n✅ Goals Claimed [ Free Pass Only ]",
+        "download_url": "https://oklink.cfd/4Wo"
+    },
+    {
+        "title": "Zombie Streets",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/4d/38/d54d382d-09f7-7399-1645-289eb2cc4c7f/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "👉 Tính năng hack:\n✅ Vô hạn tài nguyên\n✅ Bất tử\n✅ One hit",
+        "download_url": "https://oklink.cfd/e9in"
+    },
+    {
+        "title": "Case Chase - CSGO Case",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/e2/07/d8e20732-48a9-25e4-27f9-b52cf1f9fa24/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "👉 Tính năng hack:\n✅  Vô hạn Vàng\n✅  Vô hạn hộp\n✅  Free shop",
+        "download_url": "https://oklink.cfd/UxGT"
+    },
+    {
+        "title": "Earth Inc",
+        "image": "https://play-lh.googleusercontent.com/Hd3FVg7w214wNa_42EyWFD-u2cjjyfyRXIVsUE6nT_-otayp1RqovJ3k3wLNwjFz9w2T=w480-h960-rw",
+        "description": "👉 Tính năng hack:\n✅  Vô hạn Vàng\n✅  Vô hạn kim cương\n✅  Free shop",
+        "download_url": "https://oklink.cfd/kmv"
+    },
+    {
+        "title": "Lamar - Idle",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/99/4b/df994bcd-abaf-a037-54c3-df3bbddc6a12/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "📝 Chức năng hack:\n✅ Tiền mặt không giới hạn - khi bật thì ko nâng cấp 1 chỗ quá nhiều ( âm tiền )\n✅ Vàng không giới hạn",
+        "download_url": "https://oklink.cfd/mFrN"
+    },
+    {
+        "title": "Snake.io - Fun",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/b4/bd/6cb4bd3f-cf58-abc4-b0f0-446b0c6b65b8/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/350x350bb.jpg",
+        "description": "📝 Chức năng hack:\n✅ No ads\n✅ Mở khóa All Skin\n✅ Có thể di chuyển qua vùng giới hạn\n✅ Bất tử\n✅ Hồi sinh không giới hạn\n✅ Ăn kích thước lớn hơn\n✅ Kích thước Boss nhỏ\n✅ Boss HP 1\n✅ Ăn nhận nhiều hơn\n✅ Tăng Bán kính ăn\n✅ AI ngu ngốc",
+        "download_url": "https://oklink.cfd/U9x"
+    },
+    {
+        "title": "Mob Control",
+        "image": "https://play-lh.googleusercontent.com/fYW81WEQjExj4VrCNcoWLJpn_YDRCTi_vdgwF7O61Th5715qbzopngJd7Ae2-ec-r24=w480-h960-rw",
+        "description": "👉 Tính năng hack:\n✅ Free shop ( Tắt mạng khi mua )\n✅ Vô hạn coin,Skip ( tăng khi dùng )\n✅ Nhận Brick vô hạn ( tắt khi hiện thắng thành công )\n✅ Nâng cấp không cần card\n✅ Card vô hạn",
+        "download_url": "https://oklink.cfd/ke07"
+    },
+    {
+        "title": "Brotato",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/bf/be/c9bfbe8b-de32-e036-08ad-374aa9091caa/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "👉 Tính năng hack:\n✅Free Shop\n✅iGG ( i4 )",
+        "download_url": "https://oklink.cfd/0r7S"
+    },
+    {
+        "title": "Space Survivor",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/a4/af/cda4af98-693c-b81e-3364-87f886d3e0d3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "👉 Tính năng hack:\n✅ Kim cương\n✅ Vàng\n✅ Năng lượng\n✅ Chìa khóa rương\n✅ Đá Tài Năng\n✅ Vé ADS\n✅ Mã thông báo kỹ năng\n✅ Sách củng cố\n✅ Nâng cấp các thành phần\n✅ Tầm tấn công\n✅ Buff Hp,Dame - Chỉ cần trang bị và tháo trang bị",
+        "download_url": "https://oklink.cfd/FqYE"
+    },
+    {
+        "title": "Archers Survivor",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/e1/1b/3fe11b65-3203-21a5-bc99-66662f50faf0/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/350x350bb.jpg",
+        "description": "📝 Chức năng hack:\n✅ Vô hạn tài nguyên\n✅ Vô hạn tiền tệ",
+        "download_url": "https://oklink.cfd/CKt"
+    },
+    {
+        "title": "Hellow Town",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/8b/47/6e8b471c-fb14-5fc3-a5b5-8d5ae13e1b04/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "👉 Tính năng hack:\n✅ Vô hạn kim cương - Mở rộng kho\n✅ Vô hạn vàng - Bán vật phẩm\n✅ Đóng băng năng lượng",
+        "download_url": "https://oklink.cfd/hsx"
+    },
+    {
+        "title": "Tap Tap Fish - AbyssRium",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/fc/66/a6fc6669-4893-00fa-5517-55b0caf03603/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "📝 Chức năng hack:\n✅ Đóng băng tài nguyên",
+        "download_url": "https://oklink.cfd/j0M"
+    },
+    {
+        "title": "Clash of Clan",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/92/7b/99927b76-6d36-ecf9-4d97-754bf015cbab/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Full Tài Nguyên\n✅ Sever riêng",
+        "download_url": "https://oklink.cfd/aRvE"
+    },
+    {
+        "title": "Tower And Swords",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/fa/e3/3dfae322-2f26-091d-3737-3f8753bca740/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "👉 Tính năng hack:\n✅ Free Shop\n✅ Kim cương - Nhận nhiệm vụ\n✅ Vàng - Nhận nhiệm vụ\n✅ Bất tử\n✅ One hit",
+        "download_url": "https://oklink.cfd/KrUV"
+    },
+    {
+        "title": "Dream League Soccer 2025",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/ad/10/d4ad1084-839a-5ba2-c00d-c9de87388036/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/350x350bb.jpg",
+        "description": "👉 Tính năng hack:\n✅AI ngu\n✅Không lỗi\n✅Không việt vị\n✅Vô hạn thể lực\n✅Không penalty\n✅Ném biên hết hiệp\n✅Vô hạn thay người\n✅Không chấn thương\n✅Mờ khoá Custom Kit\n✅Mở khoá Custom logo\n✅Dừng thời gian",
+        "download_url": "https://oklink.cfd/ucq0"
+    },
+    {
+        "title": "Soul Knight",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/6c/54/b86c5496-4dba-f117-8bb8-a8943cb7ddd5/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "👉 Tính năng hack:\n✅ Vô hạn kim cương\n✅ Vô hạn cá\n✅ Vô hạn năng lượng\n✅ Bất tử\n✅ One hit\n✅ Không thời gian hồi chiêu\n✅ Tăng tốc bắn",
+        "download_url": "https://oklink.cfd/3jc7"
     }
 ];
