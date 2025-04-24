@@ -215,7 +215,70 @@
 		.box-shadow {
 			box-shadow: 0 4px 8px 2px rgba(255, 255, 255, 0.1), 0 6px 20px rgba(255, 255, 255, 0.1);
 		}
+    #download-form {
+			position: fixed;
+			top: 10%;
+			left: 50%;
+			transform: translateX(-50%);
+			transition:all 300ms ease-in-out;
+			background: rgb(61, 62, 62);
+			padding: 20px;
+			border-radius: 12px;
+			box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+			z-index: 9999;
+			width: 70%;
+			height: 65%;
+			max-width: 70%;
+			max-height: 65%;
+			display: none; /* Ẩn ban đầu */
+		  }
+		  #form-content {
+			max-width: 100%;
+			max-height: 100%;
+			overflow-y: auto;  /* Bật cuộn cho nội dung dài */
+			border-radius: 22px;
+		  }
+		  #form-download-btn {
+			background-color: rgb(61, 62, 62,0);
+			color: white;
+			border: none;
+			cursor: pointer;
+		  }
+		  
+		  
+		  .form-version {
+			font-size: 0.9em;
+			color: #666;
+		  }
+		  
+		  #overlay {
+			position: fixed;
+			top: 0; left: 0;
+			width: 100vw;
+			height: 100vh;
+			background: rgba(0,0,0,0.5);
+			z-index: 998;
+			display: none;
+		  }
+		
+		  
+		  #form-content::-webkit-scrollbar {
+			width: 8px;
+		  }
+		  #form-content::-webkit-scrollbar-thumb {
+			background-color: #555;
+			border-radius: 4px;
+		  }
+		  #form-content::-webkit-scrollbar-track {
+			background-color: #2c2c2c;
+		  }
   </style>
+  <script>
+    function toggleNote(button) {
+        let note = button.nextElementSibling;
+        note.style.display = (note.style.display === "none" || note.style.display === "") ? "block" : "none";
+    }
+    </script>
 </head>
 
 <body class="">
@@ -417,6 +480,39 @@
 <div>    
   <h3>Game hack cho ios  </h3>
   <div id="game-list"></div>
+  <div id="download-form">
+    <div id="form-content">
+      <span id="close-btn" style="  position: absolute;top: 10px;right: 15px;font-size: 35px;cursor: pointer;color: white;">&times;</span>
+      <div style="display: flex; align-items: center; gap: 10px;">
+      <img id="form-image" src="" alt="Ảnh game" style="width: 80px; height: 80px; border-radius: 12px; object-fit: cover;">
+      <div>
+        <h3 id="form-title" style="text-align: left; margin: 0;margin-left: 6px;">Tên game</h3>
+        <p style="margin: 0;"><span style="margin-left: 6px; " id="form-developer">Tip Tip</span></p>
+        <button class="newios" id="form-download-btn">
+        Tải Xuống 
+        <svg class="icon"  viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="739"><path d="M691.3 693.9c-24.7 0-44.8-20-44.8-44.8 0-24.7 20-44.8 44.8-44.8h40c190.6 0 176.8-274.4 0.2-268.1C671.2 37.2 208 145.1 299 445c-93-73.9-204.6 69.2-109.6 139.8 67.2 49.9 188.5-18.4 188.5 64.3 0 56.3-63.9 44.8-125.3 44.8-149.3 0-241.3-159.3-155.8-281.1 40.8-58.2 104.9-72.6 104.9-72.6C231.4 111.3 492.7-9.5 686.2 120c83.1 55.6 114.5 136.9 114.5 136.9 48.8 14.8 90.7 45.6 119.2 86.4 96 137.3 21.5 350.6-228.6 350.6zM514.2 335.8c0.2 0 0.3 0.1 0.5 0.1s0.3-0.1 0.5-0.1h-1z m177.1 421.1c0-17.5-45.8-17.3-63.3 0.1l-32.8 32.9c-14.1 14.1-38.2 4.2-38.2-15.8V380.6c0-24.5-17.9-44.4-42.3-44.7-24.5 0.3-47.2 20.1-47.2 44.7v393.5c0 19.9-24.1 29.9-38.2 15.8l-32.8-42.1c-17.5-17.5-45.3-9.3-62.8-9.3h-0.2c-17.5 44.8-17.6 55.1-0.1 72.6L449 931.5c35 35 91.6 37.3 126.6 2.3l115.7-114.6c17.5-17.5 0-45.2 0-62.7v0.4z" p-id="740"></path></svg>
+        </button>
+      </div>
+      </div>
+    
+      <div style="margin-top: 10px;">
+      <p><strong>Chức năng hack:</strong></p>
+        <p id="form-description"></p>
+      <center>
+
+        <h3></h3>
+        <a href="https://t.me/gamemodios"><strong>Page Telegram</strong></a>
+        <br>
+        <a href="https://tiptipios.github.io/tiptip/index"><strong>Hướng dẫn cài game,app hack cho iphone,ipad</strong></a>
+        <br>
+       
+      </center>
+      </div>
+    </div>
+    </div>
+    
+  </div>
+
   <h3> Tip Tip : T.me/gamemodios</h3>
         <p>                  </p>
   </div>
@@ -505,14 +601,48 @@
   </script>
   <script src="assets/js/tiptip.js"></script>
   <script> 
-    const container = document.getElementById("game-list");
-    
+
+	const container = document.getElementById("game-list");
+
     [...gamedata].reverse().forEach(item => {
-      const html = `
-     <a class="item"><div class="detail"><img class="image-block imaged w48 box-shadow" src="${item.image}" alt="${item.title}"><div><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">${item.title} </font></font></strong><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">${item.description}</font></font></p></div></div><div class="right"><button class="newios" type="button" onclick="location.href='https://vuotlink.vip/st?api=4e2b672bf2a8ba8ead742b4f9c07db7e690505a2&domain=oklink.cfd&url=${item.download_url}'"><svg class="icon"  viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="739"><path d="M691.3 693.9c-24.7 0-44.8-20-44.8-44.8 0-24.7 20-44.8 44.8-44.8h40c190.6 0 176.8-274.4 0.2-268.1C671.2 37.2 208 145.1 299 445c-93-73.9-204.6 69.2-109.6 139.8 67.2 49.9 188.5-18.4 188.5 64.3 0 56.3-63.9 44.8-125.3 44.8-149.3 0-241.3-159.3-155.8-281.1 40.8-58.2 104.9-72.6 104.9-72.6C231.4 111.3 492.7-9.5 686.2 120c83.1 55.6 114.5 136.9 114.5 136.9 48.8 14.8 90.7 45.6 119.2 86.4 96 137.3 21.5 350.6-228.6 350.6zM514.2 335.8c0.2 0 0.3 0.1 0.5 0.1s0.3-0.1 0.5-0.1h-1z m177.1 421.1c0-17.5-45.8-17.3-63.3 0.1l-32.8 32.9c-14.1 14.1-38.2 4.2-38.2-15.8V380.6c0-24.5-17.9-44.4-42.3-44.7-24.5 0.3-47.2 20.1-47.2 44.7v393.5c0 19.9-24.1 29.9-38.2 15.8l-32.8-42.1c-17.5-17.5-45.3-9.3-62.8-9.3h-0.2c-17.5 44.8-17.6 55.1-0.1 72.6L449 931.5c35 35 91.6 37.3 126.6 2.3l115.7-114.6c17.5-17.5 0-45.2 0-62.7v0.4z" p-id="740"></path></svg></button></div>  </a>
-    `;
+		const html = `
+         <a class="item"><div class="detail"><img class="image-block imaged w48 box-shadow" src="${item.image}" alt="${item.title}">
+            <div>
+              <strong>${item.title}</strong>
+            </div>
+          </div>
+          <div class="right">
+            <button class="newios" onclick='showForm(${JSON.stringify(item)})'>
+              <svg class="icon"  viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="739"><path d="M691.3 693.9c-24.7 0-44.8-20-44.8-44.8 0-24.7 20-44.8 44.8-44.8h40c190.6 0 176.8-274.4 0.2-268.1C671.2 37.2 208 145.1 299 445c-93-73.9-204.6 69.2-109.6 139.8 67.2 49.9 188.5-18.4 188.5 64.3 0 56.3-63.9 44.8-125.3 44.8-149.3 0-241.3-159.3-155.8-281.1 40.8-58.2 104.9-72.6 104.9-72.6C231.4 111.3 492.7-9.5 686.2 120c83.1 55.6 114.5 136.9 114.5 136.9 48.8 14.8 90.7 45.6 119.2 86.4 96 137.3 21.5 350.6-228.6 350.6zM514.2 335.8c0.2 0 0.3 0.1 0.5 0.1s0.3-0.1 0.5-0.1h-1z m177.1 421.1c0-17.5-45.8-17.3-63.3 0.1l-32.8 32.9c-14.1 14.1-38.2 4.2-38.2-15.8V380.6c0-24.5-17.9-44.4-42.3-44.7-24.5 0.3-47.2 20.1-47.2 44.7v393.5c0 19.9-24.1 29.9-38.2 15.8l-32.8-42.1c-17.5-17.5-45.3-9.3-62.8-9.3h-0.2c-17.5 44.8-17.6 55.1-0.1 72.6L449 931.5c35 35 91.6 37.3 126.6 2.3l115.7-114.6c17.5-17.5 0-45.2 0-62.7v0.4z" p-id="740"></path></svg>
+            </button>
+          </div>
+        </a>
+      `;
       container.innerHTML += html;
-    });</script>
+    });
+
+    function showForm(item) {
+      document.getElementById("form-image").src = item.image;
+      document.getElementById("form-title").textContent = item.title;
+	  document.getElementById("form-description").innerHTML = item.description.replace(/\n/g, "<br>");
+      document.getElementById("form-download-btn").onclick = () => {
+        window.location.href = item.download_url;
+      };
+      document.getElementById("download-form").style.display = "block";
+      document.getElementById("overlay").style.display = "block";
+    }
+// Nút đóng
+document.getElementById("close-btn").onclick = function() {
+	document.getElementById("download-form").style.display = "none";
+  };
+  
+  // Click ngoài form-content để đóng
+  document.getElementById("download-form").addEventListener("click", function(event) {
+	if (!document.getElementById("form-content").contains(event.target)) {
+	  this.style.display = "none";
+	}
+  });
+  </script>
 </body>
 <div style="position: absolute; top: 0px; display: block !important;"></div>
 
