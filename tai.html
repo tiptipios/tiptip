@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông tin game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.1);
+        }
+        .app--logo img {
+            border-radius: 16px;
+            max-width: 100px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .tag {
+            color: #888;
+        }
+        .group-title {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .txt-left {
+            font-weight: 500;
+        }
+        .txt-right {
+            color: #007bff;
+        }
+        #countdown {
+            margin-top: 20px;
+            color: #e74c3c;
+            font-weight: bold;
+            text-align: center;
+        }
+        .download-app {
+            display: none;
+            margin-top: 15px;
+            padding: 12px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <div class="container" id="content">
+        <div class="page-content">
+            <div class="app__meta">
+                <div class="app__meta--top d-flex align-items-flex-start">
+                    <div class="app--logo">
+                        <a href="#"><img id="game-image" src="" alt="Game Image"></a>
+                    </div>
+                    <div class="app--detail" style="margin-left: 15px;">
+                        <h1 id="game-title" class="title">Tên game</h1>
+                        <span class="tag">
+                            <p class="mb-1">Cre: Tip Tip</p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="app__meta--bottom">
+                    <div class="group-title">
+                        <label for="">Chức Năng Hack:</label>
+                    </div>
+                    <div class="detail">
+                        <ul id="hack-functions" class="m-0">
+                            <li>
+                                <div class="txt-left">Ngày Cập nhật</div>
+                                <div class="txt-right">13.</div>
+                            </li>
+                            <li>
+                                <div class="txt-left">Dung lượng</div>
+                                <div class="txt-right">229,66 MB</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="countdown" class="mb-2">Vui lòng chờ 9 giây...</div>
+                    <a id="real-download" class="download-app" href="#" target="_blank">
+                        <span>Tải xuống</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Dữ liệu giả lập — bạn có thể thay bằng dữ liệu từ URL hoặc API
+    const game = {
+        "title": "Cats Mansion",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/49/32/1e4932ec-a566-c3f2-fe30-8820614dae08/AppIcon-0-0-1x_U007epad-0-85-220.png/350x350bb.jpg",
+        "description": "\n✅ Luôn luôn đủ năng lượng\n✅ Năng lượng không giới hạn\n✅Mở khóa Thẻ đặc quyền\n✅ Mở khóa tất cả Avatar và Khung\n✅Đổi tên không giới hạn",
+        "download_url": "https://oklink.cfd/45Nf"
+    };
+
+    // Gán thông tin vào HTML
+    document.getElementById("game-title").textContent = game.title;
+    document.getElementById("game-image").src = game.image;
+    document.getElementById("real-download").href = game.download_url;
+
+    // Hiển thị chức năng hack
+    const hackFunctions = document.getElementById("hack-functions");
+    const lines = game.description.split("\n").map(l => l.trim()).filter(Boolean);
+
+    lines.forEach(desc => {
+        if (desc.startsWith("✅")) {
+            const content = desc.replace(/^✅\s*/, "").trim();
+            const li = document.createElement("li");
+
+            const left = document.createElement("div");
+            left.className = "txt-left";
+            left.textContent = content;
+
+            const right = document.createElement("div");
+            right.className = "txt-right";
+            right.textContent = "Có";
+
+            li.appendChild(left);
+            li.appendChild(right);
+            hackFunctions.appendChild(li);
+        }
+    });
+
+    // Đếm ngược
+    let seconds = 9;
+    const countdown = document.getElementById("countdown");
+    const downloadBtn = document.getElementById("real-download");
+
+    const timer = setInterval(() => {
+        seconds--;
+        if (seconds > 0) {
+            countdown.textContent = `Vui lòng chờ ${seconds} giây...`;
+        } else {
+            clearInterval(timer);
+            countdown.textContent = "Bạn có thể tải xuống:";
+            downloadBtn.style.display = "block";
+        }
+    }, 1000);
+</script>
+
+</body>
+</html>
