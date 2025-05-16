@@ -167,14 +167,14 @@ freefiredata.forEach(game => {
   });
 
   // Kiểm tra và gán 'active' theo trang hiện tại
-  if (path.includes('app.html')) {
-    document.querySelector('.toolbar a[href$="app.html"]')?.classList.add('active');
-  } else if (path.includes('index.html')) {
-    document.querySelector('.toolbar a[href$="index.html"]')?.classList.add('active');
-  } else if (path.includes('timkiem.html')) {
-    document.querySelector('.toolbar a[href$="timkiem.html"]')?.classList.add('active');
-  } else if (path.includes('tips.html')) {
-    document.querySelector('.toolbar a[href^="tips.html"]')?.classList.add('active');
+  if (path.includes('app')) {
+    document.querySelector('.toolbar a[href$="app"]')?.classList.add('active');
+  } else if (path.includes('index')) {
+    document.querySelector('.toolbar a[href$="index"]')?.classList.add('active');
+  } else if (path.includes('timkiem')) {
+    document.querySelector('.toolbar a[href$="timkiem"]')?.classList.add('active');
+  } else if (path.includes('tips')) {
+    document.querySelector('.toolbar a[href^="tips"]')?.classList.add('active');
   }
 </script>
 
