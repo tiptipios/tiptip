@@ -1,11 +1,84 @@
 const gamedata = [
     {
-        "title": "DragonCity",
+        "title": "Subway Surf",
+        "version": "3.46.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
+        "download_url": "https://drive.google.com/uc?export=download&id=1Fjy9wfaIkJZ2ohIf0NPh0uI59gjMSedk",
+        "updated_at": "2025-05-17",
+        "size": "143.81 MB",
+        "fake_downloads": 964571
+    },
+    {
+        "title": "Plant Survivor:Bang Bang",
+        "version": "3.4.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/49/09/7e49092a-3c5c-c174-a190-e756e22e5694/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Vô hạn Xu bạc\n✅ Tăng Dame,hp,Lever\n✅ trang bị cây\n✅ Tiền tệ, tài nguyên vô hạn\n✅ Tắt sau khi nhận\n✅ Mở khoá avatar,khung\n✅ No ads",
+        "download_url": "https://drive.google.com/uc?export=download&id=1ECFokZ1m08_Ahn0dRqya_VQnr0GzVoyJ",
+        "updated_at": "2025-05-17",
+        "size": "197.53 MB"
+    },
+    {
+        "title": "Alien Shooter",
+        "version": "64.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
+        "download_url": "https://drive.google.com/uc?export=download&id=1sNfCFf-Ya5BcvGFR1gfbmzqZxyh7gsH8",
+        "updated_at": "2025-05-17",
+        "size": "199.73 MB"
+    },
+    {
+        "title": "Blades of Brim",
+        "version": "2.22.9",
+        "image": "https://play-lh.googleusercontent.com/kTUUCCtvohUq6K0hY06XXJXBDVEQJ7n5dtxQ165Xj1WxlSG2-hO9gdmzNC3aPEpY-i0",
+        "description": "✅ Vàng không giới hạn\n✅ Tinh chất không giới hạn",
+        "download_url": "https://drive.google.com/uc?export=download&id=1HCTQEzzxei680JfLkke6R780sg_xXs63",
+        "updated_at": "2025-05-17",
+        "size": "162.62 MB"
+    },
+    {
+        "title": "Skullgirls_ Fighting RPG",
+        "version": "7.2.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/35/4f/27354fe2-db35-a8da-4de6-c94c04e326ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ One hit\n✅ Kẻ thù vô hiệu hóa\n✅ Năng lượng tối đa\n✅ Tự động giành chiến thắng\n✅ Không thời gian hồi Kỹ năng\n✅ Goals Claimed [ Free Pass Only ]",
+        "download_url": "https://drive.google.com/uc?export=download&id=10krkiEkoVqVqIqJgHNNLtcBFBoP3ZAC_",
+        "updated_at": "2025-05-17",
+        "size": "121.96 MB"
+    },
+    {
+        "title": "Towerlands",
+        "version": "3.6.2",
+        "image": "https://play-lh.googleusercontent.com/dtxX2DQEdu14yr4J-Tin5JLVl7OQzr4GQwZHT3yVlWM0cpgBhdpIdBb53RIU8I8ji1Cj",
+        "description": "✅ Vô hạn vàng\n✅ Vô hạn kim cương",
+        "download_url": "https://drive.google.com/uc?export=download&id=1hIFDrwM7VOLd6Vt37wdnpAvkyGJMBsuF",
+        "updated_at": "2025-05-17",
+        "size": "239.62 MB"
+    },
+    {
+        "title": "The Demonized",
+        "version": "4.4.3",
+        "image": "https://play-lh.googleusercontent.com/DnTYf19gownL-mAemU_keT6t8OhGLtjxtNC8WbEwTCIa7Ix0xRpj058OhCHUO59Xjg",
+        "description": "✅ 1 Hit \n✅ Bất tử \n✅ Quái ngu \n✅ Tốc đánh \n✅ Đóng băng tài nguyên",
+        "download_url": "https://drive.google.com/uc?export=download&id=14UB6k9PjnIoW95Q5_o10lJ1WQy5W7Enq",
+        "updated_at": "2025-05-17",
+        "size": "196.67 MB"
+    },
+    {
+        "title": "PocketLove",
+        "version": "2.15.4",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/22/77/a9227755-606c-e531-4761-d6862755ca2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Vô hạn tiền tệ\n✅ Free Shop",
+        "download_url": "https://drive.google.com/uc?export=download&id=1tjcQkDvIhk6HtH51QIaVqz0G0ZBgxEKJ",
+        "updated_at": "2025-05-17",
+        "size": "210.16 MB"
+    },
+    {
+        "title": "Dragon City",
         "version": "25.6.1",
         "image": "https://play-lh.googleusercontent.com/FVkQs5VK9RCOMZKW2fvf3gXLnowagPiEqa0jSmYdIvPtM6b3q9Q3pe2Ba7WYb03Cbbo=w480-h960-rw",
         "description": "✅  Luôn lượt bạn đánh  \n✅  Tự động chơi \n✅  Bất tử  \n✅ 1 Hit ",
         "download_url": "https://drive.google.com/uc?export=download&id=1KVyrJmRKq6UYkqmkPoCdUOh6vrWWbZPI",
-        "updated_at": "2025-05-15",
+        "updated_at": "2025-05-16",
         "size": "135.51 MB"
     },
     {
@@ -171,15 +244,6 @@ const gamedata = [
         "size": "161.69 MB"
     },
     {
-        "title": "Blades of Brim",
-        "version": "2.22.8",
-        "image": "https://play-lh.googleusercontent.com/kTUUCCtvohUq6K0hY06XXJXBDVEQJ7n5dtxQ165Xj1WxlSG2-hO9gdmzNC3aPEpY-i0",
-        "description": "✅ Vàng không giới hạn\n✅ Tinh chất không giới hạn",
-        "download_url": "https://drive.google.com/uc?export=download&id=1rgZdvrcwLLQdgC4xP91MllxfMTXuC98r",
-        "updated_at": "2025-05-11",
-        "size": "162.59 MB"
-    },
-    {
         "title": "Smashero",
         "version": "7.16.2",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/a1/94/b9a1945b-7d3f-99b6-a39e-80c6070569ad/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
@@ -339,15 +403,6 @@ const gamedata = [
         "size": "679.33 MB"
     },
     {
-        "title": "Alien Shooter_",
-        "version": "64.1.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
-        "download_url": "https://drive.google.com/uc?export=download&id=1LliZ8AQpsS2alz2JCMh6qX7adcd3Vbuc",
-        "updated_at": "2025-05-09",
-        "size": "204.14 MB"
-    },
-    {
         "title": "Nighty Knight: Frontier War TD",
         "version": "1.0.60.",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/a7/9e/6fa79e46-097e-a25b-ae83-6424da384101/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -365,15 +420,6 @@ const gamedata = [
         "updated_at": "2025-05-09",
         "size": "553.02 MB",
         "fake_downloads": 996571
-    },
-    {
-        "title": "The Demonized",
-        "version": "4.4.1.",
-        "image": "https://play-lh.googleusercontent.com/DnTYf19gownL-mAemU_keT6t8OhGLtjxtNC8WbEwTCIa7Ix0xRpj058OhCHUO59Xjg",
-        "description": "✅ 1 Hit \n✅ Bất tử \n✅ Quái ngu \n✅ Tốc đánh \n✅ Đóng băng tài nguyên",
-        "download_url": "https://drive.google.com/uc?export=download&id=1YW5tDyfPnZu6Bqb5efxnB8-Y2fFFBYeY",
-        "updated_at": "2025-05-09",
-        "size": "196.36 MB"
     },
     {
         "title": "Blade Idle",
@@ -466,16 +512,6 @@ const gamedata = [
         "size": "3103.92 MB"
     },
     {
-        "title": "Subway Surf",
-        "version": "3.45.2.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
-        "download_url": "https://drive.google.com/uc?export=download&id=1HrFoJ5tFmt282YfPZHDXr3d_vbxx_AFO",
-        "updated_at": "2025-05-06",
-        "size": "136.79 MB",
-        "fake_downloads": 964571
-    },
-    {
         "title": "Subway City",
         "version": "1.23.0",
         "image": "https://play-lh.googleusercontent.com/vwddCx5I_iXVvnQdqLumCc_-65Orxep_iyTh5h4mdT-x0QWpXnQxGUTEbWLlHvpFoBQ",
@@ -548,15 +584,6 @@ const gamedata = [
         "size": "113.33 MB"
     },
     {
-        "title": "Plant Survivor:Bang Bang",
-        "version": "3.3.1.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7e/49/09/7e49092a-3c5c-c174-a190-e756e22e5694/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Vô hạn Xu bạc\n✅ Tăng Dame,hp,Lever\n✅ trang bị cây\n✅ Tiền tệ, tài nguyên vô hạn\n✅ Tắt sau khi nhận\n✅ Mở khoá avatar,khung\n✅ No ads",
-        "download_url": "https://drive.google.com/uc?export=download&id=1hARbrVYXO7NjCAblCUj1VbF-JfBcKI8k",
-        "updated_at": "2025-05-03",
-        "size": "196.90 MB"
-    },
-    {
         "title": "CarX Street",
         "version": "1.11.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/46/92/98469264-32f1-ce97-8c26-0963c092db4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -619,15 +646,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/uc?export=download&id=1u3djWrZ5xauXr1DYCMYGiDJSzwFgwEQc",
         "updated_at": "2025-05-01",
         "size": "173.98 MB"
-    },
-    {
-        "title": "Towerlands",
-        "version": "3.6.1.",
-        "image": "https://play-lh.googleusercontent.com/dtxX2DQEdu14yr4J-Tin5JLVl7OQzr4GQwZHT3yVlWM0cpgBhdpIdBb53RIU8I8ji1Cj",
-        "description": "✅ Vô hạn vàng\n✅ Vô hạn kim cương",
-        "download_url": "https://drive.google.com/uc?export=download&id=1EmGr9v2XbjLHKdwXwIZsIQfUEfRRcv9e",
-        "updated_at": "2025-05-01",
-        "size": "233.47 MB"
     },
     {
         "title": "Erythros Lite",
@@ -1006,15 +1024,6 @@ const gamedata = [
         "size": "80.67 MB"
     },
     {
-        "title": "PocketLove",
-        "version": "2.15.2.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/22/77/a9227755-606c-e531-4761-d6862755ca2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅Vô hạn tiền tệ\n✅ Free Shop",
-        "download_url": "https://drive.google.com/uc?export=download&id=1A-pLIkdxw0b49rKw_7jJZq_Qa7VpcL4h",
-        "updated_at": "2025-04-14",
-        "size": "210.13 MB"
-    },
-    {
         "title": "My Tom 2",
         "version": "25.1.2.",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/51/9d/cd519d7a-c677-cf1f-0bd4-46e296e43f7f/AppIcon-0-0-1x_U007emarketing-0-9-0-0-85-220.png/350x350bb.jpg",
@@ -1139,15 +1148,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/uc?export=download&id=11G6_ejUnK3VozegMcs9L7hNv-52kqBsj",
         "updated_at": "2025-04-05",
         "size": "194.29 MB"
-    },
-    {
-        "title": "Skullgirls_ Fighting RPG",
-        "version": "7.1.3",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/35/4f/27354fe2-db35-a8da-4de6-c94c04e326ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ One hit\n✅ Kẻ thù vô hiệu hóa\n✅ Năng lượng tối đa\n✅ Tự động giành chiến thắng\n✅ Không thời gian hồi Kỹ năng\n✅ Goals Claimed [ Free Pass Only ]",
-        "download_url": "https://drive.google.com/uc?export=download&id=1daubjEB5d5m_5p2jqKN5u7nLD4rQd1e6",
-        "updated_at": "2025-04-05",
-        "size": "119.66 MB"
     },
     {
         "title": "Earth Inc",
