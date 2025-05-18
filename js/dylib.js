@@ -22,7 +22,7 @@ const dylibdata = [
         "version": "0213",
         "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png",
         "description": "\n✅Dylib: Tiêm 💉 Dylib vào game gốc bằng TrollFools  \n✅ Không Quảng Cáo\n✅ Chạy Nền pip\n✅ Tải Nhạc, Video\n✅..",
-        "download_url": "https://drive.google.com/uc?export=download&id=1ql0zegmmAIfNLtBUXT7TMQ9YrffE_zpP",
+        "download_url": "https://drive.usercontent.google.com/download?id=1ql0zegmmAIfNLtBUXT7TMQ9YrffE_zpP",
         "updated_at": "2025-02-15",
         "size": "7.95 MB"
     },

@@ -3,7 +3,7 @@ const gtadata = [
         "title": "Back Up GTA ( dân tổ,naruto )",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
         "description": "✅Back Up GTA ( dân tổ,naruto )\n  ✅ Lấy xe ✅ nhân vật ✅ máu ✅ tiền ✅ vũ khí ",
-        "download_url": "https://drive.google.com/uc?export=download&id=188i4e4Ju467TOsRjh9TtoaVcTeBSFn5k",
+        "download_url": "https://drive.usercontent.google.com/download?id=188i4e4Ju467TOsRjh9TtoaVcTeBSFn5k",
         "version": "1.0",
         "updated_at": "2025-05-17",
         "size": "0.06 MB"
@@ -12,7 +12,7 @@ const gtadata = [
         "title": "Back Up GTA ( boy phố )",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "description": "✅Back Up GTA ( boy phố ) ✅ Lấy xe ✅ nhân vật ✅ máu ✅ tiền ✅ vũ khí ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1lEHpocSGnVigPlsABMNo7Kq3Ht3iD6R1",
+        "download_url": "https://drive.usercontent.google.com/download?id=1lEHpocSGnVigPlsABMNo7Kq3Ht3iD6R1",
         "version": "1.0",
         "updated_at": "2025-05-17",
         "size": "0.06 MB"
@@ -22,7 +22,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/F17.jpg",
         "description": "✅Mod xe Full Dream  \n✅mod Nhân vật Boy phố   , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1vqTesp9Venw8MsIirkX0w41ygofZKXDR",
+        "download_url": "https://drive.usercontent.google.com/download?id=1vqTesp9Venw8MsIirkX0w41ygofZKXDR",
         "version": "2.02.11",
         "updated_at": "2025-05-17",
         "size": "1.85 GB"
@@ -32,7 +32,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/F16.jpg",
         "description": "✅Mod xe Full sonic  \n✅mod Nhân vật Boy Phố  , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1t-WvrJp7H7wzE0yMEEcylZJ16GyH5PPZ",
+        "download_url": "https://drive.usercontent.google.com/download?id=1t-WvrJp7H7wzE0yMEEcylZJ16GyH5PPZ",
         "version": "2.02.11",
         "updated_at": "2025-05-17",
         "size": "1.98 GB"
@@ -43,7 +43,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/IMG_9521.jpeg",
         "description": "✅Mod xe dream, khối phân lớn\n✅mod Nhân vật , Còi, Pô, cờ VN, cảnh sát \n",
-        "download_url": "https://drive.google.com/uc?export=download&id=1ffXKKLpTfx9yUWl00FTEr-6DjKRSSd4a",
+        "download_url": "https://drive.usercontent.google.com/download?id=1ffXKKLpTfx9yUWl00FTEr-6DjKRSSd4a",
         "updated_at": "2025-05-15",
         "size": "1.89 GB"
     },
@@ -52,7 +52,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/F14.jpg",
         "description": "✅Mod xe  \n✅mod Nhân vật Boy Phố  , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1oXxAkhbkGfKEQ95LhXSYakq9Np5ai_eZ",
+        "download_url": "https://drive.usercontent.google.com/download?id=1oXxAkhbkGfKEQ95LhXSYakq9Np5ai_eZ",
         "version": "2.02.11",
         "updated_at": "2025-05-17",
         "size": "2 GB"
@@ -62,7 +62,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/F9.jpg",
         "description": "✅Mod xe Full Wave  \n✅mod Nhân vật Boy Phố  , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1-csAxJoVSNrkaO_CAr9eceoPaHyLsKOJ",
+        "download_url": "https://drive.usercontent.google.com/download?id=1-csAxJoVSNrkaO_CAr9eceoPaHyLsKOJ",
         "version": "2.02.11",
         "updated_at": "2025-05-17",
         "size": "1.91 GB"
@@ -84,7 +84,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b2.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/N17.jpg",
         "description": "✅Mod xe Full Dream  \n✅mod Nhân vật Naruto  , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1jVw8GTvmfqULAezhNn7Q3KzIpNvkPzPs",
+        "download_url": "https://drive.usercontent.google.com/download?id=1jVw8GTvmfqULAezhNn7Q3KzIpNvkPzPs",
         "version": "2.02.11",
         "updated_at": "2025-05-17",
         "size": "1.68 GB"
@@ -95,7 +95,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b2.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/N16.jpg",
         "description": "✅Mod xe Full sonic  \n✅mod Nhân vật Naruto  , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1j55vQDFFkjSOLR0w_r4j1zstKiNXLUTR",
+        "download_url": "https://drive.usercontent.google.com/download?id=1j55vQDFFkjSOLR0w_r4j1zstKiNXLUTR",
         "version": "2.02.11",
         "updated_at": "2025-05-17",
         "size": "1.81 GB"
@@ -105,7 +105,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b2.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/n14.jpg",
         "description": "✅Mod xe  \n✅mod Nhân vật Naruto  , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1EtY8IsLGLhg_FyhbSjHwZAN-Xlsu98Hy",
+        "download_url": "https://drive.usercontent.google.com/download?id=1EtY8IsLGLhg_FyhbSjHwZAN-Xlsu98Hy",
         "version": "2.02.11",
         "updated_at": "2025-05-17",
         "size": "1.81 GB"
@@ -115,7 +115,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b2.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/N9.jpg",
         "description": "✅Mod xe Full Wave  \n✅mod Nhân vật Naruto  , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1atIGIDQ3lnXcZoFltkTIAGUKbR0S4gPY",
+        "download_url": "https://drive.usercontent.google.com/download?id=1atIGIDQ3lnXcZoFltkTIAGUKbR0S4gPY",
         "version": "2.02.11",
         "updated_at": "2025-05-17",
         "size": "1.81 GB"
@@ -126,7 +126,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/V17.jpg",
         "description": "✅Mod xe Full Dream\n✅mod Nhân vật dân tổ , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1JvVcfpQ-kq5QmFE_CxhlHkIQ4dfpbD4r",
+        "download_url": "https://drive.usercontent.google.com/download?id=1JvVcfpQ-kq5QmFE_CxhlHkIQ4dfpbD4r&export=download&authuser=0",
         "version": "2.02.11",
         "updated_at": "2025-05-17",
         "size": "1.68 GB"
@@ -136,7 +136,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/v16.jpg",
         "description": "✅Mod xe Full sonic  \n✅mod Nhân vật dân tổ , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1Hx7O0otojjxAh8AEbhl6SAGoT4revBPv",
+        "download_url": "https://drive.usercontent.google.com/download?id=1Hx7O0otojjxAh8AEbhl6SAGoT4revBPv&export=download&authuser=0",
         "version": "2.02.11",
         "updated_at": "2025-05-17",
         "size": "1.81 GB"
@@ -146,7 +146,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/V14.jpg",
         "description": "✅Mod xe  \n✅mod Nhân vật dân tổ , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1PjrDd9_TlDNO2kDExRiDAyL7yHqte2Nr",
+        "download_url": "https://drive.usercontent.google.com/download?id=1PjrDd9_TlDNO2kDExRiDAyL7yHqte2Nr&export=download&authuser=0",
         "version": "2.02.11",
         "updated_at": "2025-05-17",
         "size": "1.86 GB"
@@ -178,7 +178,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/V7.jpg",
         "description": "\n✅Mod xe wave,dream \n✅mod Nhân vật dân tổ  , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1r5zLzz2lXWks7wpzM8Vjdj5_NBWwIkAz",
+        "download_url": "https://drive.usercontent.google.com/download?id=1r5zLzz2lXWks7wpzM8Vjdj5_NBWwIkAz",
         "updated_at": "2025-05-15",
         "size": "1.86 GB"
     },
@@ -188,7 +188,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/IMG_9525.jpeg",
         "description": "\n✅Mod xe Vario\n✅mod Nhân vật dân tổ  , Còi, Pô ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1lghcNqPxRcrNXF6O_btl8Piy-txniDZ7",
+        "download_url": "https://drive.usercontent.google.com/download?id=1lghcNqPxRcrNXF6O_btl8Piy-txniDZ7",
         "updated_at": "2025-05-15",
         "size": "1.62 GB"
     },
@@ -198,7 +198,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/IMG_9527.jpeg",
         "description": "✅Mod xe Vario,dream,wave \n✅mod Nhân vật  dân tổ , Còi, Pô",
-        "download_url": "https://drive.google.com/uc?export=download&id=1MwMTxxPnG8ptgXF89XchHhHDoaka4ejf",
+        "download_url": "https://drive.usercontent.google.com/download?id=1MwMTxxPnG8ptgXF89XchHhHDoaka4ejf",
         "updated_at": "2025-05-15",
         "size": "1.70 GB"
     },
@@ -208,7 +208,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/IMG_9528.jpeg",
         "description": "✅Mod Full Khối phân lớn \n✅mod Nhân vật  dân tổ , Còi, Pô",
-        "download_url": "https://drive.google.com/uc?export=download&id=1UAefZmgijwfOEu23zTI8ynMPOUQJKeBe",
+        "download_url": "https://drive.usercontent.google.com/download?id=1UAefZmgijwfOEu23zTI8ynMPOUQJKeBe",
         "updated_at": "2025-05-15",
         "size": "1.68 GB"
     },
@@ -218,7 +218,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/V3.jpg",
         "description": "✅Mod xe dream,wave \n✅mod Nhân vật , Còi, Pô, phóng, cảnh sát ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1NxbraoiVtHOYidgV8gy8qYpqgR0xJfha",
+        "download_url": "https://drive.usercontent.google.com/download?id=1NxbraoiVtHOYidgV8gy8qYpqgR0xJfha",
         "updated_at": "2025-05-15",
         "size": "2.01 GB"
     },
@@ -228,7 +228,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/v2.jpg",
         "description": "✅Mod xe wave \n✅mod Nhân vật , Còi, Pô, phóng \n",
-        "download_url": "https://drive.google.com/uc?export=download&id=1GcTawRPTJmBdIXPzAZ59occkffbJVZe0",
+        "download_url": "https://drive.usercontent.google.com/download?id=1GcTawRPTJmBdIXPzAZ59occkffbJVZe0",
         "updated_at": "2025-05-15",
         "size": "1.95 GB"
     },
@@ -298,7 +298,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/IMG_0638.jpeg",
         "description": "✅Mod xe Vario\n✅mod Nhân vật , Còi, Pô",
-        "download_url": "https://drive.google.com/uc?export=download&id=18q3Fs4KUvUH5VBnPbpT0C50zfo8DwvAD",
+        "download_url": "https://drive.usercontent.google.com/download?id=18q3Fs4KUvUH5VBnPbpT0C50zfo8DwvAD",
         "updated_at": "2024-08-14",
         "size": "1.79 GB"
     },
@@ -308,7 +308,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/IMG_0637.jpeg",
         "description": "✅Mod xe Vario,dream,wave \n✅mod Nhân vật  xăm trổ , Còi, Pô",
-        "download_url": "https://drive.google.com/uc?export=download&id=1tcDLx_UVIEE6ONX6DczR-sHIlvBVzeOV",
+        "download_url": "https://drive.usercontent.google.com/download?id=1tcDLx_UVIEE6ONX6DczR-sHIlvBVzeOV",
         "updated_at": "2024-08-14",
         "size": "1.87 GB"
     },
@@ -318,7 +318,7 @@ const gtadata = [
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/IMG_0636.jpeg",
         "description": "✅Mod Full Khối phân lớn\n✅mod Nhân vật xăm trổ  , Còi, Pô",
-        "download_url": "https://drive.google.com/uc?export=download&id=1rwJpq94aZklmVNA0Ansagz6K5_3ITS_A",
+        "download_url": "https://drive.usercontent.google.com/download?id=1rwJpq94aZklmVNA0Ansagz6K5_3ITS_A",
         "updated_at": "2024-08-14",
         "size": "1.85 GB"
     }
