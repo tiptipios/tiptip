@@ -1,57 +1,57 @@
 const gamedata = [
     {
-        "title": "Race Master",
-        "version": "3.6.17",
-        "image": "https://play-lh.googleusercontent.com/7x4TWM86ezxXupWVUj8Ta93eqzJt6eYUWkmbTgdSx5IDCPBstDN-59C1ewyLGMoxNno=w480-h960-rw",
-        "description": "✅ Tiền tệ vô hạn \n✅ Tăng cường vô hạn \n✅ Nitro không giới hạn \n✅ Đóng băng AI",
-        "download_url": "https://drive.google.com/uc?export=download&id=1URwxP6_hBH-O3GThVmDdXlCsLYDjlDzO",
-        "updated_at": "2025-05-17",
-        "size": "162.44 MB"
+        "title": "DungeonSlasher",
+        "version": "0.735.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/e4/76/f1e4761b-7ab2-b56f-d1f2-17bb277adb77/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Never Die",
+        "download_url": "https://drive.google.com/uc?export=download&id=1ZzZ5i4JTyZYFmPRZ7sMB2XJeUpcEzgkA",
+        "updated_at": "2025-05-18",
+        "size": "299.22 MB"
     },
     {
-        "title": "Brick Out",
-        "version": "25.0515.02",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/89/54/6e895482-d490-2382-d8c7-f9aa3ca1d8da/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Vô hạn Ruby \n✅ Hồi sinh miễn phí ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1MOWfTslqpRTptPOSIC8EMmWKfW6ciNWu",
-        "updated_at": "2025-05-17",
-        "size": "79.84 MB"
+        "title": "Smashero",
+        "version": "7.17.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/a1/94/b9a1945b-7d3f-99b6-a39e-80c6070569ad/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+        "description": "✅ God Mode\n✅ One-Hit Kill",
+        "download_url": "https://drive.google.com/uc?export=download&id=1SQT37KdXmJLPGWeEqk-buzLlhjxkyjY1",
+        "updated_at": "2025-05-18",
+        "size": "1.00 GB"
     },
     {
-        "title": "AdVenture Ages_ Idle Clicker",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/b7/45/b9b745d7-57fa-2491-dfcf-41c0352b607e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Dân số vô hạn\n✅ Đá quý vô hạn\n✅ Vô hạn XP\n✅ Thẻ vô hạn",
-        "download_url": "https://drive.google.com/uc?export=download&id=1yCiBOrwYlOMerlGoFDcrDkWAxIQkWX1r",
-        "version": "1.30.0",
-        "updated_at": "2025-05-17",
-        "size": "115.78 MB"
+        "title": "Zombie Miner",
+        "version": "2.221",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/39/04/f1390475-0bf1-47ae-49fa-9c4a5cccc329/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Vô hạn tài nguyên ",
+        "download_url": "https://drive.google.com/uc?export=download&id=1sm8kqNHy__IkCVQt71n0cwVo4H_Jb6Ur",
+        "updated_at": "2025-05-18",
+        "size": "196.49 MB"
     },
     {
-        "title": "Idle Brick Breaker",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/6b/78/206b7852-2229-1f8b-2a59-15c2eaf2f6d7/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
-        "description": "✅ Tiền mặt vô hạn\n✅ Đá quý vô hạn\n✅ Không đặt lại uy tín",
-        "download_url": "https://drive.google.com/uc?export=download&id=1xkhk8HOIWcUlL7HZRUBAPgATaIJJ3s1C",
-        "version": "2.1.68",
-        "updated_at": "2025-05-17",
-        "size": "37.56 MB"
+        "title": "Left to Survive: Zombie",
+        "version": "7.5.3",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/9f/3b/4a9f3bed-cfbe-e538-4054-a1c21d17d36e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "✅ Không lây lan\n✅ Không có độ giật\n✅ One hit\n✅ Lựu đạn và bộ dụng cụ y tế không giảm\n✅ Không có thời gian hồi chiêu cho Lựu đạn và bộ dụng cụ chữa bệnh\n✅ Bất tử PvP/PvE\n✅ Trực thăng có tên lửa không giới hạn và không có thời gian hồi chiêu\n✅ Làm mát súng điện từ trực thăng\n✅ Mở khóa chương sớm\n✅ Mở khóa vũ khí để mua\n✅ Luôn có nhiều lần giết",
+        "download_url": "https://drive.google.com/uc?export=download&id=1fIX2ygMCWGeCD0HqGDii2vhJPpifMb9I",
+        "updated_at": "2025-05-18",
+        "size": "866.48 MB"
     },
     {
-        "title": "Idle Factory Tycoon_ Business",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/67/63/4d67637d-5dc3-937b-6918-912b77165f78/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Tiền tệ vô hạn\n✅ Tiền mặt tức thời vô hạn",
-        "download_url": "https://drive.google.com/uc?export=download&id=1L5yndX-8xPieWsE6VdpJ9jPQVUTrjTXx",
-        "version": "2.21.0",
-        "updated_at": "2025-05-17",
-        "size": "100.65 MB"
+        "title": "Heroes vs. Hordes_ Survivor",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/a3/79/89a379b4-3f28-4958-69b2-1c4c2490b77c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Tiền tệ + tài nguyên\n✅ Vô hạn vàng\n✅ Ch Unlocked [ Play All Off ]\n✅ Always Last Wave\n✅ Talents Cost 0\n✅ Hero DMG Only\n✅ HP & DMG - Chỉ cần trang bị, unquip\n✅ Kẻ thù đóng băng\n✅ Kẻ thù ATK không",
+        "download_url": "https://drive.google.com/uc?export=download&id=1_XP5gxPELBnedX9plwhk2wp3lm-MPeDm",
+        "version": "3.9.0",
+        "updated_at": "2025-05-18",
+        "size": "498.27 MB"
     },
     {
-        "title": "Idle Taxi Tycoon_ Empire",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/88/c0/4f88c06e-5a7f-7ad7-7814-24edb3717e71/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Tiền tệ vô hạn\n✅ Không có thời gian hồi chiêu",
-        "download_url": "https://drive.google.com/uc?export=download&id=1ZP8Jqxxi531lr35JxAi815hs7U9GcRS4",
-        "version": "1.20.0",
-        "updated_at": "2025-05-17",
-        "size": "106.74 MB"
+        "title": "Slay Quest ",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/60/d0/cf60d06b-2f78-3bc8-480d-505b509d78e6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Tài nguyên không giới hạn",
+        "download_url": "https://drive.google.com/uc?export=download&id=1Bw3_OkBFTsc9-l3uAEEpMeLxIjCF4Vjl",
+        "version": "1.2.6",
+        "updated_at": "2025-05-18",
+        "size": "100.04 MB"
     },
     {
         "title": "Subway Surf",
@@ -125,6 +125,60 @@ const gamedata = [
         "download_url": "https://drive.google.com/uc?export=download&id=1tjcQkDvIhk6HtH51QIaVqz0G0ZBgxEKJ",
         "updated_at": "2025-05-17",
         "size": "210.16 MB"
+    },
+    {
+        "title": "Brick Out",
+        "version": "25.0515.02",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/89/54/6e895482-d490-2382-d8c7-f9aa3ca1d8da/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Vô hạn Ruby \n✅ Hồi sinh miễn phí ",
+        "download_url": "https://drive.google.com/uc?export=download&id=1MOWfTslqpRTptPOSIC8EMmWKfW6ciNWu",
+        "updated_at": "2025-05-17",
+        "size": "79.84 MB"
+    },
+    {
+        "title": "AdVenture Ages_ Idle Clicker",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/b7/45/b9b745d7-57fa-2491-dfcf-41c0352b607e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Dân số vô hạn\n✅ Đá quý vô hạn\n✅ Vô hạn XP\n✅ Thẻ vô hạn",
+        "download_url": "https://drive.google.com/uc?export=download&id=1yCiBOrwYlOMerlGoFDcrDkWAxIQkWX1r",
+        "version": "1.30.0",
+        "updated_at": "2025-05-17",
+        "size": "115.78 MB"
+    },
+    {
+        "title": "Idle Brick Breaker",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/6b/78/206b7852-2229-1f8b-2a59-15c2eaf2f6d7/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "✅ Tiền mặt vô hạn\n✅ Đá quý vô hạn\n✅ Không đặt lại uy tín",
+        "download_url": "https://drive.google.com/uc?export=download&id=1xkhk8HOIWcUlL7HZRUBAPgATaIJJ3s1C",
+        "version": "2.1.68",
+        "updated_at": "2025-05-17",
+        "size": "37.56 MB"
+    },
+    {
+        "title": "Idle Factory Tycoon_ Business",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/67/63/4d67637d-5dc3-937b-6918-912b77165f78/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Tiền tệ vô hạn\n✅ Tiền mặt tức thời vô hạn",
+        "download_url": "https://drive.google.com/uc?export=download&id=1L5yndX-8xPieWsE6VdpJ9jPQVUTrjTXx",
+        "version": "2.21.0",
+        "updated_at": "2025-05-17",
+        "size": "100.65 MB"
+    },
+    {
+        "title": "Idle Taxi Tycoon_ Empire",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/88/c0/4f88c06e-5a7f-7ad7-7814-24edb3717e71/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Tiền tệ vô hạn\n✅ Không có thời gian hồi chiêu",
+        "download_url": "https://drive.google.com/uc?export=download&id=1ZP8Jqxxi531lr35JxAi815hs7U9GcRS4",
+        "version": "1.20.0",
+        "updated_at": "2025-05-17",
+        "size": "106.74 MB"
+    },
+    {
+        "title": "Race Master ",
+        "version": "3.6.17",
+        "image": "https://play-lh.googleusercontent.com/7x4TWM86ezxXupWVUj8Ta93eqzJt6eYUWkmbTgdSx5IDCPBstDN-59C1ewyLGMoxNno=w480-h960-rw",
+        "description": "✅ Tiền tệ vô hạn \n✅ Tăng cường vô hạn \n✅ Nitro không giới hạn \n✅ Đóng băng AI",
+        "download_url": "https://drive.google.com/uc?export=download&id=1URwxP6_hBH-O3GThVmDdXlCsLYDjlDzO",
+        "updated_at": "2025-05-17",
+        "size": "162.44 MB"
     },
     {
         "title": "Dragon City",
@@ -298,15 +352,6 @@ const gamedata = [
         "size": "161.69 MB"
     },
     {
-        "title": "Smashero",
-        "version": "7.16.2",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/a1/94/b9a1945b-7d3f-99b6-a39e-80c6070569ad/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "description": "✅ God Mode\n✅ One-Hit Kill",
-        "download_url": "https://drive.google.com/uc?export=download&id=1dcW5ftQBwDCRwUQ3tO7ZX2Stk-6rn4Pc",
-        "updated_at": "2025-05-11",
-        "size": "998.22 MB"
-    },
-    {
         "title": "Homescapes",
         "version": "7.9.6.",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/c4/5c/25c45ceb-b0d6-12f8-7b9b-fdf65cb0eea3/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.jpg",
@@ -410,15 +455,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/uc?export=download&id=1sB2Pjde21BKtdAKw18brK-z-7IyNsR30",
         "updated_at": "2025-05-09",
         "size": "112.96 MB"
-    },
-    {
-        "title": "Zombie Miner",
-        "version": "2.220",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/39/04/f1390475-0bf1-47ae-49fa-9c4a5cccc329/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Vô hạn tài nguyên ",
-        "download_url": "https://drive.google.com/uc?export=download&id=1RWCvMp9-9YjovztyJDMQSPwCcUHojPya",
-        "updated_at": "2025-05-09",
-        "size": "196.46 MB"
     },
     {
         "title": "Zombie Streets",
@@ -1466,15 +1502,6 @@ const gamedata = [
         "size": "236.13 MB"
     },
     {
-        "title": "Left to Survive: Zombie",
-        "version": "7.5.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/9f/3b/4a9f3bed-cfbe-e538-4054-a1c21d17d36e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
-        "description": "✅ Không lây lan\n✅ Không có độ giật\n✅ One hit\n✅ Lựu đạn và bộ dụng cụ y tế không giảm\n✅ Không có thời gian hồi chiêu cho Lựu đạn và bộ dụng cụ chữa bệnh\n✅ Bất tử PvP/PvE\n✅ Trực thăng có tên lửa không giới hạn và không có thời gian hồi chiêu\n✅ Làm mát súng điện từ trực thăng\n✅ Mở khóa chương sớm\n✅ Mở khóa vũ khí để mua\n✅ Luôn có nhiều lần giết",
-        "download_url": "https://drive.google.com/uc?export=download&id=1ZzjSo_6by_mXrSfxlRqS1qrkiqUS0JFA",
-        "updated_at": "2025-03-26",
-        "size": "853.78 MB"
-    },
-    {
         "title": "Shadow Fight 3",
         "version": "1.40.5.",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/18/5f/8a185fb9-9708-33b0-2701-4bc176de43d1/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
@@ -1573,15 +1600,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/uc?export=download&id=1u-xnaTfjUWHVnfPyYDw1SKHGvIjx1uTL",
         "updated_at": "2025-03-23",
         "size": "95.28 MB"
-    },
-    {
-        "title": "DungeonSlasher",
-        "version": "0.731.2.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/86/a2/a786a23f-8b5c-57de-0d87-ecb810a18427/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Damage Multiplier\n✅ Never Die\n✅ Drop Multiplier",
-        "download_url": "https://drive.google.com/uc?export=download&id=1vrO4aS4yqu_XaLZbi96DVA6-BNNsYU4i",
-        "updated_at": "2025-03-23",
-        "size": "318.57 MB"
     },
     {
         "title": "TurretDefenseKing",
