@@ -1,5 +1,54 @@
 const gamedata = [
     {
+        "title": "Cats & Soup",
+        "version": "2.69.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/c9/1e/fbc91e12-7a48-347a-8b5e-ee839e76fca0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
+        "download_url": "https://drive.usercontent.google.com/download?id=1sPJV90cLn__IxRAwjTM0o4tnFMd4mz3F",
+        "updated_at": "2025-05-19",
+        "size": "308.18 MB",
+        "fake_downloads": 999971
+    },
+    {
+        "title": "Dead Ahead",
+        "version": "4.2.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/03/33/0d0333ae-eb38-bed7-3db5-174750a78512/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Tiền tệ vô hạn\n✅ Vật phẩm vô hạn\n✅ Không có thời gian hồi chiêu\n✅ Bỏ qua cấp độ yêu cầu\n✅ No Reload\n✅ Đóng băng mana\n✅ Xuất hiện ngay lập tức\n✅ Đóng băng tiền tệ\n✅ Đóng băng các vật phẩm\n✅ Đóng băng nhiên liệu",
+        "download_url": "https://drive.usercontent.google.com/download?id=15wdC9j5VzvOGCKInRdTAibOvr1Sxp2k6",
+        "updated_at": "2025-05-19",
+        "size": "112.46 MB"
+    },
+    {
+        "title": "Survivor.io",
+        "version": "3.9.3",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/ee/6c/89ee6cd1-d3fc-2aea-6fd7-0cfcf1258a2e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Bất tử \n✅ Không hồi chiêu",
+        "download_url": "https://drive.usercontent.google.com/download?id=11flZkyjIF9VYo4WDXdQGN1SfpwO3tYF9",
+        "updated_at": "2025-05-19",
+        "size": "551.30 MB",
+        "fake_downloads": 996571
+    },
+    {
+        "title": "Fishdom",
+        "version": "8.9.4",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/be/b2/08beb294-f60f-3014-0f21-c0ffc6a1f15f/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Di chuyển vô hạn\n✅ Boosters vô hạn\n✅ Mạng vô hạn\n✅ Vô hạn vàng,Gems \n✅ mua ngay cả khi ko đủ\n✅ Vô hạn voucher",
+        "download_url": "https://drive.usercontent.google.com/download?id=1vWJl_Nw3zfVfcVZ9ZTcpw7oT_ze5352y",
+        "updated_at": "2025-05-19",
+        "size": "175.81 MB",
+        "fake_downloads": 934570
+    },
+    {
+        "title": "Angry Birds 2",
+        "version": "3.28.1",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZkcK-xN5tNZ4a6-8F3_fOs5JBp_kG9rAug&s",
+        "description": "✅ Tài nguyên vô hạn ( sài 1 ít )",
+        "download_url": "https://drive.usercontent.google.com/download?id=1V-BHR4TKfni6M4z4bEMmNWAFtcYg3tQY",
+        "updated_at": "2025-05-19",
+        "size": "313.48 MB",
+        "fake_downloads": 974571
+    },
+    {
         "title": "Summoners Greed ",
         "version": "1.93.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/2d/cd/822dcd56-af89-8ea5-0685-7b3e5b6d77cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -70,6 +119,15 @@ const gamedata = [
         "version": "1.16.0",
         "updated_at": "2025-05-19",
         "size": "191.95 MB"
+    },
+    {
+        "title": "Angry Birds Dream Blast",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/20/bb/4920bb62-bc80-cf93-2805-53e726bd7844/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+        "description": "✅ Vô hạn lượt di chuyển\n✅ Mạng không giới hạn\n✅ Boosters vô hạn",
+        "download_url": "https://drive.usercontent.google.com/download?id=19hPQ24Xu6Z9UlV2ed49mIqRfVeXU9px3",
+        "version": "1.85.0",
+        "updated_at": "2025-05-19",
+        "size": "154.86 MB"
     },
     {
         "title": "DungeonSlasher",
@@ -334,15 +392,6 @@ const gamedata = [
         "size": "148.89 MB"
     },
     {
-        "title": "Dead Ahead",
-        "version": "4.2.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/03/33/0d0333ae-eb38-bed7-3db5-174750a78512/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Tiền tệ vô hạn\n✅ Vật phẩm vô hạn\n✅ Không có thời gian hồi chiêu\n✅ Bỏ qua cấp độ yêu cầu\n✅ No Reload\n✅ Đóng băng mana\n✅ Xuất hiện ngay lập tức\n✅ Đóng băng tiền tệ\n✅ Đóng băng các vật phẩm\n✅ Đóng băng nhiên liệu",
-        "download_url": "https://drive.usercontent.google.com/download?id=1NWC2Dw0Z8kQ9j5zJobpRb9bpLen_xnr5",
-        "updated_at": "2025-05-13",
-        "size": "108.95 MB"
-    },
-    {
         "title": "Travel Town",
         "version": "2.12.1052.",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/da/bb/c0dabbd4-1dab-fe1f-edb4-025c17552e09/NewAppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
@@ -481,26 +530,6 @@ const gamedata = [
         "fake_downloads": 934571
     },
     {
-        "title": "Fishdom",
-        "version": "8.9.3.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/be/b2/08beb294-f60f-3014-0f21-c0ffc6a1f15f/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Di chuyển vô hạn\n✅ Boosters vô hạn\n✅ Mạng vô hạn\n✅ Vô hạn vàng,Gems \n✅ mua ngay cả khi ko đủ\n✅ Vô hạn voucher",
-        "download_url": "https://drive.usercontent.google.com/download?id=1lNr_vx9sNQpaQB6T1Vn84CYC8Eu1SRxa",
-        "updated_at": "2025-05-10",
-        "size": "175.79 MB",
-        "fake_downloads": 934570
-    },
-    {
-        "title": "Angry Birds 2",
-        "version": "3.28.0.",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZkcK-xN5tNZ4a6-8F3_fOs5JBp_kG9rAug&s",
-        "description": "✅ Tài nguyên vô hạn ( sài 1 ít )",
-        "download_url": "https://drive.usercontent.google.com/download?id=1xdVot0dlbdNBcuK7rZcoamAvVblJSo1j",
-        "updated_at": "2025-05-10",
-        "size": "313.44 MB",
-        "fake_downloads": 974571
-    },
-    {
         "title": "Guardian War",
         "version": "0.2.626.",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/90/35/2e903555-58fa-ac87-da04-abdafed4452a/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
@@ -563,16 +592,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=11DTLCkdmpawaD0c1giraQcNdBXMm71yk",
         "updated_at": "2025-05-09",
         "size": "229.97 MB"
-    },
-    {
-        "title": "Survivor.io",
-        "version": "3.9.0.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/ee/6c/89ee6cd1-d3fc-2aea-6fd7-0cfcf1258a2e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Bất tử \n✅ Không hồi chiêu",
-        "download_url": "https://drive.usercontent.google.com/download?id=1WYfLAX9EWlTv8dFlHOOlAitqLXcEXHcw",
-        "updated_at": "2025-05-09",
-        "size": "553.02 MB",
-        "fake_downloads": 996571
     },
     {
         "title": "Blade Idle",
@@ -867,16 +886,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1pn5ZuyhOtU31942NDNu8u6xJe58n5k0Y",
         "updated_at": "2025-04-21",
         "size": "162.76 MB"
-    },
-    {
-        "title": "Cat  & Soup",
-        "version": "2.67.1",
-        "image": "https://play-lh.googleusercontent.com/tGxG6abEPnlzOb7V8dVy85ZEyDhsjVX_LpF9xHUjknokA-y2ix_YTQskfNSVKkW7IQ",
-        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
-        "download_url": "https://drive.usercontent.google.com/download?id=1snNzWzNL14N9K3dtemjL8n8CXyBeohhR",
-        "updated_at": "2025-04-20",
-        "size": "303.49 MB",
-        "fake_downloads": 999971
     },
     {
         "title": "Gardenscapes",
