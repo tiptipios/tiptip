@@ -1,5 +1,77 @@
 const gamedata = [
     {
+        "title": "Summoners Greed ",
+        "version": "1.93.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/2d/cd/822dcd56-af89-8ea5-0685-7b3e5b6d77cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Vô hạn tài nguyên",
+        "download_url": "https://drive.usercontent.google.com/download?id=1A7kgO44KQr8zWEWYpVJ9NN3ncucFg8QO",
+        "updated_at": "2025-05-19",
+        "size": "185.04 MB"
+    },
+    {
+        "title": "Arcana Blade : Idle RPG",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/49/c8/8749c82f-2d03-e4e2-2953-6e704a1620b2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Bất tử",
+        "download_url": "https://drive.usercontent.google.com/download?id=1YVpR2UIyWb0nFMHAK8zOnMeJ5kLkF_H3",
+        "version": "1.7.12",
+        "updated_at": "2025-05-19",
+        "size": "460.45 MB"
+    },
+    {
+        "title": "Fortias Saga_ Action Adventure",
+        "version": "1.0.80",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/7b/1b/bb7b1b16-ca82-1ec5-2b02-5fd2583f3a7e/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
+        "description": "✅ Đóng băng tài nguyên\n✅ No Ads",
+        "download_url": "https://drive.usercontent.google.com/download?id=1hpUJGXJwytLBCXkBuaD26YXKF_7wOKy3",
+        "updated_at": "2025-05-19",
+        "size": "331.86 MB"
+    },
+    {
+        "title": "Idle Bank Tycoon",
+        "version": "1.56.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/ba/29/6aba2959-c421-79d8-89c9-5f6fe764c469/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Freeze Currencies",
+        "download_url": "https://drive.usercontent.google.com/download?id=1qrDuuHGcB4XREMPZUv9pYs1P9xtXv_Bw",
+        "updated_at": "2025-05-19",
+        "size": "125.86 MB"
+    },
+    {
+        "title": "Turret Defense King",
+        "version": "1.2.18",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/1b/47/c91b473c-6f87-db95-ec28-11a2411b521b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ No Ads\n✅ Tăng phạm vi bắn\n✅ Tăng tốc bắn\n✅ Thắng nhanh ( chỉ có 1 địch )\n✅ Vô hạn coin trong trận ( tắt khi nâng cấp )\n✅ Vô hạn vàng ( hồi sinh để nhận )",
+        "download_url": "https://drive.usercontent.google.com/download?id=14icVybvdAhRA-kkOZiPAw0euF-E8Lb6O",
+        "updated_at": "2025-05-19",
+        "size": "83.87 MB"
+    },
+    {
+        "title": "The Demonized",
+        "version": "4.4.3",
+        "image": "https://play-lh.googleusercontent.com/DnTYf19gownL-mAemU_keT6t8OhGLtjxtNC8WbEwTCIa7Ix0xRpj058OhCHUO59Xjg",
+        "description": "✅ 1 Hit \n✅ Bất tử \n✅ Quái ngu \n✅ Tốc đánh \n✅ Đóng băng tài nguyên",
+        "download_url": "https://drive.usercontent.google.com/download?id=14SJUAUtk-IL4W6r7sKNlvJEl9Cl1lHSE",
+        "updated_at": "2025-05-19",
+        "size": "196.67 MB"
+    },
+    {
+        "title": "Rogue with the Dead_ Idle RPG",
+        "version": "2.15.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/78/a9/9978a96d-d890-bbf1-511f-1a547d30d50d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Đóng băng tiền tệ\n✅ Đóng băng Rương",
+        "download_url": "https://drive.usercontent.google.com/download?id=18m1iVuWfp1-C200EoM6CEo708e6JosrF",
+        "updated_at": "2025-05-19",
+        "size": "355.15 MB"
+    },
+    {
+        "title": "Crown Rumble_ Idle Kingdoms",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/05/51/3105516b-6427-86c5-86b2-5793f0f9ac9a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅ tiền tệ không giới hạn",
+        "download_url": "https://drive.usercontent.google.com/download?id=1Ntqku0aSvHeT83WpGuM-yUqBd7jLPVo_",
+        "version": "1.16.0",
+        "updated_at": "2025-05-19",
+        "size": "191.95 MB"
+    },
+    {
         "title": "DungeonSlasher",
         "version": "0.735.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/e4/76/f1e4761b-7ab2-b56f-d1f2-17bb277adb77/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
@@ -107,15 +179,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1hIFDrwM7VOLd6Vt37wdnpAvkyGJMBsuF",
         "updated_at": "2025-05-17",
         "size": "239.62 MB"
-    },
-    {
-        "title": "The Demonized",
-        "version": "4.4.3",
-        "image": "https://play-lh.googleusercontent.com/DnTYf19gownL-mAemU_keT6t8OhGLtjxtNC8WbEwTCIa7Ix0xRpj058OhCHUO59Xjg",
-        "description": "✅ 1 Hit \n✅ Bất tử \n✅ Quái ngu \n✅ Tốc đánh \n✅ Đóng băng tài nguyên",
-        "download_url": "https://drive.usercontent.google.com/download?id=14UB6k9PjnIoW95Q5_o10lJ1WQy5W7Enq",
-        "updated_at": "2025-05-17",
-        "size": "196.67 MB"
     },
     {
         "title": "PocketLove",
@@ -521,15 +584,6 @@ const gamedata = [
         "size": "407.35 MB"
     },
     {
-        "title": "Summoners Greed",
-        "version": "1.92.3",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/2d/cd/822dcd56-af89-8ea5-0685-7b3e5b6d77cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅Vô hạn tài nguyên",
-        "download_url": "https://drive.usercontent.google.com/download?id=1N1JzetuVjyaCB6m90rUGpJYiVbDnKkS5",
-        "updated_at": "2025-05-08",
-        "size": "184.51 MB"
-    },
-    {
         "title": "Need for Speed No Limits",
         "version": "8.4.01",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/e4/ad/a2e4ad85-f028-f436-69a8-35a3fd6762bf/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
@@ -537,15 +591,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1wc89-uHiS_EwnQHAUgpBtluRwQjQ5kxj",
         "updated_at": "2025-05-08",
         "size": "2858.11 MB"
-    },
-    {
-        "title": "Idle Bank Tycoon",
-        "version": "1.55.0.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/ba/29/6aba2959-c421-79d8-89c9-5f6fe764c469/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Freeze Currencies",
-        "download_url": "https://drive.usercontent.google.com/download?id=1qryvmtguXWF5676m7BsoYW1gXCAa7duP",
-        "updated_at": "2025-05-08",
-        "size": "125.77 MB"
     },
     {
         "title": "Lumber Inc",
@@ -618,15 +663,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1LZNR013vp5uU9LGRV1fiT5Mibfxwc4uD",
         "updated_at": "2025-05-04",
         "size": "163.78 MB"
-    },
-    {
-        "title": "Rogue with the Dead_ Idle RPG",
-        "version": "2.15.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/78/a9/9978a96d-d890-bbf1-511f-1a547d30d50d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Đóng băng tiền tệ\n✅ Đóng băng Rương",
-        "download_url": "https://drive.usercontent.google.com/download?id=1U-nR31QGYX53XeG5IVgNCvT5wBBjDSSc",
-        "updated_at": "2025-05-04",
-        "size": "354.59 MB"
     },
     {
         "title": "Township",
@@ -886,15 +922,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1PPlfrHAYn-IzRwGfMSXN1c_8jdz5doiD",
         "updated_at": "2025-04-19",
         "size": "91.04 MB"
-    },
-    {
-        "title": "Turret Defense King",
-        "version": "1.2.14.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/1b/47/c91b473c-6f87-db95-ec28-11a2411b521b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ No Ads\n✅ Tăng phạm vi bắn\n✅ Tăng tốc bắn\n✅ Thắng nhanh ( chỉ có 1 địch )\n✅ Vô hạn coin trong trận ( tắt khi nâng cấp )\n✅ Vô hạn vàng ( hồi sinh để nhận )",
-        "download_url": "https://drive.usercontent.google.com/download?id=1eVaoH3ueJ7m4EtUlXdsOAFvN50bi4f78",
-        "updated_at": "2025-04-19",
-        "size": "83.88 MB"
     },
     {
         "title": "Cat Mine",
@@ -1665,15 +1692,6 @@ const gamedata = [
         "size": "239.74 MB"
     },
     {
-        "title": "Fortias Saga",
-        "version": "1.0.72.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/7b/1b/bb7b1b16-ca82-1ec5-2b02-5fd2583f3a7e/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
-        "description": "✅ Damage Multiplier\n✅ Defense Multiplier\n✅ Shards & Items Multiplier*\n✅ Freeze Resources\n✅ No Ads",
-        "download_url": "https://drive.usercontent.google.com/download?id=1lnLwl_CxR9wx37VTLztQItkjEdOIdnZ3",
-        "updated_at": "2025-03-22",
-        "size": "319.81 MB"
-    },
-    {
         "title": "Grim Soul",
         "version": "7.1.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/b4/d0/d5b4d044-2e06-64bf-3887-502a01594ce9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -1871,15 +1889,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1TuENDVy2JI7Kn-kxC3sgtEOKOTA_flvT",
         "updated_at": "2025-03-14",
         "size": "122.69 MB"
-    },
-    {
-        "title": "Fortias Saga_",
-        "version": "1.0.71.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/7b/1b/bb7b1b16-ca82-1ec5-2b02-5fd2583f3a7e/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
-        "description": "✅ Damage Multiplier\n✅ Defense Multiplier\n✅ Shards & Items Multiplier*\n✅ Freeze Resources\n✅ No Ads",
-        "download_url": "https://drive.usercontent.google.com/download?id=12SQvWMPEXF0U-TjmDlEhNgkaepGnc-wr",
-        "updated_at": "2025-03-12",
-        "size": "308.65 MB"
     },
     {
         "title": "Cafeland_",
