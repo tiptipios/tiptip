@@ -1,5 +1,41 @@
 const gamedata = [
     {
+        "title": "Minecraft",
+        "version": "1.21.81",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/31/0c/4c310c43-c812-d547-fe82-fde9d4b11be8/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.jpg",
+        "description": "",
+        "download_url": "https://drive.usercontent.google.com/download?id=1cbqdvIh8LrlS6Vsr0DOiWQmvDRRxXof_",
+        "updated_at": "2025-05-20",
+        "size": "542.05 MB"
+    },
+    {
+        "title": "Bowmasters - Multiplayer",
+        "version": "8.2.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/9f/c1/ad9fc1cc-fbd9-046b-1b4e-50d77df71743/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "✅  No Ads ( unlock chức năng vip )\n✅  Vô hạn vàng  ( tăng khi dùng )\n✅  Vô hạn Kim cương ( tăng khi dùng",
+        "download_url": "https://drive.usercontent.google.com/download?id=1fwP13q0UT15xiLLKt05DBdV4OqCepZgU",
+        "updated_at": "2025-05-20",
+        "size": "205.08 MB"
+    },
+    {
+        "title": "CarX Highway Racing",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/b6/bd/bdb6bd2c-3131-c82e-0a2f-c7204ab6a2f6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Tiền tệ vô hạn\n✅ Nitro vô hạn\n✅ Nhiên liệu vô hạn\n✅ Sở hữu tất cả những chiếc xe",
+        "download_url": "https://drive.usercontent.google.com/download?id=1nRDjug1Dbk1cMYwXXrpiy5SjfhbBStZ7",
+        "version": "1.75.5",
+        "updated_at": "2025-05-20",
+        "size": "484.77 MB"
+    },
+    {
+        "title": "Dragons_ Rise of Berk",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/0d/2e/570d2e9b-13b6-f254-bb7d-02eb13a5cb4f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+        "description": "✅ Đóng băng tiền tệ\n✅ Mua hàng miễn phí\n✅ Câu lạc bộ Rider miễn phí",
+        "download_url": "https://drive.usercontent.google.com/download?id=1NwcF6_Us0w7hhlRese695-akWASSdWjd",
+        "version": "1.96.7",
+        "updated_at": "2025-05-20",
+        "size": "617.27 MB"
+    },
+    {
         "title": "Cats & Soup",
         "version": "2.69.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/c9/1e/fbc91e12-7a48-347a-8b5e-ee839e76fca0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
@@ -839,15 +875,6 @@ const gamedata = [
         "updated_at": "2025-04-26",
         "size": "529.55 MB",
         "fake_downloads": 964571
-    },
-    {
-        "title": "Bowmasters - Multiplayer",
-        "version": "8.1.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/9f/c1/ad9fc1cc-fbd9-046b-1b4e-50d77df71743/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
-        "description": "✅  No Ads ( unlock chức năng vip )\n✅  Vô hạn vàng  ( tăng khi dùng )\n✅  Vô hạn Kim cương ( tăng khi dùng",
-        "download_url": "https://drive.usercontent.google.com/download?id=1MGC5Fhny_zG-RduHaHCe_fhmiXTwY0iU",
-        "updated_at": "2025-04-26",
-        "size": "205.22 MB"
     },
     {
         "title": "Cats Mansion ",
@@ -2260,15 +2287,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1PlECHImkJ2FRsK3KK4Nu2XbzOhowpBig",
         "updated_at": "2025-02-22",
         "size": "208.22 MB"
-    },
-    {
-        "title": "Minecraft_",
-        "version": "1.21.61",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/31/0c/4c310c43-c812-d547-fe82-fde9d4b11be8/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.jpg",
-        "description": "",
-        "download_url": "https://drive.usercontent.google.com/download?id=1HBS6f_WoQeGPwE0jTXrMIhzbzRT8RUAR",
-        "updated_at": "2025-02-21",
-        "size": "512.14 MB"
     },
     {
         "title": "Dream Blast",
