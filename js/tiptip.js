@@ -1,4 +1,97 @@
 const gamedata = [
+     {
+        "title": "The Spike",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Mod nhân Vật Raul ( Siwoo B )\n✅ Buff Ít chỉ số nhân vật S,S-,S+\n✅ Skips Ads\n✅ Điều kiển bóng trong trận",
+        "image-demo": "https://tiptipios.github.io/chanthuhoi/index/tpkv1.jpg",
+        "download_url": "https://drive.usercontent.google.com/download?id=13b6vOS81WH00FPUOiLGCFe5Cg7e_SgtU",
+        "version": "5.9.405",
+        "updated_at": "2025-05-22",
+        "size": "238.87 MB"
+    },
+    {
+        "title": "Jurassic World",
+        "version": "1.82.16",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/42/c7/5f42c789-d4bc-1d1c-e6bd-f55d80881851/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+        "description": "✅ Đóng băng tiền tệ\n✅ Gói đặc biệt không giới hạn\n✅ Tiến hóa luôn thành công\n✅ Nuôi cấp độ tối đa tức thời\n✅ Chi phí tăng tốc miễn phí\n✅ Vip",
+        "download_url": "https://drive.usercontent.google.com/download?id=1sT57iZ_8UH2npJXIudNL5qWTka2QpEhp",
+        "updated_at": "2025-05-22",
+        "size": "909.87 MB"
+    },
+    {
+        "title": "Survivor.io",
+        "version": "3.9.4",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/ee/6c/89ee6cd1-d3fc-2aea-6fd7-0cfcf1258a2e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Bất tử \n✅ Không hồi chiêu",
+        "download_url": "https://drive.usercontent.google.com/download?id=1LhEQsJQR63ULftQ1Rb6F3NswTHxdyx2b",
+        "updated_at": "2025-05-22",
+        "size": "551.87 MB",
+        "fake_downloads": 996571
+    },
+    {
+        "title": "Candy Crush Soda",
+        "version": "1.293.4",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/03/e0/4303e07e-8a82-2a3f-5662-b4692cfc510b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+        "description": "✅ Di chuyển vô hạn \n✅ Mạng vô hạn \n✅ Booster vô hạn",
+        "download_url": "https://drive.usercontent.google.com/download?id=1wL1w4skCgdgSeCAXq_mmLQ6F9slrZAe4",
+        "updated_at": "2025-05-22",
+        "size": "132.54 MB"
+    },
+    {
+        "title": "Nightfall Kingdom Frontier TD",
+        "version": "1.0.386",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/91/c4/7291c4c7-b4e7-4bd8-369a-90bc2cbab412/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Bất tử\n✅Tiền xu trong trò chơi không giới hạn\n✅Tiền tệ không giới hạn\n✅ Thêm 1k tiền tệ - vào cài đặt và nhấn nút Discord\n✅ Mở khóa tất cả các tính năng - vào cài đặt và nhấn nút Discord\n✅ Mở khóa tất cả / mọi thứ - vào cài đặt và nhấn nút Discord\n✅ Hoàn thành Hướng dẫn - vào cài đặt và nhấn nút Discord\n✅ NO ads",
+        "download_url": "https://drive.usercontent.google.com/download?id=1JSy1n1O9BOaQI6Rc3v7G7GR87RJgnd85",
+        "updated_at": "2025-05-22",
+        "size": "267.40 MB"
+    },
+    {
+        "title": "Eatventure",
+        "version": "1.37.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/a8/b1/3da8b19c-ed0e-a03a-1e20-c56010d7a517/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Đóng băng tiền tệ ",
+        "download_url": "https://drive.usercontent.google.com/download?id=175mof5sXdpmrKf8EeRLHC-wowoov1teH",
+        "updated_at": "2025-05-22",
+        "size": "113.44 MB"
+    },
+    {
+        "title": "Hero Raid Idle RPG",
+        "version": "1.1.8",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/f6/e6/8af6e684-61de-d8cd-f257-2f7c7eacefae/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "✅  Vô hann tài nguyên\n✅  Đóng băng tài nguyên",
+        "download_url": "https://drive.usercontent.google.com/download?id=1BzOP-E34VZf5b-IlmR6KeKRZDGjiPll0",
+        "updated_at": "2025-05-22",
+        "size": "173.86 MB"
+    },
+    {
+        "title": "Seven Hearts",
+        "version": "1.3.351",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/d1/e0/9fd1e0aa-1094-5503-f779-19248c33c466/g_AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Mana vô hạn\n✅ Tiền xu vô hạn\n✅ Luôn luôn thắng + luôn luôn 3 sao\n✅ Không thời gian hồi quân\n✅ Bất tử Tower Only",
+        "download_url": "https://drive.usercontent.google.com/download?id=1QdVMOVwyNR6hYAstRQm-uagKB5hi3ZRi",
+        "updated_at": "2025-05-22",
+        "size": "523.14 MB"
+    },
+    {
+        "title": "Bloody Bastards",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/e0/8f/25e08fb8-7e1f-4ce6-c09d-16e6769facd5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Tiền xu vô hạn\n✅ Kẻ thù ngu ngốc",
+        "download_url": "https://drive.usercontent.google.com/download?id=1FxM4q6UUQf1p2igsrj_bZDebXxX5sNbk",
+        "version": "4.2.0",
+        "updated_at": "2025-05-22",
+        "size": "80.15 MB"
+    },
+    {
+        "title": "Magic Tiles 3_ Piano Game",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/20/fa/6320fa65-47cd-a53c-8ee2-39b1950fdcef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Vô hạn tiền tệ\n✅ Mạng không giới hạn\n✅ Tất cả các bài hát được sở hữu",
+        "download_url": "https://drive.usercontent.google.com/download?id=1h6f-k3UmTEy-tdDmMVHB4QR9qdm0ywBh",
+        "version": "12.053.021",
+        "updated_at": "2025-05-22",
+        "size": "245.05 MB"
+    },
+   
     {
         "title": "Minecraft",
         "version": "1.21.81",
@@ -53,16 +146,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=15wdC9j5VzvOGCKInRdTAibOvr1Sxp2k6",
         "updated_at": "2025-05-19",
         "size": "112.46 MB"
-    },
-    {
-        "title": "Survivor.io",
-        "version": "3.9.3",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/ee/6c/89ee6cd1-d3fc-2aea-6fd7-0cfcf1258a2e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Bất tử \n✅ Không hồi chiêu",
-        "download_url": "https://drive.usercontent.google.com/download?id=11flZkyjIF9VYo4WDXdQGN1SfpwO3tYF9",
-        "updated_at": "2025-05-19",
-        "size": "551.30 MB",
-        "fake_downloads": 996571
     },
     {
         "title": "Fishdom",
@@ -756,15 +839,6 @@ const gamedata = [
         "size": "58.89 MB"
     },
     {
-        "title": "Eatventure",
-        "version": "1.36.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/a8/b1/3da8b19c-ed0e-a03a-1e20-c56010d7a517/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅  Đóng băng tiền tệ ",
-        "download_url": "https://drive.usercontent.google.com/download?id=1A1ymVb866R8VXwH9vRn-vAoZKQbdeDVI",
-        "updated_at": "2025-05-03",
-        "size": "113.33 MB"
-    },
-    {
         "title": "CarX Street",
         "version": "1.11.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/46/92/98469264-32f1-ce97-8c26-0963c092db4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -1222,15 +1296,6 @@ const gamedata = [
         "size": "206.85 MB"
     },
     {
-        "title": "Jurassic World_",
-        "version": "1.81.5.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/63/9a/bc639aad-15a1-e849-616b-853ff7247c09/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
-        "description": "Dino Donot Move\n✅ Infinite Battery",
-        "download_url": "https://drive.usercontent.google.com/download?id=1c7p6pYElAHRVTZqnAmX-wh226mdNApdb",
-        "updated_at": "2025-04-12",
-        "size": "894.55 MB"
-    },
-    {
         "title": "Alien Survivor: Survival",
         "version": "1.33.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/e2/a5/4ee2a511-b833-0c79-8b30-617f521d26b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -1274,15 +1339,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1yEDZa0RNrxqQds6OiuZ8PxEhV6d2EQ0f",
         "updated_at": "2025-04-08",
         "size": "305.81 MB"
-    },
-    {
-        "title": "Seven Hearts",
-        "version": "1.3.315",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/d1/e0/9fd1e0aa-1094-5503-f779-19248c33c466/g_AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Mana vô hạn\n✅ Tiền xu vô hạn\n✅ Luôn luôn thắng + luôn luôn 3 sao\n✅ Không thời gian hồi quân\n✅ Bất tử Tower Only",
-        "download_url": "https://drive.usercontent.google.com/download?id=1EFNSNlALhHQPYEfqVQUfWZUar1WegW0x",
-        "updated_at": "2025-04-06",
-        "size": "521.86 MB"
     },
     {
         "title": "Case Chase - CSGO Case",
@@ -1554,15 +1610,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1jc4O5YShxo_jtTRwqFIyNQgshWqbB-WO",
         "updated_at": "2025-03-26",
         "size": "190.70 MB"
-    },
-    {
-        "title": "Nightfall Kingdom Frontier TD",
-        "version": "1.0.350",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/91/c4/7291c4c7-b4e7-4bd8-369a-90bc2cbab412/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅Bất tử\n✅Tiền xu trong trò chơi không giới hạn\n✅Tiền tệ không giới hạn\n✅ Thêm 1k tiền tệ - vào cài đặt và nhấn nút Discord\n✅ Mở khóa tất cả các tính năng - vào cài đặt và nhấn nút Discord\n✅ Mở khóa tất cả / mọi thứ - vào cài đặt và nhấn nút Discord\n✅ Hoàn thành Hướng dẫn - vào cài đặt và nhấn nút Discord\n✅ NO ads",
-        "download_url": "https://drive.usercontent.google.com/download?id=11neh-6Vb1tDFYtjb3oi0fqt2Flnyl4GK",
-        "updated_at": "2025-03-26",
-        "size": "236.13 MB"
     },
     {
         "title": "Shadow Fight 3",
@@ -1909,15 +1956,6 @@ const gamedata = [
         "size": "130.34 MB"
     },
     {
-        "title": "Hero Raid Idle RPG",
-        "version": "1.1.6",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/f6/e6/8af6e684-61de-d8cd-f257-2f7c7eacefae/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
-        "description": "✅  Vô hann tài nguyên\n✅  Đóng băng tài nguyên",
-        "download_url": "https://drive.usercontent.google.com/download?id=1LlnV4nnQmYncSA_hsDITjCjIOYy7D9Q6",
-        "updated_at": "2025-03-14",
-        "size": "176.03 MB"
-    },
-    {
         "title": "Space Marine Defense",
         "version": "2.0.20",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/d8/d2/29d8d2c3-f329-ee04-0039-6ec37789ae2f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -2251,15 +2289,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1JXMrEr8uln2FA-NVfU7XnhRHKtQgiQsC",
         "updated_at": "2025-02-23",
         "size": "172.62 MB"
-    },
-    {
-        "title": "Candy Crush Soda",
-        "version": "1.287.3.",
-        "image": "https://cdn.tgdd.vn/GameApp/3/220297/Screentshots/candy-crush-soda-saga-tro-choi-keo-ngot-logo-19-05-2020.png",
-        "description": "✅ Di chuyển vô hạn \n✅ Mạng vô hạn \n✅ Booster vô hạn",
-        "download_url": "https://drive.usercontent.google.com/download?id=1jpOvWE_GCG6Em7i1NYSOaiV7w8brB0cn",
-        "updated_at": "2025-02-23",
-        "size": "129.85 MB"
     },
     {
         "title": "Loot Heroes",
