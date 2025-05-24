@@ -27,7 +27,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1Cgh8rsHE0glxJU83e0ilD7WvjThs4Eqj",
         "updated_at": "2025-05-22",
         "size": "170 MB",
-        "fake_downloads": 9999999
     },
     {
         "title": "Jurassic World",
