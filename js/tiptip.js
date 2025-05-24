@@ -1,16 +1,24 @@
 const gamedata = [
-
-     {
-        "title": "The Spike",
+    {
+        "title": "The Spike Mod HighSchool ",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Mod nhân Vật Raul ( Siwoo B )\n✅ Buff Ít chỉ số nhân vật S,S-,S+\n✅ Skips Ads\n✅ Điều kiển bóng trong trận",
-        "image-demo": "https://tiptipios.github.io/chanthuhoi/index/tpkv1.jpg",
-        "download_url": "https://drive.usercontent.google.com/download?id=13b6vOS81WH00FPUOiLGCFe5Cg7e_SgtU",
+        "description": "✅ Mod nhân Vật Nishikawa HighSchool  ( Siwoo B )\n✅ Buff All Nhân vật ( 100 điểm công,nhảy,thủ và 50 điểm nhanh nhẹn )\n✅ Skips Ads\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái )\n✅ Cam cao",
+        "download_url": "https://drive.usercontent.google.com/download?id=1Ku8ueUaTP267Oez_-qd58xBLqYn-SyBQ",
         "version": "5.9.405",
-        "updated_at": "2025-05-22",
-        "size": "238.87 MB"
+        "updated_at": "2025-05-24",
+        "size": "238.16 MB"
     },
-       {
+    {
+        "title": "The Spike Mod Raul",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Mod nhân Vật Raul ( Siwoo B )\n✅ Buff All Nhân vật ( 100 điểm công,nhảy,thủ và 50 điểm nhanh nhẹn )\n✅ Skips Ads\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái )\n✅ Cam cao",
+        "image-demo": "https://tiptipios.github.io/chanthuhoi/index/tpkv1.jpg",
+        "download_url": "https://drive.usercontent.google.com/download?id=1QoGgtAMCWr9hsxYci8OEr68XblZOxD9B",
+        "version": "5.9.405",
+        "updated_at": "2025-05-24",
+        "size": "238.17 MB"
+    },
+    {
         "title": "Liên Quân Mobile",
         "version": "1.58.11379483",
         "image": "https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/f399da84-52b5-4dfc-82bb-b3a99ce8ce72.image.png?v=1681997379317%27",
@@ -19,6 +27,7 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1Cgh8rsHE0glxJU83e0ilD7WvjThs4Eqj",
         "updated_at": "2025-05-22",
         "size": "170 MB",
+        "fake_downloads": 9999999
     },
     {
         "title": "Jurassic World",
@@ -102,7 +111,6 @@ const gamedata = [
         "updated_at": "2025-05-22",
         "size": "245.05 MB"
     },
-   
     {
         "title": "Minecraft",
         "version": "1.21.81",
