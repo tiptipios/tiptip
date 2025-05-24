@@ -1,6 +1,6 @@
 const gamedata = [
     {
-        "title": "The Spike Mod HighSchool ",
+        "title": "The Spike Mod Nishi HighSchool ",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
         "description": "✅ Mod nhân Vật Nishikawa HighSchool  ( Siwoo B )\n✅ Buff All Nhân vật ( 100 điểm công,nhảy,thủ và 50 điểm nhanh nhẹn )\n✅ Skips Ads\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái )\n✅ Cam cao",
         "download_url": "https://drive.usercontent.google.com/download?id=1Ku8ueUaTP267Oez_-qd58xBLqYn-SyBQ",
