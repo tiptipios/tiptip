@@ -41,6 +41,8 @@
     <script src="asset/js/wow.min.js"></script>
     <script src="asset/js/holdon.min.js"></script>
     <script src="js/tiptip.js"></script>
+       <script src="js/gta.js"></script>
+    <script src="js/spike.js"></script>
     <script src="asset/js/main.js"></script>
     <script src="asset/js/MainService.js"></script>
     <script src="asset/js/MainController.js"></script>
@@ -138,8 +140,16 @@
 <script>
 const appList = document.getElementById("app-list");
 
+const allGames = [...gamedata, ...gtadata, ...spikedata];
+
+// Sắp xếp theo updated_at giảm dần (mới nhất trước)
+allGames.sort((a, b) => {
+    const dateA = new Date(a.updated_at || "2000-01-01");
+    const dateB = new Date(b.updated_at || "2000-01-01");
+    return dateB - dateA;
+});
 // Duyệt qua tất cả các game trong gamedata
-gamedata.forEach(game => {
+allGames.forEach(game => {
     const li = document.createElement("li");
     li.innerHTML = `
         <div class="app-icon">
