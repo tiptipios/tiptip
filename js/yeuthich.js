@@ -47,13 +47,11 @@ const yeuthichdata = [
 
     },
      {
-        "title": "Plants vs Zombie 2",
-        "version": "12.2.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
-        "description": "✅ vàng không giới hạn\n✅ Đá quý vô hạn\n✅ kẹo Không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay bì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Max 200 Mastery\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây",
-        "download_url": "https://drive.usercontent.google.com/download?id=1frA3wijxcb-1R_5LzSynHdk3o4q2QjQW",
-        "updated_at": "2025-04-27",
-        "size": "122.95 MB",
+        "title": "The Spike",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "download_url": "thespike.html",
+        "fake_downloads": 9999996
+
     },
         {
         "title": "Soul Knight",
