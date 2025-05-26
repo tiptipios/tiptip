@@ -1,5 +1,105 @@
 const gamedata = [
+ {
+        "title": "Cats & Soup",
+        "version": "2.69.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/c9/1e/fbc91e12-7a48-347a-8b5e-ee839e76fca0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
+        "download_url": "https://drive.usercontent.google.com/download?id=1nS7XKm849nvb-_lPyZXCzt9R_1oPwQ5U",
+        "updated_at": "2025-05-26",
+        "size": "313.22 MB",
+        "fake_downloads": 999971
+    },
+    {
+        "title": "Travel Town",
+        "version": "2.12.1060",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/da/bb/c0dabbd4-1dab-fe1f-edb4-025c17552e09/NewAppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+        "description": "✅Năng lượng tăng khi dùng\n✅Ghép vật phẩm bất kì\n✅1 Kim Cương Mở rương\n✅1 Kim Cương Unlock Bubbles\n✅ Rơi Coin + bong bóng khi ghép",
+        "download_url": "https://drive.usercontent.google.com/download?id=1DSTnCNNkQR8_ZvG_Yqjynt0JA0-Em63S",
+        "updated_at": "2025-05-26",
+        "size": "151.45 MB"
+    },
+    {
+        "title": "Stick War: Saga",
+        "version": "2025.4.1331",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/ed/e1/43ede11f-459d-37b3-f1e6-338c0b6cc863/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "Vàng vô hạn \n✅Mana không giới hạn \n✅Mở khóa Mọi thứ \n✅Không có thời gian hồi chiêu kỹ năng",
+        "download_url": "https://drive.usercontent.google.com/download?id=1-T6B5B8K6gD83pOv2J8qAbAe4scaY3CZ",
+        "updated_at": "2025-05-26",
+        "size": "317.97 MB"
+    },
    
+    {
+        "title": "Dead Ahead",
+        "version": "4.2.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/03/33/0d0333ae-eb38-bed7-3db5-174750a78512/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Tiền tệ vô hạn\n✅ Vật phẩm vô hạn\n✅ Không có thời gian hồi chiêu\n✅ Bỏ qua cấp độ yêu cầu\n✅ No Reload\n✅ Đóng băng mana\n✅ Xuất hiện ngay lập tức\n✅ Đóng băng tiền tệ\n✅ Đóng băng các vật phẩm\n✅ Đóng băng nhiên liệu",
+        "download_url": "https://drive.usercontent.google.com/download?id=1Ewh8GwcI419Wsq7ztw6k_M5fCoqe-3IJ",
+        "updated_at": "2025-05-26",
+        "size": "102.48 MB"
+    },
+    {
+        "title": "Summoners Greed ",
+        "version": "1.93.4",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/2d/cd/822dcd56-af89-8ea5-0685-7b3e5b6d77cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Vô hạn tài nguyên",
+        "download_url": "https://drive.usercontent.google.com/download?id=1xYVp2b7WlZP4Kg9w5WYVFu5fAAnjKjDr",
+        "updated_at": "2025-05-26",
+        "size": "185.09 MB"
+    },
+    {
+        "title": "Blades of Brim",
+        "version": "2.22.10",
+        "image": "https://play-lh.googleusercontent.com/kTUUCCtvohUq6K0hY06XXJXBDVEQJ7n5dtxQ165Xj1WxlSG2-hO9gdmzNC3aPEpY-i0",
+        "description": "✅ Vàng không giới hạn\n✅ Tinh chất không giới hạn",
+        "download_url": "https://drive.usercontent.google.com/download?id=1fYVbY9Uuf4jLpHXRMuSYoQR_FjT8X6at",
+        "updated_at": "2025-05-26",
+        "size": "163.00 MB"
+    },
+        {
+        "title": "Hunter Raid _ Idle RPG",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/d7/9a/e6d79a49-41a2-b796-a98d-6b439277dfe4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+        "description": "✅  Vô hann tài nguyên\n✅  Đóng băng tài nguyên",
+        "download_url": "https://drive.usercontent.google.com/download?id=1Mh9A1Ml-k-7MYZicW7BOVHiO1PMMslsC",
+        "version": "2.1.2",
+        "updated_at": "2025-05-26",
+        "size": "190.72 MB"
+    },
+    {
+        "title": "Brick Out",
+        "version": "25.0522.00",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/89/54/6e895482-d490-2382-d8c7-f9aa3ca1d8da/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Vô hạn Ruby \n✅ Hồi sinh miễn phí ",
+        "download_url": "https://drive.usercontent.google.com/download?id=1ueAWdpH61HICA41lLyAo6c98ZTriaZlw",
+        "updated_at": "2025-05-26",
+        "size": "79.74 MB"
+    },
+    {
+        "title": "Idle Bank Tycoon",
+        "version": "1.57.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/ba/29/6aba2959-c421-79d8-89c9-5f6fe764c469/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Đóng băng tiền tệ",
+        "download_url": "https://drive.usercontent.google.com/download?id=1b86YvcrwfH4JxuJylDtjFlGNkNZGBOVA",
+        "updated_at": "2025-05-26",
+        "size": "125.87 MB"
+    },
+    {
+        "title": "Pocket Land",
+        "version": "0.112.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/4f/09/a84f098a-b7ee-2c6c-e3f7-b0d8516ca62d/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "Đóng băng tiền tệ\n✅ Đóng băng tài nguyên\n✅ Nâng cấp mà không cần tài nguyên ( ko lạm dụng )",
+        "download_url": "https://drive.usercontent.google.com/download?id=14RF6spCB5Bl8MFPh858e_H5YlCHpOs6p",
+        "updated_at": "2025-05-26",
+        "size": "147.59 MB"
+    },
+    {
+        "title": "Planet Smash",
+        "version": "0.2.9",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/72/c8/1a72c88d-b1b9-d81c-3ae1-e16709e72e2d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅No Ads \n✅ Freeze Coins \n✅ Freeze Gems \n✅ Freeze Build Pieces \n✅ Unlimited Bombs",
+        "download_url": "https://drive.usercontent.google.com/download?id=1LYRxlIlWkSr17A_a_ffL_7ZJN0ZXf8eZ",
+        "updated_at": "2025-05-26",
+        "size": "85.18 MB"
+    },
     {
         "title": "Liên Quân Mobile",
         "version": "1.58.11379483",
@@ -8,7 +108,7 @@ const gamedata = [
         "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n ✅ Menu Mod Skin,Sảnh (tap 3 ngón tay 2 lần )\n ✅ Kín = Bất tử ",
         "download_url": "https://drive.usercontent.google.com/download?id=1Cgh8rsHE0glxJU83e0ilD7WvjThs4Eqj",
         "updated_at": "2025-05-22",
-        "size": "170 MB",
+        "size": "170 MB"
     },
     {
         "title": "Jurassic World",
@@ -129,32 +229,13 @@ const gamedata = [
         "size": "617.27 MB"
     },
     {
-        "title": "Cats & Soup",
-        "version": "2.69.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/c9/1e/fbc91e12-7a48-347a-8b5e-ee839e76fca0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
-        "download_url": "https://drive.usercontent.google.com/download?id=1sPJV90cLn__IxRAwjTM0o4tnFMd4mz3F",
-        "updated_at": "2025-05-19",
-        "size": "308.18 MB",
-        "fake_downloads": 999971
-    },
-    {
-        "title": "Dead Ahead",
-        "version": "4.2.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/03/33/0d0333ae-eb38-bed7-3db5-174750a78512/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Tiền tệ vô hạn\n✅ Vật phẩm vô hạn\n✅ Không có thời gian hồi chiêu\n✅ Bỏ qua cấp độ yêu cầu\n✅ No Reload\n✅ Đóng băng mana\n✅ Xuất hiện ngay lập tức\n✅ Đóng băng tiền tệ\n✅ Đóng băng các vật phẩm\n✅ Đóng băng nhiên liệu",
-        "download_url": "https://drive.usercontent.google.com/download?id=15wdC9j5VzvOGCKInRdTAibOvr1Sxp2k6",
-        "updated_at": "2025-05-19",
-        "size": "112.46 MB"
-    },
-    {
         "title": "Fishdom",
         "version": "8.9.4",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/be/b2/08beb294-f60f-3014-0f21-c0ffc6a1f15f/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
         "description": "✅ Di chuyển vô hạn\n✅ Boosters vô hạn\n✅ Mạng vô hạn\n✅ Vô hạn vàng,Gems \n✅ mua ngay cả khi ko đủ\n✅ Vô hạn voucher",
         "download_url": "https://drive.usercontent.google.com/download?id=1vWJl_Nw3zfVfcVZ9ZTcpw7oT_ze5352y",
         "updated_at": "2025-05-19",
-        "size": "175.81 MB",
+        "size": "175.81 MB"
     },
     {
         "title": "Angry Birds 2",
@@ -165,15 +246,6 @@ const gamedata = [
         "updated_at": "2025-05-19",
         "size": "313.48 MB",
         "fake_downloads": 974571
-    },
-    {
-        "title": "Summoners Greed ",
-        "version": "1.93.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/2d/cd/822dcd56-af89-8ea5-0685-7b3e5b6d77cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅Vô hạn tài nguyên",
-        "download_url": "https://drive.usercontent.google.com/download?id=1A7kgO44KQr8zWEWYpVJ9NN3ncucFg8QO",
-        "updated_at": "2025-05-19",
-        "size": "185.04 MB"
     },
     {
         "title": "Arcana Blade : Idle RPG",
@@ -192,15 +264,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1hpUJGXJwytLBCXkBuaD26YXKF_7wOKy3",
         "updated_at": "2025-05-19",
         "size": "331.86 MB"
-    },
-    {
-        "title": "Idle Bank Tycoon",
-        "version": "1.56.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/ba/29/6aba2959-c421-79d8-89c9-5f6fe764c469/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Freeze Currencies",
-        "download_url": "https://drive.usercontent.google.com/download?id=1qrDuuHGcB4XREMPZUv9pYs1P9xtXv_Bw",
-        "updated_at": "2025-05-19",
-        "size": "125.86 MB"
     },
     {
         "title": "Turret Defense King",
@@ -330,15 +393,6 @@ const gamedata = [
         "size": "199.73 MB"
     },
     {
-        "title": "Blades of Brim",
-        "version": "2.22.9",
-        "image": "https://play-lh.googleusercontent.com/kTUUCCtvohUq6K0hY06XXJXBDVEQJ7n5dtxQ165Xj1WxlSG2-hO9gdmzNC3aPEpY-i0",
-        "description": "✅ Vàng không giới hạn\n✅ Tinh chất không giới hạn",
-        "download_url": "https://drive.usercontent.google.com/download?id=1HCTQEzzxei680JfLkke6R780sg_xXs63",
-        "updated_at": "2025-05-17",
-        "size": "162.62 MB"
-    },
-    {
         "title": "Skullgirls_ Fighting RPG",
         "version": "7.2.2",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/35/4f/27354fe2-db35-a8da-4de6-c94c04e326ad/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -364,15 +418,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1tjcQkDvIhk6HtH51QIaVqz0G0ZBgxEKJ",
         "updated_at": "2025-05-17",
         "size": "210.16 MB"
-    },
-    {
-        "title": "Brick Out",
-        "version": "25.0515.02",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/89/54/6e895482-d490-2382-d8c7-f9aa3ca1d8da/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Vô hạn Ruby \n✅ Hồi sinh miễn phí ",
-        "download_url": "https://drive.usercontent.google.com/download?id=1MOWfTslqpRTptPOSIC8EMmWKfW6ciNWu",
-        "updated_at": "2025-05-17",
-        "size": "79.84 MB"
     },
     {
         "title": "AdVenture Ages_ Idle Clicker",
@@ -501,24 +546,6 @@ const gamedata = [
         "size": "161.33 MB"
     },
     {
-        "title": "Pocket Land",
-        "version": "0.111.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/51/d5/5851d5cf-3d8c-a4b0-6807-babc58e41be9/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Unlimited Currencies → Spend/Gain",
-        "download_url": "https://drive.usercontent.google.com/download?id=17RJeXTy2x0wEjQvxMwStJuvkHvWu2bTS",
-        "updated_at": "2025-05-13",
-        "size": "148.89 MB"
-    },
-    {
-        "title": "Travel Town",
-        "version": "2.12.1052.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/da/bb/c0dabbd4-1dab-fe1f-edb4-025c17552e09/NewAppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "description": "✅Năng lượng tăng khi dùng\n✅Ghép vật phẩm bất kì\n✅1 Kim Cương Mở rương\n✅1 Kim Cương Unlock Bubbles\n✅ Rơi Coin + bong bóng khi ghép",
-        "download_url": "https://drive.usercontent.google.com/download?id=1X8cdw3-Ebg8T2SyQGelve1z79WxtE1nI",
-        "updated_at": "2025-05-13",
-        "size": "151.35 MB"
-    },
-    {
         "title": "Royal Match",
         "version": "28975.",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/18/41/9f1841a2-16d7-3134-72bb-3080bde9bd42/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/100x100bb.jpg",
@@ -589,15 +616,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1DSNnPn9yq-sAqZJTsgb49Vl9Gvoxt0y1",
         "updated_at": "2025-05-11",
         "size": "180.21 MB"
-    },
-    {
-        "title": "Planet Smash",
-        "version": "0.2.9.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/72/c8/1a72c88d-b1b9-d81c-3ae1-e16709e72e2d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅No Ads \n✅ Freeze Coins \n✅ Freeze Gems \n✅ Freeze Build Pieces \n✅ Unlimited Bombs",
-        "download_url": "https://drive.usercontent.google.com/download?id=1IJLL9cAucA9BIIUmjgAmdgq5e4kjMlq8",
-        "updated_at": "2025-05-11",
-        "size": "85.21 MB"
     },
     {
         "title": "Meow Town",
@@ -873,15 +891,6 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1xLQDi9tEFDVYFIF3thcwlH_bfHG5bBI0",
         "updated_at": "2025-05-01",
         "size": "502.87 MB"
-    },
-    {
-        "title": "Stick War: Saga",
-        "version": "2025.4.1180.",
-        "image": "https://st.gamevui.vn/images/image/2024/08/24/stick-war-legacy-300.jpg",
-        "description": "✅ Kim cương vô hạn \n✅ Vàng Vô hạn ( dùng 1 ít ) \n✅ Tạo Quân nhanh",
-        "download_url": "https://drive.usercontent.google.com/download?id=1sr0dGg0WWg__cRXmE-tKQfAt_sZDe8zB",
-        "updated_at": "2025-05-01",
-        "size": "312.79 MB"
     },
     {
         "title": "Mob Control",
@@ -2333,14 +2342,5 @@ const gamedata = [
         "download_url": "https://drive.usercontent.google.com/download?id=1oGl3eUNZ2iC1D4sCIj016N3_1ubd43mQ",
         "updated_at": "2025-02-20",
         "size": "192.15 MB"
-    },
-    {
-        "title": "Hero Hunters",
-        "version": "9.1.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/1f/10/081f10d0-20ff-fd08-6ff8-bd33b878f878/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Hệ số sát thương\n✅ Hệ số phòng thủ\n✅ Kẻ địch không tấn công\n✅ Kẻ địch không di chuyển",
-        "download_url": "https://drive.usercontent.google.com/download?id=1jLVHF2MQagfB9pWGugWSe-xeekujRT-6",
-        "updated_at": "2025-02-19",
-        "size": "142.61 MB"
     }
 ];
