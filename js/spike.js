@@ -4,7 +4,7 @@ const spikedata = [
         "image": "https://tiptipios.github.io/ios/sp_illustFaceIcon/sp_illustFaceIcon_35.png",
         "description": "✅ Mod nhân Vật Raul ( Siwoo B )\n✅ Buff All Nhân vật ( 100 điểm công,nhảy,thủ và 50 điểm nhanh nhẹn )\n✅ Skips Ads\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái )\n✅ Cam cao",
         "image-demo": "https://tiptipios.github.io/ios/sp_illustFaceIcon/1.jpg",
-        "download_url": "https://drive.usercontent.google.com/download?id=1QoGgtAMCWr9hsxYci8OEr68XblZOxD9B",
+        "download_url": "https://drive.google.com/file/d/1QoGgtAMCWr9hsxYci8OEr68XblZOxD9B",
         "version": "5.9.405",
         "updated_at": "2025-05-25",
         "size": "238.17 MB"
@@ -13,7 +13,7 @@ const spikedata = [
         "title": "The Spike Mod NishiHighSchool ",
         "image": "https://tiptipios.github.io/ios/sp_illustFaceIcon/sp_illustFaceIcon_30.png",
         "description": "✅ Mod nhân Vật Nishikawa HighSchool  ( Siwoo B )\n✅ Buff All Nhân vật ( 100 điểm công,nhảy,thủ và 50 điểm nhanh nhẹn )\n✅ Skips Ads\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái )\n✅ Cam cao",
-        "download_url": "https://drive.usercontent.google.com/download?id=1Ku8ueUaTP267Oez_-qd58xBLqYn-SyBQ",
+        "download_url": "https://drive.google.com/file/d/1Ku8ueUaTP267Oez_-qd58xBLqYn-SyBQ",
         "image-demo": "https://tiptipios.github.io/ios/sp_illustFaceIcon/2.jpg",
         "version": "5.9.405",
         "updated_at": "2025-05-25",
@@ -25,7 +25,7 @@ const spikedata = [
         "image": "https://tiptipios.github.io/ios/sp_illustFaceIcon/sp_illustFaceIcon_9.png",
         "image-demo": "https://tiptipios.github.io/ios/sp_illustFaceIcon/4.jpg",
         "description": "✅ Mod nhân Vật Nishikawa ( Siwoo B )\n✅ Buff All Nhân vật ( 100 điểm công,nhảy,thủ và 50 điểm nhanh nhẹn )\n✅ Skips Ads\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái )\n✅ Cam cao",
-        "download_url": "https://drive.usercontent.google.com/download?id=1JC3bQNRmiG540LuZcQtQu2Q5w-UWRlv1",
+        "download_url": "https://drive.google.com/file/d/1JC3bQNRmiG540LuZcQtQu2Q5w-UWRlv1",
         "version": "5.9.405",
         "updated_at": "2025-05-25",
         "size": "238.16 MB"
@@ -35,7 +35,7 @@ const spikedata = [
         "image": "https://tiptipios.github.io/ios/sp_illustFaceIcon/sp_illustFaceIcon_15.png",
         "image-demo": "https://tiptipios.github.io/ios/sp_illustFaceIcon/3.jpg",
         "description": "✅ Mod nhân Vật NishikawaBlack ( Siwoo B )\n✅ Buff All Nhân vật ( 100 điểm công,nhảy,thủ và 50 điểm nhanh nhẹn )\n✅ Skips Ads\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái )\n✅ Cam cao",
-        "download_url": "https://drive.usercontent.google.com/download?id=1kmxUVeTpnW-cMKJ1OS5KNIF8Riu05tW9",
+        "download_url": "https://drive.google.com/file/d/1kmxUVeTpnW-cMKJ1OS5KNIF8Riu05tW9",
         "version": "5.9.405",
         "updated_at": "2025-05-25",
         "size": "238.17 MB"
@@ -65,7 +65,7 @@ const spikedata = [
         "image": "https://tiptipios.github.io/ios/sp_illustFaceIcon/sp_illustFaceIcon_21.png",
         "image-demo": "https://tiptipios.github.io/ios/sp_illustFaceIcon/6.jpg",
         "description": "✅ Mod nhân Vật Ryuhyun ( Siwoo B )\n✅ Buff All Nhân vật ( 100 điểm công,nhảy,thủ và 50 điểm nhanh nhẹn )\n✅ Skips Ads\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái )\n✅ Cam cao",
-        "download_url": "https://drive.usercontent.google.com/download?id=1Hucx3HtO59XEZ3K4zcIPxB2v4Lcg4pqX",
+        "download_url": "https://drive.google.com/file/d/1Hucx3HtO59XEZ3K4zcIPxB2v4Lcg4pqX",
         "version": "5.9.405",
         "updated_at": "2025-05-25",
         "size": "238.17 MB"
@@ -75,7 +75,7 @@ const spikedata = [
         "image": "https://tiptipios.github.io/ios/sp_illustFaceIcon/sp_illustFaceIcon_28.png",
     "image-demo": "https://tiptipios.github.io/ios/sp_illustFaceIcon/8.jpg",
         "description": "✅ Mod nhân Vật Tania ( Siwoo B )\n✅ Buff All Nhân vật ( 100 điểm công,nhảy,thủ và 50 điểm nhanh nhẹn )\n✅ Skips Ads\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái )\n✅ Cam cao",
-        "download_url": "https://drive.usercontent.google.com/download?id=1gTYxQ5JYtOq2HOgR8lPGeTkYEJstFINw",
+        "download_url": "https://drive.google.com/file/d/1gTYxQ5JYtOq2HOgR8lPGeTkYEJstFINw",
         "version": "5.9.405",
         "updated_at": "2025-05-25",
         "size": "238.16 MB"
@@ -85,7 +85,7 @@ const spikedata = [
         "image": "https://tiptipios.github.io/ios/sp_illustFaceIcon/sp_illustFaceIcon_34.png",
       "image-demo": "https://tiptipios.github.io/ios/sp_illustFaceIcon/9.jpg",  
         "description": "✅ Mod nhân Vật Ellio ( Siwoo B )\n✅ Buff All Nhân vật ( 100 điểm công,nhảy,thủ và 50 điểm nhanh nhẹn )\n✅ Skips Ads\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái )\n✅ Cam cao",
-        "download_url": "https://drive.usercontent.google.com/download?id=10EuTJqcPD-ozRPTeLWEG8hqvJOvkVzRs",
+        "download_url": "https://drive.google.com/file/d/10EuTJqcPD-ozRPTeLWEG8hqvJOvkVzRs",
         "version": "5.9.405",
         "updated_at": "2025-05-25",
         "size": "238.17 MB"
@@ -95,7 +95,7 @@ const spikedata = [
         "image": "https://tiptipios.github.io/ios/sp_illustFaceIcon/sp_illustFaceIcon_33.png",
         "image-demo": "https://tiptipios.github.io/ios/sp_illustFaceIcon/5.jpg",
         "description": "✅ Mod nhân Vật Jenny ( Siwoo B )\n✅ Buff All Nhân vật ( 100 điểm công,nhảy,thủ và 50 điểm nhanh nhẹn )\n✅ Skips Ads\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái )\n✅ Cam cao",
-        "download_url": "https://drive.usercontent.google.com/download?id=1Yl_QfIHtm3wSc_EPo3rCx0Ct82q0plS7",
+        "download_url": "https://drive.google.com/file/d/1Yl_QfIHtm3wSc_EPo3rCx0Ct82q0plS7",
         "version": "5.9.405",
         "updated_at": "2025-05-25",
         "size": "238.17 MB"

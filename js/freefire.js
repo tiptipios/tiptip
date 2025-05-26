@@ -14,7 +14,7 @@ const freefiredata = [
         "image": "https://cdn.jsdelivr.net/gh/tiptipios/ios@main/IMG_9654.jpeg",
         "description": " \n dylib: \n ✅Speed 2,4x \n ✅Aim AWM \n ✅Magic \n ✅Hs Cu \n ✅Nhẹ Tâm \n ✅AimFov \n ✅AimLock \n ✅Norecoil \n ✅Xoá hoạt ảnh \n ✅AimCope \n ✅AimCopeLock \n ✅Mod Hành động Lv7,8,... \n ✅Mod Hành động Biến hình \n ✅Mod Skin Súng,Quần áo ( Sử dụng kèm dns / ko nên sử dụng acc chính )",
         "download_url": "https://oklink.cfd/SpFe",
-        "updated_at": "2025-05-15",
+        "updated_at": "2025-05-21",
         "size": "... MB "
     },
     {
@@ -23,7 +23,7 @@ const freefiredata = [
         "image": "https://cdn.jsdelivr.net/gh/tiptipios/ios@main/IMG_9654.jpeg",
         "description": "✅ H5GG: \n ✅Speed 2,4x \n ✅Aim AWM \n ✅Magic \n ✅Hs Cu \n ✅Nhẹ Tâm \n ✅AimFov \n ✅AimLock \n ✅Norecoil \n ✅Xoá hoạt ảnh \n ✅AimCope \n ✅AimCopeLock \n ✅Mod Hành động Lv7,8,... \n ✅Mod Hành động Biến hình \n ✅Mod Skin Súng,Quần áo ( Sử dụng kèm dns / ko nên sử dụng acc chính )",
         "download_url": "https://oklink.cfd/UzAt",
-        "updated_at": "2025-05-15",
+        "updated_at": "2025-05-21",
         "size": "... MB"
     },
     {
