@@ -1,5 +1,24 @@
 const gamedata = [
- {
+    {
+        "title": "Plants vs Zombie 2",
+        "version": "968",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
+        "description": "✅ vàng không giới hạn\n✅ Đá quý vô hạn\n✅ kẹo Không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay bì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Max 200 Mastery\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây",
+        "download_url": "https://drive.google.com/file/d/1xMG-1S8qxIuotCaSK8hcM8leygJqQ0MW/view",
+        "updated_at": "2025-05-28",
+        "size": "116.59 MB",
+        "fake_downloads": 954571
+    },
+    {
+        "title": "Alien Shooter",
+        "version": "64.5",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
+        "download_url": "https://drive.google.com/file/d/1zdG3Sb7KwbggsQXZ_GZNEyeM7d83Rwiq/view",
+        "updated_at": "2025-05-28",
+        "size": "202.06 MB"
+    },
+    {
         "title": "Cats & Soup",
         "version": "2.69.1",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/c9/1e/fbc91e12-7a48-347a-8b5e-ee839e76fca0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
@@ -27,7 +46,6 @@ const gamedata = [
         "updated_at": "2025-05-26",
         "size": "317.97 MB"
     },
-   
     {
         "title": "Dead Ahead",
         "version": "4.2.2",
@@ -55,7 +73,7 @@ const gamedata = [
         "updated_at": "2025-05-26",
         "size": "163.00 MB"
     },
-        {
+    {
         "title": "Hunter Raid _ Idle RPG",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/d7/9a/e6d79a49-41a2-b796-a98d-6b439277dfe4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
         "description": "✅  Vô hann tài nguyên\n✅  Đóng băng tài nguyên",
@@ -382,15 +400,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1ECFokZ1m08_Ahn0dRqya_VQnr0GzVoyJ",
         "updated_at": "2025-05-17",
         "size": "197.53 MB"
-    },
-    {
-        "title": "Alien Shooter",
-        "version": "64.2",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
-        "download_url": "https://drive.google.com/file/d/1sNfCFf-Ya5BcvGFR1gfbmzqZxyh7gsH8",
-        "updated_at": "2025-05-17",
-        "size": "199.73 MB"
     },
     {
         "title": "Skullgirls_ Fighting RPG",
@@ -937,16 +946,6 @@ const gamedata = [
         "updated_at": "2025-04-28",
         "size": "1456.45 MB",
         "fake_downloads": 992571
-    },
-    {
-        "title": "Plants vs Zombie 2",
-        "version": "12.2.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
-        "description": "✅ vàng không giới hạn\n✅ Đá quý vô hạn\n✅ kẹo Không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay bì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Max 200 Mastery\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây",
-        "download_url": "https://drive.google.com/file/d/1frA3wijxcb-1R_5LzSynHdk3o4q2QjQW",
-        "updated_at": "2025-04-27",
-        "size": "122.95 MB",
-        "fake_downloads": 954571
     },
     {
         "title": "Otherworld",
@@ -2097,15 +2096,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1pzH0fZbA8RbeEB5JSodBfyTzvmTDJ77S",
         "updated_at": "2025-03-03",
         "size": "163.23 MB"
-    },
-    {
-        "title": "Alien Invasion",
-        "version": "4.08.01.",
-        "image": "https://play-lh.googleusercontent.com/d9KrcNPsw8ywciqzQb2tVJ4Ps99WaszvpUuORQ3g98knyHlguNkUFeIROrfxqAUTwn8",
-        "description": "✅ Đóng băng Tiền tệ\n✅ Premium",
-        "download_url": "https://drive.google.com/file/d/1GBHJLAGd1EncSK3VQxV8gBt4FAZf3690",
-        "updated_at": "2025-03-03",
-        "size": "160.56 MB"
     },
     {
         "title": "LEGO Hill Climb Adventures",
