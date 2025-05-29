@@ -116,7 +116,7 @@ const spikedata = [
         "image": "https://tiptipios.github.io/ios/sp_illustFaceIcon/sp_illustFaceIcon_27.png",
         "image-demo": "https://tiptipios.github.io/ios/sp_illustFaceIcon/13.jpg",
         "description": "✅ Mod nhân Vật Dave ( Siwoo B )\n✅ Buff All Nhân vật ( 100 điểm công,nhảy,thủ và 50 điểm nhanh nhẹn )\n✅ Skips Ads\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái )\n✅ Cam cao",
-        "download_url": "https://drive.google.com/file/d/1n-8cc-MXSnMEPRaWsjtDBIV6XlLJpWz9/view?usp=drive_link",
+        "download_url": "https://drive.google.com/file/d/1GjxpOUrC12zyEb5KO1FEWgaUXpXAEeL1/view?usp=drive_link",
         "version": "5.9.405",
         "updated_at": "2025-05-25",
         "size": "238.17 MB"
