@@ -1,5 +1,50 @@
 const gamedata = [
     {
+        "title": "Nightfall Kingdom Frontier TD",
+        "version": "1.0.389",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/91/c4/7291c4c7-b4e7-4bd8-369a-90bc2cbab412/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Bất tử\n✅Tiền xu trong trò chơi không giới hạn\n✅Tiền tệ không giới hạn\n✅ Thêm 1k tiền tệ - vào cài đặt và nhấn nút Discord\n✅ Mở khóa tất cả các tính năng - vào cài đặt và nhấn nút Discord\n✅ Mở khóa tất cả / mọi thứ - vào cài đặt và nhấn nút Discord\n✅ Hoàn thành Hướng dẫn - vào cài đặt và nhấn nút Discord\n✅ NO ads",
+        "download_url": "https://drive.google.com/file/d/1-U8utIzmfr_ZsBq-GK1Yt5BrXhOuXVIk/view",
+        "updated_at": "2025-05-29",
+        "size": "269.30 MB"
+    },
+    {
+        "title": "Royal Match",
+        "version": "29297",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/18/41/9f1841a2-16d7-3134-72bb-3080bde9bd42/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/100x100bb.jpg",
+        "description": "✅Đóng băng Coins \n✅Đóng băng Lives  \n✅Đóng băng Stars \n✅Đóng băng Booster \n✅Đóng băng time \n✅Đóng băng moves \n✅Mở khóa huy hiệu VIP \n✅Mở khóa kiểu tên VIP \n✅Mở khóa khung VIP",
+        "download_url": "https://drive.google.com/file/d/19ApFqI_eYOYpl6tsMbr-3wcG1DaZ9iO9/view",
+        "updated_at": "2025-05-29",
+        "size": "191.37 MB"
+    },
+    {
+        "title": "Archers Online",
+        "version": "25.0527.1607",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/54/5d/f7545d7e-3741-3e2d-e297-79f42c21ce43/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Đá quý không giới hạn -> Vào Archers Pass và bỏ qua một cấp độ.\n✅ Rương không giới hạn\n✅ Mở khóa tất cả vật phẩm Avatar\n✅ Đã bật Archers Premium Pass\n✅ Đã bật Vault Premium Pass\n✅ Không có quảng cáo",
+        "download_url": "https://drive.google.com/file/d/1tMJZBJGvlFjJLTy27B2st0Y_0UoFCGXr/view",
+        "updated_at": "2025-05-29",
+        "size": "305.81 MB"
+    },
+    {
+        "title": "Tap Titans 2",
+        "version": "7.10.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/e0/fa/45e0fa81-2967-fcb6-48b0-80c96b61e8d2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Lên cấp miễn phí\n✅ Kỹ năng ko tốn Mana\n✅ Nâng cấp anh hùng được thuê miễn phí\n✅ Thêm tài nguyên khi dùng\n✅ Không có thời gian hồi chiêu kỹ năng\n✅ Bỏ qua các đợt tấn công\n✅ Quái vật có HP thấp\n✅ Đóng băng vàng\n✅ Đóng băng mana\n✅ Thu thập phần thưởng không có quảng cáo",
+        "download_url": "https://drive.google.com/file/d/1z1HOvQngDpJYk0enDNmZUayDOy6M8Nz2/view",
+        "updated_at": "2025-05-29",
+        "size": "175.37 MB"
+    },
+    {
+        "title": "Z Survivor",
+        "version": "0.62",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/33/a8/b133a8e8-d4e3-cc19-b6c7-d1cfcc243ef3/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Tài nguyên không giới hạn",
+        "download_url": "https://drive.google.com/file/d/166F_i66NYUPVn5bgsJulE6kEnv6lS8XO/view",
+        "updated_at": "2025-05-29",
+        "size": "177.48 MB"
+    },
+    {
         "title": "Plants vs Zombie 2",
         "version": "968",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
@@ -155,15 +200,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1wL1w4skCgdgSeCAXq_mmLQ6F9slrZAe4",
         "updated_at": "2025-05-22",
         "size": "132.54 MB"
-    },
-    {
-        "title": "Nightfall Kingdom Frontier TD",
-        "version": "1.0.386",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/91/c4/7291c4c7-b4e7-4bd8-369a-90bc2cbab412/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅Bất tử\n✅Tiền xu trong trò chơi không giới hạn\n✅Tiền tệ không giới hạn\n✅ Thêm 1k tiền tệ - vào cài đặt và nhấn nút Discord\n✅ Mở khóa tất cả các tính năng - vào cài đặt và nhấn nút Discord\n✅ Mở khóa tất cả / mọi thứ - vào cài đặt và nhấn nút Discord\n✅ Hoàn thành Hướng dẫn - vào cài đặt và nhấn nút Discord\n✅ NO ads",
-        "download_url": "https://drive.google.com/file/d/1JSy1n1O9BOaQI6Rc3v7G7GR87RJgnd85",
-        "updated_at": "2025-05-22",
-        "size": "267.40 MB"
     },
     {
         "title": "Eatventure",
@@ -555,15 +591,6 @@ const gamedata = [
         "size": "161.33 MB"
     },
     {
-        "title": "Royal Match",
-        "version": "28975.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/18/41/9f1841a2-16d7-3134-72bb-3080bde9bd42/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/100x100bb.jpg",
-        "description": "✅Đóng băng Coins \n✅Đóng băng Lives  \n✅Đóng băng Stars \n✅Đóng băng Booster \n✅Đóng băng time \n✅Đóng băng moves \n✅Mở khóa huy hiệu VIP \n✅Mở khóa kiểu tên VIP \n✅Mở khóa khung VIP",
-        "download_url": "https://drive.google.com/file/d/1t2in70O6C3dV15NLgETbbTMSE0rBtKkB",
-        "updated_at": "2025-05-13",
-        "size": "153.17 MB"
-    },
-    {
         "title": "Pal Go",
         "version": "0.3.66.",
         "image": "https://play-lh.googleusercontent.com/AIFJZkO77qOilY_RFcZpoMjNgPAzMigtowbIvZ0xoP_R52r7ouco9AyMghjGA53b5sjB",
@@ -847,15 +874,6 @@ const gamedata = [
         "size": "105.68 MB"
     },
     {
-        "title": "Z Survivor",
-        "version": "0.58.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/ee/6c/89ee6cd1-d3fc-2aea-6fd7-0cfcf1258a2e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Bất tử \n✅ Không hồi chiêu",
-        "download_url": "https://drive.google.com/file/d/1sPv3-2AKsrYEodVd-8DrzPPHbKYFwHZ8",
-        "updated_at": "2025-05-04",
-        "size": "162.04 MB"
-    },
-    {
         "title": "Heroes Slime: Castle Defenders",
         "version": "1.4",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTxQRqS2C4UzPO8rPWEeRFaUYmvN2chxzPjg&s",
@@ -884,15 +902,6 @@ const gamedata = [
         "size": "3 GB"
     },
     {
-        "title": "Archers Online",
-        "version": "25.0501.1293",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/54/5d/f7545d7e-3741-3e2d-e297-79f42c21ce43/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Đá quý không giới hạn -> Vào Archers Pass và bỏ qua một cấp độ.\n✅ Rương không giới hạn\n✅ Mở khóa tất cả vật phẩm Avatar\n✅ Đã bật Archers Premium Pass\n✅ Đã bật Vault Premium Pass\n✅ Không có quảng cáo",
-        "download_url": "https://drive.google.com/file/d/1y8PrjiZKxJ7nEJx3UF2h4dg6os_jgMtx",
-        "updated_at": "2025-05-02",
-        "size": "301.77 MB"
-    },
-    {
         "title": "Soul Knight",
         "version": "7.2.0.",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/6c/54/b86c5496-4dba-f117-8bb8-a8943cb7ddd5/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
@@ -909,15 +918,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1-ieUa7TPC3KSJGvWxSO95E11ZEDdVpUj",
         "updated_at": "2025-05-01",
         "size": "185.38 MB"
-    },
-    {
-        "title": "Tap Titans 2",
-        "version": "7.9.5.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/e0/fa/45e0fa81-2967-fcb6-48b0-80c96b61e8d2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Lên cấp miễn phí\n✅ Kỹ năng ko tốn Mana\n✅ Nâng cấp anh hùng được thuê miễn phí\n✅ Thêm tài nguyên khi dùng\n✅ Không có thời gian hồi chiêu kỹ năng\n✅ Bỏ qua các đợt tấn công\n✅ Quái vật có HP thấp\n✅ Đóng băng vàng\n✅ Đóng băng mana\n✅ Thu thập phần thưởng không có quảng cáo",
-        "download_url": "https://drive.google.com/file/d/1u3djWrZ5xauXr1DYCMYGiDJSzwFgwEQc",
-        "updated_at": "2025-05-01",
-        "size": "173.98 MB"
     },
     {
         "title": "Erythros Lite",
