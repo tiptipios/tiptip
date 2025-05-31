@@ -1,5 +1,59 @@
 const gamedata = [
     {
+        "title": "Jurassic World",
+        "version": "1.82.18",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/42/c7/5f42c789-d4bc-1d1c-e6bd-f55d80881851/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+        "description": "✅ Đóng băng tiền tệ\n✅ Gói đặc biệt không giới hạn\n✅ Tiến hóa luôn thành công\n✅ Nuôi cấp độ tối đa tức thời\n✅ Chi phí tăng tốc miễn phí\n✅ Vip",
+        "download_url": "https://drive.google.com/file/d/1fIdNfsL_lLOy5jWE5DKzCIj6l9Gya-xK/view",
+        "updated_at": "2025-05-31",
+        "size": "909.87 MB"
+    },
+    {
+        "title": "Cat Mine",
+        "version": "2.5.3",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/f5/f9/bdf5f998-7ed7-ec48-eab7-bca7c71d40a2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
+        "description": "✅Tiền tệ không giới hạn → Chi tiêu/Lợi nhuận \n✅iGG",
+        "download_url": "https://drive.google.com/file/d/1_rgT4aXqA5nV1F-IDqLIhYy1XlegzQ1H/view",
+        "updated_at": "2025-05-31",
+        "size": "152.12 MB"
+    },
+    {
+        "title": "Summoners Greed ",
+        "version": "1.94.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/2d/cd/822dcd56-af89-8ea5-0685-7b3e5b6d77cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Vô hạn tài nguyên",
+        "download_url": "https://drive.google.com/file/d/1S6MsiCEA7wvCNPeLYSsnyahUP_FjAeEN/view",
+        "updated_at": "2025-05-31",
+        "size": "185.18 MB"
+    },
+    {
+        "title": "Abyss - Dungeon Action",
+        "version": "2.30",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKZZh6e-xRcsSpIhFeMvh6ZW_qhcMQVMV-yA&s",
+        "description": "✅ Tăng tầm đánh\n✅ Quái ngu\n✅ Luôn đánh combo\n✅ Đánh nhanh",
+        "download_url": "https://drive.google.com/file/d/1UeNwH1PVLkQejFTdVrRIYUp1e6aMO6yI/view",
+        "updated_at": "2025-05-31",
+        "size": "1.15 GB"
+    },
+    {
+        "title": "Fortias Saga_ Action Adventure",
+        "version": "1.0.81",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/7b/1b/bb7b1b16-ca82-1ec5-2b02-5fd2583f3a7e/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
+        "description": "✅ Đóng băng tài nguyên\n✅ No Ads",
+        "download_url": "https://drive.google.com/file/d/15aNW_7lTZreHslDE7QP2BdudhAxs2LBA/view",
+        "updated_at": "2025-05-31",
+        "size": "334.94 MB"
+    },
+    {
+        "title": "The Demonized",
+        "version": "4.6.0",
+        "image": "https://play-lh.googleusercontent.com/DnTYf19gownL-mAemU_keT6t8OhGLtjxtNC8WbEwTCIa7Ix0xRpj058OhCHUO59Xjg",
+        "description": "✅ 1 Hit \n✅ Bất tử \n✅ Quái ngu \n✅ Tốc đánh \n✅ Đóng băng tài nguyên",
+        "download_url": "https://drive.google.com/file/d/1P7IG3c8cj4ToRYO3_uVK19XDfhcUo5A_/view",
+        "updated_at": "2025-05-31",
+        "size": "218.48 MB"
+    },
+    {
         "title": "Nightfall Kingdom Frontier TD",
         "version": "1.0.389",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/91/c4/7291c4c7-b4e7-4bd8-369a-90bc2cbab412/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -101,15 +155,6 @@ const gamedata = [
         "size": "102.48 MB"
     },
     {
-        "title": "Summoners Greed ",
-        "version": "1.93.4",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/2d/cd/822dcd56-af89-8ea5-0685-7b3e5b6d77cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅Vô hạn tài nguyên",
-        "download_url": "https://drive.google.com/file/d/1xYVp2b7WlZP4Kg9w5WYVFu5fAAnjKjDr",
-        "updated_at": "2025-05-26",
-        "size": "185.09 MB"
-    },
-    {
         "title": "Blades of Brim",
         "version": "2.22.10",
         "image": "https://play-lh.googleusercontent.com/kTUUCCtvohUq6K0hY06XXJXBDVEQJ7n5dtxQ165Xj1WxlSG2-hO9gdmzNC3aPEpY-i0",
@@ -172,15 +217,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1Cgh8rsHE0glxJU83e0ilD7WvjThs4Eqj",
         "updated_at": "2025-05-22",
         "size": "170 MB"
-    },
-    {
-        "title": "Jurassic World",
-        "version": "1.82.16",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/42/c7/5f42c789-d4bc-1d1c-e6bd-f55d80881851/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
-        "description": "✅ Đóng băng tiền tệ\n✅ Gói đặc biệt không giới hạn\n✅ Tiến hóa luôn thành công\n✅ Nuôi cấp độ tối đa tức thời\n✅ Chi phí tăng tốc miễn phí\n✅ Vip",
-        "download_url": "https://drive.google.com/file/d/1sT57iZ_8UH2npJXIudNL5qWTka2QpEhp",
-        "updated_at": "2025-05-22",
-        "size": "909.87 MB"
     },
     {
         "title": "Survivor.io",
@@ -311,15 +347,6 @@ const gamedata = [
         "size": "460.45 MB"
     },
     {
-        "title": "Fortias Saga_ Action Adventure",
-        "version": "1.0.80",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/7b/1b/bb7b1b16-ca82-1ec5-2b02-5fd2583f3a7e/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
-        "description": "✅ Đóng băng tài nguyên\n✅ No Ads",
-        "download_url": "https://drive.google.com/file/d/1hpUJGXJwytLBCXkBuaD26YXKF_7wOKy3",
-        "updated_at": "2025-05-19",
-        "size": "331.86 MB"
-    },
-    {
         "title": "Turret Defense King",
         "version": "1.2.18",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/1b/47/c91b473c-6f87-db95-ec28-11a2411b521b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -327,15 +354,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/14icVybvdAhRA-kkOZiPAw0euF-E8Lb6O",
         "updated_at": "2025-05-19",
         "size": "83.87 MB"
-    },
-    {
-        "title": "The Demonized",
-        "version": "4.4.3",
-        "image": "https://play-lh.googleusercontent.com/DnTYf19gownL-mAemU_keT6t8OhGLtjxtNC8WbEwTCIa7Ix0xRpj058OhCHUO59Xjg",
-        "description": "✅ 1 Hit \n✅ Bất tử \n✅ Quái ngu \n✅ Tốc đánh \n✅ Đóng băng tài nguyên",
-        "download_url": "https://drive.google.com/file/d/14SJUAUtk-IL4W6r7sKNlvJEl9Cl1lHSE",
-        "updated_at": "2025-05-19",
-        "size": "196.67 MB"
     },
     {
         "title": "Rogue with the Dead_ Idle RPG",
@@ -1041,15 +1059,6 @@ const gamedata = [
         "size": "91.04 MB"
     },
     {
-        "title": "Cat Mine",
-        "version": "2.4.3.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/f5/f9/bdf5f998-7ed7-ec48-eab7-bca7c71d40a2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
-        "description": "✅Tiền tệ không giới hạn → Chi tiêu/Lợi nhuận \n✅iGG",
-        "download_url": "https://drive.google.com/file/d/1oMK0FMqG-Xc93erjQM8ux1Vv_g7w0B0k",
-        "updated_at": "2025-04-19",
-        "size": "152.38 MB"
-    },
-    {
         "title": "Galaxy Defense",
         "version": "0.7.6.",
         "image": "https://play-lh.googleusercontent.com/iMM8U6VUiwW4J1r6_oWMgkG_iK2Q_Xv5lUV8Y7Aq6aQWVXmnaToWmlxbzBsFe_XpPKY0=w480-h960-rw",
@@ -1121,15 +1130,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1oweDJ10mqqPdrDvpp_hgFO9rUNjhmnU_",
         "updated_at": "2025-04-18",
         "size": "2012.35 MB"
-    },
-    {
-        "title": "Abyss - Dungeon Action",
-        "version": "2.27",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKZZh6e-xRcsSpIhFeMvh6ZW_qhcMQVMV-yA&s",
-        "description": "✅ Tăng tầm đánh\n✅ Quái ngu\n✅ Luôn đánh combo\n✅ Đánh nhanh",
-        "download_url": "https://drive.google.com/file/d/12K9w9faJWRJTYKrdAVtLlpJ-TuGLNGOl",
-        "updated_at": "2025-04-17",
-        "size": "1139.20 MB"
     },
     {
         "title": "FC Mobile_",
