@@ -1,5 +1,14 @@
 const gamedata = [
     {
+        "title": "Dragon City",
+        "version": "25.7.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/2c/be/ec2cbede-96e1-5449-26ee-8ea1874a8fb5/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Luôn lượt bạn đánh  \n✅  Tự động chơi \n✅  Bất tử  \n✅ 1 Hit ",
+        "download_url": "https://drive.google.com/file/d/1XXPJa2gXc2SLX7-p3aqXGndEo37Wxjph/view",
+        "updated_at": "2025-06-02",
+        "size": "135.83 MB"
+    },
+    {
         "title": "Mob Control",
         "version": "2.88.2",
         "image": "https://play-lh.googleusercontent.com/fYW81WEQjExj4VrCNcoWLJpn_YDRCTi_vdgwF7O61Th5715qbzopngJd7Ae2-ec-r24=w480-h960-rw",
@@ -562,15 +571,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1URwxP6_hBH-O3GThVmDdXlCsLYDjlDzO",
         "updated_at": "2025-05-17",
         "size": "162.44 MB"
-    },
-    {
-        "title": "Dragon City",
-        "version": "25.6.1",
-        "image": "https://play-lh.googleusercontent.com/FVkQs5VK9RCOMZKW2fvf3gXLnowagPiEqa0jSmYdIvPtM6b3q9Q3pe2Ba7WYb03Cbbo=w480-h960-rw",
-        "description": "✅  Luôn lượt bạn đánh  \n✅  Tự động chơi \n✅  Bất tử  \n✅ 1 Hit ",
-        "download_url": "https://drive.google.com/file/d/1KVyrJmRKq6UYkqmkPoCdUOh6vrWWbZPI",
-        "updated_at": "2025-05-16",
-        "size": "135.51 MB"
     },
     {
         "title": "Earn to Die Rogue",
