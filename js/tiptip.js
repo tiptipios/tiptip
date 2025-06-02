@@ -1,5 +1,86 @@
 const gamedata = [
     {
+        "title": "Mob Control",
+        "version": "2.88.2",
+        "image": "https://play-lh.googleusercontent.com/fYW81WEQjExj4VrCNcoWLJpn_YDRCTi_vdgwF7O61Th5715qbzopngJd7Ae2-ec-r24=w480-h960-rw",
+        "description": "✅ Vô hạn coin,Skip ( tăng khi dùng )\n✅ Nhận Brick vô hạn (tắt khi hiện thắng thành công )\n✅ Nâng cấp không cần card\n✅ Card vô hạn",
+        "download_url": "https://drive.google.com/file/d/1v0cNSRBD0KeGqu-y56QzT4JR1HRqT4_L/view",
+        "updated_at": "2025-06-02",
+        "size": "186.03 MB"
+    },
+    {
+        "title": "Blade Idle",
+        "version": "1.58.3",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/f4/ad/41f4ad39-30fd-f4a6-21f2-2814e199803f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅Bất tử\n✅ Không có thời gian hồi chiêu\n✅ Thắng ngay lập tức\n✅ Dừng thời gian",
+        "download_url": "https://drive.google.com/file/d/1JDsWs-IeRFZwP3IbCacgDO669SIe49_4/view",
+        "updated_at": "2025-06-02",
+        "size": "408.32 MB"
+    },
+    {
+        "title": "Idle Bank Tycoon",
+        "version": "1.58.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/ba/29/6aba2959-c421-79d8-89c9-5f6fe764c469/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Đóng băng tiền tệ",
+        "download_url": "https://drive.google.com/file/d/1P8OfDbEG-sGBw6pIQsl27hjFfryCbSfb/view",
+        "updated_at": "2025-06-02",
+        "size": "126.65 MB"
+    },
+    {
+        "title": "Hungry Shark Evo ",
+        "version": "12.8.3",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/4b/ff/784bffc0-fd69-bf5f-d467-c79c4709aaff/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "✅Vô hạn tiền tệ\n✅ Bất tử",
+        "download_url": "https://drive.google.com/file/d/1J2qyyfQ6liXB8V1Bi1pz2hhFQruW8v-y/view",
+        "updated_at": "2025-06-02",
+        "size": "195.31 MB"
+    },
+    {
+        "title": "Travel Town",
+        "version": "2.12.1081",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/da/bb/c0dabbd4-1dab-fe1f-edb4-025c17552e09/NewAppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+        "description": "✅Năng lượng tăng khi dùng\n✅Ghép vật phẩm bất kì\n✅1 Kim Cương Mở rương\n✅1 Kim Cương Unlock Bubbles\n✅ Rơi Coin + bong bóng khi ghép",
+        "download_url": "https://drive.google.com/file/d/1O9DVlLlcjwbtnJ3VYTI130ZYjtIDUWAi/view",
+        "updated_at": "2025-06-02",
+        "size": "152.38 MB"
+    },
+    {
+        "title": "DungeonSlasher",
+        "version": "0.736.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/e4/76/f1e4761b-7ab2-b56f-d1f2-17bb277adb77/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Never Die",
+        "download_url": "https://drive.google.com/file/d/1Ff3zQfDJzVMOjDJl9gLtUkzV7W_Occtw/view",
+        "updated_at": "2025-06-02",
+        "size": "301.20 MB"
+    },
+    {
+        "title": "Tap Titans 2",
+        "version": "7.10.3",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/e0/fa/45e0fa81-2967-fcb6-48b0-80c96b61e8d2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Lên cấp miễn phí\n✅ Kỹ năng ko tốn Mana\n✅ Nâng cấp anh hùng được thuê miễn phí\n✅ Thêm tài nguyên khi dùng\n✅ Không có thời gian hồi chiêu kỹ năng\n✅ Bỏ qua các đợt tấn công\n✅ Quái vật có HP thấp\n✅ Đóng băng vàng\n✅ Đóng băng mana\n✅ Thu thập phần thưởng không có quảng cáo",
+        "download_url": "https://drive.google.com/file/d/1Ikkb5uGTi4wkHjhyWYNGOk6mSXvHOhE5/view",
+        "updated_at": "2025-06-02",
+        "size": "175.41 MB"
+    },
+    {
+        "title": "Arcana Blade : Idle RPG",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/49/c8/8749c82f-2d03-e4e2-2953-6e704a1620b2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Bất tử",
+        "download_url": "https://drive.google.com/file/d/1e5XVgEZJ8R-t-VeRlY8tk-gb9c-OpVYb/view",
+        "version": "1.7.21",
+        "updated_at": "2025-06-02",
+        "size": "469.20 MB"
+    },
+    {
+        "title": "Archers Survivor ",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/fb/80/56fb802b-1c40-ea4d-3862-70c018576730/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+        "description": "✅Vô hạn tài nguyên\n✅ Vô hạn tiền tệ",
+        "download_url": "https://drive.google.com/file/d/1B0eAzq1bU4ngXGpJCC4BdUyRWtV3DofZ/view",
+        "version": "1.0.1",
+        "updated_at": "2025-06-02",
+        "size": "91.62 MB"
+    },
+    {
         "title": "Jurassic World",
         "version": "1.82.18",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/42/c7/5f42c789-d4bc-1d1c-e6bd-f55d80881851/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
@@ -81,15 +162,6 @@ const gamedata = [
         "size": "305.81 MB"
     },
     {
-        "title": "Tap Titans 2",
-        "version": "7.10.2",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/e0/fa/45e0fa81-2967-fcb6-48b0-80c96b61e8d2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Lên cấp miễn phí\n✅ Kỹ năng ko tốn Mana\n✅ Nâng cấp anh hùng được thuê miễn phí\n✅ Thêm tài nguyên khi dùng\n✅ Không có thời gian hồi chiêu kỹ năng\n✅ Bỏ qua các đợt tấn công\n✅ Quái vật có HP thấp\n✅ Đóng băng vàng\n✅ Đóng băng mana\n✅ Thu thập phần thưởng không có quảng cáo",
-        "download_url": "https://drive.google.com/file/d/1z1HOvQngDpJYk0enDNmZUayDOy6M8Nz2/view",
-        "updated_at": "2025-05-29",
-        "size": "175.37 MB"
-    },
-    {
         "title": "Z Survivor",
         "version": "0.62",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/33/a8/b133a8e8-d4e3-cc19-b6c7-d1cfcc243ef3/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
@@ -126,15 +198,6 @@ const gamedata = [
         "updated_at": "2025-05-26",
         "size": "313.22 MB",
         "fake_downloads": 999971
-    },
-    {
-        "title": "Travel Town",
-        "version": "2.12.1060",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/da/bb/c0dabbd4-1dab-fe1f-edb4-025c17552e09/NewAppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "description": "✅Năng lượng tăng khi dùng\n✅Ghép vật phẩm bất kì\n✅1 Kim Cương Mở rương\n✅1 Kim Cương Unlock Bubbles\n✅ Rơi Coin + bong bóng khi ghép",
-        "download_url": "https://drive.google.com/file/d/1DSTnCNNkQR8_ZvG_Yqjynt0JA0-Em63S",
-        "updated_at": "2025-05-26",
-        "size": "151.45 MB"
     },
     {
         "title": "Stick War: Saga",
@@ -180,15 +243,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1ueAWdpH61HICA41lLyAo6c98ZTriaZlw",
         "updated_at": "2025-05-26",
         "size": "79.74 MB"
-    },
-    {
-        "title": "Idle Bank Tycoon",
-        "version": "1.57.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/ba/29/6aba2959-c421-79d8-89c9-5f6fe764c469/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Đóng băng tiền tệ",
-        "download_url": "https://drive.google.com/file/d/1b86YvcrwfH4JxuJylDtjFlGNkNZGBOVA",
-        "updated_at": "2025-05-26",
-        "size": "125.87 MB"
     },
     {
         "title": "Pocket Land",
@@ -338,15 +392,6 @@ const gamedata = [
         "fake_downloads": 974571
     },
     {
-        "title": "Arcana Blade : Idle RPG",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/49/c8/8749c82f-2d03-e4e2-2953-6e704a1620b2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Bất tử",
-        "download_url": "https://drive.google.com/file/d/1YVpR2UIyWb0nFMHAK8zOnMeJ5kLkF_H3",
-        "version": "1.7.12",
-        "updated_at": "2025-05-19",
-        "size": "460.45 MB"
-    },
-    {
         "title": "Turret Defense King",
         "version": "1.2.18",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/1b/47/c91b473c-6f87-db95-ec28-11a2411b521b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -381,15 +426,6 @@ const gamedata = [
         "version": "1.85.0",
         "updated_at": "2025-05-19",
         "size": "154.86 MB"
-    },
-    {
-        "title": "DungeonSlasher",
-        "version": "0.735.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/e4/76/f1e4761b-7ab2-b56f-d1f2-17bb277adb77/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Never Die",
-        "download_url": "https://drive.google.com/file/d/1ZzZ5i4JTyZYFmPRZ7sMB2XJeUpcEzgkA",
-        "updated_at": "2025-05-18",
-        "size": "299.22 MB"
     },
     {
         "title": "Smashero",
@@ -784,15 +820,6 @@ const gamedata = [
         "size": "229.97 MB"
     },
     {
-        "title": "Blade Idle",
-        "version": "1.57.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/23/61/dc2361a6-0ca2-4125-e4fd-654ccc1cb986/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Hệ số sát thương\n✅ Không bao giờ chết\n✅ Không có thời gian hồi kỹ năng\n✅ Thắng ngay lập tức\n✅ Hệ số tốc độ trò chơi",
-        "download_url": "https://drive.google.com/file/d/1Kl_8WVaaD6PUe4QaqGZy2Q8msQOVf3gc",
-        "updated_at": "2025-05-09",
-        "size": "407.35 MB"
-    },
-    {
         "title": "Need for Speed No Limits",
         "version": "8.4.01",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/e4/ad/a2e4ad85-f028-f436-69a8-35a3fd6762bf/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
@@ -929,15 +956,6 @@ const gamedata = [
         "size": "502.87 MB"
     },
     {
-        "title": "Mob Control",
-        "version": "2.87.2.",
-        "image": "https://play-lh.googleusercontent.com/fYW81WEQjExj4VrCNcoWLJpn_YDRCTi_vdgwF7O61Th5715qbzopngJd7Ae2-ec-r24=w480-h960-rw",
-        "description": "✅ Vô hạn coin,Skip ( tăng khi dùng )\n✅ Nhận Brick vô hạn (tắt khi hiện thắng thành công )\n✅ Nâng cấp không cần card\n✅ Card vô hạn",
-        "download_url": "https://drive.google.com/file/d/1-ieUa7TPC3KSJGvWxSO95E11ZEDdVpUj",
-        "updated_at": "2025-05-01",
-        "size": "185.38 MB"
-    },
-    {
         "title": "Erythros Lite",
         "version": "24.02.25",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/6a/ec/9a6aec46-ef07-797f-9026-b975b7537236/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -1021,15 +1039,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1r-d9mhmrh9h4rECxFlm-MoaUOOYjgiqI",
         "updated_at": "2025-04-20",
         "size": "180.48 MB"
-    },
-    {
-        "title": "Hungry Shark Evo ",
-        "version": "12.8.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/75/12/5d75120f-2cc5-b736-e6a9-40566e83661f/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg",
-        "description": "✅ Tiền xu không giới hạn\n✅ Đá quý không giới hạn\n✅ Ngọc trai không giới hạn\n✅ Boost không giới hạn\n✅ Mở khóa Season Pass",
-        "download_url": "https://drive.google.com/file/d/1og8-Qjj3zqAl22mY3Y3-h2kZgFcq9uc-",
-        "updated_at": "2025-04-19",
-        "size": "184.97 MB"
     },
     {
         "title": "Five Hearts Under One Roof",
