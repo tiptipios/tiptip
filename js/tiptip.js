@@ -1,5 +1,78 @@
 const gamedata = [
     {
+        "title": "Nighty Knight: Frontier War TD",
+        "version": "1.0.61",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/a7/9e/6fa79e46-097e-a25b-ae83-6424da384101/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Đóng băng tiền tệ, tài nguyên\n✅ Chi phí năng lượng 0\n✅ Chiến dịch\n✅ HP,DMG\n✅ trang bị\n✅ Tiền bạc và chi phí tháp\n✅ Kẻ thù tối đa 1\n✅ Kẻ thù đóng băng",
+        "download_url": "https://drive.google.com/file/d/1P_eQq5lN-odp74wTBVbInPrpjmtnwRLI/view",
+        "updated_at": "2025-06-04",
+        "size": "230.05 MB"
+    },
+    {
+        "title": "Alien Shooter",
+        "version": "64.6",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
+        "download_url": "https://drive.google.com/file/d/1wnA426yDeUE2XBcr8UQwP-3a3dWmXtch/view",
+        "updated_at": "2025-06-04",
+        "size": "202.06 MB"
+    },
+    {
+        "title": "Summoners Greed ",
+        "version": "1.94.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/2d/cd/822dcd56-af89-8ea5-0685-7b3e5b6d77cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Vô hạn tài nguyên",
+        "download_url": "https://drive.google.com/file/d/1Vvmzbd5m5YDL-J7tPsvWavgbOcsjSjrq/view",
+        "updated_at": "2025-06-04",
+        "size": "185.15 MB"
+    },
+    {
+        "title": "Angry Birds 2",
+        "version": "3.28.2",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZkcK-xN5tNZ4a6-8F3_fOs5JBp_kG9rAug&s",
+        "description": "✅ Tài nguyên vô hạn ( sài 1 ít )",
+        "download_url": "https://drive.google.com/file/d/1RU2K4nk4wnrzUrdj3qCB24hYg6FbMgkp/view",
+        "updated_at": "2025-06-04",
+        "size": "313.62 MB",
+        "fake_downloads": 974571
+    },
+    {
+        "title": "Tap Tap Fish - AbyssRium",
+        "version": "1.84.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/b2/ae/c1b2aeea-e36a-46f3-6a83-91044c8421b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Đóng băng tài nguyên",
+        "download_url": "https://drive.google.com/file/d/1sl3SLL6JKHuUXBm9sTW-wH8g4atE5ith/view",
+        "updated_at": "2025-06-04",
+        "size": "437.39 MB"
+    },
+    {
+        "title": "My Talking Tom Friend",
+        "version": "25.2.1",
+        "image": "https://play-lh.googleusercontent.com/f4vvN2G_t_ZK5OJ5jqy9wqn3_okPiOQJXNLg747Ofixrc7zwM9YzunN84Dg60E0anA=w480-h960-rw",
+        "description": "✅ Vô hạn tiền tệ",
+        "download_url": "https://drive.google.com/file/d/1E93ylkDcmyt8YKayCFuQZ3WK4g0Nd4Gv/view",
+        "updated_at": "2025-06-04",
+        "size": "166.46 MB"
+    },
+    {
+        "title": "Gardenscapes",
+        "version": "8.8.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/e9/14/3fe914ee-2f35-98f4-6e8a-e0e148704cc2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Đóng băng sao\n✅ Vô hạn lượt di chuyển\n✅ Vô hạn mạng\n✅ Vô hạn Boosters",
+        "download_url": "https://drive.google.com/file/d/1Hw9SoFQuNZaqpdQmZDVQ2Qpjh30tIZyt/view",
+        "updated_at": "2025-06-04",
+        "size": "188.17 MB"
+    },
+    {
+        "title": "Homescapes",
+        "version": "8.0.3",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/c4/5c/25c45ceb-b0d6-12f8-7b9b-fdf65cb0eea3/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Di chuyển vô hạn \n✅ Tăng cường vô hạn \n✅ Mạng vô hạn \n✅ Tiền vô hạn \n✅ Hoàn thành nhiệm vụ mà không cần Sao \n✅ Mở khóa Season Pass",
+        "download_url": "https://drive.google.com/file/d/1aTaO11nvvo99ybZ7p0ZSu57qHjoHnGrt/view",
+        "updated_at": "2025-06-04",
+        "size": "181.38 MB"
+    },
+    {
         "title": "Dragon City",
         "version": "25.7.2",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/2c/be/ec2cbede-96e1-5449-26ee-8ea1874a8fb5/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
@@ -108,15 +181,6 @@ const gamedata = [
         "size": "152.12 MB"
     },
     {
-        "title": "Summoners Greed ",
-        "version": "1.94.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/2d/cd/822dcd56-af89-8ea5-0685-7b3e5b6d77cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅Vô hạn tài nguyên",
-        "download_url": "https://drive.google.com/file/d/1S6MsiCEA7wvCNPeLYSsnyahUP_FjAeEN/view",
-        "updated_at": "2025-05-31",
-        "size": "185.18 MB"
-    },
-    {
         "title": "Abyss - Dungeon Action",
         "version": "2.30",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKZZh6e-xRcsSpIhFeMvh6ZW_qhcMQVMV-yA&s",
@@ -188,15 +252,6 @@ const gamedata = [
         "updated_at": "2025-05-28",
         "size": "116.59 MB",
         "fake_downloads": 954571
-    },
-    {
-        "title": "Alien Shooter",
-        "version": "64.5",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
-        "download_url": "https://drive.google.com/file/d/1zdG3Sb7KwbggsQXZ_GZNEyeM7d83Rwiq/view",
-        "updated_at": "2025-05-28",
-        "size": "202.06 MB"
     },
     {
         "title": "Cats & Soup",
@@ -389,16 +444,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1vWJl_Nw3zfVfcVZ9ZTcpw7oT_ze5352y",
         "updated_at": "2025-05-19",
         "size": "175.81 MB"
-    },
-    {
-        "title": "Angry Birds 2",
-        "version": "3.28.1",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZkcK-xN5tNZ4a6-8F3_fOs5JBp_kG9rAug&s",
-        "description": "✅ Tài nguyên vô hạn ( sài 1 ít )",
-        "download_url": "https://drive.google.com/file/d/1V-BHR4TKfni6M4z4bEMmNWAFtcYg3tQY",
-        "updated_at": "2025-05-19",
-        "size": "313.48 MB",
-        "fake_downloads": 974571
     },
     {
         "title": "Turret Defense King",
@@ -699,15 +744,6 @@ const gamedata = [
         "size": "161.69 MB"
     },
     {
-        "title": "Homescapes",
-        "version": "7.9.6.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/c4/5c/25c45ceb-b0d6-12f8-7b9b-fdf65cb0eea3/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Di chuyển vô hạn \n✅ Tăng cường vô hạn \n✅ Mạng vô hạn \n✅ Tiền vô hạn \n✅ Hoàn thành nhiệm vụ mà không cần Sao \n✅ Mở khóa Season Pass",
-        "download_url": "https://drive.google.com/file/d/1DSNnPn9yq-sAqZJTsgb49Vl9Gvoxt0y1",
-        "updated_at": "2025-05-11",
-        "size": "180.21 MB"
-    },
-    {
         "title": "Meow Town",
         "version": "0.8.2.",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/8b/47/6e8b471c-fb14-5fc3-a5b5-8d5ae13e1b04/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -809,15 +845,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1pRcQyFFzP-OcmIa5yG-ln91hmdMC8z1V",
         "updated_at": "2025-05-09",
         "size": "679.33 MB"
-    },
-    {
-        "title": "Nighty Knight: Frontier War TD",
-        "version": "1.0.60.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/a7/9e/6fa79e46-097e-a25b-ae83-6424da384101/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Đóng băng tiền tệ, tài nguyên\n✅ Chi phí năng lượng 0\n✅ Chiến dịch\n✅ HP,DMG\n✅ trang bị\n✅ Tiền bạc và chi phí tháp\n✅ Kẻ thù tối đa 1\n✅ Kẻ thù đóng băng",
-        "download_url": "https://drive.google.com/file/d/11DTLCkdmpawaD0c1giraQcNdBXMm71yk",
-        "updated_at": "2025-05-09",
-        "size": "229.97 MB"
     },
     {
         "title": "Need for Speed No Limits",
@@ -1030,15 +1057,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1pn5ZuyhOtU31942NDNu8u6xJe58n5k0Y",
         "updated_at": "2025-04-21",
         "size": "162.76 MB"
-    },
-    {
-        "title": "Gardenscapes",
-        "version": "8.7.0.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/e9/14/3fe914ee-2f35-98f4-6e8a-e0e148704cc2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Infinite Moves \n✅ Infinite Boosters\n✅ Infinite Lives",
-        "download_url": "https://drive.google.com/file/d/1r-d9mhmrh9h4rECxFlm-MoaUOOYjgiqI",
-        "updated_at": "2025-04-20",
-        "size": "180.48 MB"
     },
     {
         "title": "Five Hearts Under One Roof",
@@ -1285,15 +1303,6 @@ const gamedata = [
         "size": "203.96 MB"
     },
     {
-        "title": "My Talking Tom Friend",
-        "version": "25.1.2.",
-        "image": "https://play-lh.googleusercontent.com/f4vvN2G_t_ZK5OJ5jqy9wqn3_okPiOQJXNLg747Ofixrc7zwM9YzunN84Dg60E0anA=w480-h960-rw",
-        "description": "✅ Vô hạn tiền tệ",
-        "download_url": "https://drive.google.com/file/d/1AJ8Hd7IAePG0ug2P3qpFOzUFnyFqz6rR",
-        "updated_at": "2025-04-13",
-        "size": "163.47 MB"
-    },
-    {
         "title": "Stickman vs Monster: Idle Game",
         "version": "2.0.03",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/87/10/fa8710c7-aebf-1065-1816-aa0f1447d59a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
@@ -1382,15 +1391,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1GcQLEnu1dg4lPrJWSETEGG7zC3Upw2FU",
         "updated_at": "2025-04-05",
         "size": "81.53 MB"
-    },
-    {
-        "title": "Tap Tap Fish - AbyssRium",
-        "version": "1.82.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/b2/ae/c1b2aeea-e36a-46f3-6a83-91044c8421b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Đóng băng tài nguyên",
-        "download_url": "https://drive.google.com/file/d/1qwFwVRzKp9M9c9GrFzYTsForpK0iJU5x",
-        "updated_at": "2025-04-03",
-        "size": "430.34 MB"
     },
     {
         "title": "Brotato",
@@ -2015,15 +2015,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1LntMWxDsIzXd82vURSjsrAz0AyAgC9gV",
         "updated_at": "2025-03-10",
         "size": "2010.95 MB"
-    },
-    {
-        "title": "Gardenscapes_",
-        "version": "8.6.0.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/e9/14/3fe914ee-2f35-98f4-6e8a-e0e148704cc2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Infinite Moves \n✅ Infinite Boosters\n✅ Infinite Lives",
-        "download_url": "https://drive.google.com/file/d/1kwioiyXaSb6HanX29Wn7mcmK5lX64xz2",
-        "updated_at": "2025-03-10",
-        "size": "170.30 MB"
     },
     {
         "title": "Parking Master Multiplayer 2",
