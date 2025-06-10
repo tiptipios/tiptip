@@ -1,5 +1,43 @@
 const gamedata = [
     {
+        "title": "Soul Knight",
+        "version": "7.3.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/08/d8/5008d8ba-d92d-a0fa-d9a3-1debf100ec6b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Vô hạn kim cương\n✅ Vô hạn cá\n✅ Vô hạn năng lượng\n✅ Bất tử\n✅ One hit\n✅ Không thời gian hồi chiêu\n✅ Tăng tốc bắn",
+        "download_url": "https://drive.google.com/file/d/1D25XJS2yqAJpq_SitQDtrPkM3Es3jY_w/view",
+        "updated_at": "2025-06-10",
+        "size": "511.68 MB"
+    },
+    {
+        "title": "Cats & Soup",
+        "version": "2.70.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/53/98/8053985f-8cf5-6959-2edb-18123b75056b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
+        "download_url": "https://drive.google.com/file/d/1J796dnGpt_zafwpyP6v5aU7gGH4L8W4t/view",
+        "updated_at": "2025-06-10",
+        "size": "323.42 MB",
+        "fake_downloads": 999971
+    },
+    {
+        "title": "Subway Surf",
+        "version": "3.47.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
+        "download_url": "https://drive.google.com/file/d/1lA91GT1-YIqBi-ktijVTj3a3GlWOcnC_/view",
+        "updated_at": "2025-06-10",
+        "size": "140.40 MB",
+        "fake_downloads": 964571
+    },
+    {
+        "title": "Alien Shooter",
+        "version": "64.7",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
+        "download_url": "https://drive.google.com/file/d/1C3yJe7zDC1OjXv_73o6xZYLNaRamUDx4/view",
+        "updated_at": "2025-06-10",
+        "size": "200.08 MB"
+    },
+    {
         "title": "Nighty Knight: Frontier War TD",
         "version": "1.0.61",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/a7/9e/6fa79e46-097e-a25b-ae83-6424da384101/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -7,15 +45,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1P_eQq5lN-odp74wTBVbInPrpjmtnwRLI/view",
         "updated_at": "2025-06-04",
         "size": "230.05 MB"
-    },
-    {
-        "title": "Alien Shooter",
-        "version": "64.6",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
-        "download_url": "https://drive.google.com/file/d/1wnA426yDeUE2XBcr8UQwP-3a3dWmXtch/view",
-        "updated_at": "2025-06-04",
-        "size": "202.06 MB"
     },
     {
         "title": "Summoners Greed ",
@@ -252,16 +281,6 @@ const gamedata = [
         "updated_at": "2025-05-28",
         "size": "116.59 MB",
         "fake_downloads": 954571
-    },
-    {
-        "title": "Cats & Soup",
-        "version": "2.69.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/c9/1e/fbc91e12-7a48-347a-8b5e-ee839e76fca0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
-        "download_url": "https://drive.google.com/file/d/1nS7XKm849nvb-_lPyZXCzt9R_1oPwQ5U",
-        "updated_at": "2025-05-26",
-        "size": "313.22 MB",
-        "fake_downloads": 999971
     },
     {
         "title": "Stick War: Saga",
@@ -525,16 +544,6 @@ const gamedata = [
         "version": "1.2.6",
         "updated_at": "2025-05-18",
         "size": "100.04 MB"
-    },
-    {
-        "title": "Subway Surf",
-        "version": "3.46.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
-        "download_url": "https://drive.google.com/file/d/1Fjy9wfaIkJZ2ohIf0NPh0uI59gjMSedk",
-        "updated_at": "2025-05-17",
-        "size": "143.81 MB",
-        "fake_downloads": 964571
     },
     {
         "title": "Plant Survivor:Bang Bang",
@@ -972,15 +981,6 @@ const gamedata = [
         "download_url": "https://vuotlink.vip/APWU",
         "updated_at": "2025-05-02",
         "size": "3 GB"
-    },
-    {
-        "title": "Soul Knight",
-        "version": "7.2.0.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/6c/54/b86c5496-4dba-f117-8bb8-a8943cb7ddd5/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Vô hạn kim cương\n✅ Vô hạn cá\n✅ Vô hạn năng lượng\n✅ Bất tử\n✅ One hit\n✅ Không thời gian hồi chiêu\n✅ Tăng tốc bắn",
-        "download_url": "https://drive.google.com/file/d/1xLQDi9tEFDVYFIF3thcwlH_bfHG5bBI0",
-        "updated_at": "2025-05-01",
-        "size": "502.87 MB"
     },
     {
         "title": "Erythros Lite",
