@@ -1,5 +1,32 @@
 const gamedata = [
     {
+        "title": "Good Coffee",
+        "version": "1.1.10",
+        "image": "https://play-lh.googleusercontent.com/x1idEcdmK8freWt2CfTe_BN5al9GmsDBKZBwC8JtO31ag2z8s82EPmcoAIGHZ19vzA=w480-h960-rw",
+        "description": "✅ Vô Hạn Tiên Tệ\n✅ Vô Hạn Kim Cương\n✅ Vô Hạn Năng Lượng\n✅ All Shop Đc Mở Khoá Và Nâng Cấp\n✅ Vô Hạn Điểm Bia\n✅ Mở Khoá Trang Trí\n✅ Mở Mô Hình\n✅ Mở Nâng Cấp Máy\n✅ Nhận Phần Thưởng Hằng Ngày\n✅ Uống Hoàn Hảo",
+        "download_url": "https://drive.google.com/file/d/1XZFFtyv3nKS_KToUsTsXTDVBNTELlFg2/view",
+        "updated_at": "2025-06-17",
+        "size": "215.47 MB"
+    },
+    {
+        "title": "Plant Power - Fruit Showdown",
+        "version": "7.7.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/5d/21/0f5d210b-a508-517e-ec63-c3a5c4844389/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ No ads - phần thưởng miễn phí\n✅ Vô hạn kim cương\n✅ Vô hạn vàng\n✅ Vô hạn năng lượng\n✅ Chìa khóa - Bạc vàng\n✅ Mở Khóa Hero Basic\n✅ Mở khóa Vũ khí\n✅ Mở khóa Tường\n✅ Mở khóa GamePlay\n✅ Tăng tốc Thẻ hoạt động\n✅ Thẻ tăng cấp vũ khí\n✅ Thẻ tăng cấp Hero Basic\n✅ Skip Qua màn nhanh - Giết 1 quái vật\n✅ Cấp độ và Trạng thái anh hùng huyền thoại, cơ bản [ ATK CD CRITI ETC ]\n✅ Cấp độ và trạng thái vũ khí [ ATK KỸ NĂNG CD CHÍNH XÁC HP V.V. ]",
+        "download_url": "https://drive.google.com/file/d/1WfQNPThSGSdd4Z34bcVq1KxFF15A-1V7/view",
+        "updated_at": "2025-06-17",
+        "size": "125.26 MB"
+    },
+    {
+        "title": "Snake.io ",
+        "version": "1.21.6",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/bc/ab/e3bcab99-c84e-0df4-ee1a-c93d1063e4c6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ No ads\n✅ Mở khóa All Skin\n✅ Có thể di chuyển qua vùng giới hạn\n✅ Bất tử\n✅ Hồi sinh không giới hạn\n✅ Ăn kích thước lớn hơn\n✅ Kích thước Boss nhỏ\n✅ Boss HP 1\n✅ Ăn nhận nhiều hơn\n✅ Tăng Bán kính ăn\n✅ AI ngu ngốc",
+        "download_url": "https://drive.google.com/file/d/150UHlXEcrotLbo2eETx4WyUoTaIWFdN9/view",
+        "updated_at": "2025-06-17",
+        "size": "98.77 MB"
+    },
+    {
         "title": "Soul Knight",
         "version": "7.3.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/08/d8/5008d8ba-d92d-a0fa-d9a3-1debf100ec6b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
@@ -645,15 +672,6 @@ const gamedata = [
         "size": "193.33 MB"
     },
     {
-        "title": "Good Coffee",
-        "version": "1.1.2",
-        "image": "https://play-lh.googleusercontent.com/x1idEcdmK8freWt2CfTe_BN5al9GmsDBKZBwC8JtO31ag2z8s82EPmcoAIGHZ19vzA=w480-h960-rw",
-        "description": "✅ Vô Hạn Tiên Tệ\n✅ Vô Hạn Kim Cương\n✅ Vô Hạn Năng Lượng\n✅ All Shop Đc Mở Khoá Và Nâng Cấp\n✅ Vô Hạn Điểm Bia\n✅ Mở Khoá Trang Trí\n✅ Mở Mô Hình\n✅ Mở Nâng Cấp Máy\n✅ Nhận Phần Thưởng Hằng Ngày\n✅ Uống Hoàn Hảo",
-        "download_url": "https://drive.google.com/file/d/1Zg90BEedWm3mWrg5zKzrE209_UyI7GJK",
-        "updated_at": "2025-05-15",
-        "size": "205.43 MB"
-    },
-    {
         "title": "CO-OP TD",
         "version": "1.3.2.",
         "image": "https://play-lh.googleusercontent.com/b_KVTRchvoiF0kiV8i7dS-LaB99jw-bTyKe2alDQvNoLgEQXBq-Ii-uw_4RtICR8Vl34=w240-h480-rw",
@@ -724,15 +742,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1yEGT3kp6lpBj3ArGjX-fVpW2tr6lLVog",
         "updated_at": "2025-05-12",
         "size": "136.21 MB"
-    },
-    {
-        "title": "Snake.io ",
-        "version": "1.21.5",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/bc/ab/e3bcab99-c84e-0df4-ee1a-c93d1063e4c6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ No ads\n✅ Mở khóa All Skin\n✅ Có thể di chuyển qua vùng giới hạn\n✅ Bất tử\n✅ Hồi sinh không giới hạn\n✅ Ăn kích thước lớn hơn\n✅ Kích thước Boss nhỏ\n✅ Boss HP 1\n✅ Ăn nhận nhiều hơn\n✅ Tăng Bán kính ăn\n✅ AI ngu ngốc",
-        "download_url": "https://drive.google.com/file/d/1XL04pV1Ds6EvWKmbx0suNfcQ58VfM1N1",
-        "updated_at": "2025-05-11",
-        "size": "96.24 MB"
     },
     {
         "title": "No Limit 2",
@@ -1048,15 +1057,6 @@ const gamedata = [
         "updated_at": "2025-04-22",
         "size": "87.90 MB",
         "fake_downloads": 994571
-    },
-    {
-        "title": "Plant Power - Fruit Showdown",
-        "version": "7.4",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/5d/21/0f5d210b-a508-517e-ec63-c3a5c4844389/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ No ads - phần thưởng miễn phí\n✅ Vô hạn kim cương\n✅ Vô hạn vàng\n✅ Vô hạn năng lượng\n✅ Chìa khóa - Bạc vàng\n✅ Mở Khóa Hero Basic\n✅ Mở khóa Vũ khí\n✅ Mở khóa Tường\n✅ Mở khóa GamePlay\n✅ Tăng tốc Thẻ hoạt động\n✅ Thẻ tăng cấp vũ khí\n✅ Thẻ tăng cấp Hero Basic\n✅ Skip Qua màn nhanh - Giết 1 quái vật\n✅ Cấp độ và Trạng thái anh hùng huyền thoại, cơ bản [ ATK CD CRITI ETC ]\n✅ Cấp độ và trạng thái vũ khí [ ATK KỸ NĂNG CD CHÍNH XÁC HP V.V. ]",
-        "download_url": "https://drive.google.com/file/d/1pn5ZuyhOtU31942NDNu8u6xJe58n5k0Y",
-        "updated_at": "2025-04-21",
-        "size": "162.76 MB"
     },
     {
         "title": "Five Hearts Under One Roof",
