@@ -2,7 +2,7 @@ const spikedata = [
      {
         "title": "The Spike Ver 2.1",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-        "description": "✅ $ 50k/tháng \n✅ Menu Mod Nhân Vật tuỳ chọn\n✅ Skill Buff chỉ số Team ( Có trên các nhân vật $ Ws )\n✅ Buff Nhân vật Siwoo ( 120 đ thủ, công. 40đ nhảy,nhanh nhẹn)\n✅ No Ads\n✅ Mod bóng gốc.\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái ) \n✅ Thêm Buff Chỉ số Nhân vật dưới S\n✅ Thêm Aura khi bật Skill TipTip\n ✅ Tuỳ chỉnh màu Aura \n ✅ Fix văng khi đập Siwoo quá mạnh,Đột ngột",
+        "description": "✅ $ 50k/tháng\n✅ Nếu trước đã cài V2 thì cài đè thẳng lên V2 để ko bị reset UDID \n✅ Menu Mod Nhân Vật tuỳ chọn\n✅ Skill Buff chỉ số Team ( Có trên các nhân vật $ Ws )\n✅ Buff Nhân vật Siwoo ( 120 đ thủ, công. 40đ nhảy,nhanh nhẹn)\n✅ No Ads\n✅ Mod bóng gốc.\n✅ Điều kiển bóng trong trận ( chữ TipTip góc trái ) \n✅ Thêm Buff Chỉ số Nhân vật dưới S\n✅ Thêm Aura khi bật Skill TipTip\n ✅ Tuỳ chỉnh màu Aura \n ✅ Fix văng khi đập Siwoo quá mạnh,Đột ngột",
         "download_url": "https://www.mediafire.com/file/lf13loj7s8f8lvm/The_Spike_Ver_2.1_6.0.3.ipa/file",
         "version": "6.0.3",
         "image-demo": "https://tiptipios.github.io/ios/sp_illustFaceIcon/Ver1.jpg",
