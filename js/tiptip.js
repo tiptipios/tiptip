@@ -1,5 +1,14 @@
 const gamedata = [
     {
+        "title": "Trường Sinh Pháp",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/09/b5/9b09b593-3cf7-5232-2d3c-62555275d9c7/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
+        "description": "✅ Vô hạn tài nguyên\n✅ Free Shop",
+        "download_url": "https://oklink.cfd/o4Hb",
+        "version": "1.7.3",
+        "updated_at": "2025-07-07",
+        "size": "188.17 MB"
+    },
+    {
         "title": "Good Coffee",
         "version": "1.1.10",
         "image": "https://play-lh.googleusercontent.com/x1idEcdmK8freWt2CfTe_BN5al9GmsDBKZBwC8JtO31ag2z8s82EPmcoAIGHZ19vzA=w480-h960-rw",
