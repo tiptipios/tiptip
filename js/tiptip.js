@@ -1,5 +1,15 @@
 const gamedata = [
     {
+        "title": "Liên Quân Mobile",
+        "version": "1.59.1.4",
+        "image": "https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/f399da84-52b5-4dfc-82bb-b3a99ce8ce72.image.png?v=1681997379317%27",
+        "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
+        "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n ✅ Menu Mod Skin,Sảnh (tap 3 ngón tay 2 lần )\n ✅ Kín = Bất tử ",
+        "download_url": "https://oklink.cfd/3vix",
+        "updated_at": "2025-07-09",
+        "size": "170 MB"
+    },
+    {
         "title": "Trường Sinh Pháp",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/09/b5/9b09b593-3cf7-5232-2d3c-62555275d9c7/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
         "description": "✅ Vô hạn tài nguyên\n✅ Free Shop",
@@ -380,16 +390,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1LYRxlIlWkSr17A_a_ffL_7ZJN0ZXf8eZ",
         "updated_at": "2025-05-26",
         "size": "85.18 MB"
-    },
-    {
-        "title": "Liên Quân Mobile",
-        "version": "1.58.11379483",
-        "image": "https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/f399da84-52b5-4dfc-82bb-b3a99ce8ce72.image.png?v=1681997379317%27",
-        "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
-        "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n ✅ Menu Mod Skin,Sảnh (tap 3 ngón tay 2 lần )\n ✅ Kín = Bất tử ",
-        "download_url": "https://drive.google.com/file/d/1Cgh8rsHE0glxJU83e0ilD7WvjThs4Eqj",
-        "updated_at": "2025-05-22",
-        "size": "170 MB"
     },
     {
         "title": "Survivor.io",
