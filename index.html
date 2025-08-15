@@ -30,66 +30,7 @@
             font-weight: 500;
             padding: 0 40px;
         }
-            .overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-        }
-
-        /* Định dạng cho popup */
-        .popup {
-            background-color: rgb(255, 255, 255, 0.95);
-            padding: 20px;
-            border-radius: 15px;
-            width: 300px;
-            position: relative;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Định dạng cho nút đóng popup */
-        .close-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background-color: transparent;
-            border: none;
-            font-size: 18px;
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
-
-        .close-btn:hover {
-            transform: scale(1.1);
-        }
-            .social-btn {
-            width: 80px;
-            margin: 10px 5px;
-            font-size: 12px;
-            padding: 5px;
-            border-radius: 15px;
-            border: 1px solid #ddd;
-            background-color: #ff7d7d;
-            color: white;
-            cursor: pointer;
-            transition: background-color 0.3s ease, transform 0.2s;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .social-btn:hover {
-            background-color: #ddd;
-            color: #ff7d7d;
-            transform: scale(1.05);
-        }
+           
     </style>
     <script src="asset/jquery.min.js"></script>
     <script src="asset/js/angular.min.js"></script>
@@ -125,39 +66,7 @@
 <body class="hideClass" ng-controller="MainController">
     
     <div id="app">
-          <!-- Overlay cho popup thông báo -->
-    <div class="overlay" id="popupOverlay">
-        <div class="popup">
-            <button class="close-btn" onclick="closePopup()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
-  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
-</svg></button>
-            <div>
-                <font color="red"><b> Thông Báo!!! </b></font>
-            </div>
-            <br>
-            <b>
-                Telegram đã bị chặn tại Việt Nam anh em khắc phục bằng cách lên Appstore tải app 
-                <font color="red"><i>1.1.1.1</i></font> về sử dụng là sẽ vào được nhé.<br />
-                Mình có tạo thêm Discord, AE có thể tham gia nhé, Mình vẫn sẽ duy trì hoạt động trên các nền tảng.<br />
-                Cảm ơn anh em!
-            </b>
-            <br>
-            <!-- Các nút xã hội -->
-            <button class="social-btn">
-                <a href="https://t.me/gamemodios" style="text-decoration: none; color: white;"><b>Telegram</b></a>
-            </button>
-            <button class="social-btn">
-                <a href="https://discord.gg/p7P4KqhPZg" style="text-decoration: none; color: white;"><b>Discord</b></a>
-            </button>
-        </div>
-    </div>
-
-    <!-- Script để đóng popup -->
-    <script>
-        function closePopup() {
-            document.getElementById('popupOverlay').style.display = 'none';
-        }
+        
     </script>
         <div class="container" id="content">
             <div id="header">
@@ -444,4 +353,5 @@ for (let i = 0; i < fakeDownloadGames.length; i += 5) {
 
         </div>
 </body>
+
 </html>
