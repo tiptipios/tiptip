@@ -7,7 +7,7 @@ const yeuthichdata = [
         "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
         "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n ✅ Menu Mod Skin,Sảnh (tap 3 ngón tay 2 lần )\n ✅ Kín = Bất tử ",
         "download_url": "https://oklink.cfd/BCBS",
-        "updated_at": "2025-07-09",
+        "updated_at": "2025-10-22",
         "size": "170 MB",
         "fake_downloads": 9999999
     },
@@ -72,4 +72,5 @@ const yeuthichdata = [
         "size": "1104.66 MB",
     }
 ];
+
 
