@@ -2,7 +2,7 @@ const gamedata = [
       {
         "title": "Builda ( Câu Cá Vạn cân ) ",
         "image": "https://modfyp.com/uploads/2025/11/cau-ca-van-can-apk.webp",
-        "description": "✅  iGG ( giá trị Double)\n✅  Speed \n\nHướng dẫn\nB1: tìm giá trị ( Lv, cá,.. )\nB2: làm thay đổi tăng hoặc giảm \nB3:  tìm lại giá trị thay đổi \nB4: thay đổi tuỳ thích \nB5: câu 1 con cá bất kỳ \nB6:  thoát game vào lại ( Lụm )",
+        "description": "✅  iGG ( giá trị Double)\n✅  Speed \n✅Hướng dẫn\n✅B1: tìm giá trị ( Lv, cá,.. )\n✅B2: làm thay đổi tăng hoặc giảm \n✅B3:  tìm lại giá trị thay đổi \n✅B4: thay đổi tuỳ thích \n✅B5: câu 1 con cá bất kỳ \n✅B6:  thoát game vào lại ( Lụm )",
         "download_url": "https://oklink.cfd/eV6",
         "version": "1.62.2",
         "updated_at": "2025-11-28",
@@ -2353,5 +2353,6 @@ const gamedata = [
     }
 
 ];
+
 
 
