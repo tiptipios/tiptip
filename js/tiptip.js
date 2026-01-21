@@ -1,21 +1,21 @@
 const gamedata = [
-      {
-        "title": "Builda ( Câu Cá Vạn cân ) ",
-        "image": "https://modfyp.com/uploads/2025/11/cau-ca-van-can-apk.webp",
-        "description": "✅  iGG ( giá trị Double)\n✅  Speed \n✅Hướng dẫn\n✅B1: tìm giá trị ( Lv, cá,.. )\n✅B2: làm thay đổi tăng hoặc giảm \n✅B3:  tìm lại giá trị thay đổi \n✅B4: thay đổi tuỳ thích \n✅B5: câu 1 con cá bất kỳ \n✅B6:  thoát game vào lại ( Lụm )",
-        "download_url": "https://oklink.cfd/eV6",
-        "version": "1.62.2",
-        "updated_at": "2025-11-28",
-        "size": "170 MB"
-    },
     {
         "title": "Liên Quân Mobile",
-        "version": "1.60.115",
+        "version": "1.61.115",
         "image": "https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/f399da84-52b5-4dfc-82bb-b3a99ce8ce72.image.png?v=1681997379317%27",
         "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
         "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n ✅ Menu Mod Skin,Sảnh (tap 3 ngón tay 2 lần )\n ✅ Kín = Bất tử ",
-        "download_url": "https://oklink.cfd/BCBS",
-        "updated_at": "2025-10-23",
+        "download_url": "https://oklink.cfd/r79Pm",
+        "updated_at": "2026-01-22",
+        "size": "170 MB"
+    },
+    {
+        "title": "Builda ( Câu Cá Vạn cân ) ",
+        "image": "https://modfyp.com/uploads/2025/11/cau-ca-van-can-apk.webp",
+        "description": "✅  iGG ( giá trị Double)\n✅  Speed \n\nHướng dẫn\nB1: tìm giá trị ( Lv, cá,.. )\nB2: làm thay đổi tăng hoặc giảm \nB3:  tìm lại giá trị thay đổi \nB4: thay đổi tuỳ thích \nB5: câu 1 con cá bất kỳ \nB6:  thoát game vào lại ( Lụm )",
+        "download_url": "https://oklink.cfd/eV6",
+        "version": "1.62.2",
+        "updated_at": "2025-11-28",
         "size": "170 MB"
     },
     {
@@ -2351,8 +2351,4 @@ const gamedata = [
         "updated_at": "2025-02-20",
         "size": "192.15 MB"
     }
-
 ];
-
-
-
