@@ -1,5 +1,14 @@
 const gamedata = [
     {
+        "title": "8 Ball Pool",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/fb/a1/30fba1ed-46d7-bc92-8e1d-318a92f81d0f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Dự đoán đường bóng\n✅  cài song song bản gốc",
+        "download_url": "https://oklink.cfd/BNq71",
+        "version": "56.17.1",
+        "updated_at": "2026-01-25",
+        "size": "99.17 MB"
+    },
+    {
         "title": "Liên Quân Mobile",
         "version": "1.61.115",
         "image": "https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/f399da84-52b5-4dfc-82bb-b3a99ce8ce72.image.png?v=1681997379317%27",
