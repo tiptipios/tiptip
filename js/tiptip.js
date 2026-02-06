@@ -15,7 +15,7 @@ const gamedata = [
         "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
         "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n ✅ Menu Mod Skin,Sảnh (tap 3 ngón tay 2 lần )\n ✅ Kín = Bất tử ",
         "download_url": "https://oklink.cfd/r79Pm",
-        "updated_at": "2026-01-22",
+        "updated_at": "2026-02-07",
         "size": "170 MB"
     },
     {
@@ -2360,4 +2360,5 @@ const gamedata = [
         "updated_at": "2025-02-20",
         "size": "192.15 MB"
     }
+
 ];
