@@ -1,12 +1,23 @@
 const gamedata = [
     {
-        "title": "8 Ball Pool",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/fb/a1/30fba1ed-46d7-bc92-8e1d-318a92f81d0f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅  Dự đoán đường bóng\n✅  cài song song bản gốc",
-        "download_url": "https://oklink.cfd/BNq71",
-        "version": "56.17.1",
-        "updated_at": "2026-01-25",
-        "size": "99.17 MB"
+        "title": "Plants vs Zombie 2",
+        "version": "13.0.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Vàng không giới hạn\n✅ Đá quý không giới hạn\n✅ kẹo Không giới hạn\n✅ Granltes không giới hạn\n✅ Hạt Giống không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay vì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Custom Mastery ( 1-200)\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây\n✅ Speed Ads",
+        "download_url": "https://oklink.cfd/S2Lf",
+        "updated_at": "2026-04-15",
+        "size": "116.59 MB",
+        "fake_downloads": 954571
+    },
+    {
+        "title": "Subway Surf",
+        "version": "3.61.1 ",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
+        "download_url": "https://oklink.cfd/75ou1",
+        "updated_at": "2026-04-15",
+        "size": "140.40 MB",
+        "fake_downloads": 964571
     },
     {
         "title": "Liên Quân Mobile",
@@ -17,6 +28,15 @@ const gamedata = [
         "download_url": "https://oklink.cfd/KmH",
         "updated_at": "2026-04-08",
         "size": "170 MB"
+    },
+    {
+        "title": "8 Ball Pool",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/30/fb/a1/30fba1ed-46d7-bc92-8e1d-318a92f81d0f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Dự đoán đường bóng\n✅  cài song song bản gốc",
+        "download_url": "https://oklink.cfd/BNq71",
+        "version": "56.17.1",
+        "updated_at": "2026-01-25",
+        "size": "99.17 MB"
     },
     {
         "title": "Builda ( Câu Cá Vạn cân ) ",
@@ -81,16 +101,6 @@ const gamedata = [
         "updated_at": "2025-06-10",
         "size": "323.42 MB",
         "fake_downloads": 999971
-    },
-    {
-        "title": "Subway Surf",
-        "version": "3.47.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
-        "download_url": "https://drive.google.com/file/d/1lA91GT1-YIqBi-ktijVTj3a3GlWOcnC_/view",
-        "updated_at": "2025-06-10",
-        "size": "140.40 MB",
-        "fake_downloads": 964571
     },
     {
         "title": "Alien Shooter",
@@ -335,16 +345,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/166F_i66NYUPVn5bgsJulE6kEnv6lS8XO/view",
         "updated_at": "2025-05-29",
         "size": "177.48 MB"
-    },
-    {
-        "title": "Plants vs Zombie 2",
-        "version": "968",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
-        "description": "✅ vàng không giới hạn\n✅ Đá quý vô hạn\n✅ kẹo Không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay bì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Max 200 Mastery\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây",
-        "download_url": "https://drive.google.com/file/d/1xMG-1S8qxIuotCaSK8hcM8leygJqQ0MW/view",
-        "updated_at": "2025-05-28",
-        "size": "116.59 MB",
-        "fake_downloads": 954571
     },
     {
         "title": "Stick War: Saga",
@@ -2360,6 +2360,4 @@ const gamedata = [
         "updated_at": "2025-02-20",
         "size": "192.15 MB"
     }
-
 ];
-
