@@ -1,5 +1,33 @@
 const gamedata = [
     {
+        "title": "Hungry Shark World",
+        "version": "7.7.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/75/12/5d75120f-2cc5-b736-e6a9-40566e83661f/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg",
+        "description": "✅ Tiền xu không giới hạn\n✅ Đá quý không giới hạn\n✅ Ngọc trai không giới hạn\n✅ Boost không giới hạn\n✅ Mở khóa Season Pass",
+        "download_url": "https://oklink.cfd/xi8",
+        "updated_at": "2026-04-21",
+        "size": "156.45 MB",
+        "fake_downloads": 944571
+    },
+    {
+        "title": "Hungry Shark Evo ",
+        "version": "13.9.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/4b/ff/784bffc0-fd69-bf5f-d467-c79c4709aaff/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "✅Vô hạn tiền tệ\n✅ Bất tử",
+        "download_url": "https://oklink.cfd/XOF",
+        "updated_at": "2026-04-21",
+        "size": "195.31 MB"
+    },
+    {
+        "title": "Hungry Dragon",
+        "version": "https://oklink.cfd/rcVd",
+        "image": "https://static.apkmody.com/play-lh.googleusercontent.com/aw6eyAWzs7mfa2OKwIDWobfpXbPEw1dwPu4hcuFYt0KmXp_XTXgBCUx7sWEUOv4NIg",
+        "description": "✅Tiền tệ không giới hạn \n \n✅ Chi phí hồi sinh 0 \n✅ Booster ko giới hạn ✅ Tăng khoảng cách ăn \n✅ No ads",
+        "download_url": "https://drive.google.com/file/d/1P9WlUY5hq_30ovJtH5QgJmdx0JkwBZvp",
+        "updated_at": "2026-04-21",
+        "size": "280.61 MB"
+    },
+    {
         "title": "Plants vs Zombie 2",
         "version": "13.0.1",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
@@ -210,15 +238,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1P8OfDbEG-sGBw6pIQsl27hjFfryCbSfb/view",
         "updated_at": "2025-06-02",
         "size": "126.65 MB"
-    },
-    {
-        "title": "Hungry Shark Evo ",
-        "version": "12.8.3",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/4b/ff/784bffc0-fd69-bf5f-d467-c79c4709aaff/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-        "description": "✅Vô hạn tiền tệ\n✅ Bất tử",
-        "download_url": "https://drive.google.com/file/d/1J2qyyfQ6liXB8V1Bi1pz2hhFQruW8v-y/view",
-        "updated_at": "2025-06-02",
-        "size": "195.31 MB"
     },
     {
         "title": "Travel Town",
@@ -1064,16 +1083,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/12WC76z04qI3qZHpnYAVSnHsXITxpOMma",
         "updated_at": "2025-04-26",
         "size": "260.56 MB"
-    },
-    {
-        "title": "Hungry Shark World",
-        "version": "6.7.7",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/75/12/5d75120f-2cc5-b736-e6a9-40566e83661f/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg",
-        "description": "✅ Tiền xu không giới hạn\n✅ Đá quý không giới hạn\n✅ Ngọc trai không giới hạn\n✅ Boost không giới hạn\n✅ Mở khóa Season Pass",
-        "download_url": "https://drive.google.com/file/d/1M_xZFnEF1zJ14XEwKvaUfQZmhrEOsoRW",
-        "updated_at": "2025-04-25",
-        "size": "156.45 MB",
-        "fake_downloads": 944571
     },
     {
         "title": "Stick War: Legacy",
@@ -2296,15 +2305,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/10XJcv6DzkHDnRNNqjZotXOoWKP-PUiKL",
         "updated_at": "2025-02-24",
         "size": "143.78 MB"
-    },
-    {
-        "title": "Hungry Dragon",
-        "version": "5.4.3.",
-        "image": "https://static.apkmody.com/play-lh.googleusercontent.com/aw6eyAWzs7mfa2OKwIDWobfpXbPEw1dwPu4hcuFYt0KmXp_XTXgBCUx7sWEUOv4NIg",
-        "description": "✅Tiền tệ không giới hạn \n✅ Mở khóa thú cưng \n✅ Chi phí hồi sinh 0 \n✅ Booster ko giới hạn \n✅ Bất tử",
-        "download_url": "https://drive.google.com/file/d/1P9WlUY5hq_30ovJtH5QgJmdx0JkwBZvp",
-        "updated_at": "2025-02-23",
-        "size": "280.61 MB"
     },
     {
         "title": "APEX Racer",
