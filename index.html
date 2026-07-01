@@ -4,224 +4,501 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Ngưng Hoạt Động</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Tip Tip</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="../css/animate.css">
     <style>
-        body {
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
+        }
+
+        body {
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            overflow: hidden;
+            background: #0a0a14;
         }
 
-        .container-wrapper {
-            width: 100%;
-            max-width: 600px;
-            padding: 20px;
+        /* ── BACKGROUND ── */
+        .bg {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            background: radial-gradient(ellipse 80% 60% at 50% -10%, #3b2f7a 0%, transparent 70%),
+                radial-gradient(ellipse 60% 50% at 80% 80%, #1a1040 0%, transparent 60%),
+                radial-gradient(ellipse 50% 40% at 10% 90%, #2d1b5e 0%, transparent 60%),
+                #0a0a14;
         }
 
-        .closed-box {
-            background: white;
-            border-radius: 20px;
-            padding: 50px 40px;
+        /* floating orbs */
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.35;
+            animation: drift linear infinite;
+        }
+
+        .orb-1 {
+            width: 320px;
+            height: 320px;
+            background: #7c3aed;
+            top: -80px;
+            left: -60px;
+            animation-duration: 18s;
+        }
+
+        .orb-2 {
+            width: 260px;
+            height: 260px;
+            background: #db2777;
+            bottom: -60px;
+            right: -40px;
+            animation-duration: 22s;
+            animation-direction: reverse;
+        }
+
+        .orb-3 {
+            width: 180px;
+            height: 180px;
+            background: #2563eb;
+            top: 40%;
+            left: 60%;
+            animation-duration: 16s;
+        }
+
+        @keyframes drift {
+            0% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            33% {
+                transform: translate(30px, -20px) scale(1.05);
+            }
+
+            66% {
+                transform: translate(-20px, 30px) scale(0.97);
+            }
+
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+        }
+
+        /* grid lines */
+        .grid-lines {
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 48px 48px;
+        }
+
+        /* ── CARD ── */
+        .card {
+            position: relative;
+            z-index: 1;
+            width: calc(100% - 32px);
+            max-width: 400px;
+            background: rgba(255, 255, 255, 0.055);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(28px);
+            -webkit-backdrop-filter: blur(28px);
+            border-radius: 28px;
+            padding: 44px 28px 40px;
             text-align: center;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            animation: fadeInUp 0.8s ease-out;
+            box-shadow:
+                0 0 0 1px rgba(255, 255, 255, 0.04) inset,
+                0 40px 80px rgba(0, 0, 0, 0.55),
+                0 0 60px rgba(124, 58, 237, 0.12);
+            animation: rise 0.7s cubic-bezier(.22, 1, .36, 1) both;
         }
 
-        @keyframes fadeInUp {
+        @keyframes rise {
             from {
                 opacity: 0;
-                transform: translateY(30px);
+                transform: translateY(36px) scale(0.97);
             }
 
             to {
                 opacity: 1;
-                transform: translateY(0);
+                transform: translateY(0) scale(1);
             }
         }
 
-        .icon-wrapper {
-            margin-bottom: 30px;
+        /* subtle top glow line */
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 10%;
+            right: 10%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(167, 139, 250, 0.7), rgba(244, 114, 182, 0.7), transparent);
+            border-radius: 1px;
         }
 
-        .icon-wrapper i {
-            font-size: 80px;
-            color: #ff6b6b;
-            animation: pulse 2s infinite;
+        /* ── AVATAR ── */
+        .avatar-wrap {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 22px;
         }
 
-        @keyframes pulse {
+        .avatar-ring {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            padding: 3px;
+            background: conic-gradient(from 0deg, #a78bfa, #f472b6, #60a5fa, #a78bfa);
+            animation: spin 6s linear infinite;
+            box-shadow: 0 0 36px rgba(167, 139, 250, 0.45);
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .avatar-inner {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: linear-gradient(145deg, #1e1b4b, #2e1065);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            animation: spin-reverse 6s linear infinite;
+            overflow: hidden;
+        }
+
+        .avatar-inner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        @keyframes spin-reverse {
+            to {
+                transform: rotate(-360deg);
+            }
+        }
+
+        /* online dot */
+        .online-dot {
+            position: absolute;
+            bottom: 4px;
+            right: 4px;
+            width: 22px;
+            height: 22px;
+            background: #22c55e;
+            border: 3px solid #0a0a14;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(34, 197, 94, 0.7);
+            animation: ping 2s ease-in-out infinite;
+        }
+
+        @keyframes ping {
+
+            0%,
+            100% {
+                box-shadow: 0 0 6px rgba(34, 197, 94, 0.6);
+            }
+
+            50% {
+                box-shadow: 0 0 18px rgba(34, 197, 94, 0.9);
+            }
+        }
+
+        /* ── NAME ── */
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: -0.6px;
+            background: linear-gradient(135deg, #fff 10%, #c4b5fd 50%, #f9a8d4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 6px;
+        }
+
+        .sub-label {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.45);
+            letter-spacing: 0.4px;
+            margin-bottom: 32px;
+        }
+
+        /* ── DIVIDER ── */
+        .divider {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+        }
+
+        .divider span {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.35);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        /* ── BUTTONS ── */
+        .channels {
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            border-radius: 16px;
+            text-decoration: none !important;
+            color: #fff !important;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            overflow: hidden;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            position: relative;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        /* shine sweep */
+        .btn::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(105deg, transparent 40%, rgba(255, 255, 255, 0.12) 50%, transparent 60%);
+            transform: translateX(-100%);
+            transition: transform 0.4s ease;
+        }
+
+        .btn:hover::after {
+            transform: translateX(100%);
+        }
+
+        /* icon col */
+        .btn .icon-col {
+            width: 56px;
+            min-width: 56px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            background: rgba(0, 0, 0, 0.2);
+            flex-shrink: 0;
+        }
+
+        /* text col */
+        .btn .text-col {
+            flex: 1;
+            padding: 0 14px;
+            text-align: left;
+        }
+
+        .btn .btn-name {
+            display: block;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .btn .btn-desc {
+            display: block;
+            font-size: 11px;
+            opacity: 0.6;
+            margin-top: 2px;
+            font-weight: 400;
+        }
+
+        /* arrow col */
+        .btn .arrow-col {
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            opacity: 0.45;
+        }
+
+        /* colors */
+        .btn-tg-main {
+            background: linear-gradient(135deg, #0098dd 0%, #006fa3 100%);
+            box-shadow: 0 8px 24px rgba(0, 152, 221, 0.28);
+        }
+
+        .btn-tg-spike {
+            background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+            box-shadow: 0 8px 24px rgba(124, 58, 237, 0.28);
+        }
+
+        .btn-tg-ff {
+            background: linear-gradient(135deg, #f43f5e 0%, #be123c 100%);
+            box-shadow: 0 8px 24px rgba(244, 63, 94, 0.28);
+        }
+
+        .btn-discord {
+            background: linear-gradient(135deg, #5865f2 0%, #3b4dd1 100%);
+            box-shadow: 0 8px 24px rgba(88, 101, 242, 0.28);
+        }
+
+        /* staggered entrance */
+        .btn:nth-child(1) {
+            animation: rise 0.6s 0.10s both;
+        }
+
+        .btn:nth-child(2) {
+            animation: rise 0.6s 0.18s both;
+        }
+
+        .btn:nth-child(3) {
+            animation: rise 0.6s 0.26s both;
+        }
+
+        .btn:nth-child(4) {
+            animation: rise 0.6s 0.34s both;
+        }
+
+        /* ── FOOTER ── */
+        .foot {
+            margin-top: 28px;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.25);
+        }
+
+        .foot .heart {
+            display: inline-block;
+            color: #f472b6;
+            animation: hb 1.3s ease infinite;
+        }
+
+        @keyframes hb {
 
             0%,
             100% {
                 transform: scale(1);
             }
 
-            50% {
-                transform: scale(1.1);
-            }
-        }
-
-        h1 {
-            font-size: 32px;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        .message {
-            font-size: 18px;
-            color: #666;
-            margin-bottom: 40px;
-            line-height: 1.6;
-        }
-
-        .telegram-buttons {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .telegram-btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 18px 30px;
-            border: none;
-            border-radius: 12px;
-            font-size: 18px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .telegram-btn i {
-            margin-right: 12px;
-            font-size: 24px;
-        }
-
-        .telegram-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-            text-decoration: none;
-        }
-
-        .telegram-btn:active {
-            transform: translateY(-1px);
-        }
-
-        .btn-primary-tg {
-            background: linear-gradient(135deg, #0088cc 0%, #0077b5 100%);
-            color: white;
-        }
-
-        .btn-primary-tg:hover {
-            background: linear-gradient(135deg, #0077b5 0%, #006699 100%);
-            color: white;
-        }
-
-        .btn-secondary-tg {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-        }
-
-        .btn-secondary-tg:hover {
-            background: linear-gradient(135deg, #5568d3 0%, #65408d 100%);
-            color: white;
-        }
-
-        .btn-tertiary-tg {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            color: white;
-        }
-
-        .btn-tertiary-tg:hover {
-            background: linear-gradient(135deg, #e082ea 0%, #e4465b 100%);
-            color: white;
-        }
-
-        .footer-text {
-            margin-top: 30px;
-            font-size: 14px;
-            color: #999;
-        }
-
-        @media (max-width: 576px) {
-            .closed-box {
-                padding: 40px 25px;
+            14% {
+                transform: scale(1.3);
             }
 
-            h1 {
-                font-size: 26px;
+            28% {
+                transform: scale(1);
             }
 
-            .message {
-                font-size: 16px;
-            }
-
-            .telegram-btn {
-                font-size: 16px;
-                padding: 15px 25px;
-            }
-
-            .icon-wrapper i {
-                font-size: 60px;
+            42% {
+                transform: scale(1.15);
             }
         }
     </style>
 </head>
 
 <body>
-    <div class="container-wrapper">
-        <div class="closed-box">
-            <div class="icon-wrapper">
-                <i class="fas fa-heart"></i>
-            </div>
 
-            <h1>Cảm Ơn 4 Năm Đồng Hành</h1>
-
-            <p class="message">
-                Sau 4 năm hoạt động, chúng tôi xin thông báo website chính thức ngưng hoạt động.<br>
-                <strong>Cảm ơn tất cả mọi người đã tin tưởng và đồng hành cùng chúng tôi!</strong><br><br>
-                Hành trình 4 năm đầy kỷ niệm đã khép lại, nhưng chúng tôi vẫn sẽ tiếp tục hỗ trợ các bạn qua
-                Telegram.<br>
-                Hãy tham gia các kênh bên dưới để không bỏ lỡ thông tin mới nhất! 💙
-            </p>
-
-            <div class="telegram-buttons">
-                <a href="https://t.me/gamemodios" class="telegram-btn btn-primary-tg" target="_blank">
-                    <i class="fab fa-telegram-plane"></i>
-                    Kênh Telegram Chính
-                </a>
-
-                <a href="https://t.me/modspike" class="telegram-btn btn-secondary-tg" target="_blank">
-                    <i class="fab fa-telegram-plane"></i>
-                    Kênh Telegram The Spike
-                </a>
-
-                <a href="https://t.me/freefiretiptip" class="telegram-btn btn-tertiary-tg" target="_blank">
-                    <i class="fab fa-telegram-plane"></i>
-                    Kênh FreeFire
-                </a>
-            </div>
-
-            <p class="footer-text">
-                2022 - 2026 | Cảm ơn vì đã là một phần trong hành trình của chúng tôi! 💙
-            </p>
-        </div>
+    <!-- Background -->
+    <div class="bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-lines"></div>
     </div>
 
-    <script src="../asset/jquery.min.js"></script>
-    <script src="../asset/js/bootstrap.min.js"></script>
+    <!-- Card -->
+    <div class="card">
+
+        <!-- Avatar -->
+        <div class="avatar-wrap">
+            <div class="avatar-ring">
+                <div class="avatar-inner">
+                    <img src="https://bio.linkcdn.cc/upload/2024040505/171229360600038148.jpg" alt="Tip Tip">
+                </div>
+            </div>
+            <div class="online-dot"></div>
+        </div>
+
+        <!-- Name -->
+        <h1>Tip Tip</h1>
+        <p class="sub-label"> </p>
+
+        <!-- Divider -->
+        <div class="divider"><span>Tham gia kênh</span></div>
+
+        <!-- Channels -->
+        <div class="channels">
+
+            <a href="https://t.me/gamemodios" class="btn btn-tg-main" target="_blank" rel="noopener">
+                <div class="icon-col"><i class="fab fa-telegram-plane"></i></div>
+                <div class="text-col">
+                    <span class="btn-name">Kênh Telegram Chính</span>
+                    <span class="btn-desc">Game, App, IPA tổng hợp</span>
+                </div>
+                <div class="arrow-col"><i class="fas fa-chevron-right"></i></div>
+            </a>
+
+            <a href="https://t.me/modspike" class="btn btn-tg-spike" target="_blank" rel="noopener">
+                <div class="icon-col"><i class="fab fa-telegram-plane"></i></div>
+                <div class="text-col">
+                    <span class="btn-name">Kênh The Spike</span>
+                    <span class="btn-desc"> The Spike Cross </span>
+                </div>
+                <div class="arrow-col"><i class="fas fa-chevron-right"></i></div>
+            </a>
+
+            <a href="https://t.me/freefiretiptip" class="btn btn-tg-ff" target="_blank" rel="noopener">
+                <div class="icon-col"><i class="fab fa-telegram-plane"></i></div>
+                <div class="text-col">
+                    <span class="btn-name">Kênh FreeFire</span>
+                    <span class="btn-desc"> Free Fire cập nhật liên tục</span>
+                </div>
+                <div class="arrow-col"><i class="fas fa-chevron-right"></i></div>
+            </a>
+
+            <a href="https://discord.gg/p7P4KqhPZg" class="btn btn-discord" target="_blank" rel="noopener">
+                <div class="icon-col"><i class="fab fa-discord"></i></div>
+                <div class="text-col">
+                    <span class="btn-name"> Discord</span>
+                    <span class="btn-desc"></span>
+                </div>
+                <div class="arrow-col"><i class="fas fa-chevron-right"></i></div>
+            </a>
+
+        </div>
+
+        <!-- Footer -->
+        <p class="foot">Made with <span class="heart">♥</span> by Tip Tip · 2026</p>
+
+    </div>
+
 </body>
 
 </html>
