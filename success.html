@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>UDID Retrieved ✓</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+            background: #0a0a0a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .card {
+            background: #1c1c1e;
+            border-radius: 20px;
+            padding: 32px 24px;
+            max-width: 480px;
+            width: 100%;
+            border: 1px solid #2c2c2e;
+        }
+
+        .status {
+            text-align: center;
+            margin-bottom: 28px;
+        }
+
+        .checkmark {
+            width: 64px;
+            height: 64px;
+            background: #30d158;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin: 0 auto 14px;
+        }
+
+        .status h1 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 6px;
+        }
+
+        .status p {
+            font-size: 14px;
+            color: #8e8e93;
+        }
+
+        /* UDID highlight box */
+        .udid-box {
+            background: #2c2c2e;
+            border-radius: 14px;
+            padding: 18px 16px;
+            margin-bottom: 16px;
+            border: 1px solid #38383a;
+        }
+
+        .udid-box .label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: #8e8e93;
+            margin-bottom: 8px;
+        }
+
+        .udid-box .value {
+            font-family: 'SF Mono', 'Courier New', monospace;
+            font-size: 15px;
+            color: #30d158;
+            font-weight: 600;
+            word-break: break-all;
+            line-height: 1.5;
+        }
+
+        .udid-box .value.normal {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        /* Info grid */
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+
+        .info-item {
+            background: #2c2c2e;
+            border-radius: 12px;
+            padding: 14px 12px;
+            border: 1px solid #38383a;
+        }
+
+        .info-item .label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: #8e8e93;
+            margin-bottom: 6px;
+        }
+
+        .info-item .value {
+            font-size: 13px;
+            color: #fff;
+            font-weight: 500;
+            word-break: break-word;
+        }
+
+        /* Buttons */
+        .btn-copy {
+            width: 100%;
+            background: #30d158;
+            color: #000;
+            border: none;
+            border-radius: 14px;
+            padding: 16px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: opacity 0.15s;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .btn-copy:active {
+            opacity: 0.75;
+        }
+
+        .btn-copy.secondary {
+            background: #2c2c2e;
+            color: #fff;
+            border: 1px solid #38383a;
+        }
+
+        /* Copied feedback */
+        .toast {
+            position: fixed;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%) translateY(20px);
+            background: #30d158;
+            color: #000;
+            padding: 12px 24px;
+            border-radius: 100px;
+            font-size: 14px;
+            font-weight: 600;
+            opacity: 0;
+            transition: all 0.3s ease;
+            pointer-events: none;
+            white-space: nowrap;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        .note {
+            text-align: center;
+            font-size: 12px;
+            color: #636366;
+            margin-top: 16px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="status">
+            <div class="checkmark">✓</div>
+            <h1>UDID đã lấy thành công</h1>
+            <p id="deviceName">Đang tải thông tin...</p>
+        </div>
+
+        <!-- UDID box nổi bật -->
+        <div class="udid-box" style="margin-bottom: 24px;">
+            <div class="label">UDID</div>
+            <div class="value" id="udidValue">—</div>
+        </div>
+
+        <!-- Device info grid -->
+        <div class="info-grid" id="infoGrid"></div>
+
+        <!-- Copy buttons -->
+        <button class="btn-copy" onclick="copyUDID()">
+            <span>📋</span> Sao chép UDID
+        </button>
+        <button class="btn-copy secondary" onclick="copyAll()">
+            <span>📄</span> Sao chép tất cả
+        </button>
+    </div>
+
+    <div class="note">
+        Tweak sẽ tự động nhận UDID trong vài giây.<br>
+        Quay lại game để xem UDID hiển thị trên màn hình.
+    </div>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast">✓ Đã sao chép!</div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+
+        const udid = params.get('udid') || '—';
+        const deviceName = params.get('device') ? decodeURIComponent(params.get('device')) : 'Unknown Device';
+        const product = params.get('product') ? decodeURIComponent(params.get('product')) : null;
+
+        // Fill UDID
+        document.getElementById('udidValue').textContent = udid;
+        document.getElementById('deviceName').textContent = deviceName;
+
+        // Build info grid
+        const infoGrid = document.getElementById('infoGrid');
+        const fields = [];
+
+        if (product) fields.push({ label: 'Model', value: product });
+        if (params.get('version')) fields.push({ label: 'iOS', value: params.get('version') });
+        if (params.get('serial')) fields.push({ label: 'Serial', value: params.get('serial') });
+        if (params.get('imei')) fields.push({ label: 'IMEI', value: params.get('imei') });
+
+        fields.forEach(f => {
+            const item = document.createElement('div');
+            item.className = 'info-item';
+            item.innerHTML = `<div class="label">${f.label}</div><div class="value">${f.value}</div>`;
+            infoGrid.appendChild(item);
+        });
+
+        // Nếu không có fields → ẩn grid
+        if (fields.length === 0) infoGrid.style.display = 'none';
+
+        // Copy UDID
+        function copyUDID() {
+            copy(udid, '✓ UDID đã sao chép!');
+        }
+
+        // Copy all
+        function copyAll() {
+            const lines = [`UDID: ${udid}`, `Device: ${deviceName}`];
+            if (product) lines.push(`Model: ${product}`);
+            if (params.get('version')) lines.push(`iOS: ${params.get('version')}`);
+            if (params.get('serial')) lines.push(`Serial: ${params.get('serial')}`);
+            if (params.get('imei')) lines.push(`IMEI: ${params.get('imei')}`);
+            copy(lines.join('\n'), '✓ Đã sao chép tất cả!');
+        }
+
+        function copy(text, msg) {
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text).then(() => showToast(msg)).catch(() => fallback(text, msg));
+            } else {
+                fallback(text, msg);
+            }
+        }
+
+        function fallback(text, msg) {
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0';
+            document.body.appendChild(ta);
+            ta.focus(); ta.select();
+            try { document.execCommand('copy'); showToast(msg); } catch (e) { showToast('Nhấn giữ để sao chép thủ công'); }
+            document.body.removeChild(ta);
+        }
+
+        function showToast(msg) {
+            const t = document.getElementById('toast');
+            t.textContent = msg;
+            t.classList.add('show');
+            setTimeout(() => t.classList.remove('show'), 2500);
+        }
+    </script>
+</body>
+
+</html>
