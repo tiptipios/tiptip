@@ -12,7 +12,7 @@
 			<string>PRODUCT</string>
 		</array>
 		<key>URL</key>
-		<string>https://tiptipios.pages.dev/api/get-udid⁠</string>
+		<string>https://tiptipios.pages.dev</string>
 	</dict>
 	<key>PayloadDescription</key>
 	<string>Cài đặt cấu hình này để hệ thống kiểm tra mã UDID máy bạn.</string>
