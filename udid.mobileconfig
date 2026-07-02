@@ -7,8 +7,9 @@
 
     <key>PayloadContent</key>
     <dict>
-        <key>URL</key>
-        <string>https://tiptipios.pages.dev/</string>
+  <key>URL</key>
+<string>https://get-udid.nguyenxuanson282003.workers.dev</string>
+
 
         <key>DeviceAttributes</key>
         <array>
