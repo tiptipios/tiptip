@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<dict>
+		<key>DeviceAttributes</key>
+		<array>
+			<string>UDID</string>
+			<string>DEVICE_NAME</string>
+			<string>VERSION</string>
+			<string>PRODUCT</string>
+		</array>
+		<key>URL</key>
+		<string>https://tiptipios.pages.dev</string>
+	</dict>
+	<key>PayloadDescription</key>
+	<string>Cài đặt cấu hình này để hệ thống kiểm tra mã UDID máy bạn.</string>
+	<key>PayloadDisplayName</key>
+	<string>Lấy Mã Định Danh UDID</string>
+	<key>PayloadIdentifier</key>
+	<string>com.layudid.free</string>
+	<key>PayloadOrganization</key>
+	<string>CloudflareWorker</string>
+	<key>PayloadType</key>
+	<string>Profile Service</string>
+	<key>PayloadUUID</key>
+	<string>A1B2C3D4-E5F6-7A8B-9C0D-E1F2A3B4C5D6</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
