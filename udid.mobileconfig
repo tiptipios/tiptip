@@ -1,51 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
-"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-
     <key>PayloadContent</key>
     <dict>
-  <key>URL</key>
-<string>https://get-udid.tiptipios.workers.dev</string>
-
-
+        <key>URL</key>
+        <string>https://get-udid.tiptipios.workers.dev</string>
         <key>DeviceAttributes</key>
         <array>
             <string>UDID</string>
-            <string>IMEI</string>
-            <string>ICCID</string>
-            <string>SERIAL</string>
+            <string>DEVICE_NAME</string>
             <string>PRODUCT</string>
             <string>VERSION</string>
-            <string>DEVICE_NAME</string>
+            <string>SERIAL</string>
+            <string>IMEI</string>
+            <string>ICCID</string>
         </array>
-
-        <key>Challenge</key>
-        <string>get-udid</string>
     </dict>
-
     <key>PayloadOrganization</key>
     <string>TipTip iOS</string>
-
     <key>PayloadDisplayName</key>
     <string>Get Device UDID</string>
-
     <key>PayloadIdentifier</key>
     <string>dev.tiptipios.profile.udid</string>
-
     <key>PayloadUUID</key>
     <string>F8B6E5A0-71A6-4C0A-9C16-2F5E7A4A9B11</string>
-
     <key>PayloadVersion</key>
     <integer>1</integer>
-
     <key>PayloadDescription</key>
     <string>This temporary profile is used to retrieve your device UDID.</string>
-
     <key>PayloadType</key>
     <string>Profile Service</string>
-
 </dict>
 </plist>
