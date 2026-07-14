@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0d0d1a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="The Spike Cross - TipTip Mod. Free & VIP features for volleyball game.">
+    <title>The Spike Cross — TipTip Mod</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a14;
+            --surface: rgba(255, 255, 255, 0.04);
+            --border: rgba(255, 255, 255, 0.08);
+            --text: #f0f0f5;
+            --muted: rgba(255, 255, 255, 0.45);
+            --free: #22c55e;
+            --vip1: #f59e0b;
+            --vip2: #a855f7;
+            --accent: #6366f1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Loading */
+        #loader {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            background: var(--bg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            transition: opacity .5s;
+        }
+
+        #loader.out {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .loader-ring {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: 3px solid transparent;
+            border-top-color: var(--accent);
+            border-right-color: var(--vip2);
+            animation: spin .9s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Progress */
+        #progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 2px;
+            width: 0;
+            background: linear-gradient(90deg, var(--accent), var(--vip2));
+            z-index: 1000;
+            transition: width .2s;
+        }
+
+        /* BG glow */
+        .bg-glow {
+            position: fixed;
+            pointer-events: none;
+            z-index: 0;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: .18;
+        }
+
+        .bg-glow.g1 {
+            width: 600px;
+            height: 600px;
+            background: var(--accent);
+            top: -200px;
+            left: -200px;
+        }
+
+        .bg-glow.g2 {
+            width: 500px;
+            height: 500px;
+            background: var(--vip2);
+            bottom: -150px;
+            right: -100px;
+        }
+
+        .bg-glow.g3 {
+            width: 300px;
+            height: 300px;
+            background: var(--free);
+            top: 40%;
+            left: 60%;
+        }
+
+        /* Hero */
+        .hero {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 100px 24px 60px;
+        }
+
+        .badge-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: .5px;
+            text-transform: uppercase;
+            border: 1px solid;
+        }
+
+        .badge-green {
+            background: rgba(34, 197, 94, .12);
+            border-color: rgba(34, 197, 94, .3);
+            color: #4ade80;
+        }
+
+        .badge-purple {
+            background: rgba(168, 85, 247, .12);
+            border-color: rgba(168, 85, 247, .3);
+            color: #c084fc;
+        }
+
+        .badge-blue {
+            background: rgba(99, 102, 241, .12);
+            border-color: rgba(99, 102, 241, .3);
+            color: #818cf8;
+        }
+
+        .hero-brand {
+            font-size: clamp(14px, 3vw, 16px);
+            font-weight: 700;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 16px;
+        }
+
+        .hero-title {
+            font-size: clamp(40px, 9vw, 80px);
+            font-weight: 900;
+            line-height: 1;
+            letter-spacing: -2px;
+            margin-bottom: 8px;
+        }
+
+        .grad-orange {
+            background: linear-gradient(135deg, #ff6b35, #f59e0b, #fcd34d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .grad-purple {
+            background: linear-gradient(135deg, #a855f7, #818cf8, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-sub {
+            font-size: clamp(15px, 2.5vw, 18px);
+            color: var(--muted);
+            margin-bottom: 40px;
+            max-width: 520px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.7;
+        }
+
+        /* Stats row */
+        .stats-row {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-bottom: 60px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-num {
+            font-size: 28px;
+            font-weight: 800;
+        }
+
+        .stat-lbl {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--muted);
+            margin-top: 2px;
+        }
+
+        /* Section */
+        .section {
+            position: relative;
+            z-index: 1;
+            padding: 0 24px 80px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-label {
+            text-align: center;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--accent);
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: clamp(28px, 5vw, 42px);
+            font-weight: 800;
+            margin-bottom: 48px;
+            line-height: 1.2;
+        }
+
+        /* Cards grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        @media(max-width:900px) {
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            border-radius: 24px;
+            padding: 32px 28px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            backdrop-filter: blur(20px);
+            position: relative;
+            overflow: hidden;
+            transition: transform .3s, box-shadow .3s, border-color .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+        }
+
+        .card.card-free::before {
+            background: linear-gradient(90deg, #22c55e, #4ade80);
+        }
+
+        .card.card-vip1::before {
+            background: linear-gradient(90deg, #f59e0b, #fcd34d);
+        }
+
+        .card.card-vip2::before {
+            background: linear-gradient(90deg, #a855f7, #c084fc);
+        }
+
+        .card:hover {
+            box-shadow: 0 24px 60px rgba(0, 0, 0, .4);
+        }
+
+        .card.card-free:hover {
+            border-color: rgba(34, 197, 94, .25);
+        }
+
+        .card.card-vip1:hover {
+            border-color: rgba(245, 158, 11, .25);
+        }
+
+        .card.card-vip2:hover {
+            border-color: rgba(168, 85, 247, .25);
+        }
+
+        /* Card shimmer */
+        .card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 60%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .04), transparent);
+            transition: left .6s;
+        }
+
+        .card:hover::after {
+            left: 150%;
+        }
+
+        /* Card header */
+        .card-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 24px;
+        }
+
+        .card-icon-wrap {
+            width: 52px;
+            height: 52px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .icon-free {
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+        }
+
+        .icon-vip1 {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+        }
+
+        .icon-vip2 {
+            background: linear-gradient(135deg, #a855f7, #7c3aed);
+        }
+
+        .card-name {
+            font-size: 22px;
+            font-weight: 800;
+            margin-top: 4px;
+        }
+
+        .card-tag {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .5px;
+            padding: 4px 10px;
+            border-radius: 50px;
+        }
+
+        .tag-free {
+            background: rgba(34, 197, 94, .15);
+            color: #4ade80;
+            border: 1px solid rgba(34, 197, 94, .25);
+        }
+
+        .tag-vip1 {
+            background: rgba(245, 158, 11, .15);
+            color: #fbbf24;
+            border: 1px solid rgba(245, 158, 11, .25);
+        }
+
+        .tag-vip2 {
+            background: rgba(168, 85, 247, .15);
+            color: #c084fc;
+            border: 1px solid rgba(168, 85, 247, .25);
+        }
+
+        /* Price */
+        .card-price {
+            margin-bottom: 24px;
+        }
+
+        .price-main {
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 1;
+        }
+
+        .price-free-text {
+            color: #4ade80;
+        }
+
+        .price-vip1-text {
+            color: #fbbf24;
+        }
+
+        .price-vip2-text {
+            color: #c084fc;
+        }
+
+        .price-period {
+            font-size: 13px;
+            color: var(--muted);
+            margin-top: 4px;
+        }
+
+        /* Feature list */
+        .feat-list {
+            list-style: none;
+            margin-bottom: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .feat-list li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 14px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, .04);
+            border: 1px solid rgba(255, 255, 255, .06);
+            font-size: 14px;
+            font-weight: 500;
+            color: rgba(255, 255, 255, .85);
+            transition: background .2s, transform .2s;
+        }
+
+        .feat-list li:hover {
+            background: rgba(255, 255, 255, .08);
+            transform: translateX(3px);
+        }
+
+        .feat-icon {
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            flex-shrink: 0;
+        }
+
+        .fi-free {
+            background: rgba(34, 197, 94, .2);
+        }
+
+        .fi-vip1 {
+            background: rgba(245, 158, 11, .2);
+        }
+
+        .fi-vip2 {
+            background: rgba(168, 85, 247, .2);
+        }
+
+        /* Divider */
+        .card-divider {
+            height: 1px;
+            background: var(--border);
+            margin-bottom: 24px;
+        }
+
+        /* Buttons */
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            padding: 15px 20px;
+            border-radius: 14px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 700;
+            letter-spacing: .3px;
+            transition: transform .2s, box-shadow .2s, opacity .2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn-free {
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: #fff;
+            box-shadow: 0 8px 24px rgba(34, 197, 94, .3);
+        }
+
+        .btn-free:hover {
+            box-shadow: 0 12px 32px rgba(34, 197, 94, .5);
+        }
+
+        .btn-vip1 {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: #fff;
+            box-shadow: 0 8px 24px rgba(245, 158, 11, .3);
+        }
+
+        .btn-vip1:hover {
+            box-shadow: 0 12px 32px rgba(245, 158, 11, .5);
+        }
+
+        .btn-vip2 {
+            background: linear-gradient(135deg, #a855f7, #7c3aed);
+            color: #fff;
+            box-shadow: 0 8px 24px rgba(168, 85, 247, .3);
+        }
+
+        .btn-vip2:hover {
+            box-shadow: 0 12px 32px rgba(168, 85, 247, .5);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--muted);
+            border: 1px solid var(--border);
+            font-size: 13px;
+            padding: 11px;
+        }
+
+        .btn-outline:hover {
+            border-color: rgba(255, 255, 255, .2);
+            color: var(--text);
+        }
+
+        /* VIP2 popular badge */
+        .popular-badge {
+            position: absolute;
+            top: -1px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, #a855f7, #7c3aed);
+            color: #fff;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 5px 18px;
+            border-radius: 0 0 12px 12px;
+        }
+
+        /* Info strip */
+        .info-strip {
+            background: rgba(99, 102, 241, .08);
+            border: 1px solid rgba(99, 102, 241, .2);
+            border-radius: 16px;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 48px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, .7);
+        }
+
+        .info-strip .icon {
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        /* Info cards grid */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+
+        @media(max-width:640px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .info-card {
+            border-radius: 20px;
+            padding: 24px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            backdrop-filter: blur(20px);
+            transition: border-color .3s, transform .3s;
+        }
+
+        .info-card:hover {
+            border-color: rgba(255, 255, 255, .15);
+            transform: translateY(-3px);
+        }
+
+        .info-card-icon {
+            font-size: 28px;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .info-card h3 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .info-card p {
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 1.7;
+            margin-bottom: 14px;
+        }
+
+        .link-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            text-decoration: none;
+            padding: 8px 14px;
+            background: rgba(99, 102, 241, .1);
+            border-radius: 10px;
+            border: 1px solid rgba(99, 102, 241, .2);
+            transition: background .2s, transform .2s;
+        }
+
+        .link-btn:hover {
+            background: rgba(99, 102, 241, .2);
+            transform: translateX(2px);
+        }
+
+        /* Footer */
+        footer {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 48px 24px 32px;
+            border-top: 1px solid var(--border);
+        }
+
+        footer .logo-text {
+            font-size: 20px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        footer p {
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 2;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* Scroll to top */
+        #scrollTop {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 100;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, .1);
+            border: 1px solid var(--border);
+            backdrop-filter: blur(10px);
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity .3s, transform .3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #scrollTop.show {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        #scrollTop:hover {
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, .15);
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%) translateY(20px);
+            background: rgba(30, 30, 50, .95);
+            border: 1px solid var(--border);
+            backdrop-filter: blur(20px);
+            border-radius: 12px;
+            padding: 12px 20px;
+            font-size: 14px;
+            font-weight: 500;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: all .3s;
+            z-index: 999;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        /* Mobile */
+        @media(max-width:480px) {
+            .hero {
+                padding: 80px 16px 40px;
+            }
+
+            .stats-row {
+                gap: 24px;
+            }
+
+            .section {
+                padding: 0 16px 60px;
+            }
+
+            .card {
+                padding: 24px 20px;
+            }
+        }
+
+        /* Fade in */
+        .fade {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity .6s ease, transform .6s ease;
+        }
+
+        .fade.in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="progress"></div>
+    <div id="loader">
+        <div class="loader-ring"></div>
+        <p style="color:rgba(255,255,255,.4);font-size:13px;font-weight:600;letter-spacing:2px;">LOADING</p>
+    </div>
+
+    <!-- Background glow -->
+    <div class="bg-glow g1"></div>
+    <div class="bg-glow g2"></div>
+    <div class="bg-glow g3"></div>
+
+    <!-- HERO -->
+    <header class="hero fade">
+        <div class="badge-row">
+            <span class="badge badge-green"><i class="fas fa-check-circle"></i> Free Version Available</span>
+            <span class="badge badge-purple"><i class="fas fa-crown"></i> VIP Features</span>
+            <span class="badge badge-blue"><i class="fas fa-mobile-alt"></i> iOS </span>
+        </div>
+        <p class="hero-brand">TipTip Mod</p>
+        <h1 class="hero-title grad-orange">The Spike</h1>
+        <h1 class="hero-title grad-purple" style="margin-top:-8px;">Cross</h1>
+        <p class="hero-sub">The ultimate volleyball game mod with powerful customization, character mods, ball skins,
+            and more. Play smarter, play freer.</p>
+
+        <div class="stats-row">
+            <div class="stat">
+                <div class="stat-num"
+                    style="background:linear-gradient(135deg,#22c55e,#4ade80);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">
+                    Free</div>
+                <div class="stat-lbl">No cost tier</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num"
+                    style="background:linear-gradient(135deg,#f59e0b,#fcd34d);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">
+                    VIP1</div>
+                <div class="stat-lbl">3 USD / month</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num"
+                    style="background:linear-gradient(135deg,#a855f7,#c084fc);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">
+                    VIP2</div>
+                <div class="stat-lbl">5 USD / month</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- CARDS -->
+    <div class="section">
+        <p class="section-label">Mod Packages</p>
+        <h2 class="section-title">Choose Your <span class="grad-purple">Power Level</span></h2>
+
+        <div class="info-strip fade">
+            <span class="icon">💡</span>
+            <span>All versions <strong>install alongside the original game</strong> — your original data is always
+                safe.</span>
+        </div>
+
+        <div class="cards-grid">
+            <!-- FREE CARD -->
+            <div class="card card-free fade">
+                <div class="card-top">
+                    <div>
+                        <div class="card-icon-wrap icon-free">🎮</div>
+                        <div class="card-name" style="color:#4ade80;">FREE</div>
+                    </div>
+                    <span class="card-tag tag-free">No Key Needed</span>
+                </div>
+                <div class="card-price">
+                    <div class="price-main price-free-text">$0</div>
+                    <div class="price-period">Forever free · No approval</div>
+                </div>
+                <ul class="feat-list">
+                    <li><span class="feat-icon fi-free">🧑</span> Free Character Mod</li>
+                    <li><span class="feat-icon fi-free">🎱</span> Mod Ball Skin</li>
+                    <li><span class="feat-icon fi-free">🗺️</span> Mod Map</li>
+                    <li><span class="feat-icon fi-free">🚫</span> No Ads</li>
+                    <li><span class="feat-icon fi-free">📦</span> Install alongside original</li>
+                    <li><span class="feat-icon fi-free">⏱️</span> No Cooldown V1</li>
+                </ul>
+                <div class="card-divider"></div>
+                <a href="#get-key" class="btn btn-free">
+                    <i class="fas fa-key"></i> Get Key Free
+                </a>
+            </div>
+
+            <!-- VIP 1 CARD -->
+            <div class="card card-vip1 fade">
+                <div class="card-top">
+                    <div>
+                        <div class="card-icon-wrap icon-vip1">👑</div>
+                        <div class="card-name" style="color:#fbbf24;">VIP 1</div>
+                    </div>
+                    <span class="card-tag tag-vip1">Most Popular</span>
+                </div>
+                <div class="card-price">
+                    <div class="price-main price-vip1-text">3 USD<span style="font-size:16px;font-weight:600">/mo</span>
+                    </div>
+                    <div class="price-period">UDID-based · 30 days</div>
+                </div>
+                <ul class="feat-list">
+                    <li><span class="feat-icon fi-vip1">✅</span> Everything in FREE</li>
+                    <li><span class="feat-icon fi-vip1">🧑</span> Mod All Characters / Skins</li>
+                    <li><span class="feat-icon fi-vip1">🎱</span> Mod Ball Skin (all balls)</li>
+                    <li><span class="feat-icon fi-vip1">🗺️</span> Mod Map (all courts)</li>
+                    <li><span class="feat-icon fi-vip1">⚡</span> Buff Character Stats</li>
+                    <li><span class="feat-icon fi-vip1">🎆</span> Unlimited Effects</li>
+                    <li><span class="feat-icon fi-vip1">🤖</span> Unlock AI Skills</li>
+                    <li><span class="feat-icon fi-vip1">📷</span> High Camera</li>
+                    <li><span class="feat-icon fi-vip1">⏱️</span> No Cooldown V2</li>
+                </ul>
+                <div class="card-divider"></div>
+                <a href="https://forms.gle/7WrhCraBoBHxH2cv6" class="btn btn-vip1" target="_blank">
+                    <i class="fas fa-shopping-cart"></i> Buy VIP 1
+                </a>
+                <a href="https://t.me/tiptipiosmod" class="btn btn-outline" target="_blank" style="margin-top:10px;">
+                    <i class="fab fa-telegram"></i> Contact Admin
+                </a>
+            </div>
+
+            <!-- VIP 2 CARD -->
+            <div class="card card-vip2 fade" style="border-color:rgba(168,85,247,.2);">
+                <div class="popular-badge">⚡ Best Value</div>
+                <div class="card-top" style="margin-top:20px;">
+                    <div>
+                        <div class="card-icon-wrap icon-vip2">💎</div>
+                        <div class="card-name" style="color:#c084fc;">VIP 2</div>
+                    </div>
+                    <span class="card-tag tag-vip2">Full Power</span>
+                </div>
+                <div class="card-price">
+                    <div class="price-main price-vip2-text">5 USD<span style="font-size:16px;font-weight:600">/mo</span>
+                    </div>
+                    <div class="price-period">UDID-based · 30 days</div>
+                </div>
+                <ul class="feat-list">
+                    <li><span class="feat-icon fi-vip2">✅</span> Everything in VIP 1</li>
+                    <li><span class="feat-icon fi-vip2">💪</span> My+ · En+ · Ball Boost</li>
+                    <li><span class="feat-icon fi-vip2">♾️</span> No Win (endless mode)</li>
+                    <li><span class="feat-icon fi-vip2">🏆</span> Max Stats Override</li>
+                    <li><span class="feat-icon fi-vip2">🎯</span> Full Game Control</li>
+                </ul>
+                <div class="card-divider"></div>
+                <a href="https://forms.gle/bKS6uSnKTzyHep3C9" class="btn btn-vip2" target="_blank">
+                    <i class="fas fa-crown"></i> Buy VIP 2
+                </a>
+                <a href="https://t.me/tiptipiosmod" class="btn btn-outline" target="_blank" style="margin-top:10px;">
+                    <i class="fab fa-telegram"></i> Contact Admin
+                </a>
+            </div>
+
+        </div><!-- /cards-grid -->
+    </div>
+
+    <!-- GET FREE KEY SECTION -->
+    <div class="section" id="get-key">
+        <p class="section-label">Free Users</p>
+        <h2 class="section-title">Get Your <span class="grad-orange">Free Key</span></h2>
+
+        <div class="cards-grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));">
+            <!-- Step 1 -->
+            <div class="info-card fade" style="border-color:rgba(34,197,94,.15);">
+                <span class="info-card-icon">📱</span>
+                <h3>Step 1 — Open the App</h3>
+                <p>Open <strong>The Spike Cross - TipTip</strong> app on your device.</p>
+            </div>
+            <!-- Step 2 -->
+            <div class="info-card fade" style="border-color:rgba(34,197,94,.15);">
+                <span class="info-card-icon">🔑</span>
+                <h3>Step 2 — Open Get Key Tab</h3>
+                <p>In the app, open the <strong>Get Key Free</strong> tab, then tap the <strong>Get Key</strong> button
+                    in the menu to receive your key.</p>
+            </div>
+            <!-- Step 3 -->
+            <div class="info-card fade" style="border-color:rgba(34,197,94,.15);">
+                <span class="info-card-icon">🔑</span>
+                <h3>Step 3 — Generate Key</h3>
+                <p>Paste your UDID into the key generator below and get your free daily key instantly.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- INFO SECTION -->
+    <div class="section">
+        <p class="section-label">Support</p>
+        <h2 class="section-title">Need <span class="grad-purple">Help?</span></h2>
+
+        <div class="info-grid">
+            <div class="info-card fade">
+                <span class="info-card-icon">⚠️</span>
+                <h3>Important Notice</h3>
+                <p>Don't delete the old version if your UDID is already approved. Simply install the new version — it
+                    will update automatically and your progress is kept.</p>
+            </div>
+            <div class="info-card fade" style="border-color:rgba(99,102,241,.15);">
+                <span class="info-card-icon">🔄</span>
+                <h3>Changed Device?</h3>
+                <p>Changed phone or reinstalled? Submit your old + new UDID with receipt and we'll transfer your VIP.
+                    Expiry date stays the same.</p>
+                <a href="https://forms.gle/Sg1R9q6ndD1kSAXt6" class="link-btn" target="_blank">
+                    <i class="fas fa-sync-alt"></i> Change UDID →
+                </a>
+            </div>
+            <div class="info-card fade">
+                <span class="info-card-icon">🎬</span>
+                <h3>Detailed Guide</h3>
+                <p>Watch the full tutorial video to get the best experience with TipTip Mod features.</p>
+                <a href="https://youtu.be/6_byXJV28Mg?si=YL1IKpvs7U5HcoO5" class="link-btn" target="_blank">
+                    <i class="fab fa-youtube"></i> Watch Tutorial →
+                </a>
+            </div>
+            <div class="info-card fade" style="border-color:rgba(0,136,204,.15);">
+                <span class="info-card-icon">💬</span>
+                <h3>Contact Admin</h3>
+                <p>Need support or want to register for VIP? Message admin on Telegram for fast consultation.</p>
+                <a href="https://t.me/tiptipiosmod" class="link-btn" target="_blank">
+                    <i class="fab fa-telegram"></i> @tiptipiosmod →
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="logo-text grad-purple">TipTip Mod</div>
+        <p>The Spike Cross — Premium Volleyball Game Mod</p>
+        <p style="margin-top:4px;">
+            <a href="https://t.me/tiptipiosmod" target="_blank"><i class="fab fa-telegram"></i> @tiptipiosmod</a>
+        </p>
+        <p style="margin-top:16px;font-size:12px;">© 2026 TipTip Mod · For entertainment purposes only · Use responsibly
+        </p>
+    </footer>
+
+    <!-- Scroll to top -->
+    <button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // Loader
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('out');
+                setTimeout(() => document.getElementById('loader').remove(), 600);
+            }, 700);
+        });
+
+        // Progress bar
+        window.addEventListener('scroll', () => {
+            const h = document.documentElement;
+            const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+            document.getElementById('progress').style.width = pct + '%';
+            const btn = document.getElementById('scrollTop');
+            h.scrollTop > 300 ? btn.classList.add('show') : btn.classList.remove('show');
+        }, { passive: true });
+
+        // Fade in on scroll
+        const io = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+        document.querySelectorAll('.fade').forEach((el, i) => {
+            el.style.transitionDelay = (i % 4) * 0.08 + 's';
+            io.observe(el);
+        });
+
+        // Toast
+        function toast(msg) {
+            const t = document.getElementById('toast');
+            t.textContent = msg; t.classList.add('show');
+            setTimeout(() => t.classList.remove('show'), 3000);
+        }
+
+        // Track clicks
+        document.querySelectorAll('.btn, .link-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const txt = btn.textContent.trim();
+                if (txt.includes('Key')) toast('🔑 Redirecting to key generator…');
+                else if (txt.includes('Buy')) toast('🛒 Opening registration form…');
+                else if (txt.includes('Admin') || txt.includes('telegram')) toast('📱 Opening Telegram…');
+                else if (txt.includes('Tutorial') || txt.includes('Watch')) toast('🎬 Opening tutorial video…');
+            });
+        });
+
+        // Prevent double-tap zoom on iOS
+        let lastTouch = 0;
+        document.addEventListener('touchend', e => {
+            const now = Date.now();
+            if (now - lastTouch <= 300) e.preventDefault();
+            lastTouch = now;
+        }, false);
+    </script>
+</body>
+
+</html>
