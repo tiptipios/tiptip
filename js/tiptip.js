@@ -1,5 +1,25 @@
 const gamedata = [
     {
+        "title": "Plants vs Zombie 2",
+        "version": "13.3.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Vàng không giới hạn\n✅ Đá quý không giới hạn\n✅ kẹo Không giới hạn\n✅ Granltes không giới hạn\n✅ Hạt Giống không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay vì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Custom Mastery ( 1-200)\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây\n✅ Speed Ads",
+        "download_url": "https://drive.google.com/file/d/1NLX74phbZ8YIhzxaH772BynQIQsHaYjV/view?usp=drivesdk",
+        "updated_at": "2026-07-22",
+        "size": "129.59 MB",
+        "fake_downloads": 954571
+    },
+    {
+        "title": "Subway Surf",
+        "version": "3.66.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
+        "download_url": "https://drive.google.com/file/d/1OgoOiXAqCcO7LZPuX7qZECuB6dZIyqCc/view?usp=drivesdk",
+        "updated_at": "2026-07-22",
+        "size": "215.40 MB",
+        "fake_downloads": 964571
+    },
+    {
         "title": "Stick War: Legacy",
         "version": "2026.1.787",
         "image": "https://st.gamevui.vn/images/image/2024/08/24/stick-war-legacy-300.jpg",
@@ -64,26 +84,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1P9WlUY5hq_30ovJtH5QgJmdx0JkwBZvp",
         "updated_at": "2026-04-21",
         "size": "280.61 MB"
-    },
-    {
-        "title": "Plants vs Zombie 2",
-        "version": "13.0.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Vàng không giới hạn\n✅ Đá quý không giới hạn\n✅ kẹo Không giới hạn\n✅ Granltes không giới hạn\n✅ Hạt Giống không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay vì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Custom Mastery ( 1-200)\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây\n✅ Speed Ads",
-        "download_url": "https://oklink.cfd/S2Lf",
-        "updated_at": "2026-04-15",
-        "size": "116.59 MB",
-        "fake_downloads": 954571
-    },
-    {
-        "title": "Subway Surf",
-        "version": "3.61.1 ",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
-        "download_url": "https://oklink.cfd/75ou1",
-        "updated_at": "2026-04-15",
-        "size": "140.40 MB",
-        "fake_downloads": 964571
     },
     {
         "title": "8 Ball Pool",
