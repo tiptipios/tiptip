@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -22,130 +22,247 @@
             justify-content: center;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             overflow: hidden;
-            background: #0a0a14;
+            background: linear-gradient(135deg, #0f0a1e 0%, #1a0b2e 25%, #2d1b3d 50%, #1e0f3b 75%, #0a0614 100%);
+            background-size: 400% 400%;
+            animation: gradient-flow 15s ease infinite;
         }
 
-        /* ── BACKGROUND ── */
+        @keyframes gradient-flow {
+
+            0%,
+            100% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+
+        /* ── LIQUID GLASS BACKGROUND ── */
         .bg {
             position: fixed;
             inset: 0;
             z-index: 0;
-            background: radial-gradient(ellipse 80% 60% at 50% -10%, #3b2f7a 0%, transparent 70%),
-                radial-gradient(ellipse 60% 50% at 80% 80%, #1a1040 0%, transparent 60%),
-                radial-gradient(ellipse 50% 40% at 10% 90%, #2d1b5e 0%, transparent 60%),
-                #0a0a14;
+            overflow: hidden;
         }
 
-        /* floating orbs */
+        /* Liquid Glass floating bubbles */
         .orb {
             position: absolute;
             border-radius: 50%;
-            filter: blur(80px);
-            opacity: 0.35;
-            animation: drift linear infinite;
+            filter: blur(120px);
+            opacity: 0.5;
+            animation: float-liquid linear infinite;
+            background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.1), transparent);
         }
 
         .orb-1 {
-            width: 320px;
-            height: 320px;
-            background: #7c3aed;
-            top: -80px;
-            left: -60px;
-            animation-duration: 18s;
+            width: 420px;
+            height: 420px;
+            background: radial-gradient(circle at 30% 30%,
+                    rgba(124, 58, 237, 0.35) 0%,
+                    rgba(139, 92, 246, 0.18) 40%,
+                    transparent 70%);
+            top: -120px;
+            left: -80px;
+            animation-duration: 25s;
         }
 
         .orb-2 {
-            width: 260px;
-            height: 260px;
-            background: #db2777;
-            bottom: -60px;
-            right: -40px;
-            animation-duration: 22s;
+            width: 350px;
+            height: 350px;
+            background: radial-gradient(circle at 30% 30%,
+                    rgba(219, 39, 119, 0.3) 0%,
+                    rgba(236, 72, 153, 0.15) 40%,
+                    transparent 70%);
+            bottom: -100px;
+            right: -60px;
+            animation-duration: 30s;
             animation-direction: reverse;
         }
 
         .orb-3 {
-            width: 180px;
-            height: 180px;
-            background: #2563eb;
-            top: 40%;
-            left: 60%;
-            animation-duration: 16s;
+            width: 280px;
+            height: 280px;
+            background: radial-gradient(circle at 30% 30%,
+                    rgba(59, 130, 246, 0.3) 0%,
+                    rgba(96, 165, 250, 0.15) 40%,
+                    transparent 70%);
+            top: 45%;
+            left: 55%;
+            animation-duration: 22s;
         }
 
-        @keyframes drift {
+        .orb-4 {
+            width: 320px;
+            height: 320px;
+            background: radial-gradient(circle at 30% 30%,
+                    rgba(52, 211, 153, 0.25) 0%,
+                    rgba(110, 231, 183, 0.12) 40%,
+                    transparent 70%);
+            top: 20%;
+            right: 15%;
+            animation-duration: 28s;
+        }
+
+        @keyframes float-liquid {
             0% {
-                transform: translate(0, 0) scale(1);
+                transform: translate(0, 0) scale(1) rotate(0deg);
+                border-radius: 50%;
             }
 
-            33% {
-                transform: translate(30px, -20px) scale(1.05);
+            25% {
+                transform: translate(40px, -30px) scale(1.1) rotate(90deg);
+                border-radius: 45% 55% 52% 48%;
             }
 
-            66% {
-                transform: translate(-20px, 30px) scale(0.97);
+            50% {
+                transform: translate(-20px, 40px) scale(0.95) rotate(180deg);
+                border-radius: 52% 48% 45% 55%;
+            }
+
+            75% {
+                transform: translate(-40px, -20px) scale(1.05) rotate(270deg);
+                border-radius: 48% 52% 55% 45%;
             }
 
             100% {
-                transform: translate(0, 0) scale(1);
+                transform: translate(0, 0) scale(1) rotate(360deg);
+                border-radius: 50%;
             }
         }
 
-        /* grid lines */
+        /* Glass reflection effect */
         .grid-lines {
             position: absolute;
             inset: 0;
             background-image:
-                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-            background-size: 48px 48px;
+                linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+            background-size: 60px 60px;
+            animation: grid-shimmer 8s linear infinite;
         }
 
-        /* ── CARD ── */
+        @keyframes grid-shimmer {
+
+            0%,
+            100% {
+                opacity: 0.2;
+            }
+
+            50% {
+                opacity: 0.4;
+            }
+        }
+
+        /* ── LIQUID GLASS CARD ── */
         .card {
             position: relative;
             z-index: 1;
             width: calc(100% - 32px);
             max-width: 400px;
-            background: rgba(255, 255, 255, 0.055);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(28px);
-            -webkit-backdrop-filter: blur(28px);
-            border-radius: 28px;
+            background: linear-gradient(135deg,
+                    rgba(255, 255, 255, 0.08) 0%,
+                    rgba(255, 255, 255, 0.05) 50%,
+                    rgba(255, 255, 255, 0.07) 100%);
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(40px) saturate(180%);
+            -webkit-backdrop-filter: blur(40px) saturate(180%);
+            border-radius: 32px;
             padding: 44px 28px 40px;
             text-align: center;
             box-shadow:
-                0 0 0 1px rgba(255, 255, 255, 0.04) inset,
-                0 40px 80px rgba(0, 0, 0, 0.55),
-                0 0 60px rgba(124, 58, 237, 0.12);
-            animation: rise 0.7s cubic-bezier(.22, 1, .36, 1) both;
+                0 0 0 1px rgba(255, 255, 255, 0.1) inset,
+                0 50px 100px rgba(0, 0, 0, 0.5),
+                0 20px 60px rgba(124, 58, 237, 0.25),
+                0 0 80px rgba(219, 39, 119, 0.15);
+            animation: rise 0.8s cubic-bezier(.22, 1, .36, 1) both, liquid-shimmer 8s ease-in-out infinite;
+            overflow: hidden;
         }
 
         @keyframes rise {
             from {
                 opacity: 0;
-                transform: translateY(36px) scale(0.97);
+                transform: translateY(40px) scale(0.95);
+                filter: blur(10px);
             }
 
             to {
                 opacity: 1;
                 transform: translateY(0) scale(1);
+                filter: blur(0);
             }
         }
 
-        /* subtle top glow line */
+        @keyframes liquid-shimmer {
+
+            0%,
+            100% {
+                box-shadow:
+                    0 0 0 1px rgba(255, 255, 255, 0.1) inset,
+                    0 50px 100px rgba(0, 0, 0, 0.5),
+                    0 20px 60px rgba(124, 58, 237, 0.25),
+                    0 0 80px rgba(219, 39, 119, 0.15);
+            }
+
+            50% {
+                box-shadow:
+                    0 0 0 1px rgba(255, 255, 255, 0.15) inset,
+                    0 50px 100px rgba(0, 0, 0, 0.5),
+                    0 20px 60px rgba(219, 39, 119, 0.3),
+                    0 0 80px rgba(124, 58, 237, 0.2);
+            }
+        }
+
+        /* Liquid glass reflection effect */
         .card::before {
             content: '';
             position: absolute;
             top: 0;
-            left: 10%;
-            right: 10%;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, rgba(167, 139, 250, 0.7), rgba(244, 114, 182, 0.7), transparent);
-            border-radius: 1px;
+            left: 0;
+            right: 0;
+            height: 200px;
+            background: linear-gradient(180deg,
+                    rgba(255, 255, 255, 0.12) 0%,
+                    rgba(255, 255, 255, 0.03) 50%,
+                    transparent 100%);
+            border-radius: 32px 32px 0 0;
+            pointer-events: none;
         }
 
-        /* ── AVATAR ── */
+        /* Liquid edge glow */
+        .card::after {
+            content: '';
+            position: absolute;
+            inset: -2px;
+            background: linear-gradient(135deg,
+                    rgba(124, 58, 237, 0.4),
+                    rgba(219, 39, 119, 0.4),
+                    rgba(59, 130, 246, 0.4),
+                    rgba(52, 211, 153, 0.4));
+            border-radius: 32px;
+            z-index: -1;
+            filter: blur(20px);
+            opacity: 0.4;
+            animation: edge-flow 6s linear infinite;
+        }
+
+        @keyframes edge-flow {
+
+            0%,
+            100% {
+                transform: rotate(0deg) scale(1);
+                opacity: 0.4;
+            }
+
+            50% {
+                transform: rotate(180deg) scale(1.05);
+                opacity: 0.6;
+            }
+        }
+
+        /* ── LIQUID GLASS AVATAR ── */
         .avatar-wrap {
             position: relative;
             display: inline-block;
@@ -153,32 +270,52 @@
         }
 
         .avatar-ring {
-            width: 100px;
-            height: 100px;
+            width: 110px;
+            height: 110px;
             border-radius: 50%;
-            padding: 3px;
-            background: conic-gradient(from 0deg, #a78bfa, #f472b6, #60a5fa, #a78bfa);
-            animation: spin 6s linear infinite;
-            box-shadow: 0 0 36px rgba(167, 139, 250, 0.45);
+            padding: 4px;
+            background: linear-gradient(135deg,
+                    rgba(124, 58, 237, 0.8),
+                    rgba(219, 39, 119, 0.8),
+                    rgba(59, 130, 246, 0.8),
+                    rgba(52, 211, 153, 0.8));
+            box-shadow:
+                0 0 40px rgba(124, 58, 237, 0.5),
+                0 0 60px rgba(219, 39, 119, 0.3),
+                0 10px 30px rgba(0, 0, 0, 0.5);
+            position: relative;
         }
 
-        @keyframes spin {
-            to {
-                transform: rotate(360deg);
-            }
+        /* Liquid outer glow */
+        .avatar-ring::before {
+            content: '';
+            position: absolute;
+            inset: -8px;
+            border-radius: 50%;
+            background: radial-gradient(circle,
+                    rgba(124, 58, 237, 0.4),
+                    rgba(219, 39, 119, 0.3),
+                    transparent);
+            filter: blur(20px);
+            z-index: -1;
         }
 
         .avatar-inner {
             width: 100%;
             height: 100%;
             border-radius: 50%;
-            background: linear-gradient(145deg, #1e1b4b, #2e1065);
+            background: linear-gradient(145deg,
+                    rgba(20, 20, 30, 0.8),
+                    rgba(30, 20, 40, 0.6));
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 40px;
-            animation: spin-reverse 6s linear infinite;
             overflow: hidden;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            box-shadow:
+                0 0 20px rgba(0, 0, 0, 0.5) inset,
+                0 5px 15px rgba(0, 0, 0, 0.3);
         }
 
         .avatar-inner img {
@@ -188,220 +325,352 @@
             border-radius: 50%;
         }
 
-        @keyframes spin-reverse {
-            to {
-                transform: rotate(-360deg);
-            }
-        }
-
-        /* online dot */
+        /* Liquid online dot */
         .online-dot {
             position: absolute;
-            bottom: 4px;
-            right: 4px;
-            width: 22px;
-            height: 22px;
-            background: #22c55e;
-            border: 3px solid #0a0a14;
+            bottom: 6px;
+            right: 6px;
+            width: 24px;
+            height: 24px;
+            background: linear-gradient(135deg, #10b981, #34d399);
+            border: 3px solid rgba(20, 20, 30, 0.9);
             border-radius: 50%;
-            box-shadow: 0 0 10px rgba(34, 197, 94, 0.7);
-            animation: ping 2s ease-in-out infinite;
+            box-shadow:
+                0 0 15px rgba(16, 185, 129, 0.8),
+                0 0 30px rgba(16, 185, 129, 0.4),
+                0 3px 10px rgba(0, 0, 0, 0.5);
+            animation: liquid-ping 2s ease-in-out infinite;
         }
 
-        @keyframes ping {
+        @keyframes liquid-ping {
 
             0%,
             100% {
-                box-shadow: 0 0 6px rgba(34, 197, 94, 0.6);
+                transform: scale(1);
+                box-shadow:
+                    0 0 15px rgba(16, 185, 129, 0.8),
+                    0 0 30px rgba(16, 185, 129, 0.4),
+                    0 3px 10px rgba(0, 0, 0, 0.5);
             }
 
             50% {
-                box-shadow: 0 0 18px rgba(34, 197, 94, 0.9);
+                transform: scale(1.1);
+                box-shadow:
+                    0 0 25px rgba(16, 185, 129, 1),
+                    0 0 50px rgba(16, 185, 129, 0.6),
+                    0 3px 10px rgba(0, 0, 0, 0.5);
             }
         }
 
-        /* ── NAME ── */
+        /* ── LIQUID GLASS NAME ── */
         h1 {
-            font-size: 32px;
-            font-weight: 800;
-            letter-spacing: -0.6px;
-            background: linear-gradient(135deg, #fff 10%, #c4b5fd 50%, #f9a8d4 100%);
+            font-size: 34px;
+            font-weight: 900;
+            letter-spacing: -0.8px;
+            background: linear-gradient(135deg,
+                    #ffffff 0%,
+                    #e0d4ff 25%,
+                    #ffd4e8 50%,
+                    #d4efff 75%,
+                    #ffffff 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            margin-bottom: 6px;
+            margin-bottom: 8px;
+            filter: drop-shadow(0 2px 8px rgba(124, 58, 237, 0.4)) drop-shadow(0 4px 16px rgba(219, 39, 119, 0.3));
+            animation: text-shimmer 6s ease-in-out infinite;
+            position: relative;
+            z-index: 2;
+        }
+
+        @keyframes text-shimmer {
+
+            0%,
+            100% {
+                filter: drop-shadow(0 2px 8px rgba(124, 58, 237, 0.4)) drop-shadow(0 4px 16px rgba(219, 39, 119, 0.3));
+            }
+
+            50% {
+                filter: drop-shadow(0 2px 8px rgba(219, 39, 119, 0.5)) drop-shadow(0 4px 16px rgba(124, 58, 237, 0.4));
+            }
         }
 
         .sub-label {
             font-size: 13px;
-            color: rgba(255, 255, 255, 0.45);
-            letter-spacing: 0.4px;
+            color: rgba(255, 255, 255, 0.5);
+            letter-spacing: 0.5px;
             margin-bottom: 32px;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
         }
 
-        /* ── DIVIDER ── */
+        /* ── LIQUID DIVIDER ── */
         .divider {
             display: flex;
             align-items: center;
-            gap: 10px;
-            margin-bottom: 20px;
+            gap: 12px;
+            margin-bottom: 22px;
         }
 
         .divider::before,
         .divider::after {
             content: '';
             flex: 1;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            height: 2px;
+            background: linear-gradient(90deg,
+                    transparent,
+                    rgba(255, 255, 255, 0.15) 20%,
+                    rgba(124, 58, 237, 0.3) 50%,
+                    rgba(255, 255, 255, 0.15) 80%,
+                    transparent);
+            border-radius: 2px;
+            box-shadow: 0 0 10px rgba(124, 58, 237, 0.2);
         }
 
         .divider span {
             font-size: 11px;
-            color: rgba(255, 255, 255, 0.35);
-            letter-spacing: 1px;
+            color: rgba(255, 255, 255, 0.6);
+            letter-spacing: 1.2px;
             text-transform: uppercase;
             white-space: nowrap;
+            font-weight: 600;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            background: linear-gradient(135deg,
+                    rgba(255, 255, 255, 0.1),
+                    rgba(255, 255, 255, 0.05));
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
         }
 
-        /* ── BUTTONS ── */
+        /* ── LIQUID GLASS BUTTONS ── */
         .channels {
             display: flex;
             flex-direction: column;
-            gap: 11px;
+            gap: 12px;
         }
 
         .btn {
             display: flex;
             align-items: center;
             gap: 0;
-            border-radius: 16px;
+            border-radius: 20px;
             text-decoration: none !important;
             color: #fff !important;
-            border: 1px solid rgba(255, 255, 255, 0.08);
+            border: 2px solid rgba(255, 255, 255, 0.15);
             overflow: hidden;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             position: relative;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
         }
 
         .btn:hover {
-            transform: translateY(-3px);
+            transform: translateY(-5px) scale(1.02);
+            border-color: rgba(255, 255, 255, 0.3);
         }
 
         .btn:active {
-            transform: translateY(0);
+            transform: translateY(-2px) scale(1);
         }
 
-        /* shine sweep */
+        /* Liquid glass reflection overlay */
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50%;
+            background: linear-gradient(180deg,
+                    rgba(255, 255, 255, 0.15) 0%,
+                    transparent 100%);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        /* Liquid shine sweep */
         .btn::after {
             content: '';
             position: absolute;
             inset: 0;
-            background: linear-gradient(105deg, transparent 40%, rgba(255, 255, 255, 0.12) 50%, transparent 60%);
-            transform: translateX(-100%);
-            transition: transform 0.4s ease;
+            background: linear-gradient(120deg,
+                    transparent 30%,
+                    rgba(255, 255, 255, 0.25) 50%,
+                    transparent 70%);
+            transform: translateX(-100%) skewX(-15deg);
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 2;
         }
 
         .btn:hover::after {
-            transform: translateX(100%);
+            transform: translateX(100%) skewX(-15deg);
         }
 
         /* icon col */
         .btn .icon-col {
-            width: 56px;
-            min-width: 56px;
-            height: 56px;
+            width: 60px;
+            min-width: 60px;
+            height: 60px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 22px;
-            background: rgba(0, 0, 0, 0.2);
+            font-size: 24px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
             flex-shrink: 0;
+            position: relative;
+            z-index: 3;
         }
 
         /* text col */
         .btn .text-col {
             flex: 1;
-            padding: 0 14px;
+            padding: 0 16px;
             text-align: left;
+            position: relative;
+            z-index: 3;
         }
 
         .btn .btn-name {
             display: block;
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 700;
-            line-height: 1.2;
+            line-height: 1.3;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
         }
 
         .btn .btn-desc {
             display: block;
             font-size: 11px;
-            opacity: 0.6;
-            margin-top: 2px;
-            font-weight: 400;
+            opacity: 0.8;
+            margin-top: 3px;
+            font-weight: 500;
+            text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
         }
 
         /* arrow col */
         .btn .arrow-col {
-            width: 40px;
+            width: 44px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 12px;
-            opacity: 0.45;
+            font-size: 13px;
+            opacity: 0.6;
+            position: relative;
+            z-index: 3;
+            transition: transform 0.3s ease;
         }
 
-        /* colors */
+        .btn:hover .arrow-col {
+            transform: translateX(4px);
+            opacity: 1;
+        }
+
+        /* Liquid glass colors */
         .btn-tg-main {
-            background: linear-gradient(135deg, #0098dd 0%, #006fa3 100%);
-            box-shadow: 0 8px 24px rgba(0, 152, 221, 0.28);
+            background: linear-gradient(135deg,
+                    rgba(0, 152, 221, 0.4) 0%,
+                    rgba(0, 111, 163, 0.3) 100%);
+            box-shadow:
+                0 10px 30px rgba(0, 152, 221, 0.25),
+                0 0 40px rgba(0, 152, 221, 0.15),
+                0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+        }
+
+        .btn-tg-main:hover {
+            box-shadow:
+                0 15px 40px rgba(0, 152, 221, 0.35),
+                0 0 60px rgba(0, 152, 221, 0.25),
+                0 0 0 1px rgba(255, 255, 255, 0.2) inset;
         }
 
         .btn-tg-spike {
-            background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
-            box-shadow: 0 8px 24px rgba(124, 58, 237, 0.28);
+            background: linear-gradient(135deg,
+                    rgba(124, 58, 237, 0.4) 0%,
+                    rgba(91, 33, 182, 0.3) 100%);
+            box-shadow:
+                0 10px 30px rgba(124, 58, 237, 0.25),
+                0 0 40px rgba(124, 58, 237, 0.15),
+                0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+        }
+
+        .btn-tg-spike:hover {
+            box-shadow:
+                0 15px 40px rgba(124, 58, 237, 0.35),
+                0 0 60px rgba(124, 58, 237, 0.25),
+                0 0 0 1px rgba(255, 255, 255, 0.2) inset;
         }
 
         .btn-tg-ff {
-            background: linear-gradient(135deg, #f43f5e 0%, #be123c 100%);
-            box-shadow: 0 8px 24px rgba(244, 63, 94, 0.28);
+            background: linear-gradient(135deg,
+                    rgba(244, 63, 94, 0.4) 0%,
+                    rgba(190, 18, 60, 0.3) 100%);
+            box-shadow:
+                0 10px 30px rgba(244, 63, 94, 0.25),
+                0 0 40px rgba(244, 63, 94, 0.15),
+                0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+        }
+
+        .btn-tg-ff:hover {
+            box-shadow:
+                0 15px 40px rgba(244, 63, 94, 0.35),
+                0 0 60px rgba(244, 63, 94, 0.25),
+                0 0 0 1px rgba(255, 255, 255, 0.2) inset;
         }
 
         .btn-discord {
-            background: linear-gradient(135deg, #5865f2 0%, #3b4dd1 100%);
-            box-shadow: 0 8px 24px rgba(88, 101, 242, 0.28);
+            background: linear-gradient(135deg,
+                    rgba(88, 101, 242, 0.4) 0%,
+                    rgba(59, 77, 209, 0.3) 100%);
+            box-shadow:
+                0 10px 30px rgba(88, 101, 242, 0.25),
+                0 0 40px rgba(88, 101, 242, 0.15),
+                0 0 0 1px rgba(255, 255, 255, 0.1) inset;
         }
 
-        /* staggered entrance */
+        .btn-discord:hover {
+            box-shadow:
+                0 15px 40px rgba(88, 101, 242, 0.35),
+                0 0 60px rgba(88, 101, 242, 0.25),
+                0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+        }
+
+        /* staggered liquid entrance */
         .btn:nth-child(1) {
-            animation: rise 0.6s 0.10s both;
+            animation: rise 0.7s 0.12s both;
         }
 
         .btn:nth-child(2) {
-            animation: rise 0.6s 0.18s both;
+            animation: rise 0.7s 0.22s both;
         }
 
         .btn:nth-child(3) {
-            animation: rise 0.6s 0.26s both;
+            animation: rise 0.7s 0.32s both;
         }
 
         .btn:nth-child(4) {
-            animation: rise 0.6s 0.34s both;
+            animation: rise 0.7s 0.42s both;
         }
 
-        /* ── FOOTER ── */
+        /* ── LIQUID FOOTER ── */
         .foot {
-            margin-top: 28px;
+            margin-top: 32px;
             font-size: 12px;
-            color: rgba(255, 255, 255, 0.25);
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 500;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            position: relative;
+            z-index: 2;
         }
 
         .foot .heart {
             display: inline-block;
-            color: #f472b6;
-            animation: hb 1.3s ease infinite;
+            color: #ff6b9d;
+            animation: liquid-hb 1.4s ease infinite;
+            filter: drop-shadow(0 0 8px rgba(255, 107, 157, 0.6));
         }
 
-        @keyframes hb {
+        @keyframes liquid-hb {
 
             0%,
             100% {
@@ -409,7 +678,7 @@
             }
 
             14% {
-                transform: scale(1.3);
+                transform: scale(1.35);
             }
 
             28% {
@@ -417,8 +686,174 @@
             }
 
             42% {
-                transform: scale(1.15);
+                transform: scale(1.2);
             }
+        }
+
+        /* ── SEARCH CARD ── */
+        .search-section {
+            margin-bottom: 24px;
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 14px 46px 14px 18px;
+            background: linear-gradient(135deg,
+                    rgba(255, 255, 255, 0.08),
+                    rgba(255, 255, 255, 0.05));
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            border-radius: 16px;
+            color: #fff;
+            font-size: 14px;
+            font-family: inherit;
+            outline: none;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .search-input::placeholder {
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .search-input:focus {
+            border-color: rgba(124, 58, 237, 0.6);
+            box-shadow: 0 0 20px rgba(124, 58, 237, 0.3);
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 16px;
+            pointer-events: none;
+        }
+
+        .game-result {
+            display: none;
+            flex-direction: column;
+            gap: 12px;
+            animation: fadeIn 0.4s ease;
+        }
+
+        .game-result.show {
+            display: flex;
+        }
+
+        .game-item {
+            display: flex;
+            gap: 16px;
+            background: linear-gradient(135deg,
+                    rgba(255, 255, 255, 0.08),
+                    rgba(255, 255, 255, 0.05));
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 16px;
+            backdrop-filter: blur(20px);
+            transition: all 0.3s ease;
+        }
+
+        .game-item:hover {
+            border-color: rgba(124, 58, 237, 0.4);
+            transform: translateX(4px);
+            box-shadow: 0 4px 16px rgba(124, 58, 237, 0.2);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .game-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            object-fit: cover;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            flex-shrink: 0;
+        }
+
+        .game-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-width: 0;
+        }
+
+        .game-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 6px;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .game-meta {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 8px;
+        }
+
+        .download-btn {
+            display: flow;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            background: linear-gradient(135deg,
+                    rgba(124, 58, 237, 0.6),
+                    rgba(91, 33, 182, 0.5));
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 12px;
+            color: #fff !important;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none !important;
+            transition: all 0.15s ease;
+            box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+            position: relative;
+            top: 0;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(124, 58, 237, 0.4);
+            top: -2px;
+        }
+
+        .download-btn:active {
+            transform: translateY(1px);
+            box-shadow: 0 2px 8px rgba(124, 58, 237, 0.3);
+            top: 1px;
+        }
+
+        .no-result {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 13px;
+        }
+
+        .no-result.show {
+            display: block;
         }
     </style>
 </head>
@@ -430,6 +865,7 @@
         <div class="orb orb-1"></div>
         <div class="orb orb-2"></div>
         <div class="orb orb-3"></div>
+        <div class="orb orb-4"></div>
         <div class="grid-lines"></div>
     </div>
 
@@ -450,8 +886,28 @@
         <h1>Tip Tip</h1>
         <p class="sub-label"> </p>
 
+        <!-- Search Section -->
+        <div class="search-section">
+            <div class="divider"><span>Search iOS Games</span></div>
+
+            <div class="search-box">
+                <input type="text" class="search-input" id="gameSearch" placeholder="Enter game name..."
+                    autocomplete="off">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+
+            <div class="game-result" id="gameResult">
+                <!-- Game items will be inserted here dynamically -->
+            </div>
+
+            <div class="no-result" id="noResult">
+                <i class="fas fa-search" style="font-size: 24px; margin-bottom: 8px; opacity: 0.3;"></i>
+                <div>No games found</div>
+            </div>
+        </div>
+
         <!-- Divider -->
-        <div class="divider"><span>Tham gia kênh</span></div>
+        <div class="divider"><span>Join Our Channels</span></div>
 
         <!-- Channels -->
         <div class="channels">
@@ -459,17 +915,17 @@
             <a href="https://t.me/gamemodios" class="btn btn-tg-main" target="_blank" rel="noopener">
                 <div class="icon-col"><i class="fab fa-telegram-plane"></i></div>
                 <div class="text-col">
-                    <span class="btn-name">Kênh Telegram Chính</span>
-                    <span class="btn-desc">Game, App, IPA tổng hợp</span>
+                    <span class="btn-name"> Telegram Channel</span>
+                    <span class="btn-desc">Games, Apps, IPA </span>
                 </div>
                 <div class="arrow-col"><i class="fas fa-chevron-right"></i></div>
             </a>
 
-            <a href="https://t.me/modspike/227" class="btn btn-tg-spike" target="_blank" rel="noopener">
+            <a href="https://t.me/modspike" class="btn btn-tg-spike" target="_blank" rel="noopener">
                 <div class="icon-col"><i class="fab fa-telegram-plane"></i></div>
                 <div class="text-col">
-                    <span class="btn-name">Kênh The Spike</span>
-                    <span class="btn-desc"> The Spike Cross </span>
+                    <span class="btn-name">The Spike Channel</span>
+                    <span class="btn-desc">The Spike Cross</span>
                 </div>
                 <div class="arrow-col"><i class="fas fa-chevron-right"></i></div>
             </a>
@@ -477,8 +933,8 @@
             <a href="https://t.me/freefiretiptip" class="btn btn-tg-ff" target="_blank" rel="noopener">
                 <div class="icon-col"><i class="fab fa-telegram-plane"></i></div>
                 <div class="text-col">
-                    <span class="btn-name">Kênh FreeFire</span>
-                    <span class="btn-desc"> Free Fire cập nhật liên tục</span>
+                    <span class="btn-name">FreeFire Channel</span>
+                    <span class="btn-desc">Free Fire Updates</span>
                 </div>
                 <div class="arrow-col"><i class="fas fa-chevron-right"></i></div>
             </a>
@@ -486,8 +942,8 @@
             <a href="https://discord.gg/p7P4KqhPZg" class="btn btn-discord" target="_blank" rel="noopener">
                 <div class="icon-col"><i class="fab fa-discord"></i></div>
                 <div class="text-col">
-                    <span class="btn-name"> Discord</span>
-                    <span class="btn-desc"></span>
+                    <span class="btn-name">Discord</span>
+                    <span class="btn-desc">Join our community</span>
                 </div>
                 <div class="arrow-col"><i class="fas fa-chevron-right"></i></div>
             </a>
@@ -498,6 +954,63 @@
         <p class="foot">Made with <span class="heart">♥</span> by Tip Tip · 2026</p>
 
     </div>
+
+    <script src="../js/tiptip.js"></script>
+    <script>
+        const searchInput = document.getElementById('gameSearch');
+        const gameResult = document.getElementById('gameResult');
+        const noResult = document.getElementById('noResult');
+
+        searchInput.addEventListener('input', function () {
+            const searchTerm = this.value.trim().toLowerCase();
+
+            if (searchTerm === '') {
+                gameResult.classList.remove('show');
+                noResult.classList.remove('show');
+                gameResult.innerHTML = '';
+                return;
+            }
+
+            // Tìm TẤT CẢ các game khớp với tên tìm kiếm
+            const foundGames = gamedata.filter(game =>
+                game.title.toLowerCase().includes(searchTerm)
+            );
+
+            if (foundGames.length > 0) {
+                // Xóa kết quả cũ
+                gameResult.innerHTML = '';
+
+                // Tạo card cho mỗi game tìm được
+                foundGames.forEach(game => {
+                    const gameItem = document.createElement('div');
+                    gameItem.className = 'game-item';
+
+                    // Tạo URL với các tham số
+                    const downloadUrl = `download.html?title=${encodeURIComponent(game.title)}&image=${encodeURIComponent(game.image)}&description=${encodeURIComponent(game.description || '')}&version=${encodeURIComponent(game.version)}&size=${encodeURIComponent(game.size)}&url=${encodeURIComponent(game.download_url)}`;
+
+                    gameItem.innerHTML = `
+                        <img src="${game.image}" alt="${game.title}" class="game-image" onerror="this.src='https://via.placeholder.com/80'">
+                        <div class="game-info">
+                            <div class="game-title">${game.title}</div>
+                            <div class="game-meta">Version: ${game.version} • Size: ${game.size}</div>
+                            <a href="${downloadUrl}" class="download-btn">
+                                <i class="fas fa-download"></i>
+                                <span>Download</span>
+                            </a>
+                        </div>
+                    `;
+                    gameResult.appendChild(gameItem);
+                });
+
+                gameResult.classList.add('show');
+                noResult.classList.remove('show');
+            } else {
+                gameResult.classList.remove('show');
+                gameResult.innerHTML = '';
+                noResult.classList.add('show');
+            }
+        });
+    </script>
 
 </body>
 
