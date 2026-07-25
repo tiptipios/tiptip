@@ -21,22 +21,10 @@
             align-items: center;
             justify-content: center;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: auto;
             background: linear-gradient(135deg, #0f0a1e 0%, #1a0b2e 25%, #2d1b3d 50%, #1e0f3b 75%, #0a0614 100%);
-            background-size: 400% 400%;
-            animation: gradient-flow 15s ease infinite;
-        }
-
-        @keyframes gradient-flow {
-
-            0%,
-            100% {
-                background-position: 0% 50%;
-            }
-
-            50% {
-                background-position: 100% 50%;
-            }
+            padding: 20px 0;
         }
 
         /* ── LIQUID GLASS BACKGROUND ── */
@@ -51,30 +39,28 @@
         .orb {
             position: absolute;
             border-radius: 50%;
-            filter: blur(120px);
-            opacity: 0.5;
-            animation: float-liquid linear infinite;
-            background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.1), transparent);
+            filter: blur(80px);
+            opacity: 0.4;
+            animation: float-liquid 25s linear infinite;
+            will-change: transform;
+            pointer-events: none;
         }
 
         .orb-1 {
-            width: 420px;
-            height: 420px;
-            background: radial-gradient(circle at 30% 30%,
-                    rgba(124, 58, 237, 0.35) 0%,
-                    rgba(139, 92, 246, 0.18) 40%,
-                    transparent 70%);
-            top: -120px;
-            left: -80px;
-            animation-duration: 25s;
-        }
-
-        .orb-2 {
             width: 350px;
             height: 350px;
             background: radial-gradient(circle at 30% 30%,
+                    rgba(124, 58, 237, 0.35) 0%,
+                    transparent 70%);
+            top: -120px;
+            left: -80px;
+        }
+
+        .orb-2 {
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle at 30% 30%,
                     rgba(219, 39, 119, 0.3) 0%,
-                    rgba(236, 72, 153, 0.15) 40%,
                     transparent 70%);
             bottom: -100px;
             right: -60px;
@@ -83,11 +69,10 @@
         }
 
         .orb-3 {
-            width: 280px;
-            height: 280px;
+            width: 240px;
+            height: 240px;
             background: radial-gradient(circle at 30% 30%,
-                    rgba(59, 130, 246, 0.3) 0%,
-                    rgba(96, 165, 250, 0.15) 40%,
+                    rgba(59, 130, 246, 0.25) 0%,
                     transparent 70%);
             top: 45%;
             left: 55%;
@@ -95,11 +80,10 @@
         }
 
         .orb-4 {
-            width: 320px;
-            height: 320px;
+            width: 260px;
+            height: 260px;
             background: radial-gradient(circle at 30% 30%,
-                    rgba(52, 211, 153, 0.25) 0%,
-                    rgba(110, 231, 183, 0.12) 40%,
+                    rgba(52, 211, 153, 0.2) 0%,
                     transparent 70%);
             top: 20%;
             right: 15%;
@@ -108,52 +92,25 @@
 
         @keyframes float-liquid {
             0% {
-                transform: translate(0, 0) scale(1) rotate(0deg);
-                border-radius: 50%;
+                transform: translate(0, 0);
             }
 
-            25% {
-                transform: translate(40px, -30px) scale(1.1) rotate(90deg);
-                border-radius: 45% 55% 52% 48%;
+            33% {
+                transform: translate(30px, -25px);
             }
 
-            50% {
-                transform: translate(-20px, 40px) scale(0.95) rotate(180deg);
-                border-radius: 52% 48% 45% 55%;
-            }
-
-            75% {
-                transform: translate(-40px, -20px) scale(1.05) rotate(270deg);
-                border-radius: 48% 52% 55% 45%;
+            66% {
+                transform: translate(-20px, 20px);
             }
 
             100% {
-                transform: translate(0, 0) scale(1) rotate(360deg);
-                border-radius: 50%;
+                transform: translate(0, 0);
             }
         }
 
         /* Glass reflection effect */
         .grid-lines {
-            position: absolute;
-            inset: 0;
-            background-image:
-                linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
-            background-size: 60px 60px;
-            animation: grid-shimmer 8s linear infinite;
-        }
-
-        @keyframes grid-shimmer {
-
-            0%,
-            100% {
-                opacity: 0.2;
-            }
-
-            50% {
-                opacity: 0.4;
-            }
+            display: none;
         }
 
         /* ── LIQUID GLASS CARD ── */
@@ -167,99 +124,45 @@
                     rgba(255, 255, 255, 0.05) 50%,
                     rgba(255, 255, 255, 0.07) 100%);
             border: 2px solid rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(40px) saturate(180%);
-            -webkit-backdrop-filter: blur(40px) saturate(180%);
+            backdrop-filter: blur(30px) saturate(150%);
+            -webkit-backdrop-filter: blur(30px) saturate(150%);
             border-radius: 32px;
             padding: 44px 28px 40px;
             text-align: center;
             box-shadow:
                 0 0 0 1px rgba(255, 255, 255, 0.1) inset,
-                0 50px 100px rgba(0, 0, 0, 0.5),
-                0 20px 60px rgba(124, 58, 237, 0.25),
-                0 0 80px rgba(219, 39, 119, 0.15);
-            animation: rise 0.8s cubic-bezier(.22, 1, .36, 1) both, liquid-shimmer 8s ease-in-out infinite;
+                0 40px 80px rgba(0, 0, 0, 0.5),
+                0 20px 60px rgba(124, 58, 237, 0.2);
+            animation: rise 0.6s cubic-bezier(.22, 1, .36, 1) both;
             overflow: hidden;
+            will-change: transform;
         }
 
         @keyframes rise {
             from {
                 opacity: 0;
-                transform: translateY(40px) scale(0.95);
-                filter: blur(10px);
+                transform: translateY(30px) scale(0.97);
             }
 
             to {
                 opacity: 1;
                 transform: translateY(0) scale(1);
-                filter: blur(0);
             }
         }
 
-        @keyframes liquid-shimmer {
-
-            0%,
-            100% {
-                box-shadow:
-                    0 0 0 1px rgba(255, 255, 255, 0.1) inset,
-                    0 50px 100px rgba(0, 0, 0, 0.5),
-                    0 20px 60px rgba(124, 58, 237, 0.25),
-                    0 0 80px rgba(219, 39, 119, 0.15);
-            }
-
-            50% {
-                box-shadow:
-                    0 0 0 1px rgba(255, 255, 255, 0.15) inset,
-                    0 50px 100px rgba(0, 0, 0, 0.5),
-                    0 20px 60px rgba(219, 39, 119, 0.3),
-                    0 0 80px rgba(124, 58, 237, 0.2);
-            }
-        }
-
-        /* Liquid glass reflection effect */
-        .card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 200px;
-            background: linear-gradient(180deg,
-                    rgba(255, 255, 255, 0.12) 0%,
-                    rgba(255, 255, 255, 0.03) 50%,
-                    transparent 100%);
-            border-radius: 32px 32px 0 0;
-            pointer-events: none;
-        }
-
-        /* Liquid edge glow */
+        /* Card glow - static, no animation */
         .card::after {
             content: '';
             position: absolute;
             inset: -2px;
             background: linear-gradient(135deg,
-                    rgba(124, 58, 237, 0.4),
-                    rgba(219, 39, 119, 0.4),
-                    rgba(59, 130, 246, 0.4),
-                    rgba(52, 211, 153, 0.4));
+                    rgba(124, 58, 237, 0.3),
+                    rgba(219, 39, 119, 0.3),
+                    rgba(59, 130, 246, 0.3));
             border-radius: 32px;
             z-index: -1;
-            filter: blur(20px);
+            filter: blur(15px);
             opacity: 0.4;
-            animation: edge-flow 6s linear infinite;
-        }
-
-        @keyframes edge-flow {
-
-            0%,
-            100% {
-                transform: rotate(0deg) scale(1);
-                opacity: 0.4;
-            }
-
-            50% {
-                transform: rotate(180deg) scale(1.05);
-                opacity: 0.6;
-            }
         }
 
         /* ── LIQUID GLASS AVATAR ── */
@@ -377,22 +280,9 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
             margin-bottom: 8px;
-            filter: drop-shadow(0 2px 8px rgba(124, 58, 237, 0.4)) drop-shadow(0 4px 16px rgba(219, 39, 119, 0.3));
-            animation: text-shimmer 6s ease-in-out infinite;
+            filter: drop-shadow(0 2px 8px rgba(124, 58, 237, 0.4));
             position: relative;
             z-index: 2;
-        }
-
-        @keyframes text-shimmer {
-
-            0%,
-            100% {
-                filter: drop-shadow(0 2px 8px rgba(124, 58, 237, 0.4)) drop-shadow(0 4px 16px rgba(219, 39, 119, 0.3));
-            }
-
-            50% {
-                filter: drop-shadow(0 2px 8px rgba(219, 39, 119, 0.5)) drop-shadow(0 4px 16px rgba(124, 58, 237, 0.4));
-            }
         }
 
         .sub-label {
@@ -748,42 +638,29 @@
 
         .game-item {
             display: flex;
-            gap: 16px;
+            align-items: center;
+            gap: 12px;
             background: linear-gradient(135deg,
                     rgba(255, 255, 255, 0.08),
                     rgba(255, 255, 255, 0.05));
             border: 2px solid rgba(255, 255, 255, 0.15);
             border-radius: 20px;
-            padding: 16px;
+            padding: 12px;
             backdrop-filter: blur(20px);
             transition: all 0.3s ease;
         }
 
         .game-item:hover {
             border-color: rgba(124, 58, 237, 0.4);
-            transform: translateX(4px);
             box-shadow: 0 4px 16px rgba(124, 58, 237, 0.2);
         }
 
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
         .game-image {
-            width: 80px;
-            height: 80px;
-            border-radius: 16px;
+            width: 64px;
+            height: 64px;
+            border-radius: 14px;
             object-fit: cover;
             border: 2px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
             flex-shrink: 0;
         }
 
@@ -792,56 +669,60 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: flex-start;
             min-width: 0;
         }
 
         .game-title {
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 700;
             color: #fff;
-            margin-bottom: 6px;
-            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            margin-bottom: 4px;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
+            max-width: 100%;
         }
 
         .game-meta {
             font-size: 11px;
             color: rgba(255, 255, 255, 0.5);
-            margin-bottom: 8px;
         }
 
         .download-btn {
-            display: flow;
+            display: inline-flex;
             align-items: center;
-            gap: 6px;
-            padding: 8px 16px;
-            background: linear-gradient(135deg,
-                    rgba(124, 58, 237, 0.6),
-                    rgba(91, 33, 182, 0.5));
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 12px;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            background: rgba(255, 255, 255, 0.15);
+            border: 1.5px solid rgba(255, 255, 255, 0.35);
+            border-radius: 50%;
             color: #fff !important;
-            font-size: 13px;
-            font-weight: 600;
             text-decoration: none !important;
             transition: all 0.15s ease;
-            box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
-            position: relative;
-            top: 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            flex-shrink: 0;
+            backdrop-filter: blur(10px);
+        }
+
+        .download-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: #fff;
         }
 
         .download-btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(124, 58, 237, 0.4);
-            top: -2px;
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.5);
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
         }
 
         .download-btn:active {
             transform: translateY(1px);
-            box-shadow: 0 2px 8px rgba(124, 58, 237, 0.3);
-            top: 1px;
+            background: rgba(255, 255, 255, 0.1);
         }
 
         .no-result {
@@ -961,47 +842,52 @@
         const gameResult = document.getElementById('gameResult');
         const noResult = document.getElementById('noResult');
 
-        searchInput.addEventListener('input', function () {
-            const searchTerm = this.value.trim().toLowerCase();
+        // Pre-build lowercase title index for fast lookup
+        const gamedataIndexed = gamedata.map(g => ({
+            ...g,
+            _title_lc: g.title.toLowerCase()
+        }));
 
-            if (searchTerm === '') {
+        let debounceTimer = null;
+        let lastQuery = '';
+
+        function buildGameCard(game) {
+            const downloadUrl = `download.html?title=${encodeURIComponent(game.title)}&image=${encodeURIComponent(game.image)}&description=${encodeURIComponent(game.description || '')}&version=${encodeURIComponent(game.version)}&size=${encodeURIComponent(game.size)}&url=${encodeURIComponent(game.download_url)}`;
+
+            const div = document.createElement('div');
+            div.className = 'game-item';
+            div.innerHTML = `
+                <img src="${game.image}" alt="${game.title}" class="game-image" loading="lazy" onerror="this.src='https://via.placeholder.com/80'">
+                <div class="game-info">
+                    <div class="game-title">${game.title}</div>
+                    <div class="game-meta">v${game.version} • ${game.size}</div>
+                </div>
+                <a href="${downloadUrl}" class="download-btn" title="Download">
+                    <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path d="M691.3 693.9c-24.7 0-44.8-20-44.8-44.8 0-24.7 20-44.8 44.8-44.8h40c190.6 0 176.8-274.4 0.2-268.1C671.2 37.2 208 145.1 299 445c-93-73.9-204.6 69.2-109.6 139.8 67.2 49.9 188.5-18.4 188.5 64.3 0 56.3-63.9 44.8-125.3 44.8-149.3 0-241.3-159.3-155.8-281.1 40.8-58.2 104.9-72.6 104.9-72.6C231.4 111.3 492.7-9.5 686.2 120c83.1 55.6 114.5 136.9 114.5 136.9 48.8 14.8 90.7 45.6 119.2 86.4 96 137.3 21.5 350.6-228.6 350.6zM514.2 335.8c0.2 0 0.3 0.1 0.5 0.1s0.3-0.1 0.5-0.1h-1z m177.1 421.1c0-17.5-45.8-17.3-63.3 0.1l-32.8 32.9c-14.1 14.1-38.2 4.2-38.2-15.8V380.6c0-24.5-17.9-44.4-42.3-44.7-24.5 0.3-47.2 20.1-47.2 44.7v393.5c0 19.9-24.1 29.9-38.2 15.8l-32.8-42.1c-17.5-17.5-45.3-9.3-62.8-9.3h-0.2c-17.5 44.8-17.6 55.1-0.1 72.6L449 931.5c35 35 91.6 37.3 126.6 2.3l115.7-114.6c17.5-17.5 0-45.2 0-62.7v0.4z"/></svg>
+                </a>
+            `;
+            return div;
+        }
+
+        function doSearch(term) {
+            if (term === lastQuery) return;
+            lastQuery = term;
+
+            if (term === '') {
                 gameResult.classList.remove('show');
                 noResult.classList.remove('show');
                 gameResult.innerHTML = '';
                 return;
             }
 
-            // Tìm TẤT CẢ các game khớp với tên tìm kiếm
-            const foundGames = gamedata.filter(game =>
-                game.title.toLowerCase().includes(searchTerm)
-            );
+            const found = gamedataIndexed.filter(g => g._title_lc.includes(term));
 
-            if (foundGames.length > 0) {
-                // Xóa kết quả cũ
+            if (found.length > 0) {
+                // Use DocumentFragment to batch DOM writes
+                const frag = document.createDocumentFragment();
+                found.forEach(g => frag.appendChild(buildGameCard(g)));
                 gameResult.innerHTML = '';
-
-                // Tạo card cho mỗi game tìm được
-                foundGames.forEach(game => {
-                    const gameItem = document.createElement('div');
-                    gameItem.className = 'game-item';
-
-                    // Tạo URL với các tham số
-                    const downloadUrl = `download.html?title=${encodeURIComponent(game.title)}&image=${encodeURIComponent(game.image)}&description=${encodeURIComponent(game.description || '')}&version=${encodeURIComponent(game.version)}&size=${encodeURIComponent(game.size)}&url=${encodeURIComponent(game.download_url)}`;
-
-                    gameItem.innerHTML = `
-                        <img src="${game.image}" alt="${game.title}" class="game-image" onerror="this.src='https://via.placeholder.com/80'">
-                        <div class="game-info">
-                            <div class="game-title">${game.title}</div>
-                            <div class="game-meta">Version: ${game.version} • Size: ${game.size}</div>
-                            <a href="${downloadUrl}" class="download-btn">
-                                <i class="fas fa-download"></i>
-                                <span>Download</span>
-                            </a>
-                        </div>
-                    `;
-                    gameResult.appendChild(gameItem);
-                });
-
+                gameResult.appendChild(frag);
                 gameResult.classList.add('show');
                 noResult.classList.remove('show');
             } else {
@@ -1009,6 +895,13 @@
                 gameResult.innerHTML = '';
                 noResult.classList.add('show');
             }
+        }
+
+        searchInput.addEventListener('input', function () {
+            const term = this.value.trim().toLowerCase();
+            clearTimeout(debounceTimer);
+            // Debounce: wait 200ms after user stops typing
+            debounceTimer = setTimeout(() => doSearch(term), 200);
         });
     </script>
 
