@@ -1,5 +1,35 @@
 const gamedata = [
     {
+        "title": "Shadow Fight 2",
+        "version": "2.46.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/f3/ce/fcf3ced6-cdbd-fd52-1716-d82532ed2534/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Vô hạn vàng\n✅ Vô hạn ruby\n✅ Vô hạn năng lượng \n✅ Lever Max",
+        "download_url": "https://oklink2.online/6sWr",
+        "updated_at": "2026-07-26",
+        "size": "130.42 MB",
+        "fake_downloads": 984571
+    },
+    {
+        "title": "Bus Simulator : Ultimate",
+        "version": "2.2.9",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/de/eb/25deeb2c-57c4-d612-36eb-c17f6957998a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "✅  Vô hạn tài nguyên ( tiền,vàng )\n✅  Unlock Premium\n",
+        "download_url": "https://oklink2.online/HH4qNN",
+        "updated_at": "2026-07-26",
+        "size": "1171.29 MB",
+        "fake_downloads": 9999993
+    },
+    {
+        "title": "Cats & Soup",
+        "version": "4.39.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/0a/52/520a526a-4285-bf8a-c2d0-c77229fa2422/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
+        "download_url": "https://oklink2.online/94EW8",
+        "updated_at": "2026-07-26",
+        "size": "323.42 MB",
+        "fake_downloads": 999971
+    },
+    {
         "title": "Plants vs Zombie 2",
         "version": "13.3.1",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
@@ -147,16 +177,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1D25XJS2yqAJpq_SitQDtrPkM3Es3jY_w/view",
         "updated_at": "2025-06-10",
         "size": "511.68 MB"
-    },
-    {
-        "title": "Cats & Soup",
-        "version": "2.70.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/53/98/8053985f-8cf5-6959-2edb-18123b75056b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
-        "download_url": "https://drive.google.com/file/d/1J796dnGpt_zafwpyP6v5aU7gGH4L8W4t/view",
-        "updated_at": "2025-06-10",
-        "size": "323.42 MB",
-        "fake_downloads": 999971
     },
     {
         "title": "Alien Shooter",
@@ -1074,16 +1094,6 @@ const gamedata = [
         "size": "74.26 MB"
     },
     {
-        "title": "Bus Simulator : Ultimate",
-        "version": "2.2.4",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/de/eb/25deeb2c-57c4-d612-36eb-c17f6957998a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
-        "description": "✅  Vô hạn tài nguyên ( tiền,vàng )\n✅  Unlock Premium\n✅  Free Shop ( only trollstore )",
-        "download_url": "https://drive.google.com/file/d/1tXl4WDs6aIEcH8SN-qIrrVta6-AANB9d",
-        "updated_at": "2025-05-10",
-        "size": "1171.29 MB",
-        "fake_downloads": 9999993
-    },
-    {
         "title": "My Hot Pot Story ",
         "version": "4.7.2",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/f5/0b/35f50bcc-ccfa-859c-5cca-0deb0c400535/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/350x350bb.jpg",
@@ -1394,16 +1404,6 @@ const gamedata = [
         "download_url": "https://drive.google.com/file/d/1dZnA_jkka42GCQlewfIHbRRRIm_0pUxS",
         "updated_at": "2025-04-18",
         "size": "169.89 MB"
-    },
-    {
-        "title": "Shadow Fight 2",
-        "version": "2.41.6.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/e8/f8/d2e8f89b-b833-ecf2-adb7-d7cd3c1f481a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
-        "description": "✅ Tăng Dame \n✅ Luôn ở chế độ đặc biệt \n✅ Đóng băng địch\n✅ Dừng thời gian",
-        "download_url": "https://drive.google.com/file/d/1Sk1hr3HwY7xMoqXbFCn61S1rlCXGorb9",
-        "updated_at": "2025-04-18",
-        "size": "130.42 MB",
-        "fake_downloads": 984571
     },
     {
         "title": "Zooba_",
