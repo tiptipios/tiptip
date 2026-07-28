@@ -687,11 +687,30 @@
             display: flex;
             gap: 10px;
             animation: marquee-scroll 22s linear infinite;
+            -webkit-animation: marquee-scroll 22s linear infinite;
+            animation-play-state: running;
+            -webkit-animation-play-state: running;
             width: max-content;
+            will-change: transform;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
         }
 
         .marquee-track:hover {
             animation-play-state: paused;
+            -webkit-animation-play-state: paused;
+        }
+
+        @-webkit-keyframes marquee-scroll {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+            }
+
+            100% {
+                -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+            }
         }
 
         @keyframes marquee-scroll {
@@ -742,6 +761,7 @@
             display: block;
         }
     </style>
+    <script src="../js/data.js"></script>
 </head>
 
 <body>
@@ -852,7 +872,7 @@
         <p class="foot">Made with <span class="heart">♥</span> by Tip Tip · 2026</p>
 
     </div>
-    <script src="../js/data.js"></script>
+
     <script>
         const searchInput = document.getElementById('gameSearch');
         const gameResult = document.getElementById('gameResult');
@@ -919,6 +939,21 @@
             // Debounce: wait 200ms after user stops typing
             debounceTimer = setTimeout(() => doSearch(term), 200);
         });
+
+        // ── FIX iOS ANIMATION ──
+        // iOS Safari pauses animations until user interaction — force restart
+        const marqueeEl = document.getElementById('marqueeTrack');
+        if (marqueeEl) {
+            // Reset animation to force iOS to start it
+            marqueeEl.style.animationPlayState = 'paused';
+            marqueeEl.style.webkitAnimationPlayState = 'paused';
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    marqueeEl.style.animationPlayState = 'running';
+                    marqueeEl.style.webkitAnimationPlayState = 'running';
+                });
+            });
+        }
 
         // ── FEATURED MARQUEE ──
         const marqueeTrack = document.getElementById('marqueeTrack');
