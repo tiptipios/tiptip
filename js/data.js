@@ -8,7 +8,34 @@
 
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
-  ...([
+    {
+        "title": "Hungry Shark World",
+        "version": "8.0.6",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/75/12/5d75120f-2cc5-b736-e6a9-40566e83661f/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg",
+        "description": "✅  No Ads\n✅ Tiền xu không giới hạn\n✅ Đá quý không giới hạn\n✅ Ngọc trai không giới hạn\n✅ Boost không giới hạn\n✅ Mở khóa Season Pass",
+        "download_url": "https://oklink2.online/Dqu77",
+        "updated_at": "2026-07-28",
+        "size": "156.45 MB",
+        "fake_downloads": 944571
+    },
+    {
+        "title": "Galaxy Attack_ Alien Shooter",
+        "version": "5.19.8",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
+        "download_url": "https://oklink2.online/uF6",
+        "updated_at": "2026-07-28",
+        "size": "200.08 MB"
+    },
+    {
+        "title": "Hungry Shark Evolution",
+        "version": "14.3.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/4b/ff/784bffc0-fd69-bf5f-d467-c79c4709aaff/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "✅  No Ads\n✅  Vô hạn tiền\n✅  Bất tử\n✅  Boost Không giới hạn",
+        "download_url": "https://oklink2.online/MkYNd",
+        "updated_at": "2026-07-28",
+        "size": "195.31 MB"
+    },
     {
         "title": "Shadow Fight 2",
         "version": "2.46.0",
@@ -98,25 +125,6 @@ const data = [
         "size": "170 MB"
     },
     {
-        "title": "Hungry Shark World",
-        "version": "7.7.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/75/12/5d75120f-2cc5-b736-e6a9-40566e83661f/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg",
-        "description": "✅ Tiền xu không giới hạn\n✅ Đá quý không giới hạn\n✅ Ngọc trai không giới hạn\n✅ Boost không giới hạn\n✅ Mở khóa Season Pass",
-        "download_url": "https://oklink.cfd/xi8",
-        "updated_at": "2026-04-21",
-        "size": "156.45 MB",
-        "fake_downloads": 944571
-    },
-    {
-        "title": "Hungry Shark Evo ",
-        "version": "13.9.2",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/4b/ff/784bffc0-fd69-bf5f-d467-c79c4709aaff/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-        "description": "✅Vô hạn tiền tệ\n✅ Bất tử",
-        "download_url": "https://oklink.cfd/XOF",
-        "updated_at": "2026-04-21",
-        "size": "195.31 MB"
-    },
-    {
         "title": "Hungry Dragon",
         "version": "https://oklink.cfd/rcVd",
         "image": "https://static.apkmody.com/play-lh.googleusercontent.com/aw6eyAWzs7mfa2OKwIDWobfpXbPEw1dwPu4hcuFYt0KmXp_XTXgBCUx7sWEUOv4NIg",
@@ -187,15 +195,6 @@ const data = [
         "download_url": "https://drive.google.com/file/d/1D25XJS2yqAJpq_SitQDtrPkM3Es3jY_w/view",
         "updated_at": "2025-06-10",
         "size": "511.68 MB"
-    },
-    {
-        "title": "Alien Shooter",
-        "version": "64.7",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
-        "download_url": "https://drive.google.com/file/d/1C3yJe7zDC1OjXv_73o6xZYLNaRamUDx4/view",
-        "updated_at": "2025-06-10",
-        "size": "200.08 MB"
     },
     {
         "title": "Nighty Knight: Frontier War TD",
@@ -2679,7 +2678,7 @@ const data = [
         "updated_at": "2024-08-14",
         "size": "1.85 GB"
     },
-        {
+    {
         "title": "Back Up GTA ( dân tổ,naruto )",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
         "description": "✅Back Up GTA ( dân tổ,naruto )\n  ✅ Lấy xe ✅ nhân vật ✅ máu ✅ tiền ✅ vũ khí ",
@@ -2697,7 +2696,7 @@ const data = [
         "updated_at": "2025-05-17",
         "size": "0.06 MB"
     },
-        {
+    {
         "title": "GTA San F17",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/F17.jpg",
@@ -2707,7 +2706,7 @@ const data = [
         "updated_at": "2025-05-17",
         "size": "1.85 GB"
     },
-        {
+    {
         "title": "GTA San F16",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/F16.jpg",
@@ -2717,7 +2716,7 @@ const data = [
         "updated_at": "2025-05-17",
         "size": "1.98 GB"
     },
-     {
+    {
         "title": "GTA: SAN V2.2",
         "version": "2.02.07",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
@@ -2727,7 +2726,7 @@ const data = [
         "updated_at": "2025-05-15",
         "size": "1.89 GB"
     },
-           {
+    {
         "title": "GTA San F14",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/F14.jpg",
@@ -2737,7 +2736,7 @@ const data = [
         "updated_at": "2025-05-17",
         "size": "2 GB"
     },
-         {
+    {
         "title": "GTA San F9",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b1.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/F9.jpg",
@@ -2747,8 +2746,6 @@ const data = [
         "updated_at": "2025-05-17",
         "size": "1.91 GB"
     },
-      
-    
     {
         "title": "GTA: SAN V2.1",
         "version": "2.02.07",
@@ -2759,7 +2756,7 @@ const data = [
         "updated_at": "2025-05-15",
         "size": "1.89 GB"
     },
-      {
+    {
         "title": "GTA San N17",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b2.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/N17.jpg",
@@ -2769,7 +2766,6 @@ const data = [
         "updated_at": "2025-05-17",
         "size": "1.68 GB"
     },
-
     {
         "title": "GTA San N16",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b2.jpg",
@@ -2780,7 +2776,7 @@ const data = [
         "updated_at": "2025-05-17",
         "size": "1.81 GB"
     },
- {
+    {
         "title": "GTA San N14",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b2.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/n14.jpg",
@@ -2800,7 +2796,6 @@ const data = [
         "updated_at": "2025-05-17",
         "size": "1.81 GB"
     },
-
     {
         "title": "GTA San V17",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
@@ -2821,7 +2816,7 @@ const data = [
         "updated_at": "2025-05-17",
         "size": "1.81 GB"
     },
-     {
+    {
         "title": "GTA San V14",
         "image": "https://tiptipios.github.io/chanthuhoi/index/b3.jpg",
         "image-demo": "https://tiptipios.github.io/chanthuhoi/index/V14.jpg",
@@ -2831,7 +2826,6 @@ const data = [
         "updated_at": "2025-05-17",
         "size": "1.86 GB"
     },
- 
     {
         "title": "GTA: SAN V9",
         "version": "2.02.11",
@@ -3002,7 +2996,7 @@ const data = [
         "updated_at": "2024-08-14",
         "size": "1.85 GB"
     },
-        {
+    {
         "title": "HD Tạo dns ",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/db/07/38db072e-1c90-9d66-3733-ddcda5a25a78/AppIcon-1739965646-1x_U007emarketing-0-7-0-85-220-0.png/350x350bb.jpg",
         "description": "✅",
@@ -3047,7 +3041,7 @@ const data = [
         "updated_at": "2024-08-14",
         "size": "... MB "
     },
-     {
+    {
         "title": "Magic(filza)",
         "version": "1.109.1",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/1c/12/fa1c12d5-aa1c-f9ef-2bf4-33c15a87d5a2/AppIcon-1739965179-1x_U007emarketing-0-7-0-85-220-0.png/350x350bb.jpg",
@@ -3056,7 +3050,7 @@ const data = [
         "updated_at": "2025-05-15",
         "size": "... MB "
     },
-      {
+    {
         "title": "Nhẹ tâm ( imazingapp )",
         "version": "1.109.1",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/1c/12/fa1c12d5-aa1c-f9ef-2bf4-33c15a87d5a2/AppIcon-1739965179-1x_U007emarketing-0-7-0-85-220-0.png/350x350bb.jpg",
@@ -3128,7 +3122,6 @@ const data = [
         "updated_at": "2025-05-15",
         "size": "... MB "
     },
-   
     {
         "title": "Aim Neck",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/1c/12/fa1c12d5-aa1c-f9ef-2bf4-33c15a87d5a2/AppIcon-1739965179-1x_U007emarketing-0-7-0-85-220-0.png/350x350bb.jpg",
@@ -3147,7 +3140,6 @@ const data = [
         "updated_at": "2024-08-20",
         "size": "... MB "
     },
-  
     {
         "title": "Aim Head",
         "version": "1.109.1",
@@ -3165,7 +3157,8 @@ const data = [
         "download_url": "https://oklink.cfd/o2j",
         "updated_at": "2024-08-14",
         "size": "... MB "
-    },{
+    },
+    {
         "title": "Cài ipa Online ",
         "image": "https://cdn.glitch.global/a5da2f18-878d-4722-b1ad-5ae2f04638f8/63eba87b-18fd-461a-aff7-d416559e087b.image.png?v=1681996754158",
         "description": "\n ✅ ký và cài đặt ipa , ESign,Feather,GBox,Scarlet online \n ✅  Ko biết dùng ae có thể lên youtube tìm kiếm cách cài ipa cho ios ... ",
@@ -3193,7 +3186,6 @@ const data = [
         "updated_at": "2025-05-15",
         "size": "... GB"
     },
- 
     {
         "title": "Ếch xanh ( bullfrog Assistant )",
         "version": "999 ",
@@ -3257,7 +3249,8 @@ const data = [
         "version": "1.0",
         "updated_at": "2024-05-16",
         "size": "15.6 Mb "
-    },{
+    },
+    {
         "title": "Youtube ",
         "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png",
         "description": "✅ Không Quảng Cáo\n✅ Chạy Nền pip\n✅ Tải Nhạc, Video\n✅...",
@@ -3466,52 +3459,70 @@ const data = [
         "updated_at": "2024-03-24",
         "size": "1 Mb"
     }
-    
-])
 ];
 
 // ── FEATURED / YÊU THÍCH ────────────────────────────────────
 const featured = [
-     
-      {
+    {
+        "title": "Hungry Shark World",
+        "version": "8.0.6",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/75/12/5d75120f-2cc5-b736-e6a9-40566e83661f/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg",
+        "size": "156.45 MB"
+    },
+    {
+        "title": "Stick War: Legacy",
+        "version": "2026.1.787",
+        "image": "https://st.gamevui.vn/images/image/2024/08/24/stick-war-legacy-300.jpg",
+        "size": "87.90 MB"
+    },
+    {
+        "title": "Subway Surf",
+        "version": "3.66.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "size": "215.40 MB"
+    },
+    {
+        "title": "Plants vs Zombie 2",
+        "version": "13.3.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
+        "size": "129.59 MB"
+    },
+    {
         "title": "Liên Quân Mobile",
         "image": "https://play-lh.googleusercontent.com/gU0rhVqaGc8l1rV_cwmopYrn1J97S1t1kddMu-QE42M4tmzupO44lyIhAlTXF7PbQ5wFk9j6n9uLZc1R9_HV=w480-h960-rw",
         "fake_downloads": 9999999
     },
-   {
+    {
         "title": "Free Fire",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/1c/12/fa1c12d5-aa1c-f9ef-2bf4-33c15a87d5a2/AppIcon-1739965179-1x_U007emarketing-0-7-0-85-220-0.png/350x350bb.jpg",
         "fake_downloads": 9999998
-
     },
     {
         "title": "8 Ball Pool",
         "image": "https://play-lh.googleusercontent.com/bPz1guJ6FHF3oIOEy3KqwpaDDKO-hLRaZoyzmM8bLFLN8fWm6L0_EuUnkwv9iqPo3Ag",
         "fake_downloads": 9999997
-
-    },  
+    },
     {
         "title": "Bus Simulator : Ultimate",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/de/eb/25deeb2c-57c4-d612-36eb-c17f6957998a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
-        "size": "1171.29 MB",
+        "size": "1171.29 MB"
     },
-     {
+    {
         "title": "GTA",
         "image": "https://chiaseacc.com/wp-content/uploads/2024/01/gta-san-andreas-definitive.jpg",
         "fake_downloads": 9999995
-
     },
-     {
+    {
         "title": "The Spike",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
         "fake_downloads": 9999996
-
     },
-      {
+    {
         "title": "Soul Knight",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/08/d8/5008d8ba-d92d-a0fa-d9a3-1debf100ec6b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "size": "511.68 MB"
-    },{
+    },
+    {
         "title": "Shadow Fight 2",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/f3/ce/fcf3ced6-cdbd-fd52-1716-d82532ed2534/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
         "fake_downloads": 984571
@@ -3519,6 +3530,6 @@ const featured = [
     {
         "title": "CarX Street",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/46/92/98469264-32f1-ce97-8c26-0963c092db4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "size": "1104.66 MB",
+        "size": "1104.66 MB"
     }
 ];
