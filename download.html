@@ -7,10 +7,56 @@
     <title>Download - Tip Tip</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        * {
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+        }
+
+        :root {
+            --bg: #f0f4ff;
+            --card-bg: rgba(255, 255, 255, 0.95);
+            --card-border: rgba(99, 102, 241, 0.15);
+            --card-shadow: 0 20px 60px rgba(99, 102, 241, 0.12), 0 4px 16px rgba(0, 0, 0, 0.06);
+            --text-primary: #0f172a;
+            --text-secondary: #64748b;
+            --text-muted: #94a3b8;
+            --divider: rgba(99, 102, 241, 0.12);
+            --item-bg: #f8fafc;
+            --item-border: #e2e8f0;
+            --accent: #6366f1;
+            --accent-hover: #4f46e5;
+            --accent-soft: rgba(99, 102, 241, 0.1);
+            --green: #22c55e;
+            --green-hover: #16a34a;
+            --orb: #6366f1;
+            --toggle-bg: #ffffff;
+            --toggle-border: #e2e8f0;
+            --toggle-icon: #6366f1;
+        }
+
+        [data-theme="dark"] {
+            --bg: #09090b;
+            --card-bg: rgba(24, 24, 27, 0.97);
+            --card-border: rgba(139, 92, 246, 0.25);
+            --card-shadow: 0 20px 60px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(139, 92, 246, 0.1);
+            --text-primary: #fafafa;
+            --text-secondary: #a1a1aa;
+            --text-muted: #52525b;
+            --divider: rgba(139, 92, 246, 0.2);
+            --item-bg: #18181b;
+            --item-border: #3f3f46;
+            --accent: #8b5cf6;
+            --accent-hover: #7c3aed;
+            --accent-soft: rgba(139, 92, 246, 0.15);
+            --green: #22c55e;
+            --green-hover: #16a34a;
+            --orb: #8b5cf6;
+            --toggle-bg: #27272a;
+            --toggle-border: #3f3f46;
+            --toggle-icon: #a78bfa;
         }
 
         body {
@@ -18,158 +64,170 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+            background: var(--bg);
+            padding: 24px 16px;
             overflow-x: hidden;
-            background: linear-gradient(135deg, #0f0a1e 0%, #1a0b2e 25%, #2d1b3d 50%, #1e0f3b 75%, #0a0614 100%);
-            background-size: 400% 400%;
-            animation: gradient-flow 15s ease infinite;
-            padding: 20px;
+            transition: background 0.3s ease;
         }
 
-        @keyframes gradient-flow {
-
-            0%,
-            100% {
-                background-position: 0% 50%;
-            }
-
-            50% {
-                background-position: 100% 50%;
-            }
-        }
-
-        /* Floating orbs */
-        .orb {
+        /* Orbs */
+        .bg-orb {
             position: fixed;
             border-radius: 50%;
-            filter: blur(120px);
-            opacity: 0.4;
-            animation: float-orb linear infinite;
+            filter: blur(100px);
+            opacity: 0.12;
             pointer-events: none;
             z-index: 0;
+            animation: float-orb 25s linear infinite;
+            will-change: transform;
         }
 
-        .orb-1 {
-            width: 500px;
-            height: 500px;
-            background: radial-gradient(circle, rgba(124, 58, 237, 0.5), transparent 70%);
-            top: -10%;
-            left: -10%;
-            animation-duration: 20s;
+        .bg-orb-1 {
+            width: 350px;
+            height: 350px;
+            background: var(--orb);
+            top: -100px;
+            left: -80px;
         }
 
-        .orb-2 {
-            width: 400px;
-            height: 400px;
-            background: radial-gradient(circle, rgba(219, 39, 119, 0.4), transparent 70%);
-            bottom: -10%;
-            right: -10%;
-            animation-duration: 25s;
-        }
-
-        .orb-3 {
-            width: 300px;
-            height: 300px;
-            background: radial-gradient(circle, rgba(59, 130, 246, 0.35), transparent 70%);
-            top: 50%;
-            right: 10%;
-            animation-duration: 18s;
+        .bg-orb-2 {
+            width: 280px;
+            height: 280px;
+            background: var(--orb);
+            bottom: -80px;
+            right: -60px;
+            animation-direction: reverse;
+            animation-duration: 30s;
         }
 
         @keyframes float-orb {
-
-            0%,
-            100% {
+            0% {
                 transform: translate(0, 0);
             }
 
             33% {
-                transform: translate(30px, -30px);
+                transform: translate(25px, -20px);
             }
 
             66% {
-                transform: translate(-20px, 20px);
+                transform: translate(-15px, 18px);
+            }
+
+            100% {
+                transform: translate(0, 0);
             }
         }
 
-        /* Container */
-        .download-container {
+        /* Back button */
+        .back-btn {
+            position: fixed;
+            top: 18px;
+            left: 18px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--toggle-bg);
+            border: 1px solid var(--toggle-border);
+            color: var(--toggle-icon);
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(10px);
+            z-index: 999;
+        }
+
+        .back-btn:hover {
+            transform: translateX(-2px);
+            background: var(--accent-soft);
+            border-color: var(--accent);
+        }
+
+        /* Theme toggle */
+        .theme-toggle {
+            position: fixed;
+            top: 18px;
+            right: 18px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--toggle-bg);
+            border: 1px solid var(--toggle-border);
+            color: var(--toggle-icon);
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(10px);
+            z-index: 999;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        /* Card */
+        .card {
             position: relative;
             z-index: 1;
             width: 100%;
-            max-width: 500px;
-            background: linear-gradient(135deg,
-                    rgba(255, 255, 255, 0.1),
-                    rgba(255, 255, 255, 0.05));
-            backdrop-filter: blur(40px) saturate(180%);
-            -webkit-backdrop-filter: blur(40px) saturate(180%);
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            border-radius: 32px;
-            padding: 40px 30px;
-            box-shadow:
-                0 0 0 1px rgba(255, 255, 255, 0.1) inset,
-                0 50px 100px rgba(0, 0, 0, 0.5),
-                0 0 80px rgba(124, 58, 237, 0.3);
-            animation: card-entrance 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+            max-width: 440px;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 28px;
+            padding: 36px 28px 32px;
+            box-shadow: var(--card-shadow);
+            backdrop-filter: blur(40px);
+            animation: rise 0.5s cubic-bezier(.22, 1, .36, 1) both;
         }
 
-        @keyframes card-entrance {
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(99, 102, 241, 0.3), transparent);
+            border-radius: 28px 28px 0 0;
+        }
+
+        @keyframes rise {
             from {
                 opacity: 0;
-                transform: translateY(50px) scale(0.9);
-                filter: blur(10px);
+                transform: translateY(28px) scale(0.97);
             }
 
             to {
                 opacity: 1;
                 transform: translateY(0) scale(1);
-                filter: blur(0);
             }
         }
 
-        /* Card glow */
-        .download-container::before {
-            content: '';
-            position: absolute;
-            inset: -3px;
-            background: linear-gradient(45deg,
-                    rgba(124, 58, 237, 0.5),
-                    rgba(219, 39, 119, 0.5),
-                    rgba(59, 130, 246, 0.5));
-            border-radius: 32px;
-            z-index: -1;
-            filter: blur(20px);
-            opacity: 0.6;
-            animation: glow-pulse 3s ease-in-out infinite;
-        }
-
-        @keyframes glow-pulse {
-
-            0%,
-            100% {
-                opacity: 0.6;
-            }
-
-            50% {
-                opacity: 0.8;
-            }
-        }
-
-        /* Game Info */
-        .game-info {
-            text-align: center;
-            margin-bottom: 30px;
+        /* Game header */
+        .game-header {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--divider);
+            margin-bottom: 24px;
         }
 
         .game-icon {
-            width: 100px;
-            height: 100px;
-            border-radius: 24px;
-            border: 3px solid rgba(255, 255, 255, 0.3);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            margin: 0 auto 20px;
-            display: block;
-            animation: icon-bounce 2s ease-in-out infinite;
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            object-fit: cover;
+            border: 2px solid var(--item-border);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+            flex-shrink: 0;
+            animation: icon-bounce 3s ease-in-out infinite;
         }
 
         @keyframes icon-bounce {
@@ -180,434 +238,324 @@
             }
 
             50% {
-                transform: translateY(-10px);
+                transform: translateY(-5px);
             }
+        }
+
+        .game-info {
+            flex: 1;
+            min-width: 0;
         }
 
         .game-title {
-            font-size: 26px;
-            font-weight: 900;
-            color: #fff;
-            margin-bottom: 10px;
-            text-shadow: 0 2px 12px rgba(124, 58, 237, 0.6);
-            background: linear-gradient(135deg, #fff, #e0d4ff, #ffd4e8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .game-meta {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-top: 15px;
-        }
-
-        .meta-item {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            padding: 8px 16px;
-            background: rgba(255, 255, 255, 0.08);
-            border: 1px solid rgba(255, 255, 255, 0.15);
-            border-radius: 20px;
-            font-size: 13px;
-            color: rgba(255, 255, 255, 0.8);
-        }
-
-        .meta-item i {
-            color: rgba(167, 139, 250, 0.9);
-        }
-
-        /* Countdown Section */
-        .countdown-section {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .countdown-text {
-            font-size: 16px;
-            color: rgba(255, 255, 255, 0.9);
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-
-        .countdown-circle {
-            width: 120px;
-            height: 120px;
-            margin: 0 auto 20px;
-            position: relative;
-        }
-
-        .countdown-number {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 48px;
-            font-weight: 900;
-            color: #fff;
-            text-shadow: 0 0 20px rgba(124, 58, 237, 0.8);
-        }
-
-        /* Progress bar */
-        .progress-bar {
-            width: 100%;
-            height: 8px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
-            overflow: hidden;
-            border: 1px solid rgba(255, 255, 255, 0.15);
-        }
-
-        .progress-fill {
-            height: 100%;
-            background: linear-gradient(90deg,
-                    rgba(124, 58, 237, 0.9),
-                    rgba(219, 39, 119, 0.9));
-            border-radius: 10px;
-            transition: width 1s linear;
-            box-shadow: 0 0 20px rgba(124, 58, 237, 0.8);
-        }
-
-        .download-btn {
-            width: 100%;
-            padding: 18px;
-            background: linear-gradient(135deg,
-                    rgba(124, 58, 237, 0.8),
-                    rgba(91, 33, 182, 0.7));
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            border-radius: 20px;
-            color: #fff;
-            font-size: 18px;
-            font-weight: 700;
-            text-decoration: none;
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow:
-                0 10px 30px rgba(124, 58, 237, 0.5),
-                0 0 0 1px rgba(255, 255, 255, 0.1) inset;
-            animation: button-appear 0.5s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-        }
-
-        @keyframes button-appear {
-            from {
-                opacity: 0;
-                transform: scale(0.8);
-            }
-
-            to {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-
-        .download-btn.show {
-            display: flex;
-        }
-
-        .download-btn:hover:not([style*="pointer-events: none"]) {
-            transform: translateY(-3px);
-            box-shadow:
-                0 15px 40px rgba(124, 58, 237, 0.6),
-                0 0 60px rgba(124, 58, 237, 0.4),
-                0 0 0 1px rgba(255, 255, 255, 0.2) inset;
-        }
-
-        .download-btn:active:not([style*="pointer-events: none"]) {
-            transform: translateY(-1px);
-        }
-
-        .download-btn i {
             font-size: 20px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            line-height: 1.2;
         }
 
-        .download-btn.unlocked {
-            background: linear-gradient(135deg,
-                    rgba(34, 197, 94, 0.8),
-                    rgba(22, 163, 74, 0.7));
-            opacity: 1 !important;
-            pointer-events: auto !important;
-            box-shadow:
-                0 10px 30px rgba(34, 197, 94, 0.5),
-                0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+        .game-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
         }
 
-        .download-btn.unlocked:hover {
-            box-shadow:
-                0 15px 40px rgba(34, 197, 94, 0.6),
-                0 0 60px rgba(34, 197, 94, 0.4),
-                0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 10px;
+            background: var(--accent-soft);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--accent);
         }
 
-        /* Features Section */
+        /* Unlock section */
+        .unlock-section {
+            margin-bottom: 20px;
+        }
+
+        /* Action buttons */
+        .action-btn {
+            width: 100%;
+            padding: 16px;
+            border-radius: 16px;
+            font-size: 16px;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: all 0.2s ease;
+            letter-spacing: 0.2px;
+        }
+
+        .btn-unlock {
+            background: var(--accent);
+            color: #fff;
+            box-shadow: 0 4px 20px rgba(99, 102, 241, 0.35);
+        }
+
+        .btn-unlock:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 28px rgba(99, 102, 241, 0.45);
+        }
+
+        .btn-unlock:active {
+            transform: translateY(0);
+        }
+
+        .btn-unlock:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-download {
+            background: var(--green);
+            color: #fff;
+            box-shadow: 0 4px 20px rgba(34, 197, 94, 0.3);
+            display: none;
+        }
+
+        .btn-download.show {
+            display: flex;
+            animation: rise 0.4s cubic-bezier(.22, 1, .36, 1) both;
+        }
+
+        .btn-download:hover {
+            background: var(--green-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 28px rgba(34, 197, 94, 0.4);
+        }
+
+        .btn-download:active {
+            transform: translateY(0);
+        }
+
+        /* Features */
         .features-section {
-            margin-top: 30px;
+            margin-top: 22px;
+            padding-top: 20px;
+            border-top: 1px solid var(--divider);
         }
 
         .features-title {
-            font-size: 18px;
+            font-size: 12px;
             font-weight: 700;
-            color: #fff;
-            margin-bottom: 15px;
-            text-shadow: 0 2px 8px rgba(124, 58, 237, 0.5);
+            color: var(--text-muted);
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
         }
 
         .features-list {
-            max-height: 250px;
+            max-height: 220px;
             overflow-y: auto;
-            padding-right: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            padding-right: 4px;
         }
 
         .features-list::-webkit-scrollbar {
-            width: 6px;
+            width: 4px;
         }
 
         .features-list::-webkit-scrollbar-track {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
+            background: transparent;
         }
 
         .features-list::-webkit-scrollbar-thumb {
-            background: rgba(124, 58, 237, 0.5);
-            border-radius: 10px;
-        }
-
-        .features-list::-webkit-scrollbar-thumb:hover {
-            background: rgba(124, 58, 237, 0.7);
+            background: var(--card-border);
+            border-radius: 4px;
         }
 
         .feature-item {
             display: flex;
             align-items: flex-start;
-            gap: 12px;
-            padding: 12px;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            gap: 10px;
+            padding: 10px 12px;
+            background: var(--item-bg);
+            border: 1px solid var(--item-border);
             border-radius: 12px;
-            margin-bottom: 10px;
-            transition: all 0.3s ease;
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            transition: all 0.2s ease;
         }
 
         .feature-item:hover {
-            background: rgba(255, 255, 255, 0.08);
-            border-color: rgba(124, 58, 237, 0.4);
-            transform: translateX(5px);
+            border-color: var(--accent);
+            color: var(--text-primary);
         }
 
-        .feature-icon {
-            width: 20px;
-            height: 20px;
+        .feature-dot {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--accent-soft);
+            border: 1px solid var(--card-border);
             display: flex;
             align-items: center;
             justify-content: center;
             flex-shrink: 0;
-            margin-top: 2px;
+            margin-top: 1px;
         }
 
-        .feature-icon i {
-            color: rgba(124, 58, 237, 0.9);
-            font-size: 14px;
-        }
-
-        .feature-text {
-            flex: 1;
-            font-size: 14px;
-            color: rgba(255, 255, 255, 0.85);
-            line-height: 1.5;
+        .feature-dot i {
+            font-size: 9px;
+            color: var(--accent);
         }
 
         /* Note */
         .note {
-            margin-top: 20px;
-            padding: 15px;
-            background: rgba(255, 200, 100, 0.1);
-            border: 1px solid rgba(255, 200, 100, 0.3);
-            border-radius: 16px;
-            font-size: 13px;
-            color: rgba(255, 255, 255, 0.8);
-            text-align: center;
-            line-height: 1.6;
+            margin-top: 18px;
+            padding: 12px 16px;
+            background: rgba(234, 179, 8, 0.08);
+            border: 1px solid rgba(234, 179, 8, 0.2);
+            border-radius: 14px;
+            font-size: 12px;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            line-height: 1.5;
         }
 
         .note i {
-            color: rgba(255, 200, 100, 0.9);
-            margin-right: 6px;
-        }
-
-        /* Back button */
-        .back-btn {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            width: 44px;
-            height: 44px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 50%;
-            color: #fff;
-            text-decoration: none;
-            font-size: 18px;
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
-            z-index: 9999;
-        }
-
-        .back-btn:hover {
-            background: rgba(255, 255, 255, 0.15);
-            transform: translateX(-3px);
+            color: #eab308;
+            margin-top: 1px;
+            flex-shrink: 0;
         }
     </style>
 </head>
 
 <body>
-    <div class="orb orb-1"></div>
-    <div class="orb orb-2"></div>
-    <div class="orb orb-3"></div>
 
-    <a href="profilenew.html" class="back-btn">
-        <i class="fas fa-arrow-left"></i>
-    </a>
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
 
-    <div class="download-container">
-        <!-- Game Info -->
-        <div class="game-info">
-            <img id="gameIcon" class="game-icon" src="" alt="Game Icon">
-            <h1 id="gameTitle" class="game-title">Loading...</h1>
-            <div class="game-meta">
-                <div class="meta-item">
-                    <i class="fas fa-code-branch"></i>
-                    <span id="gameVersion">-</span>
-                </div>
-                <div class="meta-item">
-                    <i class="fas fa-hdd"></i>
-                    <span id="gameSize">-</span>
+    <a href="profilenew.html" class="back-btn"><i class="fas fa-arrow-left"></i></a>
+
+    <button class="theme-toggle" id="themeToggle"><i class="fas fa-sun" id="themeIcon"></i></button>
+
+    <div class="card">
+
+        <!-- Game Header -->
+        <div class="game-header">
+            <img id="gameIcon" class="game-icon" src="" alt="Game">
+            <div class="game-info">
+                <div id="gameTitle" class="game-title">Loading...</div>
+                <div class="game-badges">
+                    <span class="badge"><i class="fas fa-code-branch"></i> <span id="gameVersion">-</span></span>
+                    <span class="badge"><i class="fas fa-weight-hanging"></i> <span id="gameSize">-</span></span>
                 </div>
             </div>
         </div>
 
-        <!-- Unlock Button -->
-        <button id="unlockBtn" class="download-btn show">
-            <i class="fas fa-lock"></i>
-            <span>Unlock Download</span>
-        </button>
+        <!-- Unlock / Download -->
+        <div class="unlock-section">
+            <button id="unlockBtn" class="action-btn btn-unlock">
+                <i class="fas fa-lock"></i>
+                <span>Unlock Download</span>
+            </button>
+            <button id="downloadBtn" class="action-btn btn-download">
+                <i class="fas fa-unlock"></i>
+                <span>Download Now</span>
+            </button>
+        </div>
 
-        <!-- Download Button (Initially Hidden and Disabled) -->
-        <a id="downloadBtn" class="download-btn" href="#" style="display: none; opacity: 0.5; pointer-events: none;">
-            <i class="fas fa-download"></i>
-            <span>Download Now</span>
-        </a>
-
-        <!-- Features Section -->
-        <div class="features-section" id="featuresSection" style="display: none;">
-            <h2 class="features-title">Hack Features:</h2>
-            <div class="features-list" id="featuresList">
-                <!-- Features will be inserted here -->
-            </div>
+        <!-- Features -->
+        <div class="features-section" id="featuresSection" style="display:none">
+            <div class="features-title"> Features</div>
+            <div class="features-list" id="featuresList"></div>
         </div>
 
         <!-- Note -->
         <div class="note">
-            <i class="fas fa-info-circle"></i>
-            If the link is overloaded, please log in to Google Drive on Safari
+            <i class="fas fa-lightbulb"></i>
+            <span>If the link is overloaded, please log in to Google Drive on Safari before downloading.</span>
         </div>
+
     </div>
 
     <script>
-        // Get URL parameters
-        const urlParams = new URLSearchParams(window.location.search);
-        const gameTitle = urlParams.get('title') || 'Game';
-        const gameImage = urlParams.get('image') || '';
-        const gameVersion = urlParams.get('version') || 'Unknown';
-        const gameSize = urlParams.get('size') || 'Unknown';
-        const downloadUrl = urlParams.get('url') || '#';
-        const description = urlParams.get('description') || '';
+        // ── PARAMS ──
+        const p = new URLSearchParams(window.location.search);
+        const gameTitle = p.get('title') || 'Game';
+        const gameImage = p.get('image') || '';
+        const gameVersion = p.get('version') || '?';
+        const gameSize = p.get('size') || '?';
+        const downloadUrl = p.get('url') || '#';
+        const description = p.get('description') || '';
 
-        // Set game info
         document.getElementById('gameTitle').textContent = gameTitle;
         document.getElementById('gameIcon').src = gameImage;
-        document.getElementById('gameVersion').textContent = `v${gameVersion}`;
+        document.getElementById('gameVersion').textContent = 'v' + gameVersion;
         document.getElementById('gameSize').textContent = gameSize;
-        document.getElementById('downloadBtn').href = downloadUrl;
 
-        // Parse and display features
+        document.getElementById('gameIcon').onerror = function () {
+            this.src = 'https://via.placeholder.com/80/6366f1/ffffff?text=Game';
+        };
+
+        // ── FEATURES ──
         if (description) {
-            const featuresSection = document.getElementById('featuresSection');
-            const featuresList = document.getElementById('featuresList');
-
-            // Split by newlines and filter out empty lines
             const features = description.split('\n')
-                .map(line => line.trim())
-                .filter(line => line.length > 0 && line.startsWith('✅'));
+                .map(l => l.trim())
+                .filter(l => l.length > 0 && l.startsWith('✅'));
 
             if (features.length > 0) {
-                featuresSection.style.display = 'block';
-
-                features.forEach(feature => {
-                    const featureText = feature.replace('✅', '').trim();
-                    const featureItem = document.createElement('div');
-                    featureItem.className = 'feature-item';
-                    featureItem.innerHTML = `
-                        <div class="feature-icon">
-                            <i class="fas fa-check-circle"></i>
-                        </div>
-                        <div class="feature-text">${featureText}</div>
-                    `;
-                    featuresList.appendChild(featureItem);
+                document.getElementById('featuresSection').style.display = 'block';
+                const list = document.getElementById('featuresList');
+                const frag = document.createDocumentFragment();
+                features.forEach(f => {
+                    const text = f.replace('✅', '').trim();
+                    const div = document.createElement('div');
+                    div.className = 'feature-item';
+                    div.innerHTML = `<div class="feature-dot"><i class="fas fa-check"></i></div><span>${text}</span>`;
+                    frag.appendChild(div);
                 });
+                list.appendChild(frag);
             }
         }
 
-        // Countdown logic removed - using unlock button instead
+        // ── UNLOCK → ADS → DOWNLOAD ──
         const unlockBtn = document.getElementById('unlockBtn');
         const downloadBtn = document.getElementById('downloadBtn');
 
-        // Handle image error
-        document.getElementById('gameIcon').onerror = function () {
-            this.src = 'https://via.placeholder.com/100/7c3aed/ffffff?text=Game';
-        };
-
-        // Handle unlock button click
-        unlockBtn.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            // Disable unlock button
-            unlockBtn.style.opacity = '0.5';
-            unlockBtn.style.pointerEvents = 'none';
+        unlockBtn.addEventListener('click', () => {
+            unlockBtn.disabled = true;
             unlockBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i><span>Loading ads...</span>';
 
-            // Open advertisement link in new tab
             window.open('https://s.shopee.vn/7VELJqmITK', '_blank');
 
-            // After 1 second, unlock the download button
-            setTimeout(function () {
-                // Hide unlock button
+            setTimeout(() => {
                 unlockBtn.style.display = 'none';
-
-                // Show and enable download button
-                downloadBtn.style.display = 'flex';
-                downloadBtn.classList.add('unlocked');
-                downloadBtn.style.opacity = '1';
-                downloadBtn.style.pointerEvents = 'auto';
-                downloadBtn.innerHTML = '<i class="fas fa-unlock"></i><span>Download Now</span>';
+                downloadBtn.classList.add('show');
             }, 1000);
         });
 
-        // Handle download button click
-        downloadBtn.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            // Redirect to vuotlink with encoded download URL
+        downloadBtn.addEventListener('click', () => {
             window.location.href = 'https://vuotlink.net/st?api=4e2b672bf2a8ba8ead742b4f9c07db7e690505a2&url=' + encodeURIComponent(downloadUrl);
+        });
+
+        // ── THEME TOGGLE ──
+        const toggle = document.getElementById('themeToggle');
+        const icon = document.getElementById('themeIcon');
+        let isDark = false;
+
+        toggle.addEventListener('click', () => {
+            isDark = !isDark;
+            document.documentElement.setAttribute('data-theme', isDark ? 'dark' : '');
+            icon.className = isDark ? 'fas fa-moon' : 'fas fa-sun';
         });
     </script>
 </body>
