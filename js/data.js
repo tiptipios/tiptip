@@ -9,6 +9,16 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
+        "title": "CarX Street",
+        "version": "1.20.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/46/92/98469264-32f1-ce97-8c26-0963c092db4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Unlimited Gold,Cash\n✅ Unlimited Fuel\n✅ Unlimited Nitro\n✅ Max lever ( nhận 1 ít )",
+        "download_url": "https://oklink2.online/e4nC",
+        "updated_at": "2026-07-30",
+        "size": "5174.66 MB",
+        "fake_downloads": 9999994
+    },
+    {
         "title": "Hungry Shark World",
         "version": "8.0.6",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/75/12/5d75120f-2cc5-b736-e6a9-40566e83661f/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg",
@@ -1293,25 +1303,6 @@ const data = [
         "download_url": "https://drive.google.com/file/d/1ir9bCLFwPy7Aa5BzIE_xBX-kBqYV5An4",
         "updated_at": "2025-05-03",
         "size": "58.89 MB"
-    },
-    {
-        "title": "CarX Street",
-        "version": "1.11.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/46/92/98469264-32f1-ce97-8c26-0963c092db4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Vô hạn tiền tệ ( tăng khi dùng )\n✅ Vô hạn xăng\n✅ Vô hạn nhiên liệu\n✅ Max lever \n✅ Vào tìm kiếm tìm data CarXtreets để ép vô nhé ",
-        "download_url": "https://drive.google.com/file/d/1gnG4-1hZiJ3mjmD8AsWZkz496vhQcTqh",
-        "updated_at": "2025-05-02",
-        "size": "1104.66 MB",
-        "fake_downloads": 9999994
-    },
-    {
-        "title": " Data CarX Street",
-        "version": "1.11.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/46/92/98469264-32f1-ce97-8c26-0963c092db4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ dữ liệu game ",
-        "download_url": "https://vuotlink.vip/APWU",
-        "updated_at": "2025-05-02",
-        "size": "3 GB"
     },
     {
         "title": "Erythros Lite",
