@@ -655,7 +655,7 @@
             transform: translateY(1px);
         }
 
-        /* ── GAME MARQUEE ── */
+        /* ── MARQUEE SECTION ── */
         .marquee-section {
             margin: 4px 0 20px;
             overflow: hidden;
@@ -683,17 +683,35 @@
             background: linear-gradient(to left, var(--card-bg), transparent);
         }
 
+        /* New Update - Manual scroll */
+        .new-update-scroll {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            scroll-behavior: smooth;
+            padding: 8px 0;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .new-update-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Featured - Auto scroll */
         .marquee-track {
             display: flex;
             gap: 10px;
-            animation: marquee-scroll 22s linear infinite;
-            -webkit-animation: marquee-scroll 22s linear infinite;
+            animation: marquee-scroll 30s linear infinite;
+            -webkit-animation: marquee-scroll 30s linear infinite;
             animation-play-state: running;
             -webkit-animation-play-state: running;
             width: max-content;
             will-change: transform;
-            -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
         }
 
         .marquee-track:hover {
@@ -702,24 +720,24 @@
         }
 
         @-webkit-keyframes marquee-scroll {
-            0% {
-                -webkit-transform: translateX(0);
-                transform: translateX(0);
+            from {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
             }
 
-            100% {
-                -webkit-transform: translateX(-50%);
-                transform: translateX(-50%);
+            to {
+                -webkit-transform: translate3d(-33.333%, 0, 0);
+                transform: translate3d(-33.333%, 0, 0);
             }
         }
 
         @keyframes marquee-scroll {
-            0% {
-                transform: translateX(0);
+            from {
+                transform: translate3d(0, 0, 0);
             }
 
-            100% {
-                transform: translateX(-50%);
+            to {
+                transform: translate3d(-33.333%, 0, 0);
             }
         }
 
@@ -728,12 +746,13 @@
             width: 48px;
             height: 48px;
             border-radius: 12px;
-            overflow: hidden;
+            overflow: visible;
             border: 1.5px solid var(--game-item-border);
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
             cursor: pointer;
             transition: transform 0.15s ease, box-shadow 0.15s ease;
             text-decoration: none;
+            position: relative;
         }
 
         .marquee-item:hover {
@@ -747,6 +766,49 @@
             height: 100%;
             object-fit: cover;
             display: block;
+            border-radius: 11px;
+        }
+
+        /* NEW Badge - Soft rounded style */
+        .new-badge {
+            position: absolute;
+            top: -6px;
+            right: -6px;
+            padding: 2px 7px 3px;
+            background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+            border-radius: 10px;
+            font-size: 9px;
+            font-weight: 600;
+            color: #ffffff;
+            text-transform: lowercase;
+            letter-spacing: 0.3px;
+            box-shadow: 0 2px 12px rgba(139, 92, 246, 0.5),
+                0 0 0 2px var(--card-bg);
+            z-index: 10;
+            animation: glow-badge 2s ease-in-out infinite;
+            line-height: 1.1;
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', 'Avenir Next Rounded', sans-serif;
+        }
+
+        [data-theme="dark"] .new-badge {
+            background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+            box-shadow: 0 2px 16px rgba(167, 139, 250, 0.6),
+                0 0 0 2px var(--card-bg);
+        }
+
+        @keyframes glow-badge {
+
+            0%,
+            100% {
+                box-shadow: 0 2px 12px rgba(139, 92, 246, 0.5),
+                    0 0 0 2px var(--card-bg);
+            }
+
+            50% {
+                box-shadow: 0 4px 20px rgba(139, 92, 246, 0.8),
+                    0 0 0 2px var(--card-bg),
+                    0 0 20px rgba(139, 92, 246, 0.4);
+            }
         }
 
         .no-result {
@@ -817,8 +879,17 @@
             </div>
         </div>
 
+        <!-- New Update Games Marquee -->
+        <div class="marquee-section">
+            <div class="divider"><span>🔥 New Updates</span></div>
+            <div class="new-update-scroll" id="newUpdateTrack">
+                <!-- Filled by JS -->
+            </div>
+        </div>
+
         <!-- Featured Games Marquee -->
         <div class="marquee-section">
+            <div class="divider"><span>⭐ Featured Games</span></div>
             <div class="marquee-track" id="marqueeTrack">
                 <!-- Filled by JS -->
             </div>
@@ -940,30 +1011,55 @@
             debounceTimer = setTimeout(() => doSearch(term), 200);
         });
 
-        // ── FIX iOS ANIMATION ──
-        // iOS Safari pauses animations until user interaction — force restart
-        const marqueeEl = document.getElementById('marqueeTrack');
-        if (marqueeEl) {
-            // Reset animation to force iOS to start it
-            marqueeEl.style.animationPlayState = 'paused';
-            marqueeEl.style.webkitAnimationPlayState = 'paused';
-            requestAnimationFrame(() => {
-                requestAnimationFrame(() => {
-                    marqueeEl.style.animationPlayState = 'running';
-                    marqueeEl.style.webkitAnimationPlayState = 'running';
+        // ── NEW UPDATE MARQUEE (8 latest games) ──
+        const newUpdateTrack = document.getElementById('newUpdateTrack');
+
+        // Get 8 newest games from data (sorted by updated_at descending)
+        const sortedByDate = [...data].sort((a, b) => {
+            const dateA = new Date(a.updated_at || '2000-01-01');
+            const dateB = new Date(b.updated_at || '2000-01-01');
+            return dateB - dateA; // newest first
+        });
+
+        // Take top 8 newest games (no filtering)
+        const newGames = sortedByDate.slice(0, 8);
+
+        // Build new update marquee with badge (no duplicate, manual scroll)
+        const buildNewUpdateItems = () => {
+            const frag = document.createDocumentFragment();
+            // No duplicate - user scrolls manually
+            newGames.forEach(game => {
+                const btn = document.createElement('button');
+                btn.className = 'marquee-item';
+                btn.title = game.title;
+                btn.style.background = 'none';
+                btn.style.cursor = 'pointer';
+                btn.innerHTML = `
+                    <span class="new-badge">new</span>
+                    <img src="${game.image}" alt="${game.title}" loading="lazy" onerror="this.src='https://via.placeholder.com/48'">
+                `;
+                btn.addEventListener('click', () => {
+                    searchInput.value = game.title;
+                    searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    lastQuery = '';
+                    doSearch(game.title.toLowerCase());
                 });
+                frag.appendChild(btn);
             });
-        }
+            newUpdateTrack.appendChild(frag);
+        };
+        buildNewUpdateItems();
 
         // ── FEATURED MARQUEE ──
         const marqueeTrack = document.getElementById('marqueeTrack');
         // Use featured array, fallback to data if empty
         const marqueeSource = (typeof featured !== 'undefined' && featured.length > 0) ? featured : data.slice(0, 20);
 
-        // Build items x2 for seamless loop
-        const buildItems = () => {
+        // Build items x3 for seamless loop
+        const buildFeaturedItems = () => {
             const frag = document.createDocumentFragment();
-            [...marqueeSource, ...marqueeSource].forEach(game => {
+            // x3 for seamless loop (move 33.333% instead of 50%)
+            [...marqueeSource, ...marqueeSource, ...marqueeSource].forEach(game => {
                 const btn = document.createElement('button');
                 btn.className = 'marquee-item';
                 btn.title = game.title;
@@ -971,11 +1067,8 @@
                 btn.style.cursor = 'pointer';
                 btn.innerHTML = `<img src="${game.image}" alt="${game.title}" loading="lazy" onerror="this.src='https://via.placeholder.com/48'">`;
                 btn.addEventListener('click', () => {
-                    // Điền tên vào search input
                     searchInput.value = game.title;
-                    // Scroll lên search để thấy kết quả
                     searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                    // Trigger search
                     lastQuery = '';
                     doSearch(game.title.toLowerCase());
                 });
@@ -983,7 +1076,24 @@
             });
             marqueeTrack.appendChild(frag);
         };
-        buildItems();
+        buildFeaturedItems();
+
+        // ── FIX iOS ANIMATION ──
+        // iOS Safari pauses animations until user interaction — force restart
+        function restartAnimation(element) {
+            if (!element) return;
+            element.style.animationPlayState = 'paused';
+            element.style.webkitAnimationPlayState = 'paused';
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    element.style.animationPlayState = 'running';
+                    element.style.webkitAnimationPlayState = 'running';
+                });
+            });
+        }
+
+        // Only restart Featured marquee (not New Update)
+        restartAnimation(marqueeTrack);
 
         // ── THEME TOGGLE ──
         const toggle = document.getElementById('themeToggle');
