@@ -9,6 +9,33 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
+        "title": "Soul Knight",
+        "version": "8.5.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/52/4f/de524f43-d6c1-7938-1df3-47e366a2acf5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Mở khóa nhân vật,Skin\n✅ Vô hạn kim cương\n✅ Vô hạn cá\n✅ Vô hạn năng lượng\n✅ Bất tử\n✅ One hit\n✅ Không thời gian hồi chiêu\n✅ Tăng tốc bắn",
+        "download_url": "https://oklink2.online/uAT",
+        "updated_at": "2026-08-11",
+        "size": "511.68 MB"
+    },
+    {
+        "title": "Truckers of Europe 3",
+        "version": "0.70.64",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/90/0d/2d900dfa-1e89-3998-bf95-524341039b89/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Vô hạn tiền tệ \n✅  Rơ-moóc Bất Tử \n✅  Lever 9999\n✅  no ads ",
+        "download_url": "https://oklink2.online/Kq2Y1",
+        "updated_at": "2026-08-11",
+        "size": "756.10 MB"
+    },
+    {
+        "title": "Shadow War",
+        "version": "1.0.72",
+        "image": "https://play-lh.googleusercontent.com/1kr-A_8Jo0wwYb1rJguJJNLCylRlVvS8djvBiGPV9nwQkQ5F8cZyfujhGkV5ya41yFL7=w480-h960-rw",
+        "description": "✅  Vô hạn tiền tệ ( tăng khi dùng )\n✅  Bất tử",
+        "download_url": "https://oklink2.online/TG0P",
+        "updated_at": "2026-08-11",
+        "size": "136.21 MB"
+    },
+    {
         "title": "The Spike Cross",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
         "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
@@ -196,15 +223,6 @@ const data = [
         "download_url": "https://drive.google.com/file/d/150UHlXEcrotLbo2eETx4WyUoTaIWFdN9/view",
         "updated_at": "2025-06-17",
         "size": "98.77 MB"
-    },
-    {
-        "title": "Soul Knight",
-        "version": "7.3.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/08/d8/5008d8ba-d92d-a0fa-d9a3-1debf100ec6b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Vô hạn kim cương\n✅ Vô hạn cá\n✅ Vô hạn năng lượng\n✅ Bất tử\n✅ One hit\n✅ Không thời gian hồi chiêu\n✅ Tăng tốc bắn",
-        "download_url": "https://drive.google.com/file/d/1D25XJS2yqAJpq_SitQDtrPkM3Es3jY_w/view",
-        "updated_at": "2025-06-10",
-        "size": "511.68 MB"
     },
     {
         "title": "Nighty Knight: Frontier War TD",
@@ -1077,15 +1095,6 @@ const data = [
         "size": "260.26 MB"
     },
     {
-        "title": "Shadow War",
-        "version": "1.0.50.",
-        "image": "https://play-lh.googleusercontent.com/1kr-A_8Jo0wwYb1rJguJJNLCylRlVvS8djvBiGPV9nwQkQ5F8cZyfujhGkV5ya41yFL7=w480-h960-rw",
-        "description": "✅  Vô hạn tiền tệ ( tăng khi dùng ) \n✅  Bất tử ",
-        "download_url": "https://drive.google.com/file/d/1yEGT3kp6lpBj3ArGjX-fVpW2tr6lLVog",
-        "updated_at": "2025-05-12",
-        "size": "136.21 MB"
-    },
-    {
         "title": "No Limit 2",
         "version": "2.2.3",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/e7/77/10e7774f-2f99-fe20-dd86-a0745f48bf61/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -1512,15 +1521,6 @@ const data = [
         "download_url": "https://drive.google.com/file/d/1lmhiUdEnFHqEyEs_00RmsesFF8IPwY3a",
         "updated_at": "2025-04-15",
         "size": "190.13 MB"
-    },
-    {
-        "title": "Truckers of Europe 3",
-        "version": "0.49.6",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/90/0d/2d900dfa-1e89-3998-bf95-524341039b89/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅Free Shop",
-        "download_url": "https://drive.google.com/file/d/1veZR11Od0rrCLVTXr_FbCatULR55TS0-",
-        "updated_at": "2025-04-15",
-        "size": "756.10 MB"
     },
     {
         "title": "Jetpack Joyride",
