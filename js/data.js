@@ -9,6 +9,43 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
+        "title": "Bowmasters - Multiplayer",
+        "version": "11.5.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/9f/c1/ad9fc1cc-fbd9-046b-1b4e-50d77df71743/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "✅  No Ads ( unlock chức năng vip )\n✅  Aim line\n✅  Mở khóa Season Pass\n✅  Vô hạn vàng \n✅  Vô hạn Kim cương \n✅  Vô hạn Tickets\n✅  Mở khóa All nhân vật ",
+        "download_url": "https://oklink2.online/gBBYZe",
+        "updated_at": "2026-08-13",
+        "size": "205.08 MB"
+    },
+    {
+        "title": "Rogue Legend",
+        "version": "0.562",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/1e/7d/df1e7d7f-985b-b58c-b843-485f7b64c1b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Bất tử\n✅Damage ( 1b )\n✅Skip Battle\n✅ Unlock Vip",
+        "download_url": "https://oklink2.online/ATnW",
+        "updated_at": "2026-07-26",
+        "size": "323.42 MB"
+    },
+    {
+        "title": "Cats & Soup",
+        "version": "4.40.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/0a/52/520a526a-4285-bf8a-c2d0-c77229fa2422/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
+        "download_url": "https://oklink2.online/A09pU",
+        "updated_at": "2026-08-13",
+        "size": "323.42 MB",
+        "fake_downloads": 999971
+    },
+    {
+        "title": "Galaxy Attack_ Alien Shooter",
+        "version": "5.20.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
+        "download_url": "https://oklink2.online/9j2",
+        "updated_at": "2026-08-13",
+        "size": "200.08 MB"
+    },
+    {
         "title": "Soul Knight",
         "version": "8.5.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/52/4f/de524f43-d6c1-7938-1df3-47e366a2acf5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -65,15 +102,6 @@ const data = [
         "fake_downloads": 944571
     },
     {
-        "title": "Galaxy Attack_ Alien Shooter",
-        "version": "5.19.8",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
-        "download_url": "https://oklink2.online/uF6",
-        "updated_at": "2026-07-28",
-        "size": "200.08 MB"
-    },
-    {
         "title": "Hungry Shark Evolution",
         "version": "14.3.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/4b/ff/784bffc0-fd69-bf5f-d467-c79c4709aaff/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
@@ -101,16 +129,6 @@ const data = [
         "updated_at": "2026-07-26",
         "size": "1171.29 MB",
         "fake_downloads": 9999993
-    },
-    {
-        "title": "Cats & Soup",
-        "version": "4.39.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/0a/52/520a526a-4285-bf8a-c2d0-c77229fa2422/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
-        "download_url": "https://oklink2.online/94EW8",
-        "updated_at": "2026-07-26",
-        "size": "323.42 MB",
-        "fake_downloads": 999971
     },
     {
         "title": "Plants vs Zombie 2",
@@ -141,15 +159,6 @@ const data = [
         "updated_at": "2026-07-22",
         "size": "87.90 MB",
         "fake_downloads": 994571
-    },
-    {
-        "title": "Bowmasters - Multiplayer",
-        "version": "11.1.3",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/9f/c1/ad9fc1cc-fbd9-046b-1b4e-50d77df71743/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
-        "description": "✅  No Ads ( unlock chức năng vip )\n✅  Vô hạn vàng  ( tăng khi dùng )\n✅  Vô hạn Kim cương ( tăng khi dùng",
-        "download_url": "https://oklink.cfd/sYnnh",
-        "updated_at": "2026-07-22",
-        "size": "205.08 MB"
     },
     {
         "title": "Liên Quân Mobile",
