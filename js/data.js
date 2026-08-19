@@ -9,6 +9,63 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
+        "title": "Liên Quân Mobile",
+        "version": "1.63.11692297 ",
+        "image": "https://play-lh.googleusercontent.com/gU0rhVqaGc8l1rV_cwmopYrn1J97S1t1kddMu-QE42M4tmzupO44lyIhAlTXF7PbQ5wFk9j6n9uLZc1R9_HV=w480-h960-rw",
+        "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
+        "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n  ✅ Kín = Bất tử ",
+        "download_url": "https://oklink2.online/QsRC",
+        "updated_at": "2026-08-19",
+        "size": "170 MB"
+    },
+    {
+        "title": "The Battle Cats",
+        "version": "15.5.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/b9/f1/ebb9f146-c088-9b73-605a-8fb04432798a/AppIcon-en-1x_U007epad-0-1-85-220-0.png/350x350bb.jpg",
+        "description": "✅  Tiền mặt không giới hạn\n✅  One hit\n✅  Vô hạn Food,Tickets ( nhận 1 ít )",
+        "download_url": "https://drive.google.com/file/d/1qfaPsXWex4O3B5UfIxl6uLWImaQWxmYX/view?usp=drive_link",
+        "updated_at": "2026-08-19",
+        "size": "157.36 MB"
+    },
+    {
+        "title": "Paper.io 2",
+        "version": "4.36.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/c1/54/54c15423-422f-8728-bb44-01694aeb7043/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Vô hạn tiền tệ\n✅  Unlock Premium\n✅  Nhận Quà không cần xem ads",
+        "download_url": "https://oklink2.online/0HxX",
+        "updated_at": "2026-08-13",
+        "size": "323.42 MB"
+    },
+    {
+        "title": "Cats & Soup",
+        "version": "4.41.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/0a/52/520a526a-4285-bf8a-c2d0-c77229fa2422/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
+        "download_url": "https://oklink2.online/EZn",
+        "updated_at": "2026-08-19",
+        "size": "323.42 MB",
+        "fake_downloads": 999971
+    },
+    {
+        "title": "Township",
+        "version": "27.0.1.",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/db/2a/87db2a7f-76ef-ed49-7163-09efdfab9da7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Đóng băng tài nguyên",
+        "download_url": "https://oklink2.online/rrjCF",
+        "updated_at": "2026-08-19",
+        "size": "168.93 MB"
+    },
+    {
+        "title": "Stick War: Legacy",
+        "version": "2026.1.787",
+        "image": "https://st.gamevui.vn/images/image/2024/08/24/stick-war-legacy-300.jpg",
+        "description": "✅Vô hạn Kim Cương\n✅Vô hạn Vàng\n✅Vô hạn Item\n✅Tạo Quân 0 Vàng \n✅Tăng Giới hạn quân \n✅One Hit archer ",
+        "download_url": "https://oklink2.online/P96d",
+        "updated_at": "2026-08-19",
+        "size": "87.90 MB",
+        "fake_downloads": 994571
+    },
+    {
         "title": "Bowmasters - Multiplayer",
         "version": "11.5.1",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/9f/c1/ad9fc1cc-fbd9-046b-1b4e-50d77df71743/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
@@ -25,16 +82,6 @@ const data = [
         "download_url": "https://oklink2.online/ATnW",
         "updated_at": "2026-07-26",
         "size": "323.42 MB"
-    },
-    {
-        "title": "Cats & Soup",
-        "version": "4.40.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/0a/52/520a526a-4285-bf8a-c2d0-c77229fa2422/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
-        "download_url": "https://oklink2.online/A09pU",
-        "updated_at": "2026-08-13",
-        "size": "323.42 MB",
-        "fake_downloads": 999971
     },
     {
         "title": "Galaxy Attack_ Alien Shooter",
@@ -149,26 +196,6 @@ const data = [
         "updated_at": "2026-07-22",
         "size": "215.40 MB",
         "fake_downloads": 964571
-    },
-    {
-        "title": "Stick War: Legacy",
-        "version": "2026.1.787",
-        "image": "https://st.gamevui.vn/images/image/2024/08/24/stick-war-legacy-300.jpg",
-        "description": "✅ Kim cương vô hạn \n✅ Vàng Vô hạn ( dùng 1 ít ) \n",
-        "download_url": "https://oklink.cfd/WpFP",
-        "updated_at": "2026-07-22",
-        "size": "87.90 MB",
-        "fake_downloads": 994571
-    },
-    {
-        "title": "Liên Quân Mobile",
-        "version": "1.63.11692297 ",
-        "image": "https://play-lh.googleusercontent.com/gU0rhVqaGc8l1rV_cwmopYrn1J97S1t1kddMu-QE42M4tmzupO44lyIhAlTXF7PbQ5wFk9j6n9uLZc1R9_HV=w480-h960-rw",
-        "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
-        "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n  ✅ Kín = Bất tử ",
-        "download_url": "https://oklink2.online/ZJAZ",
-        "updated_at": "2026-07-22",
-        "size": "170 MB"
     },
     {
         "title": "Hungry Dragon",
@@ -1296,15 +1323,6 @@ const data = [
         "size": "163.78 MB"
     },
     {
-        "title": "Township",
-        "version": "27.0.1.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/db/2a/87db2a7f-76ef-ed49-7163-09efdfab9da7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-        "description": "✅  Đóng băng tài nguyên",
-        "download_url": "https://drive.google.com/file/d/1YUClSoJaCyFPOBvdxpTDzfm2O1P6zBK1",
-        "updated_at": "2025-05-04",
-        "size": "168.93 MB"
-    },
-    {
         "title": "MeChat",
         "version": "4.33.1.",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzq518G6JsOOLHVJSryMxK0yyOyrelGNdLpg&s",
@@ -1431,15 +1449,6 @@ const data = [
         "download_url": "https://drive.google.com/file/d/11n2b4DHxvb9vIFvCZzIPZAXWhXi2woM9",
         "updated_at": "2025-04-18",
         "size": "186.57 MB"
-    },
-    {
-        "title": "The Battle Cats",
-        "version": "14.3.0.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/6b/1c/ff6b1c67-6947-d9e3-3deb-341670877005/AppIcon-en-1x_U007epad-0-1-0-85-220-0.png/350x350bb.jpg",
-        "description": "✅  One hit \n✅  Tiền mặt không giới hạn \n✅  Thức ăn,exp vô hạn ",
-        "download_url": "https://drive.google.com/file/d/1HMEUsP0LpQVtd0U3C-5ZFNZ02Qvzjv_u",
-        "updated_at": "2025-04-18",
-        "size": "157.36 MB"
     },
     {
         "title": "NinjaMustDie_",
