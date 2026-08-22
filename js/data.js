@@ -9,6 +9,15 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
+        "title": "The Spike Cross",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
+        "download_url": "https://drive.google.com/file/d/1lmE43jLG7uSZ-nle5i9GAiSd5XkVb82V/view?usp=drive_link",
+        "version": "7.6.130",
+        "updated_at": "2026-08-22",
+        "size": "546.81 MB"
+    },
+    {
         "title": "Liên Quân Mobile",
         "version": "1.63.11692297 ",
         "image": "https://play-lh.googleusercontent.com/gU0rhVqaGc8l1rV_cwmopYrn1J97S1t1kddMu-QE42M4tmzupO44lyIhAlTXF7PbQ5wFk9j6n9uLZc1R9_HV=w480-h960-rw",
@@ -118,15 +127,6 @@ const data = [
         "download_url": "https://oklink2.online/TG0P",
         "updated_at": "2026-08-11",
         "size": "136.21 MB"
-    },
-    {
-        "title": "The Spike Cross",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
-        "download_url": "https://drive.google.com/file/d/10CV-exS_aKHPSXHFmKT1xJLoicbxnwPp/view?usp=drivesdk",
-        "version": "7.6.124",
-        "updated_at": "2026-08-05",
-        "size": "546.81 MB"
     },
     {
         "title": "CarX Street",
