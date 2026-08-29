@@ -9,12 +9,22 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
+        "title": "Plants vs Zombie 2",
+        "version": "13.4.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Vàng không giới hạn\n✅ Đá quý không giới hạn\n✅ kẹo Không giới hạn\n✅ Granltes không giới hạn\n✅ Hạt Giống không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay vì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Custom Mastery ( 1-200)\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây\n✅ No Ads",
+        "download_url": "https://drive.google.com/file/d/1oFMCuCImogeUIhzlShTOJgiLPdOeCSH1/view?usp=drive_link",
+        "updated_at": "2026-08-29",
+        "size": "129.59 MB",
+        "fake_downloads": 954571
+    },
+    {
         "title": "The Spike Cross",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
         "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
-        "download_url": "https://drive.google.com/file/d/1lmE43jLG7uSZ-nle5i9GAiSd5XkVb82V/view?usp=drive_link",
-        "version": "7.6.130",
-        "updated_at": "2026-08-22",
+        "download_url": "https://drive.google.com/file/d/1dR-mP9N4GXZ_5bX2_DIjojatuBoJCzSI/view?usp=drive_link",
+        "version": "7.6.136",
+        "updated_at": "2026-08-29",
         "size": "546.81 MB"
     },
     {
@@ -176,16 +186,6 @@ const data = [
         "updated_at": "2026-07-26",
         "size": "1171.29 MB",
         "fake_downloads": 9999993
-    },
-    {
-        "title": "Plants vs Zombie 2",
-        "version": "13.3.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Vàng không giới hạn\n✅ Đá quý không giới hạn\n✅ kẹo Không giới hạn\n✅ Granltes không giới hạn\n✅ Hạt Giống không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay vì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Custom Mastery ( 1-200)\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây\n✅ Speed Ads",
-        "download_url": "https://drive.google.com/file/d/1NLX74phbZ8YIhzxaH772BynQIQsHaYjV/view?usp=drivesdk",
-        "updated_at": "2026-07-22",
-        "size": "129.59 MB",
-        "fake_downloads": 954571
     },
     {
         "title": "Subway Surf",
