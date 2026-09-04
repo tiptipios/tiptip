@@ -9,6 +9,25 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
+        "title": "The Spike Cross",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
+        "download_url": "https://www.mediafire.com/file/vvrsfw9er2c6stp/TSC%25E2%2580%25A2TipTip%25F0%259F%2590%25A7%25F0%259F%2590%25A7%25F0%259F%2590%25A7_7.6.139.ipa/file",
+        "version": "7.6.139",
+        "updated_at": "2026-09-04",
+        "size": "546.81 MB"
+    },
+    {
+        "title": "Stick War: Legacy",
+        "version": "2026.1.932",
+        "image": "https://st.gamevui.vn/images/image/2024/08/24/stick-war-legacy-300.jpg",
+        "description": "✅Vô hạn Kim Cương\n✅Vô hạn Item\n✅Tạo Quân 0 Vàng \n✅Tăng Giới hạn quân \n✅One Hit archer ",
+        "download_url": "https://drive.google.com/file/d/1Hr6vPoXBd7nvbsoYwuZsyAb9wn_xrPPd/view?usp=drive_link",
+        "updated_at": "2026-09-04",
+        "size": "87.90 MB",
+        "fake_downloads": 994571
+    },
+    {
         "title": "Plants vs Zombie 2",
         "version": "13.4.1",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
@@ -17,15 +36,6 @@ const data = [
         "updated_at": "2026-08-29",
         "size": "129.59 MB",
         "fake_downloads": 954571
-    },
-    {
-        "title": "The Spike Cross",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
-        "download_url": "https://drive.google.com/file/d/1dR-mP9N4GXZ_5bX2_DIjojatuBoJCzSI/view?usp=drive_link",
-        "version": "7.6.136",
-        "updated_at": "2026-08-29",
-        "size": "546.81 MB"
     },
     {
         "title": "Liên Quân Mobile",
@@ -73,16 +83,6 @@ const data = [
         "download_url": "https://oklink2.online/rrjCF",
         "updated_at": "2026-08-19",
         "size": "168.93 MB"
-    },
-    {
-        "title": "Stick War: Legacy",
-        "version": "2026.1.787",
-        "image": "https://st.gamevui.vn/images/image/2024/08/24/stick-war-legacy-300.jpg",
-        "description": "✅Vô hạn Kim Cương\n✅Vô hạn Vàng\n✅Vô hạn Item\n✅Tạo Quân 0 Vàng \n✅Tăng Giới hạn quân \n✅One Hit archer ",
-        "download_url": "https://oklink2.online/P96d",
-        "updated_at": "2026-08-19",
-        "size": "87.90 MB",
-        "fake_downloads": 994571
     },
     {
         "title": "Bowmasters - Multiplayer",
