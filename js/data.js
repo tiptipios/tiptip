@@ -9,6 +9,16 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
+        "title": "Liên Quân Mobile",
+        "version": "1.63.11692297 ",
+        "image": "https://play-lh.googleusercontent.com/gU0rhVqaGc8l1rV_cwmopYrn1J97S1t1kddMu-QE42M4tmzupO44lyIhAlTXF7PbQ5wFk9j6n9uLZc1R9_HV=w480-h960-rw",
+        "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
+        "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n  ✅ Kín = Bất tử ",
+        "download_url": "https://oklink2.online/ZQvGL",
+        "updated_at": "2026-09-10",
+        "size": "170 MB"
+    },
+    {
         "title": "The Spike Cross",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
         "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
@@ -36,16 +46,6 @@ const data = [
         "updated_at": "2026-08-29",
         "size": "129.59 MB",
         "fake_downloads": 954571
-    },
-    {
-        "title": "Liên Quân Mobile",
-        "version": "1.63.11692297 ",
-        "image": "https://play-lh.googleusercontent.com/gU0rhVqaGc8l1rV_cwmopYrn1J97S1t1kddMu-QE42M4tmzupO44lyIhAlTXF7PbQ5wFk9j6n9uLZc1R9_HV=w480-h960-rw",
-        "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
-        "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n  ✅ Kín = Bất tử ",
-        "download_url": "https://oklink2.online/QsRC",
-        "updated_at": "2026-08-19",
-        "size": "170 MB"
     },
     {
         "title": "The Battle Cats",
