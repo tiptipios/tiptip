@@ -12,8 +12,8 @@ const data = [
         "title": "The Spike Cross",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
         "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
-        "download_url": "https://www.mediafire.com/file/nx6u35vfob7hqnw/TSC%25E2%2580%25A2TipTip%25F0%259F%2590%25A7%25F0%259F%2590%25A7%25F0%259F%2590%25A7_8.0.109.ipa/file",
-        "version": "8.0.109",
+        "download_url": "https://www.mediafire.com/file/5fuc9bheqi5pv3e/TSC%25E2%2580%25A2TipTip%25F0%259F%2590%25A7%25F0%259F%2590%25A7%25F0%259F%2590%25A7_8.0.110.ipa/file",
+        "version": "8.0.110",
         "updated_at": "2026-09-29",
         "size": "546.81 MB"
     },
