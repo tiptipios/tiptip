@@ -14,7 +14,7 @@ const data = [
         "image": "https://img.utdstc.com/icon/32d/af5/32daf5ad34af15eb8ea853325ec1838574e3a6d572c204950d42471cc2ceba94:200",
         "description": "✅ Đổi nền Tiktok \n✅ ko quảng cáo \n✅ Và nhiều chức năng khác",
         "download_url": "https://www.mediafire.com/file/e97bydfyzydvhp9/gtok_2.2.2.ipa/file",
-        "updated_at": "2024-03-24",
+        "updated_at": "2026-10-04",
         "size": "400 Mb"
     },
     {
