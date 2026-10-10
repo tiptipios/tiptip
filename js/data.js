@@ -9,21 +9,12 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
-        "title": "Gtok ",
-        "version": "2.2.2",
-        "image": "https://img.utdstc.com/icon/32d/af5/32daf5ad34af15eb8ea853325ec1838574e3a6d572c204950d42471cc2ceba94:200",
-        "description": "✅ Đổi nền Tiktok \n✅ ko quảng cáo \n✅ Và nhiều chức năng khác",
-        "download_url": "https://www.mediafire.com/file/e97bydfyzydvhp9/gtok_2.2.2.ipa/file",
-        "updated_at": "2026-10-04",
-        "size": "400 Mb"
-    },
-    {
         "title": "The Spike Cross",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
         "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
-        "download_url": "https://www.mediafire.com/file/5fuc9bheqi5pv3e/TSC%25E2%2580%25A2TipTip%25F0%259F%2590%25A7%25F0%259F%2590%25A7%25F0%259F%2590%25A7_8.0.110.ipa/file",
-        "version": "8.0.110",
-        "updated_at": "2026-10-04",
+        "download_url": "https://www.mediafire.com/file/62zjmkjubzb3p8z/TSC%25E2%2580%25A2TipTip%25F0%259F%2590%25A7%25F0%259F%2590%25A7%25F0%259F%2590%25A7_8.0.111.ipa/file",
+        "version": "8.0.111",
+        "updated_at": "2026-10-10",
         "size": "546.81 MB"
     },
     {
@@ -32,9 +23,18 @@ const data = [
         "image": "https://play-lh.googleusercontent.com/gU0rhVqaGc8l1rV_cwmopYrn1J97S1t1kddMu-QE42M4tmzupO44lyIhAlTXF7PbQ5wFk9j6n9uLZc1R9_HV=w480-h960-rw",
         "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
         "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n  ✅ Kín = Bất tử ",
-        "download_url": "https://vuotlink.xyz/01",
-        "updated_at": "2026-10-04",
+        "download_url": "https://oklink2.online/2iY8hj",
+        "updated_at": "2026-10-10",
         "size": "170 MB"
+    },
+    {
+        "title": "Gtok ",
+        "version": "2.2.2",
+        "image": "https://img.utdstc.com/icon/32d/af5/32daf5ad34af15eb8ea853325ec1838574e3a6d572c204950d42471cc2ceba94:200",
+        "description": "✅ Đổi nền Tiktok \n✅ ko quảng cáo \n✅ Và nhiều chức năng khác",
+        "download_url": "https://www.mediafire.com/file/e97bydfyzydvhp9/gtok_2.2.2.ipa/file",
+        "updated_at": "2024-03-24",
+        "size": "400 Mb"
     },
     {
         "title": "Stick War: Legacy",
