@@ -22,7 +22,7 @@ const data = [
         "version": "13.5.1",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
         "description": "✅ Vàng không giới hạn\n✅ Đá quý không giới hạn\n✅ kẹo Không giới hạn\n✅ Granltes không giới hạn\n✅ Hạt Giống không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay vì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Custom Mastery ( 1-200)\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây\n✅ No Ads",
-        "download_url": "https://oklink2.online/G9VvO",
+        "download_url": "https://oklink2.online/LxC",
         "updated_at": "2026-10-23",
         "size": "129.59 MB",
         "fake_downloads": 954571
