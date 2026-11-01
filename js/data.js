@@ -9,23 +9,133 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
-        "title": "The Spike Cross",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Mod All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
-        "download_url": "https://www.mediafire.com/file/a94xmylm2133ufo/TSC%25E2%2580%25A2TipTip%25F0%259F%2590%25A7%25F0%259F%2590%25A7%25F0%259F%2590%25A7_8.1.109.ipa/file",
-        "version": "8.1.109",
-        "updated_at": "2026-10-25",
-        "size": "699.81 MB"
+        "title": "Soul Knight",
+        "version": "8.7.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/c1/70/7ec1702c-6316-09a7-7848-4b6d12177776/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Mở khóa nhân vật,Skin\n✅ Vô hạn kim cương\n✅ Vô hạn cá\n✅ Vô hạn năng lượng\n✅ Bất tử\n✅ One hit\n✅ Không thời gian hồi chiêu\n✅ Tăng tốc bắn",
+        "download_url": "https://oklink2.online/Wxuh4",
+        "updated_at": "2026-11-01",
+        "size": "511.78 MB"
     },
     {
-        "title": "Plants vs Zombie 2",
-        "version": "13.5.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Vàng không giới hạn\n✅ Đá quý không giới hạn\n✅ kẹo Không giới hạn\n✅ Granltes không giới hạn\n✅ Hạt Giống không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay vì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Custom Mastery ( 1-200)\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây\n✅ No Ads",
-        "download_url": "https://oklink2.online/LxC",
-        "updated_at": "2026-10-23",
-        "size": "129.59 MB",
-        "fake_downloads": 954571
+        "title": "Bowmasters - Multiplayer",
+        "version": "11.6.5",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/a2/eb/bda2ebb7-4938-704f-daa8-8356837ea871/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "✅  No Ads ( unlock chức năng vip )\n✅  Aim line\n✅  Mở khóa Season Pass\n✅  Vô hạn vàng \n✅  Vô hạn Kim cương \n✅  Vô hạn Tickets\n✅  Mở khóa All nhân vật ",
+        "download_url": "https://oklink2.online/5C7",
+        "updated_at": "2026-11-01",
+        "size": "205.08 MB"
+    },
+    {
+        "title": "Galaxy Attack_ Alien Shooter",
+        "version": "5.22.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
+        "download_url": "https://oklink2.online/MIu",
+        "updated_at": "2026-11-01",
+        "size": "200.08 MB"
+    },
+    {
+        "title": "Locket Gold",
+        "image": "https://play-lh.googleusercontent.com/eRZLg00mAQGayCrFjDBklPIpW3qFHcmUs8PUQA4z7hVe-cDKMcRqecVHONAIexJGJZM",
+        "description": "✅  Unlock Vip ",
+        "download_url": "https://oklink2.online/dni95",
+        "version": "2.71.0",
+        "updated_at": "2026-11-01",
+        "size": "96Mb"
+    },
+    {
+        "title": "Temple Run 2",
+        "version": "1.137.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/49/82/074982f2-2fe7-74e1-5aba-a45bdc7e51a7/AppIcon-1x_U007emarketing-0-9-0-0-85-220-0.png/100x100bb.jpg",
+        "description": "✅ Đóng băng tiền tệ\n✅ Auto chạy ( bất tử )\n✅ Nam châm vô hạn\n✅ No ads",
+        "download_url": "https://oklink2.online/ipMozb",
+        "updated_at": "2026-11-01",
+        "size": "122.93 MB",
+        "fake_downloads": 934571
+    },
+    {
+        "title": "Bloody Harry",
+        "version": "2.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/5c/a7/b7/5ca7b7b7-8d8c-34d7-408c-56c95e37a7d9/pr_source.jpg/350x350bb.jpg",
+        "description": "✅ Free Shop \n✅ iGG ",
+        "download_url": "https://oklink2.online/9ZZPq",
+        "updated_at": "2026-07-26",
+        "size": "323.42 MB"
+    },
+    {
+        "title": "Rogue Legend",
+        "version": "0.631",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/1e/7d/df1e7d7f-985b-b58c-b843-485f7b64c1b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Bất tử\n✅Damage ( 1b )\n✅Skip Battle\n✅ Unlock Vip",
+        "download_url": "https://oklink2.online/Dir",
+        "updated_at": "2026-11-01",
+        "size": "323.42 MB"
+    },
+    {
+        "title": "Subway Surf",
+        "version": "3.70.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
+        "download_url": "https://oklink2.online/XlSUe",
+        "updated_at": "2026-11-01",
+        "size": "215.40 MB",
+        "fake_downloads": 964571
+    },
+    {
+        "title": "Galaxy Defense",
+        "version": "1.1.0",
+        "image": "https://play-lh.googleusercontent.com/iMM8U6VUiwW4J1r6_oWMgkG_iK2Q_Xv5lUV8Y7Aq6aQWVXmnaToWmlxbzBsFe_XpPKY0=w480-h960-rw",
+        "description": "✅ Vô hạn vàng \n✅ Vô hạn kim cương\n✅ Vô hạn năng lượng \n✅ Vô hạn mảnh (hive, railgun , firewheel, laser,  thunderbolt, ... )\n✅ Reset Lever\n\n❗ Nhớ đọc kỹ note trong menu để sống dai thành huyền thoại \n",
+        "download_url": "https://oklink2.online/cAhG6",
+        "updated_at": "2026-11-01",
+        "size": "126.89 MB"
+    },
+    {
+        "title": "Hungry Shark World",
+        "version": "8.3.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/75/12/5d75120f-2cc5-b736-e6a9-40566e83661f/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg",
+        "description": "✅  No Ads\n✅ Tiền xu không giới hạn\n✅ Đá quý không giới hạn\n✅ Ngọc trai không giới hạn\n✅ Boost không giới hạn\n✅ Mở khóa Season Pass",
+        "download_url": "https://oklink2.online/zxXkkZ",
+        "updated_at": "2026-11-01",
+        "size": "156.45 MB",
+        "fake_downloads": 944571
+    },
+    {
+        "title": "Hungry Shark Evolution",
+        "version": "14.6.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/4b/ff/784bffc0-fd69-bf5f-d467-c79c4709aaff/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "✅  No Ads\n✅  Vô hạn tiền\n✅  Bất tử\n✅  Boost Không giới hạn",
+        "download_url": "https://oklink2.online/xx0",
+        "updated_at": "2026-11-01",
+        "size": "195.31 MB"
+    },
+    {
+        "title": "Hole.io",
+        "version": "2.57.6",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/47/8e/1d478e70-cbb5-a324-0822-2772b6122c49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  999999 Point\n✅  premium\n✅  Unlock all Skin\n",
+        "download_url": "https://oklink2.online/634Iu",
+        "updated_at": "2026-08-13",
+        "size": "205.08 MB"
+    },
+    {
+        "title": "Paper.io 2",
+        "version": "4.40.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/c1/54/54c15423-422f-8728-bb44-01694aeb7043/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Vô hạn tiền tệ\n✅  Unlock Premium\n✅  Nhận Quà không cần xem ads",
+        "download_url": "https://oklink2.online/wBNTd",
+        "updated_at": "2026-11-01",
+        "size": "323.42 MB"
+    },
+    {
+        "title": "The Spike Cross",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
+        "download_url": "https://www.mediafire.com/file/a94xmylm2133ufo/TSC%25E2%2580%25A2TipTip%25F0%259F%2590%25A7%25F0%259F%2590%25A7%25F0%259F%2590%25A7_8.1.109.ipa/file",
+        "version": "8.1.109",
+        "updated_at": "2026-11-01",
+        "size": "546.81 MB"
     },
     {
         "title": "Liên Quân Mobile",
@@ -34,8 +144,18 @@ const data = [
         "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
         "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n  ✅ Kín = Bất tử ",
         "download_url": "https://oklink2.online/XRtF",
-        "updated_at": "2026-10-23",
+        "updated_at": "2026-11-01",
         "size": "170 MB"
+    },
+    {
+        "title": "Plants vs Zombie 2",
+        "version": "13.5.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Vàng không giới hạn\n✅ Đá quý không giới hạn\n✅ kẹo Không giới hạn\n✅ Granltes không giới hạn\n✅ Hạt Giống không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay vì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Custom Mastery ( 1-200)\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây\n✅ No Ads",
+        "download_url": "https://oklink2.online/F9H",
+        "updated_at": "2026-11-01",
+        "size": "129.59 MB",
+        "fake_downloads": 954571
     },
     {
         "title": "Gtok ",
@@ -66,15 +186,6 @@ const data = [
         "size": "157.36 MB"
     },
     {
-        "title": "Paper.io 2",
-        "version": "4.36.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/c1/54/54c15423-422f-8728-bb44-01694aeb7043/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅  Vô hạn tiền tệ\n✅  Unlock Premium\n✅  Nhận Quà không cần xem ads",
-        "download_url": "https://oklink2.online/0HxX",
-        "updated_at": "2026-08-13",
-        "size": "323.42 MB"
-    },
-    {
         "title": "Cats & Soup",
         "version": "4.41.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/0a/52/520a526a-4285-bf8a-c2d0-c77229fa2422/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -92,42 +203,6 @@ const data = [
         "download_url": "https://oklink2.online/rrjCF",
         "updated_at": "2026-08-19",
         "size": "168.93 MB"
-    },
-    {
-        "title": "Bowmasters - Multiplayer",
-        "version": "11.5.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/9f/c1/ad9fc1cc-fbd9-046b-1b4e-50d77df71743/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
-        "description": "✅  No Ads ( unlock chức năng vip )\n✅  Aim line\n✅  Mở khóa Season Pass\n✅  Vô hạn vàng \n✅  Vô hạn Kim cương \n✅  Vô hạn Tickets\n✅  Mở khóa All nhân vật ",
-        "download_url": "https://oklink2.online/gBBYZe",
-        "updated_at": "2026-08-13",
-        "size": "205.08 MB"
-    },
-    {
-        "title": "Rogue Legend",
-        "version": "0.562",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/1e/7d/df1e7d7f-985b-b58c-b843-485f7b64c1b4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅Bất tử\n✅Damage ( 1b )\n✅Skip Battle\n✅ Unlock Vip",
-        "download_url": "https://oklink2.online/ATnW",
-        "updated_at": "2026-07-26",
-        "size": "323.42 MB"
-    },
-    {
-        "title": "Galaxy Attack_ Alien Shooter",
-        "version": "5.20.2",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
-        "download_url": "https://oklink2.online/9j2",
-        "updated_at": "2026-08-13",
-        "size": "200.08 MB"
-    },
-    {
-        "title": "Soul Knight",
-        "version": "8.5.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/52/4f/de524f43-d6c1-7938-1df3-47e366a2acf5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅Mở khóa nhân vật,Skin\n✅ Vô hạn kim cương\n✅ Vô hạn cá\n✅ Vô hạn năng lượng\n✅ Bất tử\n✅ One hit\n✅ Không thời gian hồi chiêu\n✅ Tăng tốc bắn",
-        "download_url": "https://oklink2.online/uAT",
-        "updated_at": "2026-08-11",
-        "size": "511.68 MB"
     },
     {
         "title": "Truckers of Europe 3",
@@ -158,25 +233,6 @@ const data = [
         "fake_downloads": 9999994
     },
     {
-        "title": "Hungry Shark World",
-        "version": "8.0.6",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/75/12/5d75120f-2cc5-b736-e6a9-40566e83661f/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg",
-        "description": "✅  No Ads\n✅ Tiền xu không giới hạn\n✅ Đá quý không giới hạn\n✅ Ngọc trai không giới hạn\n✅ Boost không giới hạn\n✅ Mở khóa Season Pass",
-        "download_url": "https://oklink2.online/Dqu77",
-        "updated_at": "2026-07-28",
-        "size": "156.45 MB",
-        "fake_downloads": 944571
-    },
-    {
-        "title": "Hungry Shark Evolution",
-        "version": "14.3.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/4b/ff/784bffc0-fd69-bf5f-d467-c79c4709aaff/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-        "description": "✅  No Ads\n✅  Vô hạn tiền\n✅  Bất tử\n✅  Boost Không giới hạn",
-        "download_url": "https://oklink2.online/MkYNd",
-        "updated_at": "2026-07-28",
-        "size": "195.31 MB"
-    },
-    {
         "title": "Shadow Fight 2",
         "version": "2.46.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/f3/ce/fcf3ced6-cdbd-fd52-1716-d82532ed2534/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -195,16 +251,6 @@ const data = [
         "updated_at": "2026-07-26",
         "size": "1171.29 MB",
         "fake_downloads": 9999993
-    },
-    {
-        "title": "Subway Surf",
-        "version": "3.66.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
-        "download_url": "https://drive.google.com/file/d/1OgoOiXAqCcO7LZPuX7qZECuB6dZIyqCc/view?usp=drivesdk",
-        "updated_at": "2026-07-22",
-        "size": "215.40 MB",
-        "fake_downloads": 964571
     },
     {
         "title": "Hungry Dragon",
@@ -1186,16 +1232,6 @@ const data = [
         "fake_downloads": 934571
     },
     {
-        "title": "Temple Run 2",
-        "version": "1.121.0.",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/49/82/074982f2-2fe7-74e1-5aba-a45bdc7e51a7/AppIcon-1x_U007emarketing-0-9-0-0-85-220-0.png/100x100bb.jpg",
-        "description": "✅ Đóng băng tiền tệ\n✅ Auto chạy ( bất tử )\n✅ Mở khoá trang phục\n✅ Nam châm vô hạn\n✅ No ads",
-        "download_url": "https://drive.google.com/file/d/1nvo8UxOm3mOU3eeAactL7cRJWAn24ZTb",
-        "updated_at": "2025-05-10",
-        "size": "122.93 MB",
-        "fake_downloads": 934571
-    },
-    {
         "title": "Guardian War",
         "version": "0.2.626.",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/90/35/2e903555-58fa-ac87-da04-abdafed4452a/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
@@ -1422,15 +1458,6 @@ const data = [
         "download_url": "https://drive.google.com/file/d/1PPlfrHAYn-IzRwGfMSXN1c_8jdz5doiD",
         "updated_at": "2025-04-19",
         "size": "91.04 MB"
-    },
-    {
-        "title": "Galaxy Defense",
-        "version": "0.7.6.",
-        "image": "https://play-lh.googleusercontent.com/iMM8U6VUiwW4J1r6_oWMgkG_iK2Q_Xv5lUV8Y7Aq6aQWVXmnaToWmlxbzBsFe_XpPKY0=w480-h960-rw",
-        "description": "✅ Vô hạn vàng \n✅ Vô hạn kim cương\n✅ Vô hạn năng lượng \n✅ Vô hạn mảnh (hive, railgun , firewheel, laser,  thunderbolt, ... )\n✅ Reset Lever\n\n❗ Nhớ đọc kỹ note trong menu để sống dai thành huyền thoại \n",
-        "download_url": "https://drive.google.com/file/d/13XXh3CLxZ62_SJKF7ZiTn0ykGo3CLaCC",
-        "updated_at": "2025-04-18",
-        "size": "126.89 MB"
     },
     {
         "title": "My Supermarket Simulator 3D",
@@ -3359,15 +3386,6 @@ const data = [
         "version": "4.1.14",
         "updated_at": "2024-03-24",
         "size": "100 Mb"
-    },
-    {
-        "title": "Dylib Locket Gold",
-        "image": "https://play-lh.googleusercontent.com/eRZLg00mAQGayCrFjDBklPIpW3qFHcmUs8PUQA4z7hVe-cDKMcRqecVHONAIexJGJZM",
-        "description": "✅ Gói Unlock Vip ( Trollfool )",
-        "download_url": "https://drive.google.com/file/d/1toBpzyvgEfu1JYh7Vm-NF_tMXLU-_BKI/view?usp=drive_link",
-        "version": "12.5.00.",
-        "updated_at": "2025-02-19",
-        "size": "6Mb"
     },
     {
         "title": "Dylib PicsArt",
