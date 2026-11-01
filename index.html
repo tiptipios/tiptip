@@ -377,6 +377,35 @@
             padding: 0 4px;
         }
 
+        /* Details Button */
+        .details-btn {
+            padding: 4px 30px;
+            background: transparent;
+            border: 0px solid var(--text-muted);
+            border-radius: 8px;
+            color: var(--text-muted);
+            font-size: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            white-space: nowrap;
+            margin-left: 12px;
+            flex-shrink: 0;
+        }
+
+        .details-btn:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            transform: translateY(0px);
+        }
+
+        .details-btn i {
+            font-size: 10px;
+        }
+
         /* ── LIQUID GLASS BUTTONS ── */
         .channels {
             display: flex;
@@ -629,26 +658,30 @@
             justify-content: center;
             width: 36px;
             height: 36px;
-            background: var(--dl-btn-bg);
-            border: 1px solid var(--dl-btn-border);
+            background: transparent;
+            border: none;
             border-radius: 50%;
             text-decoration: none !important;
             transition: all 0.15s ease;
             flex-shrink: 0;
-            box-shadow: 0 2px 8px rgba(99, 102, 241, 0.25);
+            box-shadow: none;
         }
 
         .download-btn svg {
             width: 18px;
             height: 18px;
-            fill: var(--dl-btn-icon);
+            fill: var(--dl-btn-bg);
         }
 
         .download-btn:hover {
-            background: var(--dl-btn-hover-bg);
-            border-color: var(--dl-btn-hover-bg);
+            background: var(--dl-btn-bg);
+            border-color: var(--dl-btn-bg);
             transform: translateY(-2px);
             box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
+        }
+
+        .download-btn:hover svg {
+            fill: var(--dl-btn-icon);
         }
 
         .download-btn:active {
@@ -775,7 +808,7 @@
             top: -6px;
             right: -6px;
             padding: 2px 7px 3px;
-            background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+            background: linear-gradient(135deg, #2172cb 0%, #de4040 100%);
             border-radius: 10px;
             font-size: 9px;
             font-weight: 600;
@@ -791,7 +824,7 @@
         }
 
         [data-theme="dark"] .new-badge {
-            background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+            background: linear-gradient(135deg, #2172cb 0%, #de4040 100%);
             box-shadow: 0 2px 16px rgba(167, 139, 250, 0.6),
                 0 0 0 2px var(--card-bg);
         }
@@ -822,6 +855,264 @@
         .no-result.show {
             display: block;
         }
+
+        /* ── MODAL CAROUSEL ── */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+            animation: fadeIn 0.3s ease;
+        }
+
+        .modal-overlay.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            position: relative;
+            width: 90%;
+            max-width: 900px;
+            max-height: 85vh;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            padding: 24px;
+            box-shadow: var(--card-shadow);
+            animation: slideUp 0.3s ease;
+            overflow: hidden;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .modal-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .modal-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .modal-close {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: var(--btn-bg);
+            border: 1px solid var(--btn-border);
+            color: var(--text-secondary);
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-close:hover {
+            background: var(--btn-hover-bg);
+            border-color: var(--btn-hover-border);
+            transform: rotate(90deg);
+        }
+
+        .carousel-container {
+            position: relative;
+            overflow: hidden;
+            padding: 0 50px;
+        }
+
+        .carousel-track {
+            display: flex;
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            gap: 16px;
+        }
+
+        .carousel-column {
+            flex-shrink: 0;
+            width: calc(100% - 100px);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .carousel-game-card {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--game-item-bg);
+            border: 1px solid var(--game-item-border);
+            border-radius: 14px;
+            padding: 10px 12px;
+            transition: all 0.2s ease;
+            cursor: default;
+        }
+
+        .carousel-game-card:hover {
+            background: var(--game-item-hover-bg);
+            border-color: var(--game-item-hover-border);
+            transform: translateX(4px);
+        }
+
+        .carousel-download-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            background: transparent;
+            border: none;
+            border-radius: 50%;
+            color: var(--dl-btn-bg);
+            text-decoration: none;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .carousel-download-btn:hover {
+            background: var(--dl-btn-bg);
+            color: var(--dl-btn-icon);
+            transform: scale(1.1);
+        }
+
+        .carousel-download-btn i {
+            font-size: 14px;
+        }
+
+        .carousel-game-image {
+            width: 48px;
+            height: 48px;
+            border-radius: 10px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .carousel-game-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .carousel-game-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--game-title);
+            margin-bottom: 3px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .carousel-game-meta {
+            font-size: 11px;
+            color: var(--game-meta);
+        }
+
+        .carousel-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--btn-bg);
+            border: 1px solid var(--btn-border);
+            color: var(--text-secondary);
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+        }
+
+        .carousel-nav:hover {
+            background: var(--btn-hover-bg);
+            border-color: var(--btn-hover-border);
+        }
+
+        .carousel-nav:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .carousel-nav.prev {
+            left: 0;
+        }
+
+        .carousel-nav.next {
+            right: 0;
+        }
+
+        .carousel-dots {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .carousel-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--btn-border);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .carousel-dot.active {
+            background: var(--accent);
+            width: 24px;
+            border-radius: 4px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            .modal-content {
+                width: 95%;
+                padding: 20px 16px;
+            }
+
+            .carousel-container {
+                padding: 0 40px;
+            }
+
+            .carousel-nav {
+                width: 32px;
+                height: 32px;
+                font-size: 14px;
+            }
+        }
     </style>
     <script src="../js/data.js"></script>
 </head>
@@ -849,7 +1140,8 @@
         <div class="avatar-wrap">
             <div class="avatar-ring">
                 <div class="avatar-inner">
-                    <img src="https://bio.linkcdn.cc/upload/2024040505/171229360600038148.jpg" alt="Tip Tip">
+                    <img src="https://raw.githubusercontent.com/tiptipios/chanthuhoi/main/index/Photoroom_20251110_234059_processed.png"
+                        alt="Tip Tip">
                 </div>
             </div>
             <div class="online-dot"></div>
@@ -881,7 +1173,14 @@
 
         <!-- New Update Games Marquee -->
         <div class="marquee-section">
-            <div class="divider"><span>🔥 New Updates</span></div>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px;">
+                <div class="divider" style="flex: 1; margin-bottom: 0;     padding-left: 80px;">
+                    <span>🔥 New Updates</span>
+                </div>
+                <button class="details-btn" onclick="openModal('new')">
+                    Chi tiết
+                </button>
+            </div>
             <div class="new-update-scroll" id="newUpdateTrack">
                 <!-- Filled by JS -->
             </div>
@@ -889,7 +1188,9 @@
 
         <!-- Featured Games Marquee -->
         <div class="marquee-section">
-            <div class="divider"><span>⭐ Featured Games</span></div>
+            <div class="divider">
+                <span>⭐ Featured Games</span>
+            </div>
             <div class="marquee-track" id="marqueeTrack">
                 <!-- Filled by JS -->
             </div>
@@ -942,6 +1243,32 @@
         <!-- Footer -->
         <p class="foot">Made with <span class="heart">♥</span> by Tip Tip · 2026</p>
 
+    </div>
+
+    <!-- Modal Carousel -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle">Game Details</h2>
+                <button class="modal-close" onclick="closeModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="carousel-container">
+                <button class="carousel-nav prev" id="prevBtn" onclick="prevColumn()">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- Columns will be generated by JS -->
+                </div>
+                <button class="carousel-nav next" id="nextBtn" onclick="nextColumn()">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="carousel-dots" id="carouselDots">
+                <!-- Dots will be generated by JS -->
+            </div>
+        </div>
     </div>
 
     <script>
@@ -1113,8 +1440,180 @@
                 icon.className = 'fas fa-sun';
             }
         });
+
+        // ── MODAL CAROUSEL ──
+        let currentColumn = 0;
+        let totalColumns = 0;
+        let autoplayInterval = null;
+        let currentModalType = '';
+
+        function openModal(type) {
+            currentModalType = type;
+            const modalOverlay = document.getElementById('modalOverlay');
+            const modalTitle = document.getElementById('modalTitle');
+            const carouselTrack = document.getElementById('carouselTrack');
+            const carouselDots = document.getElementById('carouselDots');
+
+            // Determine which games to show - Get 30 unique games
+            let gamesToShow = [];
+            if (type === 'new') {
+                modalTitle.textContent = '🔥 New Updates';
+                gamesToShow = data.slice(0, 30); // First 30 games
+            } else {
+                modalTitle.textContent = '⭐ Featured Games';
+                gamesToShow = data.slice(30, 60); // Next 30 games
+            }
+
+            // Create 6 columns with 5 games each = 30 games total
+            const gamesPerColumn = 5;
+            totalColumns = 6;
+
+            // Clear existing content
+            carouselTrack.innerHTML = '';
+            carouselDots.innerHTML = '';
+
+            // Build columns
+            for (let col = 0; col < totalColumns; col++) {
+                const columnDiv = document.createElement('div');
+                columnDiv.className = 'carousel-column';
+
+                // Get 5 UNIQUE games for this column (NO REPEAT)
+                for (let row = 0; row < gamesPerColumn; row++) {
+                    const gameIndex = col * gamesPerColumn + row;
+                    if (gameIndex >= gamesToShow.length) break; // Stop if no more games
+
+                    const game = gamesToShow[gameIndex];
+
+                    const gameCard = document.createElement('div');
+                    gameCard.className = 'carousel-game-card';
+
+                    const downloadUrl = `download.html?title=${encodeURIComponent(game.title)}&image=${encodeURIComponent(game.image)}&description=${encodeURIComponent(game.description || '')}&version=${encodeURIComponent(game.version)}&size=${encodeURIComponent(game.size)}&url=${encodeURIComponent(game.download_url)}`;
+
+                    gameCard.innerHTML = `
+                        <img src="${game.image}" alt="${game.title}" class="carousel-game-image" loading="lazy" onerror="this.src='https://via.placeholder.com/48'">
+                        <div class="carousel-game-info">
+                            <div class="carousel-game-title">${game.title}</div>
+                            <div class="carousel-game-meta">v${game.version || 'N/A'} • ${game.size || 'N/A'}</div>
+                        </div>
+                        <a href="${downloadUrl}" class="carousel-download-btn" title="Download ${game.title}" onclick="event.stopPropagation()">
+                            <i class="fas fa-download"></i>
+                        </a>
+                    `;
+
+                    columnDiv.appendChild(gameCard);
+                }
+
+                carouselTrack.appendChild(columnDiv);
+            }
+
+            // Build dots
+            for (let i = 0; i < totalColumns; i++) {
+                const dot = document.createElement('div');
+                dot.className = 'carousel-dot';
+                if (i === 0) dot.classList.add('active');
+                dot.addEventListener('click', () => goToColumn(i));
+                carouselDots.appendChild(dot);
+            }
+
+            // Show modal
+            currentColumn = 0;
+            updateCarousel();
+            modalOverlay.classList.add('show');
+            document.body.style.overflow = 'hidden';
+
+            // Start autoplay (optional - 4 seconds per slide)
+            startAutoplay();
+        }
+
+        function closeModal() {
+            const modalOverlay = document.getElementById('modalOverlay');
+            modalOverlay.classList.remove('show');
+            document.body.style.overflow = '';
+            stopAutoplay();
+        }
+
+        function updateCarousel() {
+            const carouselTrack = document.getElementById('carouselTrack');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const dots = document.querySelectorAll('.carousel-dot');
+
+            // Move track
+            const columnWidth = carouselTrack.querySelector('.carousel-column').offsetWidth;
+            const gap = 16; // gap between columns
+            const offset = -(currentColumn * (columnWidth + gap));
+            carouselTrack.style.transform = `translateX(${offset}px)`;
+
+            // Update buttons
+            prevBtn.disabled = currentColumn === 0;
+            nextBtn.disabled = currentColumn === totalColumns - 1;
+
+            // Update dots
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentColumn);
+            });
+        }
+
+        function prevColumn() {
+            if (currentColumn > 0) {
+                currentColumn--;
+                updateCarousel();
+                resetAutoplay();
+            }
+        }
+
+        function nextColumn() {
+            if (currentColumn < totalColumns - 1) {
+                currentColumn++;
+                updateCarousel();
+                resetAutoplay();
+            }
+        }
+
+        function goToColumn(index) {
+            currentColumn = index;
+            updateCarousel();
+            resetAutoplay();
+        }
+
+        function startAutoplay() {
+            stopAutoplay();
+            autoplayInterval = setInterval(() => {
+                if (currentColumn < totalColumns - 1) {
+                    currentColumn++;
+                } else {
+                    currentColumn = 0; // Loop back to start
+                }
+                updateCarousel();
+            }, 4000); // 4 seconds
+        }
+
+        function stopAutoplay() {
+            if (autoplayInterval) {
+                clearInterval(autoplayInterval);
+                autoplayInterval = null;
+            }
+        }
+
+        function resetAutoplay() {
+            startAutoplay();
+        }
+
+        // Close modal when clicking overlay
+        document.getElementById('modalOverlay').addEventListener('click', (e) => {
+            if (e.target.id === 'modalOverlay') {
+                closeModal();
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
     </script>
 
 </body>
 
-</html>
+</html>>
