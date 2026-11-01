@@ -254,7 +254,7 @@ const data = [
     },
     {
         "title": "Hungry Dragon",
-        "version": "https://oklink.cfd/rcVd",
+        "version": "5.7.3",
         "image": "https://static.apkmody.com/play-lh.googleusercontent.com/aw6eyAWzs7mfa2OKwIDWobfpXbPEw1dwPu4hcuFYt0KmXp_XTXgBCUx7sWEUOv4NIg",
         "description": "✅Tiền tệ không giới hạn \n \n✅ Chi phí hồi sinh 0 \n✅ Booster ko giới hạn ✅ Tăng khoảng cách ăn \n✅ No ads",
         "download_url": "https://drive.google.com/file/d/1P9WlUY5hq_30ovJtH5QgJmdx0JkwBZvp",
