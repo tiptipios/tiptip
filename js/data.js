@@ -9,6 +9,88 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
+        "title": "The Spike Cross",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
+        "download_url": "https://www.mediafire.com/file/j6p4sdacf03q586/TSC%25E2%2580%25A2TipTip%25F0%259F%2590%25A7%25F0%259F%2590%25A7%25F0%259F%2590%25A7_8.2.104.ipa/file",
+        "version": "8.2.104",
+        "updated_at": "2026-11-05",
+        "size": "546.81 MB"
+    },
+    {
+        "title": "The Battle Cats",
+        "version": "15.7.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/b9/f1/ebb9f146-c088-9b73-605a-8fb04432798a/AppIcon-en-1x_U007epad-0-1-85-220-0.png/350x350bb.jpg",
+        "description": "✅  Tiền mặt không giới hạn\n✅  One hit\n✅  Vô hạn Food,Tickets ( nhận 1 ít )",
+        "download_url": "https://oklink2.online/TtF",
+        "updated_at": "2026-11-05",
+        "size": "157.36 MB"
+    },
+    {
+        "title": "Galaxy Attack_ Alien Shooter",
+        "version": "5.22.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
+        "download_url": "https://oklink2.online/QZx",
+        "updated_at": "2026-11-05",
+        "size": "200.08 MB"
+    },
+    {
+        "title": "TDS - Tower Destiny Survive",
+        "version": "1.18.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/34/e4/4e34e459-3528-71dd-9128-92390875f643/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Vô hạn tài nguyên\n✅ No Ads\n✅ Unlock Gói Speed\n✅ Unlock Gói Battle Pass\n✅ Bất tử",
+        "download_url": "https://oklink2.online/ifHnpJ",
+        "updated_at": "2026-11-05",
+        "size": "165.78 MB"
+    },
+    {
+        "title": "Rodeo Stampede",
+        "version": "4.26.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/95/9e/12959e43-4165-c469-4457-6e0b01f93995/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Free Shop",
+        "download_url": "https://oklink2.online/1kPpe",
+        "updated_at": "2026-11-05",
+        "size": "165.78 MB"
+    },
+    {
+        "title": "Hill Climb",
+        "version": "1.73.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/1a/6b/701a6b39-81ee-6d74-1ea6-3889b580be1a/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/350x350bb.jpg",
+        "description": "✅ Free Shop",
+        "download_url": "https://oklink2.online/JxEQ",
+        "updated_at": "2026-11-05",
+        "size": "165.78 MB"
+    },
+    {
+        "title": "Nightfall Kingdom Frontier TD",
+        "version": "1.1.301",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/a3/4c/eda34caa-a643-62d2-ff61-64d607e8adea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ No Ads\n✅ Bất tử \n✅ Vô hạn tiền tệ \n✅ Vô hạn tiền trong trận   ",
+        "download_url": "https://oklink2.online/LV2",
+        "updated_at": "2025-05-15",
+        "size": "182.32 MB"
+    },
+    {
+        "title": "Earn to Die Rogue",
+        "version": "1.30.265",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/be/4b/16be4b2b-b844-8391-2bfd-b02656d77079/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Vô hạn tiền\n✅  Vô hạn vàng\n✅  Mã thông báo kỹ năng không giới hạn",
+        "download_url": "https://oklink2.online/sdXD2",
+        "updated_at": "2026-11-05",
+        "size": "182.32 MB"
+    },
+    {
+        "title": "Stick War: Legacy",
+        "version": "2026.1.1298",
+        "image": "https://st.gamevui.vn/images/image/2024/08/24/stick-war-legacy-300.jpg",
+        "description": "✅Vô hạn Kim Cương\n✅Vô hạn Item\n✅Tạo Quân 0 Vàng \n✅Tăng Giới hạn quân \n✅One Hit archer ",
+        "download_url": "https://oklink2.online/jiW2",
+        "updated_at": "2026-11-05",
+        "size": "87.90 MB",
+        "fake_downloads": 994571
+    },
+    {
         "title": "Soul Knight",
         "version": "8.7.1",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/c1/70/7ec1702c-6316-09a7-7848-4b6d12177776/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -25,15 +107,6 @@ const data = [
         "download_url": "https://oklink2.online/5C7",
         "updated_at": "2026-11-01",
         "size": "205.08 MB"
-    },
-    {
-        "title": "Galaxy Attack_ Alien Shooter",
-        "version": "5.22.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f9/5c/a1f95cb3-8e95-4ec2-2d0c-4facce2e8eaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-        "description": "✅  Bất tử\n✅  Đạn luôn max\n✅  One hit\n✅  No ads\n✅  Không cần năng lượng\n✅ Tiến hóa đá\n✅ Tàu không giới hạn\n✅ Vé máy bay phụ\n✅ Điểm kết thúc\n✅ Điểm công nghệ\n✅ Overload Ball\n✅ Ma trận Max\n✅ Vàng hồi sinh\n✅ Hồi sinh không giới hạn\n✅ Campain Revive Chi phí vàng - Kiếm bằng vàng\n✅ Đá quý hồi sinh - Kiếm bằng đá quý\n✅ Vàng chi phí hồi sinh vô tận - Kiếm bằng vàng\n✅ Chi phí nâng cấp tài năng - kiếm được bằng vàng\n✅ Battle Pass Premium\n✅ BP Premium & miễn phí\n✅ BP Premium & miễn phí Phần thưởng không giới hạn\n✅ Booster không giới hạn\n✅ Tất cả các mặt hàng sở hữu Chrono\n✅ Chrono Refresh [ Tắt sau khi nhận ]\n✅ Trang phục đã được mở khóa",
-        "download_url": "https://oklink2.online/MIu",
-        "updated_at": "2026-11-01",
-        "size": "200.08 MB"
     },
     {
         "title": "Locket Gold",
@@ -129,15 +202,6 @@ const data = [
         "size": "323.42 MB"
     },
     {
-        "title": "The Spike Cross",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
-        "download_url": "https://www.mediafire.com/file/a94xmylm2133ufo/TSC%25E2%2580%25A2TipTip%25F0%259F%2590%25A7%25F0%259F%2590%25A7%25F0%259F%2590%25A7_8.1.109.ipa/file",
-        "version": "8.1.109",
-        "updated_at": "2026-11-01",
-        "size": "546.81 MB"
-    },
-    {
         "title": "Liên Quân Mobile",
         "version": "v1.64.11768577",
         "image": "https://play-lh.googleusercontent.com/gU0rhVqaGc8l1rV_cwmopYrn1J97S1t1kddMu-QE42M4tmzupO44lyIhAlTXF7PbQ5wFk9j6n9uLZc1R9_HV=w480-h960-rw",
@@ -165,25 +229,6 @@ const data = [
         "download_url": "https://www.mediafire.com/file/e97bydfyzydvhp9/gtok_2.2.2.ipa/file",
         "updated_at": "2024-03-24",
         "size": "400 Mb"
-    },
-    {
-        "title": "Stick War: Legacy",
-        "version": "2026.1.932",
-        "image": "https://st.gamevui.vn/images/image/2024/08/24/stick-war-legacy-300.jpg",
-        "description": "✅Vô hạn Kim Cương\n✅Vô hạn Item\n✅Tạo Quân 0 Vàng \n✅Tăng Giới hạn quân \n✅One Hit archer ",
-        "download_url": "https://drive.google.com/file/d/1Hr6vPoXBd7nvbsoYwuZsyAb9wn_xrPPd/view?usp=drive_link",
-        "updated_at": "2026-09-04",
-        "size": "87.90 MB",
-        "fake_downloads": 994571
-    },
-    {
-        "title": "The Battle Cats",
-        "version": "15.5.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/b9/f1/ebb9f146-c088-9b73-605a-8fb04432798a/AppIcon-en-1x_U007epad-0-1-85-220-0.png/350x350bb.jpg",
-        "description": "✅  Tiền mặt không giới hạn\n✅  One hit\n✅  Vô hạn Food,Tickets ( nhận 1 ít )",
-        "download_url": "https://drive.google.com/file/d/1qfaPsXWex4O3B5UfIxl6uLWImaQWxmYX/view?usp=drive_link",
-        "updated_at": "2026-08-19",
-        "size": "157.36 MB"
     },
     {
         "title": "Cats & Soup",
@@ -1105,15 +1150,6 @@ const data = [
         "size": "1.95 GB"
     },
     {
-        "title": "Earn to Die Rogue",
-        "version": "1.12.168",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/be/4b/16be4b2b-b844-8391-2bfd-b02656d77079/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅  Vô hạn tiền\n✅  Vô hạn vàng\n✅  Mã thông báo kỹ năng không giới hạn",
-        "download_url": "https://drive.google.com/file/d/1o8xa4WZjANE7zAv3h7wNFYrbVarhM2zs",
-        "updated_at": "2025-05-15",
-        "size": "182.32 MB"
-    },
-    {
         "title": "Fairy Village",
         "version": "1.5",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/bb/da/9cbbdad3-8beb-a760-0e0e-103346ff4b25/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -1276,15 +1312,6 @@ const data = [
         "download_url": "https://drive.google.com/file/d/1GLhrTCJONYmh37ODMBOPLeXMaJRWdzWb",
         "updated_at": "2025-05-09",
         "size": "402.49 MB"
-    },
-    {
-        "title": "LEGO Hill Climb Adventures",
-        "version": "2.1.0.",
-        "image": "https://play-lh.googleusercontent.com/_cQtA1nIP6jk0rNmAiNf_qijaqnD0BAM1hn-MJbOFMhh23UgT3Sibdn5hyj-QOI-DJI=w480-h960-rw",
-        "description": "✅ Vô hạn tài nguyên ( tiêu 1 ít )",
-        "download_url": "https://drive.google.com/file/d/1pRcQyFFzP-OcmIa5yG-ln91hmdMC8z1V",
-        "updated_at": "2025-05-09",
-        "size": "679.33 MB"
     },
     {
         "title": "Need for Speed No Limits",
