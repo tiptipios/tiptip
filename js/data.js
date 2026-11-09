@@ -9,6 +9,80 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
+        "title": "Galaxy Defense",
+        "version": "1.2.0",
+        "image": "https://play-lh.googleusercontent.com/iMM8U6VUiwW4J1r6_oWMgkG_iK2Q_Xv5lUV8Y7Aq6aQWVXmnaToWmlxbzBsFe_XpPKY0=w480-h960-rw",
+        "description": "✅ Vô hạn vàng \n✅ Vô hạn kim cương\n✅ Vô hạn năng lượng \n✅ Vô hạn mảnh (hive, railgun , firewheel, laser,  thunderbolt, ... )\n✅ Reset Lever\n\n❗ Nhớ đọc kỹ note trong menu để sống dai thành huyền thoại \n",
+        "download_url": "https://oklink2.online/QoqKf",
+        "updated_at": "2026-11-09",
+        "size": "126.89 MB"
+    },
+    {
+        "title": "Subway Surf",
+        "version": "3.71.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
+        "download_url": "https://oklink2.online/E0B",
+        "updated_at": "2026-11-09",
+        "size": "215.40 MB",
+        "fake_downloads": 964571
+    },
+    {
+        "title": "Quack Bag: Duck Mafia",
+        "version": "1.322.267",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/3e/b2/c13eb277-502c-ec93-3ae9-d33d9043691e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Bất tử\n✅ Gói No Ads\n✅ Gói speedX2\n✅ Gói Season VIP\n✅ iGG ( Mọi tài nguyên giá trị i8 )",
+        "download_url": "https://oklink2.online/Nk84",
+        "updated_at": "2026-08-13",
+        "size": "205.08 MB"
+    },
+    {
+        "title": "Hole.io",
+        "version": "2.58.3",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/47/8e/1d478e70-cbb5-a324-0822-2772b6122c49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  999999 Point\n✅  premium\n✅  Unlock all Skin\n",
+        "download_url": "https://oklink2.online/OAn",
+        "updated_at": "2026-11-09",
+        "size": "205.08 MB"
+    },
+    {
+        "title": "Paper.io 2",
+        "version": "4.41.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/48/63/9b48631a-4774-48a9-9c27-4925bdb4e89d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Vô hạn tiền tệ\n✅  Unlock Premium\n✅  Nhận Quà không cần xem ads",
+        "download_url": "https://oklink2.online/67",
+        "updated_at": "2026-11-09",
+        "size": "323.42 MB"
+    },
+    {
+        "title": "Tower Conquest",
+        "version": "26.3.9",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/22/61/3122610b-06e4-cb0d-d9a1-0774b37b794d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Gold, Gems không giới hạn ( có thể chi tiêu dù không đủ )\n✅  No Cooldown",
+        "download_url": "https://oklink2.online/PMP2i",
+        "updated_at": "2026-11-01",
+        "size": "170 MB"
+    },
+    {
+        "title": "Sea Battle 2",
+        "version": "4.2.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/53/cf/de53cf77-31d9-7190-f2ba-7034ccac7994/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Free Shop",
+        "download_url": "https://oklink2.online/Itpd",
+        "updated_at": "2026-11-01",
+        "size": "70 MB"
+    },
+    {
+        "title": "Liên Quân Mobile",
+        "version": "v1.64.11768577",
+        "image": "https://play-lh.googleusercontent.com/gU0rhVqaGc8l1rV_cwmopYrn1J97S1t1kddMu-QE42M4tmzupO44lyIhAlTXF7PbQ5wFk9j6n9uLZc1R9_HV=w480-h960-rw",
+        "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
+        "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n  ✅ Kín = Bất tử ",
+        "download_url": "https://oklink2.online/1N",
+        "updated_at": "2026-11-09",
+        "size": "170 MB"
+    },
+    {
         "title": "The Spike Cross",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
         "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
@@ -146,25 +220,6 @@ const data = [
         "size": "323.42 MB"
     },
     {
-        "title": "Subway Surf",
-        "version": "3.70.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
-        "download_url": "https://oklink2.online/XlSUe",
-        "updated_at": "2026-11-01",
-        "size": "215.40 MB",
-        "fake_downloads": 964571
-    },
-    {
-        "title": "Galaxy Defense",
-        "version": "1.1.0",
-        "image": "https://play-lh.googleusercontent.com/iMM8U6VUiwW4J1r6_oWMgkG_iK2Q_Xv5lUV8Y7Aq6aQWVXmnaToWmlxbzBsFe_XpPKY0=w480-h960-rw",
-        "description": "✅ Vô hạn vàng \n✅ Vô hạn kim cương\n✅ Vô hạn năng lượng \n✅ Vô hạn mảnh (hive, railgun , firewheel, laser,  thunderbolt, ... )\n✅ Reset Lever\n\n❗ Nhớ đọc kỹ note trong menu để sống dai thành huyền thoại \n",
-        "download_url": "https://oklink2.online/cAhG6",
-        "updated_at": "2026-11-01",
-        "size": "126.89 MB"
-    },
-    {
         "title": "Hungry Shark World",
         "version": "8.3.1",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/75/12/5d75120f-2cc5-b736-e6a9-40566e83661f/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg",
@@ -182,34 +237,6 @@ const data = [
         "download_url": "https://oklink2.online/xx0",
         "updated_at": "2026-11-01",
         "size": "195.31 MB"
-    },
-    {
-        "title": "Hole.io",
-        "version": "2.57.6",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/47/8e/1d478e70-cbb5-a324-0822-2772b6122c49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅  999999 Point\n✅  premium\n✅  Unlock all Skin\n",
-        "download_url": "https://oklink2.online/634Iu",
-        "updated_at": "2026-08-13",
-        "size": "205.08 MB"
-    },
-    {
-        "title": "Paper.io 2",
-        "version": "4.40.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/c1/54/54c15423-422f-8728-bb44-01694aeb7043/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅  Vô hạn tiền tệ\n✅  Unlock Premium\n✅  Nhận Quà không cần xem ads",
-        "download_url": "https://oklink2.online/wBNTd",
-        "updated_at": "2026-11-01",
-        "size": "323.42 MB"
-    },
-    {
-        "title": "Liên Quân Mobile",
-        "version": "v1.64.11768577",
-        "image": "https://play-lh.googleusercontent.com/gU0rhVqaGc8l1rV_cwmopYrn1J97S1t1kddMu-QE42M4tmzupO44lyIhAlTXF7PbQ5wFk9j6n9uLZc1R9_HV=w480-h960-rw",
-        "image-demo": "https://tiptipios.github.io/ios/IMG_1270.jpeg",
-        "description": "✅Map Full HD Ko che \n ✅Cam xa ( 3 chế độ) \n ✅Hiện until  \n ✅Hiện bổ trợ \n ✅Hiện Avatar \n ✅Hiện rank  \n ✅Hiện lịch sử đấu  \n  ✅ Kín = Bất tử ",
-        "download_url": "https://oklink2.online/XRtF",
-        "updated_at": "2026-11-01",
-        "size": "170 MB"
     },
     {
         "title": "Plants vs Zombie 2",
