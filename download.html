@@ -7,116 +7,42 @@
     <title>Download - Tip Tip</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        *,
-        *::before,
-        *::after {
-            box-sizing: border-box;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
         :root {
-            --bg: #f0f4ff;
-            --card-bg: rgba(255, 255, 255, 0.95);
-            --card-border: rgba(99, 102, 241, 0.15);
-            --card-shadow: 0 20px 60px rgba(99, 102, 241, 0.12), 0 4px 16px rgba(0, 0, 0, 0.06);
-            --text-primary: #0f172a;
-            --text-secondary: #64748b;
-            --text-muted: #94a3b8;
-            --divider: rgba(99, 102, 241, 0.12);
-            --item-bg: #f8fafc;
-            --item-border: #e2e8f0;
-            --accent: #6366f1;
-            --accent-hover: #4f46e5;
-            --accent-soft: rgba(99, 102, 241, 0.1);
-            --green: #22c55e;
-            --green-hover: #16a34a;
-            --orb: #6366f1;
-            --toggle-bg: #ffffff;
-            --toggle-border: #e2e8f0;
-            --toggle-icon: #6366f1;
-        }
-
-        [data-theme="dark"] {
-            --bg: #09090b;
-            --card-bg: rgba(24, 24, 27, 0.97);
-            --card-border: rgba(139, 92, 246, 0.25);
-            --card-shadow: 0 20px 60px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(139, 92, 246, 0.1);
-            --text-primary: #fafafa;
-            --text-secondary: #a1a1aa;
-            --text-muted: #52525b;
-            --divider: rgba(139, 92, 246, 0.2);
-            --item-bg: #18181b;
-            --item-border: #3f3f46;
-            --accent: #8b5cf6;
-            --accent-hover: #7c3aed;
-            --accent-soft: rgba(139, 92, 246, 0.15);
-            --green: #22c55e;
-            --green-hover: #16a34a;
-            --orb: #8b5cf6;
-            --toggle-bg: #27272a;
-            --toggle-border: #3f3f46;
-            --toggle-icon: #a78bfa;
+            --primary: #00ff88;
+            --secondary: #00ccff;
+            --bg-dark: #0d1117;
+            --bg-card: #161b22;
+            --border: #30363d;
+            --text: #c9d1d9;
+            --text-dim: #8b949e;
         }
 
         body {
+            font-family: 'Courier New', monospace;
+            background: var(--bg-dark);
+            color: var(--text);
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
-            background: var(--bg);
             padding: 24px 16px;
-            overflow-x: hidden;
-            transition: background 0.3s ease;
         }
 
-        /* Orbs */
-        .bg-orb {
+        /* Matrix background */
+        #matrix-canvas {
             position: fixed;
-            border-radius: 50%;
-            filter: blur(100px);
-            opacity: 0.12;
-            pointer-events: none;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             z-index: 0;
-            animation: float-orb 25s linear infinite;
-            will-change: transform;
-        }
-
-        .bg-orb-1 {
-            width: 350px;
-            height: 350px;
-            background: var(--orb);
-            top: -100px;
-            left: -80px;
-        }
-
-        .bg-orb-2 {
-            width: 280px;
-            height: 280px;
-            background: var(--orb);
-            bottom: -80px;
-            right: -60px;
-            animation-direction: reverse;
-            animation-duration: 30s;
-        }
-
-        @keyframes float-orb {
-            0% {
-                transform: translate(0, 0);
-            }
-
-            33% {
-                transform: translate(25px, -20px);
-            }
-
-            66% {
-                transform: translate(-15px, 18px);
-            }
-
-            100% {
-                transform: translate(0, 0);
-            }
+            opacity: 0.08;
         }
 
         /* Back button */
@@ -127,48 +53,23 @@
             width: 40px;
             height: 40px;
             border-radius: 50%;
-            background: var(--toggle-bg);
-            border: 1px solid var(--toggle-border);
-            color: var(--toggle-icon);
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            color: var(--primary);
             font-size: 16px;
             display: flex;
             align-items: center;
             justify-content: center;
             text-decoration: none;
             transition: all 0.2s ease;
-            backdrop-filter: blur(10px);
             z-index: 999;
         }
 
         .back-btn:hover {
             transform: translateX(-2px);
-            background: var(--accent-soft);
-            border-color: var(--accent);
-        }
-
-        /* Theme toggle */
-        .theme-toggle {
-            position: fixed;
-            top: 18px;
-            right: 18px;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: var(--toggle-bg);
-            border: 1px solid var(--toggle-border);
-            color: var(--toggle-icon);
-            font-size: 16px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            backdrop-filter: blur(10px);
-            z-index: 999;
-        }
-
-        .theme-toggle:hover {
-            transform: scale(1.1);
+            background: rgba(0, 255, 136, 0.1);
+            border-color: var(--primary);
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
         }
 
         /* Card */
@@ -177,24 +78,12 @@
             z-index: 1;
             width: 100%;
             max-width: 440px;
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 28px;
-            padding: 36px 28px 32px;
-            box-shadow: var(--card-shadow);
-            backdrop-filter: blur(40px);
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 32px 28px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
             animation: rise 0.5s cubic-bezier(.22, 1, .36, 1) both;
-        }
-
-        .card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, rgba(99, 102, 241, 0.3), transparent);
-            border-radius: 28px 28px 0 0;
         }
 
         @keyframes rise {
@@ -215,30 +104,30 @@
             align-items: center;
             gap: 18px;
             padding-bottom: 24px;
-            border-bottom: 1px solid var(--divider);
+            border-bottom: 1px solid var(--border);
             margin-bottom: 24px;
         }
 
         .game-icon {
             width: 80px;
             height: 80px;
-            border-radius: 20px;
+            border-radius: 16px;
             object-fit: cover;
-            border: 2px solid var(--item-border);
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+            border: 2px solid var(--border);
+            box-shadow: 0 4px 16px rgba(0, 255, 136, 0.2);
             flex-shrink: 0;
-            animation: icon-bounce 3s ease-in-out infinite;
+            animation: icon-glow 3s ease-in-out infinite;
         }
 
-        @keyframes icon-bounce {
+        @keyframes icon-glow {
 
             0%,
             100% {
-                transform: translateY(0);
+                box-shadow: 0 4px 16px rgba(0, 255, 136, 0.2);
             }
 
             50% {
-                transform: translateY(-5px);
+                box-shadow: 0 8px 24px rgba(0, 255, 136, 0.4);
             }
         }
 
@@ -250,7 +139,7 @@
         .game-title {
             font-size: 20px;
             font-weight: 700;
-            color: var(--text-primary);
+            color: var(--text);
             margin-bottom: 8px;
             line-height: 1.2;
         }
@@ -266,12 +155,12 @@
             align-items: center;
             gap: 4px;
             padding: 4px 10px;
-            background: var(--accent-soft);
-            border: 1px solid var(--card-border);
-            border-radius: 20px;
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid var(--border);
+            border-radius: 4px;
             font-size: 11px;
             font-weight: 600;
-            color: var(--accent);
+            color: var(--primary);
         }
 
         /* Unlock section */
@@ -283,9 +172,10 @@
         .action-btn {
             width: 100%;
             padding: 16px;
-            border-radius: 16px;
+            border-radius: 6px;
             font-size: 16px;
             font-weight: 700;
+            font-family: 'Courier New', monospace;
             border: none;
             cursor: pointer;
             display: flex;
@@ -293,19 +183,20 @@
             justify-content: center;
             gap: 10px;
             transition: all 0.2s ease;
-            letter-spacing: 0.2px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
         }
 
         .btn-unlock {
-            background: var(--accent);
-            color: #fff;
-            box-shadow: 0 4px 20px rgba(99, 102, 241, 0.35);
+            background: var(--primary);
+            color: var(--bg-dark);
+            box-shadow: 0 4px 20px rgba(0, 255, 136, 0.4);
         }
 
         .btn-unlock:hover {
-            background: var(--accent-hover);
+            background: var(--secondary);
             transform: translateY(-2px);
-            box-shadow: 0 8px 28px rgba(99, 102, 241, 0.45);
+            box-shadow: 0 8px 28px rgba(0, 255, 136, 0.6);
         }
 
         .btn-unlock:active {
@@ -319,9 +210,9 @@
         }
 
         .btn-download {
-            background: var(--green);
-            color: #fff;
-            box-shadow: 0 4px 20px rgba(34, 197, 94, 0.3);
+            background: var(--secondary);
+            color: var(--bg-dark);
+            box-shadow: 0 4px 20px rgba(0, 204, 255, 0.4);
             display: none;
         }
 
@@ -331,9 +222,9 @@
         }
 
         .btn-download:hover {
-            background: var(--green-hover);
+            background: var(--primary);
             transform: translateY(-2px);
-            box-shadow: 0 8px 28px rgba(34, 197, 94, 0.4);
+            box-shadow: 0 8px 28px rgba(0, 204, 255, 0.6);
         }
 
         .btn-download:active {
@@ -344,14 +235,14 @@
         .features-section {
             margin-top: 22px;
             padding-top: 20px;
-            border-top: 1px solid var(--divider);
+            border-top: 1px solid var(--border);
         }
 
         .features-title {
             font-size: 12px;
             font-weight: 700;
-            color: var(--text-muted);
-            letter-spacing: 1.2px;
+            color: var(--text-dim);
+            letter-spacing: 1.5px;
             text-transform: uppercase;
             margin-bottom: 12px;
         }
@@ -374,7 +265,7 @@
         }
 
         .features-list::-webkit-scrollbar-thumb {
-            background: var(--card-border);
+            background: var(--border);
             border-radius: 4px;
         }
 
@@ -383,26 +274,27 @@
             align-items: flex-start;
             gap: 10px;
             padding: 10px 12px;
-            background: var(--item-bg);
-            border: 1px solid var(--item-border);
-            border-radius: 12px;
+            background: var(--bg-dark);
+            border: 1px solid var(--border);
+            border-radius: 6px;
             font-size: 13px;
-            color: var(--text-secondary);
+            color: var(--text-dim);
             line-height: 1.5;
             transition: all 0.2s ease;
         }
 
         .feature-item:hover {
-            border-color: var(--accent);
-            color: var(--text-primary);
+            border-color: var(--primary);
+            color: var(--text);
+            background: rgba(0, 255, 136, 0.05);
         }
 
         .feature-dot {
             width: 18px;
             height: 18px;
             border-radius: 50%;
-            background: var(--accent-soft);
-            border: 1px solid var(--card-border);
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid var(--border);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -412,18 +304,18 @@
 
         .feature-dot i {
             font-size: 9px;
-            color: var(--accent);
+            color: var(--primary);
         }
 
         /* Note */
         .note {
             margin-top: 18px;
             padding: 12px 16px;
-            background: rgba(234, 179, 8, 0.08);
-            border: 1px solid rgba(234, 179, 8, 0.2);
-            border-radius: 14px;
+            background: rgba(0, 204, 255, 0.08);
+            border: 1px solid rgba(0, 204, 255, 0.2);
+            border-radius: 6px;
             font-size: 12px;
-            color: var(--text-secondary);
+            color: var(--text-dim);
             display: flex;
             align-items: flex-start;
             gap: 8px;
@@ -431,7 +323,7 @@
         }
 
         .note i {
-            color: #eab308;
+            color: var(--secondary);
             margin-top: 1px;
             flex-shrink: 0;
         }
@@ -439,13 +331,10 @@
 </head>
 
 <body>
+    <!-- Matrix Background -->
+    <canvas id="matrix-canvas"></canvas>
 
-    <div class="bg-orb bg-orb-1"></div>
-    <div class="bg-orb bg-orb-2"></div>
-
-    <a href="profilenew.html" class="back-btn"><i class="fas fa-arrow-left"></i></a>
-
-    <button class="theme-toggle" id="themeToggle"><i class="fas fa-sun" id="themeIcon"></i></button>
+    <a href="profil.html" class="back-btn"><i class="fas fa-arrow-left"></i></a>
 
     <div class="card">
 
@@ -547,15 +436,38 @@
             window.location.href = 'https://vuotlink.net/st?api=4e2b672bf2a8ba8ead742b4f9c07db7e690505a2&url=' + encodeURIComponent(downloadUrl);
         });
 
-        // ── THEME TOGGLE ──
-        const toggle = document.getElementById('themeToggle');
-        const icon = document.getElementById('themeIcon');
-        let isDark = false;
+        // Matrix background
+        const canvas = document.getElementById('matrix-canvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
 
-        toggle.addEventListener('click', () => {
-            isDark = !isDark;
-            document.documentElement.setAttribute('data-theme', isDark ? 'dark' : '');
-            icon.className = isDark ? 'fas fa-moon' : 'fas fa-sun';
+        const chars = '01';
+        const fontSize = 16;
+        const columns = canvas.width / fontSize;
+        const drops = Array(Math.floor(columns)).fill(1);
+
+        function drawMatrix() {
+            ctx.fillStyle = 'rgba(13, 17, 23, 0.05)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = '#00ff88';
+            ctx.font = fontSize + 'px monospace';
+
+            for (let i = 0; i < drops.length; i++) {
+                const text = chars[Math.floor(Math.random() * chars.length)];
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                    drops[i] = 0;
+                }
+                drops[i]++;
+            }
+        }
+
+        setInterval(drawMatrix, 80);
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
         });
     </script>
 </body>
