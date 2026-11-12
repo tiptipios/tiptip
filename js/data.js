@@ -9,6 +9,43 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
+        "title": "The Spike Cross",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+        "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
+        "download_url": "https://www.mediafire.com/file/4cfh4bdvh8tvweg/TSC%25E2%2580%25A2TipTip%25F0%259F%2590%25A7%25F0%259F%2590%25A7%25F0%259F%2590%25A7_8.3.103.ipa/file",
+        "version": "8.3.103",
+        "updated_at": "2026-11-12",
+        "size": "746.81 MB"
+    },
+    {
+        "title": "Brain Puzzle 3",
+        "version": "1.1.3",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/10/47/d910471a-6dab-f930-9001-3d451d121904/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Unlimited Hint Prop\n✅ No Ads\n✅ Unlock Levels",
+        "download_url": "https://oklink2.online/fw4nD",
+        "updated_at": "2026-08-19",
+        "size": "83.42 MB"
+    },
+    {
+        "title": "Cats & Soup",
+        "version": "5.4.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/08/63/e10863a3-162a-3773-45a2-75f0a88aed95/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Vô hạn tiền tệ\n✅  Free Shop",
+        "download_url": "https://oklink2.online/6hxW",
+        "updated_at": "2026-11-12",
+        "size": "323.42 MB",
+        "fake_downloads": 999971
+    },
+    {
+        "title": "Epic_Stickman",
+        "version": "1.0.90",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/76/3c/c4763c82-584b-e805-020c-32d7b374517b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "✅  Vô hạn tiền tệ ( Có thể chi tiêu dù không đủ )\n✅ Free Shop",
+        "download_url": "https://oklink2.online/l8vUR",
+        "size": "150MB",
+        "updated_at": "2026-11-12"
+    },
+    {
         "title": "Galaxy Defense",
         "version": "1.2.0",
         "image": "https://play-lh.googleusercontent.com/iMM8U6VUiwW4J1r6_oWMgkG_iK2Q_Xv5lUV8Y7Aq6aQWVXmnaToWmlxbzBsFe_XpPKY0=w480-h960-rw",
@@ -81,15 +118,6 @@ const data = [
         "download_url": "https://oklink2.online/1N",
         "updated_at": "2026-11-09",
         "size": "170 MB"
-    },
-    {
-        "title": "The Spike Cross",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
-        "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
-        "download_url": "https://www.mediafire.com/file/j6p4sdacf03q586/TSC%25E2%2580%25A2TipTip%25F0%259F%2590%25A7%25F0%259F%2590%25A7%25F0%259F%2590%25A7_8.2.104.ipa/file",
-        "version": "8.2.104",
-        "updated_at": "2026-11-05",
-        "size": "546.81 MB"
     },
     {
         "title": "The Battle Cats",
@@ -256,16 +284,6 @@ const data = [
         "download_url": "https://www.mediafire.com/file/e97bydfyzydvhp9/gtok_2.2.2.ipa/file",
         "updated_at": "2024-03-24",
         "size": "400 Mb"
-    },
-    {
-        "title": "Cats & Soup",
-        "version": "4.41.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/0a/52/520a526a-4285-bf8a-c2d0-c77229fa2422/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅  Vô hạn tiền tệ\n✅  Mở khoá các gói khuyến mãi\n✅  No ads",
-        "download_url": "https://oklink2.online/EZn",
-        "updated_at": "2026-08-19",
-        "size": "323.42 MB",
-        "fake_downloads": 999971
     },
     {
         "title": "Township",
