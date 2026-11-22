@@ -9,6 +9,118 @@
 // ── GAME HACK DATA ──────────────────────────────────────────
 const data = [
     {
+        "title": "Plants vs Zombie 2",
+        "version": "13.6.1",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Vàng không giới hạn\n✅ Đá quý không giới hạn\n✅ kẹo Không giới hạn\n✅ Granltes không giới hạn\n✅ Hạt Giống không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay vì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Custom Mastery ( 1-200)\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây\n✅ No Ads",
+        "download_url": "https://oklink2.online/e4OhII",
+        "updated_at": "2026-11-22",
+        "size": "129.59 MB",
+        "fake_downloads": 954571
+    },
+    {
+        "title": "Brotato",
+        "version": "1.3.425",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/bf/be/c9bfbe8b-de32-e036-08ad-374aa9091caa/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "✅Free Shop",
+        "download_url": "https://oklink2.online/yRUz",
+        "updated_at": "2026-11-22",
+        "size": "143.29 MB"
+    },
+    {
+        "title": "Soul Knight",
+        "version": "8.8.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/c1/70/7ec1702c-6316-09a7-7848-4b6d12177776/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅Mở khóa nhân vật,Skin\n✅ Vô hạn kim cương\n✅ Vô hạn cá\n✅ Vô hạn năng lượng\n✅ Bất tử\n✅ One hit\n✅ Không thời gian hồi chiêu",
+        "download_url": "https://oklink2.online/4SUGOI",
+        "updated_at": "2026-11-22",
+        "size": "511.78 MB"
+    },
+    {
+        "title": "Rodeo Stampede",
+        "version": "4.27.0",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/95/9e/12959e43-4165-c469-4457-6e0b01f93995/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ Free Shop",
+        "download_url": "https://oklink2.online/W2N",
+        "updated_at": "2026-11-22",
+        "size": "165.78 MB"
+    },
+    {
+        "title": "Nightfall Kingdom Frontier TD",
+        "version": "1.1.302",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/a3/4c/eda34caa-a643-62d2-ff61-64d607e8adea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅ No Ads\n✅ Bất tử \n✅ Vô hạn tiền tệ \n✅ Vô hạn tiền trong trận   ",
+        "download_url": "https://oklink2.online/NzC86d",
+        "updated_at": "2026-11-22",
+        "size": "182.32 MB"
+    },
+    {
+        "title": "Epic_Stickman",
+        "version": "1.0.93",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/76/3c/c4763c82-584b-e805-020c-32d7b374517b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "✅  Vô hạn tiền tệ ( Có thể chi tiêu dù không đủ )\n✅ Free Shop",
+        "download_url": "https://oklink2.online/tvwJ",
+        "size": "150MB",
+        "updated_at": "2026-11-22"
+    },
+    {
+        "title": "Hungry Shark World",
+        "version": "8.4.2",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/75/12/5d75120f-2cc5-b736-e6a9-40566e83661f/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg",
+        "description": "✅  No Ads\n✅ Tiền xu không giới hạn\n✅ Đá quý không giới hạn\n✅ Ngọc trai không giới hạn\n✅ Boost không giới hạn\n✅ Mở khóa Season Pass",
+        "download_url": "https://oklink2.online/jL3",
+        "updated_at": "2026-11-22",
+        "size": "156.45 MB",
+        "fake_downloads": 944571
+    },
+    {
+        "title": "Quack Bag: Duck Mafia",
+        "version": "1.352.273",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/3e/b2/c13eb277-502c-ec93-3ae9-d33d9043691e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
+        "description": "✅  Bất tử\n✅ Gói No Ads\n✅ Gói speedX2\n✅ Gói Season VIP\n✅ iGG ( Mọi tài nguyên giá trị i8 )",
+        "download_url": "https://oklink2.online/SGsc93",
+        "updated_at": "2026-11-22",
+        "size": "205.08 MB"
+    },
+    {
+        "title": "Stick War: Legacy",
+        "version": "2026.1.1761",
+        "image": "https://st.gamevui.vn/images/image/2024/08/24/stick-war-legacy-300.jpg",
+        "description": "✅Vô hạn Kim Cương\n✅Vô hạn Item\n✅Tạo Quân 0 Vàng \n✅Tăng Giới hạn quân \n✅One Hit archer ",
+        "download_url": "https://oklink2.online/bHgbON",
+        "updated_at": "2026-11-22",
+        "size": "87.90 MB",
+        "fake_downloads": 994571
+    },
+    {
+        "title": "Subway Surf",
+        "version": "3.71.10",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
+        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
+        "download_url": "https://oklink2.online/dXZ7",
+        "updated_at": "2026-11-22",
+        "size": "215.40 MB",
+        "fake_downloads": 964571
+    },
+    {
+        "title": "Bowmasters - Multiplayer",
+        "version": "11.7.5",
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/a2/eb/bda2ebb7-4938-704f-daa8-8356837ea871/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
+        "description": "✅  No Ads ( unlock chức năng vip )\n✅  Aim line\n✅  Mở khóa Season Pass\n✅  Vô hạn vàng \n✅  Vô hạn Kim cương \n✅  Vô hạn Tickets\n✅  Mở khóa All nhân vật ",
+        "download_url": "https://oklink2.online/R5e",
+        "updated_at": "2026-11-22",
+        "size": "205.08 MB"
+    },
+    {
+        "title": "Galaxy Defense",
+        "version": "1.2.2",
+        "image": "https://play-lh.googleusercontent.com/iMM8U6VUiwW4J1r6_oWMgkG_iK2Q_Xv5lUV8Y7Aq6aQWVXmnaToWmlxbzBsFe_XpPKY0=w480-h960-rw",
+        "description": "✅ Vô hạn vàng \n✅ Vô hạn kim cương\n✅ Vô hạn năng lượng \n✅ Vô hạn mảnh (hive, railgun , firewheel, laser,  thunderbolt, ... )\n✅ Reset Lever\n\n❗ Nhớ đọc kỹ note trong menu để sống dai thành huyền thoại \n",
+        "download_url": "https://oklink2.online/x3sK",
+        "updated_at": "2026-11-22",
+        "size": "126.89 MB"
+    },
+    {
         "title": "The Spike Cross",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/bd/ff/03bdff0f-b915-c3ff-c838-949a1a1eca14/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
         "description": "✅ Unlock All Characters & Skins 🔥\n✅ Custom Character Stat Buffs\n✅ Ball Skin Mod ✨\n✅ Map Mod ✨\n✅ Unlimited Effects\n✅ Unlock AI Skills\n✅ High Camera View\n✅ No Cooldown V2\n✅ My+, En+, Ball+ ⚠️",
@@ -35,43 +147,6 @@ const data = [
         "updated_at": "2026-11-12",
         "size": "323.42 MB",
         "fake_downloads": 999971
-    },
-    {
-        "title": "Epic_Stickman",
-        "version": "1.0.90",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/76/3c/c4763c82-584b-e805-020c-32d7b374517b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
-        "description": "✅  Vô hạn tiền tệ ( Có thể chi tiêu dù không đủ )\n✅ Free Shop",
-        "download_url": "https://oklink2.online/l8vUR",
-        "size": "150MB",
-        "updated_at": "2026-11-12"
-    },
-    {
-        "title": "Galaxy Defense",
-        "version": "1.2.0",
-        "image": "https://play-lh.googleusercontent.com/iMM8U6VUiwW4J1r6_oWMgkG_iK2Q_Xv5lUV8Y7Aq6aQWVXmnaToWmlxbzBsFe_XpPKY0=w480-h960-rw",
-        "description": "✅ Vô hạn vàng \n✅ Vô hạn kim cương\n✅ Vô hạn năng lượng \n✅ Vô hạn mảnh (hive, railgun , firewheel, laser,  thunderbolt, ... )\n✅ Reset Lever\n\n❗ Nhớ đọc kỹ note trong menu để sống dai thành huyền thoại \n",
-        "download_url": "https://oklink2.online/QoqKf",
-        "updated_at": "2026-11-09",
-        "size": "126.89 MB"
-    },
-    {
-        "title": "Subway Surf",
-        "version": "3.71.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/b6/e0/a8b6e04c-f6f4-d418-2e8d-1bdb519f510b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.jpg",
-        "description": "✅ Free Shop ( tài nguyên ) \n✅ Free Shop ( tiền mặt )\n✅ Vô hạn tiền tệ\n✅ Đóng băng tiền tệ\n✅ Mở khóa trang phục,ván\n✅ Chạy xuyên vật thể\n✅ Nhảy mất kiểm soát\n✅ Bất tử\n✅ không vấp\n✅ Bay phản lực vô hạn\n✅ Thay đổi làn tức thời\n✅ Cam theo sau\n✅ Sức mạnh vô hạn\n✅ Hồi sinh Free",
-        "download_url": "https://oklink2.online/E0B",
-        "updated_at": "2026-11-09",
-        "size": "215.40 MB",
-        "fake_downloads": 964571
-    },
-    {
-        "title": "Quack Bag: Duck Mafia",
-        "version": "1.322.267",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/3e/b2/c13eb277-502c-ec93-3ae9-d33d9043691e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅  Bất tử\n✅ Gói No Ads\n✅ Gói speedX2\n✅ Gói Season VIP\n✅ iGG ( Mọi tài nguyên giá trị i8 )",
-        "download_url": "https://oklink2.online/Nk84",
-        "updated_at": "2026-08-13",
-        "size": "205.08 MB"
     },
     {
         "title": "Hole.io",
@@ -147,15 +222,6 @@ const data = [
         "size": "165.78 MB"
     },
     {
-        "title": "Rodeo Stampede",
-        "version": "4.26.0",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/95/9e/12959e43-4165-c469-4457-6e0b01f93995/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Free Shop",
-        "download_url": "https://oklink2.online/1kPpe",
-        "updated_at": "2026-11-05",
-        "size": "165.78 MB"
-    },
-    {
         "title": "Hill Climb",
         "version": "1.73.1",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/1a/6b/701a6b39-81ee-6d74-1ea6-3889b580be1a/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/350x350bb.jpg",
@@ -165,15 +231,6 @@ const data = [
         "size": "165.78 MB"
     },
     {
-        "title": "Nightfall Kingdom Frontier TD",
-        "version": "1.1.301",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/a3/4c/eda34caa-a643-62d2-ff61-64d607e8adea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅ No Ads\n✅ Bất tử \n✅ Vô hạn tiền tệ \n✅ Vô hạn tiền trong trận   ",
-        "download_url": "https://oklink2.online/LV2",
-        "updated_at": "2025-05-15",
-        "size": "182.32 MB"
-    },
-    {
         "title": "Earn to Die Rogue",
         "version": "1.30.265",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/be/4b/16be4b2b-b844-8391-2bfd-b02656d77079/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
@@ -181,34 +238,6 @@ const data = [
         "download_url": "https://oklink2.online/sdXD2",
         "updated_at": "2026-11-05",
         "size": "182.32 MB"
-    },
-    {
-        "title": "Stick War: Legacy",
-        "version": "2026.1.1298",
-        "image": "https://st.gamevui.vn/images/image/2024/08/24/stick-war-legacy-300.jpg",
-        "description": "✅Vô hạn Kim Cương\n✅Vô hạn Item\n✅Tạo Quân 0 Vàng \n✅Tăng Giới hạn quân \n✅One Hit archer ",
-        "download_url": "https://oklink2.online/jiW2",
-        "updated_at": "2026-11-05",
-        "size": "87.90 MB",
-        "fake_downloads": 994571
-    },
-    {
-        "title": "Soul Knight",
-        "version": "8.7.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/c1/70/7ec1702c-6316-09a7-7848-4b6d12177776/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅Mở khóa nhân vật,Skin\n✅ Vô hạn kim cương\n✅ Vô hạn cá\n✅ Vô hạn năng lượng\n✅ Bất tử\n✅ One hit\n✅ Không thời gian hồi chiêu\n✅ Tăng tốc bắn",
-        "download_url": "https://oklink2.online/Wxuh4",
-        "updated_at": "2026-11-01",
-        "size": "511.78 MB"
-    },
-    {
-        "title": "Bowmasters - Multiplayer",
-        "version": "11.6.5",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/a2/eb/bda2ebb7-4938-704f-daa8-8356837ea871/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
-        "description": "✅  No Ads ( unlock chức năng vip )\n✅  Aim line\n✅  Mở khóa Season Pass\n✅  Vô hạn vàng \n✅  Vô hạn Kim cương \n✅  Vô hạn Tickets\n✅  Mở khóa All nhân vật ",
-        "download_url": "https://oklink2.online/5C7",
-        "updated_at": "2026-11-01",
-        "size": "205.08 MB"
     },
     {
         "title": "Locket Gold",
@@ -248,16 +277,6 @@ const data = [
         "size": "323.42 MB"
     },
     {
-        "title": "Hungry Shark World",
-        "version": "8.3.1",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/75/12/5d75120f-2cc5-b736-e6a9-40566e83661f/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg",
-        "description": "✅  No Ads\n✅ Tiền xu không giới hạn\n✅ Đá quý không giới hạn\n✅ Ngọc trai không giới hạn\n✅ Boost không giới hạn\n✅ Mở khóa Season Pass",
-        "download_url": "https://oklink2.online/zxXkkZ",
-        "updated_at": "2026-11-01",
-        "size": "156.45 MB",
-        "fake_downloads": 944571
-    },
-    {
         "title": "Hungry Shark Evolution",
         "version": "14.6.0",
         "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/4b/ff/784bffc0-fd69-bf5f-d467-c79c4709aaff/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
@@ -265,16 +284,6 @@ const data = [
         "download_url": "https://oklink2.online/xx0",
         "updated_at": "2026-11-01",
         "size": "195.31 MB"
-    },
-    {
-        "title": "Plants vs Zombie 2",
-        "version": "13.5.2",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/3a/84/a93a84ba-0b13-bb39-92e3-a992928252d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/350x350bb.jpg",
-        "description": "✅ Vàng không giới hạn\n✅ Đá quý không giới hạn\n✅ kẹo Không giới hạn\n✅ Granltes không giới hạn\n✅ Hạt Giống không giới hạn\n✅ Mặt trời không giới hạn ( tăng thay vì giảm )\n✅ Unlock Cây ( vẫn phải cày 1 vài cây )\n✅ Custom Mastery ( 1-200)\n✅ Không tốn mặt trời\n✅ Không thời gian hồi cây\n✅ No Ads",
-        "download_url": "https://oklink2.online/F9H",
-        "updated_at": "2026-11-01",
-        "size": "129.59 MB",
-        "fake_downloads": 954571
     },
     {
         "title": "Gtok ",
@@ -594,15 +603,6 @@ const data = [
         "download_url": "https://drive.google.com/file/d/1P7IG3c8cj4ToRYO3_uVK19XDfhcUo5A_/view",
         "updated_at": "2025-05-31",
         "size": "218.48 MB"
-    },
-    {
-        "title": "Nightfall Kingdom Frontier TD",
-        "version": "1.0.389",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/91/c4/7291c4c7-b4e7-4bd8-369a-90bc2cbab412/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/350x350bb.jpg",
-        "description": "✅Bất tử\n✅Tiền xu trong trò chơi không giới hạn\n✅Tiền tệ không giới hạn\n✅ Thêm 1k tiền tệ - vào cài đặt và nhấn nút Discord\n✅ Mở khóa tất cả các tính năng - vào cài đặt và nhấn nút Discord\n✅ Mở khóa tất cả / mọi thứ - vào cài đặt và nhấn nút Discord\n✅ Hoàn thành Hướng dẫn - vào cài đặt và nhấn nút Discord\n✅ NO ads",
-        "download_url": "https://drive.google.com/file/d/1-U8utIzmfr_ZsBq-GK1Yt5BrXhOuXVIk/view",
-        "updated_at": "2025-05-29",
-        "size": "269.30 MB"
     },
     {
         "title": "Royal Match",
@@ -1782,15 +1782,6 @@ const data = [
         "download_url": "https://drive.google.com/file/d/1GcQLEnu1dg4lPrJWSETEGG7zC3Upw2FU",
         "updated_at": "2025-04-05",
         "size": "81.53 MB"
-    },
-    {
-        "title": "Brotato",
-        "version": "1.3.171",
-        "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/bf/be/c9bfbe8b-de32-e036-08ad-374aa9091caa/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/350x350bb.jpg",
-        "description": "✅Free Shop\n✅iGG ( i4 )",
-        "download_url": "https://drive.google.com/file/d/1nf4miHmq46H1fZlT61wXttmth00Esxl1",
-        "updated_at": "2025-04-03",
-        "size": "143.29 MB"
     },
     {
         "title": "Archer",
